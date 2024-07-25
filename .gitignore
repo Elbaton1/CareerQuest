@@ -1,0 +1,13 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore everything in Beans directory except specific files
+Beans/*
+!Beans/job_listings.json
+!Beans/scraping_log.json
+
+# Ignore the venv directory inside Beans
+Beans/venv/
+
+ 
+ 
