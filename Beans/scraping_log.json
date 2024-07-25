@@ -564,5 +564,32 @@
             }
         ],
         "removed_jobs": []
+    },
+    {
+        "timestamp": "2024-07-25T04:54:18.896209",
+        "new_jobs_count": 1,
+        "removed_jobs_count": 2,
+        "new_jobs": [
+            {
+                "title": "Aviation - Credit Contract Appointment",
+                "school": "Mount Royal University",
+                "date": "2024-07-25",
+                "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2467"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "Program Administrator",
+                "school": "Mount Royal University",
+                "date": "2024-07-25",
+                "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2838"
+            },
+            {
+                "title": "Nursing Resource Professional Faculty (10 Month Limited Term) - Health Education, School of Continuing Education",
+                "school": "MacEwan University",
+                "date": "No Date Provided",
+                "link": "https://www.macewan.ca/about-macewan/careers/opportunities/postings/?competition=24.06.191"
+            }
+        ]
     }
 ]
