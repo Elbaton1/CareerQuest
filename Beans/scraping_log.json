@@ -564,5 +564,56 @@
             }
         ],
         "removed_jobs": []
+    },
+    {
+        "timestamp": "2024-07-25T12:39:22.541147",
+        "new_jobs_count": 5,
+        "removed_jobs_count": 2,
+        "new_jobs": [
+            {
+                "title": "Digital Optimization Analyst",
+                "school": "Athabasca University",
+                "date": "2024-07-25",
+                "link": "https://athabascau.acquiretm.com/job_details_clean.aspx?id=2808"
+            },
+            {
+                "title": "Aviation - Credit Contract Appointment",
+                "school": "Mount Royal University",
+                "date": "2024-07-25",
+                "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2467"
+            },
+            {
+                "title": "MEDICAL TECHNOLOGIST (BAND LEVEL 8)",
+                "school": "Memorial University",
+                "date": "2024-07-25",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5476"
+            },
+            {
+                "title": "MANAGER, ACADEMIC PROGRAMS (BAND LEVEL 10)",
+                "school": "Memorial University",
+                "date": "2024-07-25",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5478"
+            },
+            {
+                "title": "MULTIMEDIA SPECIALIST (BAND LEVEL 6)",
+                "school": "Memorial University",
+                "date": "2024-07-25",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5480"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "Program Administrator",
+                "school": "Mount Royal University",
+                "date": "2024-07-25",
+                "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2838"
+            },
+            {
+                "title": "Nursing Resource Professional Faculty (10 Month Limited Term) - Health Education, School of Continuing Education",
+                "school": "MacEwan University",
+                "date": "No Date Provided",
+                "link": "https://www.macewan.ca/about-macewan/careers/opportunities/postings/?competition=24.06.191"
+            }
+        ]
     }
 ]

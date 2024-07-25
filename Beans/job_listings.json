@@ -1,10 +1,10 @@
 {
     "jobs": [
         {
-            "title": "Assistant Professor, Interdisciplinary Studies",
+            "title": "Digital Optimization Analyst",
             "school": "Athabasca University",
             "date": "2024-07-25",
-            "link": "https://athabascau.acquiretm.com/job_details_clean.aspx?id=2801"
+            "link": "https://athabascau.acquiretm.com/job_details_clean.aspx?id=2808"
         },
         {
             "title": "Individualized Study Tutor - ENGL 341",
@@ -23,6 +23,12 @@
             "school": "Athabasca University",
             "date": "2024-07-25",
             "link": "https://athabascau.acquiretm.com/job_details_clean.aspx?id=2828"
+        },
+        {
+            "title": "Assistant Professor, Interdisciplinary Studies",
+            "school": "Athabasca University",
+            "date": "2024-07-25",
+            "link": "https://athabascau.acquiretm.com/job_details_clean.aspx?id=2801"
         },
         {
             "title": "Assistant Professor, French",
@@ -89,12 +95,6 @@
             "school": "Mount Royal University",
             "date": "2024-07-25",
             "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2841"
-        },
-        {
-            "title": "Program Administrator",
-            "school": "Mount Royal University",
-            "date": "2024-07-25",
-            "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2838"
         },
         {
             "title": "User Interface Developer",
@@ -209,6 +209,24 @@
             "school": "Mount Royal University",
             "date": "2024-07-25",
             "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2485"
+        },
+        {
+            "title": "Aviation - Credit Contract Appointment",
+            "school": "Mount Royal University",
+            "date": "2024-07-25",
+            "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2467"
+        },
+        {
+            "title": "MEDICAL TECHNOLOGIST (BAND LEVEL 8)",
+            "school": "Memorial University",
+            "date": "2024-07-25",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5476"
+        },
+        {
+            "title": "MANAGER, ACADEMIC PROGRAMS (BAND LEVEL 10)",
+            "school": "Memorial University",
+            "date": "2024-07-25",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5478"
         },
         {
             "title": "VISITOR SERVICES SUPERVISOR (BAND LEVEL 4)",
@@ -373,6 +391,12 @@
             "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5472"
         },
         {
+            "title": "MULTIMEDIA SPECIALIST (BAND LEVEL 6)",
+            "school": "Memorial University",
+            "date": "2024-07-25",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5480"
+        },
+        {
             "title": "REGIONAL ENGAGEMENT COORDINATOR (BAND LEVEL 7)",
             "school": "Memorial University",
             "date": "2024-07-25",
@@ -469,12 +493,6 @@
             "link": "https://www.macewan.ca/about-macewan/careers/opportunities/postings/?competition=24.06.192"
         },
         {
-            "title": "Nursing Resource Professional Faculty (10 Month Limited Term) - Health Education, School of Continuing Education",
-            "school": "MacEwan University",
-            "date": "No Date Provided",
-            "link": "https://www.macewan.ca/about-macewan/careers/opportunities/postings/?competition=24.06.191"
-        },
-        {
             "title": "Sessional Instructor, Math - University Preparation, School of Continuing Education",
             "school": "MacEwan University",
             "date": "No Date Provided",
@@ -559,5 +577,5 @@
             "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/138?language=en"
         }
     ],
-    "last_updated": "2024-07-25T02:38:39.628678"
+    "last_updated": "2024-07-25T12:39:22.537506"
 }
