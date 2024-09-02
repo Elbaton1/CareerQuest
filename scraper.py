@@ -13,11 +13,12 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 chrome_options = Options()
-chrome_options.add_argument("--headless")
+#chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
 
-service = Service(ChromeDriverManager().install())
+service = Service("chromedriver.exe")
+
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 def scrape_athabasca():
