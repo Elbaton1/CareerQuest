@@ -53,27 +53,22 @@ function displayJobs(jobs) {
   jobs.forEach((job) => {
     const jobElement = document.createElement("div");
     jobElement.classList.add("job-listing", "col-md-4");
+
+    // Adding both job title and "Read More" as links to the job details page
     jobElement.innerHTML = `
-      <h2><a href="#" class="job-detail-link" data-job-id="${job.id}" data-toggle="tooltip" title="Click to view job details">${job.title}</a></h2>
+      <h2><a href="${job.link}" target="_blank" class="job-title-link">${job.title}</a></h2>
       <p>${job.school}</p>
       <p>Posted on: ${job.date}</p>
       <div class="details">
         <span>${job.school}</span>
         <a href="#" class="bookmark-job" data-job-id="${job.id}"><i class="far fa-bookmark"></i></a>
-        <a href="${job.link}" target="_blank">Read More</a>
+        <a href="${job.link}" target="_blank" class="read-more-link">Read More</a>
       </div>
     `;
     jobListings.appendChild(jobElement);
   });
 
-  document.querySelectorAll(".job-detail-link").forEach((link) => {
-    link.addEventListener("click", function (e) {
-      e.preventDefault();
-      const jobId = this.getAttribute("data-job-id");
-      displayJobDetails(jobId);
-    });
-  });
-
+  // Event listeners for additional functionality
   document.querySelectorAll(".bookmark-job").forEach((button) => {
     button.addEventListener("click", function (e) {
       e.preventDefault();
@@ -83,32 +78,6 @@ function displayJobs(jobs) {
       this.querySelector("i").classList.toggle("far");
     });
   });
-}
-
-function displayJobDetails(jobId) {
-  fetch("Beans/job_listings.json")
-    .then((response) => response.json())
-    .then((data) => {
-      const job = data.jobs.find((j) => j.id === jobId);
-      if (job) {
-        const modal = document.getElementById("jobDetailModal");
-        modal.querySelector(".modal-title").textContent = job.title;
-        modal.querySelector(".modal-body").innerHTML = `
-          <p><strong>School:</strong> ${job.school}</p>
-          <p><strong>Date Posted:</strong> ${job.date}</p>
-          <p><strong>Description:</strong> ${
-            job.description || "No description available."
-          }</p>
-          <a href="${
-            job.link
-          }" target="_blank" class="btn btn-primary">Apply Now</a>
-        `;
-        $("#jobDetailModal").modal("show");
-      }
-    })
-    .catch((error) => {
-      console.error("Error fetching job details:", error);
-    });
 }
 
 function bookmarkJob(jobId) {
