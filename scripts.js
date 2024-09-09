@@ -46,29 +46,55 @@ function fetchJobs() {
     });
 }
 
+function isJobNew(job) {
+  const today = new Date();
+  let jobDate;
+
+  // Use the job's date or fallback to 'new_since'
+  if (job.date) {
+    jobDate = new Date(job.date);
+  } else if (job.new_since) {
+    jobDate = new Date(job.new_since); // Use new_since if date is missing
+  } else {
+    jobDate = new Date(); // Fallback for rare cases where neither is present
+  }
+
+  const diffDays = Math.floor((today - jobDate) / (1000 * 60 * 60 * 24));
+  return diffDays <= 3; // Mark as new if within 3 days
+}
+
 function displayJobs(jobs) {
   const jobListings = document.getElementById("job-listings");
   jobListings.innerHTML = "";
 
   jobs.forEach((job) => {
+    const isNew = isJobNew(job);
+
     const jobElement = document.createElement("div");
     jobElement.classList.add("job-listing", "col-md-4");
 
-    // Adding both job title and "Read More" as links to the job details page
     jobElement.innerHTML = `
-      <h2><a href="${job.link}" target="_blank" class="job-title-link">${job.title}</a></h2>
+      <div class="job-header">
+        ${isNew ? '<span class="new-badge">New</span>' : ""}
+        <h2><a href="${job.link}" target="_blank" class="job-title-link">${
+      job.title
+    }</a></h2>
+      </div>
       <p>${job.school}</p>
-      <p>Posted on: ${job.date}</p>
+      <p>Posted on: ${job.date || job.new_since || "Date not provided"}</p>
       <div class="details">
         <span>${job.school}</span>
-        <a href="#" class="bookmark-job" data-job-id="${job.id}"><i class="far fa-bookmark"></i></a>
-        <a href="${job.link}" target="_blank" class="read-more-link">Read More</a>
+        <a href="#" class="bookmark-job" data-job-id="${
+          job.id
+        }"><i class="far fa-bookmark"></i></a>
+        <a href="${
+          job.link
+        }" target="_blank" class="read-more-link">Read More</a>
       </div>
     `;
     jobListings.appendChild(jobElement);
   });
 
-  // Event listeners for additional functionality
   document.querySelectorAll(".bookmark-job").forEach((button) => {
     button.addEventListener("click", function (e) {
       e.preventDefault();
@@ -218,35 +244,4 @@ function formatDate(date) {
   return `${
     date.getMonth() + 1
   }/${date.getDate()}/${date.getFullYear()} ${strTime}`;
-}
-
-function fetchScrapingLog() {
-  fetch("Beans/scraping_log.json")
-    .then((response) => response.json())
-    .then((data) => {
-      displayScrapingLog(data);
-    })
-    .catch((error) => {
-      console.error("Error fetching scraping log:", error);
-    });
-}
-
-function displayScrapingLog(logs) {
-  const logContainer = document.getElementById("scraping-log");
-  logContainer.innerHTML = logs
-    .map(
-      (log) => `
-    <div class="log-entry">
-      <p><strong>Timestamp:</strong> ${log.timestamp}</p>
-      <p><strong>New Jobs:</strong> ${log.new_jobs_count}</p>
-      <p><strong>Removed Jobs:</strong> ${log.removed_jobs_count}</p>
-      <details>
-        <summary>Details</summary>
-        <pre>${JSON.stringify(log.new_jobs, null, 2)}</pre>
-        <pre>${JSON.stringify(log.removed_jobs, null, 2)}</pre>
-      </details>
-    </div>
-  `
-    )
-    .join("");
 }

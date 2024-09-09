@@ -16,6 +16,7 @@ import re
 from selenium.webdriver.common.by import By
 import pandas as pd
 from selenium.common.exceptions import TimeoutException
+from datetime import datetime, timedelta
 
 
 
@@ -367,10 +368,18 @@ def scrape_memorial():
             for element in job_elements:
                 title = element.text
                 link = element.get_attribute("href")
+                
+                # Try to scrape the date, if available
+                try:
+                    date_element = driver.find_element(By.CSS_SELECTOR, 'insert-correct-date-selector-here')
+                    date = date_element.text.strip()
+                except Exception:
+                    date = "No date provided"  # Fallback if no date is found
+
                 job = {
                     "title": title,
                     "school": "Memorial University",
-                    "date": "No date provided",  # Replaced date with "No date provided"
+                    "date": date,  # Use the scraped date or the fallback
                     "link": link
                 }
                 jobs.append(job)
@@ -391,9 +400,20 @@ def scrape_macewan_rss():
     for entry in feed.entries:
         title = entry.title
         link = entry.link
-        date = entry.get("published", "No Date Provided")
-        job = {"title": title, "school": "MacEwan University", "date": date, "link": link}
+
+        # Try to get the published date or fallback to 'new_since' later
+        date = entry.get("published", None)  # Get the published date if available
+        if not date:
+            date = "No Date Provided"  # Fallback if date is not in the feed
+
+        job = {
+            "title": title,
+            "school": "MacEwan University",
+            "date": date,
+            "link": link
+        }
         jobs.append(job)
+
     logging.info(f"Found {len(jobs)} jobs at MacEwan University via RSS")
     return jobs
 
@@ -431,11 +451,18 @@ def scrape_sfu():
             if "https://tre.tbe.taleo.nethttps" in link:
                 link = link.replace("https://tre.tbe.taleo.nethttps", "https://tre.tbe.taleo.net")
 
+            # Attempt to scrape the date if available
+            try:
+                date_element = job_item.find_element(By.CSS_SELECTOR, 'insert-correct-date-selector-here')
+                date = date_element.text.strip()
+            except Exception:
+                date = "Date not provided"  # Fallback if no date is found
+
             # Store the job data
             job = {
                 "title": title,
                 "school": "Simon Fraser University",
-                "date": "Date not provided",  # No date found in the sample
+                "date": date,  # Use the scraped date or the fallback
                 "link": link
             }
             jobs.append(job)
@@ -447,6 +474,7 @@ def scrape_sfu():
     logging.info(f"Found {len(jobs)} jobs at Simon Fraser University")
     driver.quit()
     return jobs
+
 
 def scrape_concordia():
     logging.info("Scraping Concordia University of Edmonton via RSS")
@@ -3872,7 +3900,7 @@ new_jobs = (
     scrape_york_university() +
     scrape_athabasca() +
     scrape_mtroyal() +
-    scrape_memorial() +
+    scrape_memorial() +  # Updated Memorial scraper
     scrape_macewan_rss() +
     scrape_concordia() +
     scrape_stmarys() +
@@ -3913,13 +3941,10 @@ new_jobs = (
     scrape_queens_university() +
     scrape_redeemer_university() +
     scrape_trent_university() +
-    ##scrape_university_of_guelph() +
     scrape_university_of_ottawa() +
-    ##scrape_mcmaster() +
     scrape_st_michaels() +
-    scrape_u_of_toronto() + 
+    scrape_u_of_toronto() +
     scrape_trinity_college() +
-    ##scrape_university_of_waterloo() +
     scrape_university_of_windsor() +
     scrape_victoria_university() +
     scrape_wilfrid_laurier_university() +
@@ -3938,12 +3963,8 @@ new_jobs = (
     scrape_stm_jobs() +
     scrape_uofr_jobs() +
     scrape_uofs_jobs()
-    
-    
-    
-    
-    
 )
+
 driver.quit()
 
 # Load existing jobs
@@ -3966,7 +3987,24 @@ removed_jobs = [job for job in existing_jobs if job['link'] not in current_job_l
 logging.info(f"Added jobs: {len(added_jobs)}")
 logging.info(f"Removed jobs: {len(removed_jobs)}")
 
-# Save the new job listings
+# Preserve 'new_since' for existing jobs and add 'new_since' for new jobs
+for job in new_jobs:
+    if job['link'] in existing_job_links:
+        # Preserve 'new_since' for existing jobs; if missing, assign today's date
+        job['new_since'] = next(
+            (existing_job.get('new_since', datetime.now().strftime('%Y-%m-%d')) 
+             for existing_job in existing_jobs if existing_job['link'] == job['link']), 
+            None
+        )
+    else:
+        # For new jobs, assign today's date as 'new_since'
+        job['new_since'] = datetime.now().isoformat()
+
+    # If no date is provided, use 'new_since' as the 'date'
+    if "date" not in job or not job["date"]:
+        job["date"] = job['new_since']  # Use 'new_since' for jobs with no date
+
+# Save the new job listings with 'new_since'
 data = {"jobs": new_jobs, "last_updated": datetime.now().isoformat()}
 with open("Beans/job_listings.json", "w") as file:
     json.dump(data, file, indent=4)
