@@ -278,3 +278,47 @@ body.dark-mode footer {
   cursor: pointer;
   z-index: 1000;
 }
+/* Compact and stylish New badge */
+.new-badge {
+  position: absolute; /* Make it float above the card */
+  top: -10px; /* Move it slightly above the card */
+  left: 10px; /* Position it towards the left side */
+  background: linear-gradient(135deg, #ff6f00, #ff8e3c); /* Vibrant gradient */
+  color: #fff; /* White text for contrast */
+  font-size: 0.65em; /* Smaller font size */
+  font-weight: 600; /* Bold, but balanced */
+  padding: 3px 6px; /* Compact padding */
+  border-radius: 10px; /* Subtle rounded corners */
+  text-transform: uppercase; /* Uppercase for emphasis */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  margin-right: 6px; /* Reduced margin */
+  letter-spacing: 0.5px; /* Subtle letter spacing */
+  animation: pulse 2s infinite; /* Subtle pulse animation */
+  transition: transform 0.15s ease-in-out, background 0.3s ease; /* Smooth transition */
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  50% {
+    transform: scale(1.03); /* Subtle pulse effect */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Hover effect */
+.new-badge:hover {
+  transform: scale(1.07); /* Slight hover effect */
+  background: linear-gradient(
+    135deg,
+    #ff6f00,
+    #ffae42
+  ); /* Gradient change on hover */
+}

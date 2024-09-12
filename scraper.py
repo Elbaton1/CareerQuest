@@ -25,7 +25,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 chrome_options = Options()
 chrome_options.add_argument('--ignore-certificate-errors')
-
+chrome_options.add_argument('--ignore-ssl-errors')
 #chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
@@ -34,7 +34,7 @@ service = Service("chromedriver.exe")
 
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
-def scrape_athabasca():
+def scrape_athabasca(existing_job_links, existing_jobs):
     logging.info("Scraping Athabasca University")
     jobs = []
     url = "https://athabascau.acquiretm.com/home.aspx"
@@ -62,15 +62,35 @@ def scrape_athabasca():
         
         job_elements = driver.find_elements(By.CSS_SELECTOR, selector)
         logging.info(f"Found {len(job_elements)} job elements on page {page_number}")
+        
         for element in job_elements:
             title = element.text
             link = element.get_attribute("href")
-            job = {
-                "title": title,
-                "school": "Athabasca University",
-                "date": "No date provided",  # Replaced dynamic date with static "No date provided"
-                "link": link
-            }
+            
+            # Check if the job exists and retrieve the original job details
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+            if link not in existing_job_links:
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "Athabasca University",
+                    "date": new_since,  # No date provided, so we use the new_since timestamp
+                    "link": link,
+                    "new_since": new_since  # Store when the job was scraped
+                }
+                logging.info(f"Added new job: {title}, new_since: {new_since}")
+            else:
+                # Existing job: retain the 'new_since' or 'date'
+                job = {
+                    "title": title,
+                    "school": "Athabasca University",
+                    "date": existing_job.get("date", "No date provided"),  # Retain original date or use placeholder
+                    "link": link,
+                    "new_since": existing_job.get("new_since", None)  # Retain original 'new_since'
+                }
+                logging.info(f"Job already exists: {title}")
+
             jobs.append(job)
         
         if not job_elements:
@@ -82,7 +102,9 @@ def scrape_athabasca():
     return jobs
 
 
-def scrape_ualberta():
+
+
+def scrape_ualberta(existing_job_links, existing_jobs):
     logging.info("Scraping University of Alberta")
     jobs = []
     url = "https://apps.ualberta.ca/careers/list/all"
@@ -119,20 +141,38 @@ def scrape_ualberta():
                 logging.warning(f"Could not extract job title: {e}")
                 title = "Title not provided"
             
-            # Extract the posted date (e.g., "Posted date: December 5, 2023")
+            # Extract the posted date (if available)
             try:
                 posted_date_element = driver.find_element(By.CSS_SELECTOR, "span[aria-labelledby^='posted-date-label']")
                 posted_date = posted_date_element.text.strip()
             except Exception as e:
                 logging.warning(f"Could not extract posted date: {e}")
                 posted_date = "Date not provided"
-            
-            job = {
-                "title": title, 
-                "school": "University of Alberta", 
-                "date": posted_date, 
-                "link": link
-            }
+
+            # Check if the job already exists and retrieve the original job details
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+            if link not in existing_job_links:
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title, 
+                    "school": "University of Alberta", 
+                    "date": posted_date if posted_date != "Date not provided" else new_since,  # Use posted date if available, else use new_since
+                    "link": link,
+                    "new_since": new_since  # Track when the job was scraped
+                }
+                logging.info(f"Added new job: {title}, new_since: {new_since}")
+            else:
+                # Existing job: retain the 'new_since' or 'date'
+                job = {
+                    "title": title, 
+                    "school": "University of Alberta", 
+                    "date": existing_job.get("date", "No date provided"),  # Retain original date
+                    "link": link,
+                    "new_since": existing_job.get("new_since", None)  # Retain original 'new_since'
+                }
+                logging.info(f"Job already exists: {title}, retaining original date")
+
             jobs.append(job)
 
             # Go back to the main job listings page
@@ -145,7 +185,7 @@ def scrape_ualberta():
     return jobs
 
 
-def scrape_ucalgary():
+def scrape_ucalgary(existing_job_links, existing_jobs):
     logging.info("Scraping University of Calgary")
     jobs = []
     url = "https://careers.ucalgary.ca/search/jobs"
@@ -169,7 +209,30 @@ def scrape_ucalgary():
             date_element = element.find_element(By.CSS_SELECTOR, "p")
             date_text = date_element.text.split("Updated")[-1].strip()
 
-            job = {"title": title, "school": "University of Calgary", "date": date_text, "link": link}
+            # Check if the job exists and get its original date
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+            if link not in existing_job_links:
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "University of Calgary",
+                    "date": date_text if date_text else new_since,  # Use extracted date or new_since
+                    "link": link,
+                    "new_since": new_since  # Store when the job was scraped
+                }
+                logging.info(f"Added new job: {title}, new_since: {new_since}")
+            else:
+                # Existing job: retain the 'new_since' or 'date'
+                job = {
+                    "title": title,
+                    "school": "University of Calgary",
+                    "date": existing_job.get("date", date_text),  # Retain original date or use extracted date
+                    "link": link,
+                    "new_since": existing_job.get("new_since", None)  # Retain original 'new_since'
+                }
+                logging.info(f"Job already exists: {title}")
+
             jobs.append(job)
 
         except Exception as e:
@@ -179,19 +242,18 @@ def scrape_ucalgary():
     return jobs
 
 
-def scrape_mtroyal():
+def scrape_mtroyal(existing_job_links, existing_jobs):
     logging.info("Scraping Mount Royal University")
     jobs = []
     url = "https://mtroyalca.hua.hrsmart.com/hr/ats/JobSearch/search"
     selector = "#jobSearchResultsGrid_table > tbody > tr > td:nth-child(2) > a"
     
     page_number = 1
-    
+
     while True:
         driver.get(url)
         logging.info(f"Fetching page {page_number} of Mount Royal University")
-        
-        # Go to the specific page number
+
         if page_number > 1:
             try:
                 next_page = driver.find_element(By.LINK_TEXT, str(page_number))
@@ -204,36 +266,58 @@ def scrape_mtroyal():
                 except Exception as e:
                     logging.warning(f"Next button not found: {e}")
                     break
-        
+
         job_elements = driver.find_elements(By.CSS_SELECTOR, selector)
         logging.info(f"Found {len(job_elements)} job elements on page {page_number}")
+
         for element in job_elements:
             title = element.text
             link = element.get_attribute("href")
-            job = {
-                "title": title,
-                "school": "Mount Royal University",
-                "date": "No date provided",  # Replaced dynamic date with static "No date provided"
-                "link": link
-            }
+
+            # Check if the job exists and get its original date
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+            if link not in existing_job_links:
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "Mount Royal University",
+                    "date": new_since,  # Using the current date as the posting date for new jobs
+                    "link": link,
+                    "new_since": new_since
+                }
+                logging.info(f"Added new job: {title}, new_since: {new_since}")
+            else:
+                # Existing job: retain the 'new_since' or 'date'
+                job = {
+                    "title": title,
+                    "school": "Mount Royal University",
+                    "date": existing_job.get("date", "No date provided"),  # Retain original date
+                    "link": link,
+                    "new_since": existing_job.get("new_since", None)  # Retain original 'new_since'
+                }
+                logging.info(f"Job already exists: {title}")
+
             jobs.append(job)
-        
+
         if not job_elements:
             break
-        
+
         page_number += 1
 
     logging.info(f"Found {len(jobs)} jobs at Mount Royal University")
     return jobs
 
 
-def scrape_kwantlen():
+
+
+def scrape_kwantlen(existing_job_links, existing_jobs):
     logging.info("Scraping Kwantlen Polytechnic University")
     jobs = []
     url = "https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=JT63GS&cws=37"
     
     driver.get(url)
-    
+
     # Scroll down to load all job postings
     last_height = driver.execute_script("return document.body.scrollHeight")
     
@@ -251,38 +335,44 @@ def scrape_kwantlen():
 
     for job_item in job_items:
         try:
-            # Extract the job title
             title = job_item.text
-            
-            # The unique part of the job URL is the rid, which seems to be part of a link
             parent_element = job_item.find_element(By.XPATH, "..")
             link_element = parent_element.find_element(By.XPATH, ".//a[contains(@href, 'viewRequisition')]")
-            link_partial = link_element.get_attribute("href")
-            
-            # Correctly format the full link
-            if link_partial.startswith("https://"):
-                link_full = link_partial
+            link = link_element.get_attribute("href")
+
+            # Check if the job already exists
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+            if link not in existing_job_links:
+                # New job, assign 'new_since' date
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "Kwantlen Polytechnic University",
+                    "date": new_since,  # Use 'new_since' as the date for new jobs
+                    "link": link,
+                    "new_since": new_since  # Track when the job was scraped
+                }
+                logging.info(f"Added new job: {title}, new_since: {new_since}")
             else:
-                link_full = f"https://tre.tbe.taleo.net{link_partial}"
+                # Existing job: retain 'new_since' or 'date' from the previous run
+                job = {
+                    "title": title,
+                    "school": "Kwantlen Polytechnic University",
+                    "date": existing_job.get("date", "No date provided"),
+                    "link": link,
+                    "new_since": existing_job.get("new_since", None)
+                }
+                logging.info(f"Job already exists: {title}, keeping original date")
 
-            # Since no dates are provided on this page, we'll log a placeholder
-            posting_date = "Date not provided"
-
-            # Store the job data
-            job = {
-                "title": title,
-                "school": "Kwantlen Polytechnic University",
-                "date": posting_date,
-                "link": link_full
-            }
             jobs.append(job)
-            logging.info(f"Added job: {title}, no date provided")
 
         except Exception as e:
             logging.warning(f"Could not extract job details: {e}")
 
     logging.info(f"Found {len(jobs)} jobs at Kwantlen Polytechnic University")
     return jobs
+
 
 
 
@@ -346,9 +436,10 @@ def scrape_capilano():
     return jobs
 
 
-def scrape_memorial():
+def scrape_memorial(existing_job_links, existing_jobs):
     logging.info("Scraping Memorial University")
     driver.get("https://www.mun.ca/hr/careers/external-job-postings/")
+    
     selectors = [
         "#scope-STJ > tbody > tr > td:nth-child(2) > a",
         "#scope-MI > tbody > tr > td:nth-child(2) > a",
@@ -359,16 +450,22 @@ def scrape_memorial():
         "#scope-GC > tbody > tr:nth-child(3) > td:nth-child(2) > a",
         "#scope-GC > tbody > tr:nth-child(4) > td:nth-child(2) > a"
     ]
+    
     jobs = []
+    
     for selector in selectors:
         logging.info(f"Using selector: {selector}")
         while True:
             job_elements = driver.find_elements(By.CSS_SELECTOR, selector)
             logging.info(f"Found {len(job_elements)} job elements using selector {selector}")
+            
             for element in job_elements:
                 title = element.text
                 link = element.get_attribute("href")
                 
+                # Check if the job exists and get its original date
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
                 # Try to scrape the date, if available
                 try:
                     date_element = driver.find_element(By.CSS_SELECTOR, 'insert-correct-date-selector-here')
@@ -376,48 +473,96 @@ def scrape_memorial():
                 except Exception:
                     date = "No date provided"  # Fallback if no date is found
 
-                job = {
-                    "title": title,
-                    "school": "Memorial University",
-                    "date": date,  # Use the scraped date or the fallback
-                    "link": link
-                }
+                # Check if the job is new by comparing the link
+                if link not in existing_job_links:
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "title": title,
+                        "school": "Memorial University",
+                        "date": date if date != "No date provided" else new_since,  # Use the scraped date or new_since
+                        "link": link,
+                        "new_since": new_since  # Track when the job was scraped
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job: retain the 'new_since' or 'date'
+                    job = {
+                        "title": title,
+                        "school": "Memorial University",
+                        "date": existing_job.get("date", date),  # Retain original date or use scraped date
+                        "link": link,
+                        "new_since": existing_job.get("new_since", None)  # Retain original 'new_since'
+                    }
+                    logging.info(f"Job already exists: {title}")
+
                 jobs.append(job)
+
+            # Check for the "Next" button and ensure it is enabled before clicking
             try:
                 next_button = driver.find_element(By.LINK_TEXT, 'Next')
                 next_button.click()
             except Exception as e:
-                logging.warning(f"Next button not found: {e}")
+                logging.warning(f"Next button not found or no more pages: {e}")
                 break
+    
     logging.info(f"Found {len(jobs)} jobs at Memorial University")
     return jobs
 
-def scrape_macewan_rss():
+
+def scrape_macewan_rss(existing_job_links, existing_jobs):
     logging.info("Scraping MacEwan University via RSS")
     rss_url = "https://www.macewan.ca/rss/index.php?feed=all-careers"
     feed = feedparser.parse(rss_url)
     jobs = []
+
     for entry in feed.entries:
         title = entry.title
         link = entry.link
 
         # Try to get the published date or fallback to 'new_since' later
-        date = entry.get("published", None)  # Get the published date if available
+        date = entry.get("published", None)
         if not date:
-            date = "No Date Provided"  # Fallback if date is not in the feed
+            date = "No Date Provided"
 
-        job = {
-            "title": title,
-            "school": "MacEwan University",
-            "date": date,
-            "link": link
-        }
+        # Check if the job is new by comparing the link
+        if link not in existing_job_links:
+            new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            job = {
+                "title": title,
+                "school": "MacEwan University",
+                "date": date if date != "No Date Provided" else new_since,  # Use 'date' if available, otherwise 'new_since'
+                "new_since": new_since,
+                "link": link
+            }
+            logging.info(f"Added new job: {title}, new_since: {new_since}")
+        else:
+            # If the job already exists, try to preserve the original 'new_since' or 'date'
+            existing_job = next((job for job in existing_jobs if job['link'] == link), None)
+            if existing_job:
+                job = {
+                    "title": title,
+                    "school": "MacEwan University",
+                    "date": existing_job.get("date", date),  # Preserve original 'date'
+                    "new_since": existing_job.get("new_since", None),
+                    "link": link
+                }
+                logging.info(f"Job already exists: {title}, keeping original date: {existing_job.get('date')}")
+            else:
+                job = {
+                    "title": title,
+                    "school": "MacEwan University",
+                    "date": date,
+                    "new_since": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "link": link
+                }
+
         jobs.append(job)
 
     logging.info(f"Found {len(jobs)} jobs at MacEwan University via RSS")
     return jobs
 
-def scrape_sfu():
+
+def scrape_sfu(existing_job_links, existing_jobs):
     logging.info("Scraping Simon Fraser University")
     jobs = []
     url = "https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=SIMOFRAS&cws=37"
@@ -451,6 +596,9 @@ def scrape_sfu():
             if "https://tre.tbe.taleo.nethttps" in link:
                 link = link.replace("https://tre.tbe.taleo.nethttps", "https://tre.tbe.taleo.net")
 
+            # Check if the job already exists in the scraped data
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
             # Attempt to scrape the date if available
             try:
                 date_element = job_item.find_element(By.CSS_SELECTOR, 'insert-correct-date-selector-here')
@@ -458,15 +606,28 @@ def scrape_sfu():
             except Exception:
                 date = "Date not provided"  # Fallback if no date is found
 
-            # Store the job data
-            job = {
-                "title": title,
-                "school": "Simon Fraser University",
-                "date": date,  # Use the scraped date or the fallback
-                "link": link
-            }
+            if link not in existing_job_links:
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "Simon Fraser University",
+                    "date": date if date != "Date not provided" else new_since,  # Use posted date if available, else use new_since
+                    "link": link,
+                    "new_since": new_since  # Track when the job was scraped
+                }
+                logging.info(f"Added new job: {title}, new_since: {new_since}")
+            else:
+                # Existing job: retain the 'new_since' or 'date'
+                job = {
+                    "title": title,
+                    "school": "Simon Fraser University",
+                    "date": existing_job.get("date", date),  # Retain original date or use scraped date
+                    "link": link,
+                    "new_since": existing_job.get("new_since", None)  # Retain original 'new_since'
+                }
+                logging.info(f"Job already exists: {title}")
+
             jobs.append(job)
-            logging.info(f"Added job: {title}")
 
         except Exception as e:
             logging.warning(f"Could not extract job details: {e}")
@@ -476,21 +637,49 @@ def scrape_sfu():
     return jobs
 
 
-def scrape_concordia():
+
+
+def scrape_concordia(existing_job_links, existing_jobs):
     logging.info("Scraping Concordia University of Edmonton via RSS")
     rss_url = 'https://api.startdate.ca/jobs/rss_feed?client=concordiaedmonton'
     feed = feedparser.parse(rss_url)
     jobs = []
+
     for entry in feed.entries:
         title = entry.title
         link = entry.link
         date = entry.get("published", "No Date Provided")
-        job = {"title": title, "school": "Concordia University of Edmonton", "date": date, "link": link}
+
+        # Check if the job exists and get its original date
+        existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+        if link not in existing_job_links:
+            new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            job = {
+                "title": title,
+                "school": "Concordia University of Edmonton",
+                "date": date if date != "No Date Provided" else new_since,  # Use scraped date or new_since
+                "link": link,
+                "new_since": new_since  # Track when the job was scraped
+            }
+            logging.info(f"Added new job: {title}, new_since: {new_since}")
+        else:
+            # Existing job: retain the 'new_since' or 'date'
+            job = {
+                "title": title,
+                "school": "Concordia University of Edmonton",
+                "date": existing_job.get("date", date),  # Retain original date or use scraped date
+                "link": link,
+                "new_since": existing_job.get("new_since", None)  # Retain original 'new_since'
+            }
+            logging.info(f"Job already exists: {title}")
+
         jobs.append(job)
+
     logging.info(f"Found {len(jobs)} jobs at Concordia University of Edmonton via RSS")
     return jobs
 
-def scrape_royal_roads():
+def scrape_royal_roads(existing_job_links, existing_jobs):
     logging.info("Scraping Royal Roads University")
     jobs = []
     url = "https://royalroads.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_pageSize:100/jobSearchPaginationExternal_page:1"
@@ -516,15 +705,32 @@ def scrape_royal_roads():
             date_element = job_item.find_element(By.CSS_SELECTOR, "td:nth-child(2)")
             posting_date = date_element.text.strip()
 
-            # Store the job data
-            job = {
-                "title": title,
-                "school": "Royal Roads University",
-                "date": posting_date,
-                "link": link
-            }
+            # Check if the job already exists in the scraped data
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+            if link not in existing_job_links:
+                # New job, assign 'new_since' date
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "Royal Roads University",
+                    "date": posting_date if posting_date else new_since,  # Use posted date or new_since
+                    "link": link,
+                    "new_since": new_since  # Track when the job was scraped
+                }
+                logging.info(f"Added new job: {title}, new_since: {new_since}")
+            else:
+                # Existing job, retain the original 'date' and 'new_since'
+                job = {
+                    "title": title,
+                    "school": "Royal Roads University",
+                    "date": existing_job.get("date", posting_date),  # Retain original date or use scraped date
+                    "link": link,
+                    "new_since": existing_job.get("new_since", None)  # Retain original 'new_since'
+                }
+                logging.info(f"Job already exists: {title}")
+
             jobs.append(job)
-            logging.info(f"Added job: {title}, posted on {posting_date}")
 
         except Exception as e:
             logging.warning(f"Could not extract job details: {e}")
@@ -532,7 +738,9 @@ def scrape_royal_roads():
     logging.info(f"Found {len(jobs)} jobs at Royal Roads University")
     return jobs
 
-def scrape_ubc_jobs():
+
+
+def scrape_ubc_jobs(existing_job_links, existing_jobs):
     logging.info(f"Scraping UBC Careers Pages")
     jobs = []
 
@@ -575,15 +783,31 @@ def scrape_ubc_jobs():
                     date_element = driver.find_element(By.XPATH, date_xpath)
                     posting_date = date_element.text.strip()
 
-                    # Store the job data
-                    job = {
-                        "school": "University of British Columbia (UBC)",
-                        "title": title,
-                        "date": posting_date,
-                        "link": full_link,
-                    }
+                    # Check if the job already exists
+                    existing_job = next((job for job in existing_jobs if job["link"] == full_link), None)
+
+                    if full_link not in existing_job_links:
+                        new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        job = {
+                            "school": "University of British Columbia (UBC)",
+                            "title": title,
+                            "date": posting_date if posting_date else new_since,  # Use posted date if available
+                            "link": full_link,
+                            "new_since": new_since  # Mark the job as newly scraped
+                        }
+                        logging.info(f"Added new job: {title}, posted on {posting_date or new_since}, school: {school_name}, link: {full_link}")
+                    else:
+                        # Existing job: retain the 'date' and 'new_since'
+                        job = {
+                            "school": "University of British Columbia (UBC)",
+                            "title": title,
+                            "date": existing_job.get("date", posting_date),  # Retain original date if available
+                            "link": full_link,
+                            "new_since": existing_job.get("new_since", None)  # Retain original 'new_since'
+                        }
+                        logging.info(f"Job already exists: {title}")
+
                     jobs.append(job)
-                    logging.info(f"Added job: {title}, posted on {posting_date}, school: {school_name}, link: {full_link}")
 
                 except Exception as e:
                     logging.warning(f"Could not extract job details: {e}")
@@ -611,6 +835,8 @@ def scrape_ubc_jobs():
 
     logging.info(f"Total jobs found: {len(jobs)}")
     return jobs
+
+
 
 
 def scrape_unbc_jobs():
@@ -666,7 +892,8 @@ def scrape_unbc_jobs():
     driver.quit()
     return jobs
 
-def scrape_ufv_jobs():
+
+def scrape_ufv_jobs(existing_job_links, existing_jobs):
     logging.info("Scraping University of the Fraser Valley")
     jobs = []
     url = "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1FaSh9YDVB6E3JyMSElFE86dRVQaVVecCdMIV9%2FDnlbLUUfUTYecWF2AkUYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&page=joblisting&CLID=56144"
@@ -692,6 +919,9 @@ def scrape_ufv_jobs():
                 link_element = job_element.find_element(By.XPATH, "following-sibling::div[1]/div[3]/a")
                 job_link = link_element.get_attribute("href")
 
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == job_link), None)
+
                 # Navigate to the job details page
                 driver.get(job_link)
 
@@ -716,8 +946,27 @@ def scrape_ufv_jobs():
                     logging.warning(f"Date element not found for element {index}")
                     date_text = "Date not available"
 
-                # Store the job information
-                job = {"title": title, "school": "University of the Fraser Valley", "date": date_text, "link": job_link}
+                if job_link not in existing_job_links:
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "title": title,
+                        "school": "University of the Fraser Valley",
+                        "date": date_text if date_text != "Date not available" else new_since,  # Use date or new_since
+                        "link": job_link,
+                        "new_since": new_since  # Track when the job was scraped
+                    }
+                    logging.info(f"Added new job: {title}, posted on {date_text or new_since}")
+                else:
+                    # Existing job: retain the 'date' and 'new_since'
+                    job = {
+                        "title": title,
+                        "school": "University of the Fraser Valley",
+                        "date": existing_job.get("date", date_text),  # Retain original date if available
+                        "link": job_link,
+                        "new_since": existing_job.get("new_since", None)  # Retain original 'new_since'
+                    }
+                    logging.info(f"Job already exists: {title}")
+
                 jobs.append(job)
 
                 # Navigate back to the job listing page
@@ -737,7 +986,8 @@ def scrape_ufv_jobs():
     logging.info(f"Found {len(jobs)} jobs at the University of the Fraser Valley")
     return jobs
 
-def scrape_uvic():
+
+def scrape_uvic(existing_job_links, existing_jobs):
     logging.info("Scraping University of Victoria")
     jobs = []
     url = "https://www.uvic.ca/ecs/ece/faculty-and-staff/home/job-postings/index.php"
@@ -761,8 +1011,31 @@ def scrape_uvic():
 
                 # Get the link to the job details
                 link = element.get_attribute("href")
-                
-                job = {"title": title, "school": "University of Victoria", "link": link}
+
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+                if link not in existing_job_links:
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "title": title,
+                        "school": "University of Victoria",
+                        "link": link,
+                        "date": new_since,  # Assigning 'new_since' as the date
+                        "new_since": new_since
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job: retain 'new_since' and 'date'
+                    job = {
+                        "title": title,
+                        "school": "University of Victoria",
+                        "link": link,
+                        "date": existing_job.get("date", "No date provided"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {title}")
+
                 jobs.append(job)
 
             except Exception as e:
@@ -777,7 +1050,8 @@ def scrape_uvic():
     logging.info(f"Found {len(jobs)} jobs at the University of Victoria")
     return jobs
 
-def scrape_vancouver_island_university():
+
+def scrape_vancouver_island_university(existing_job_links, existing_jobs):
     logging.info("Scraping Vancouver Island University")
     jobs = []
     url = "https://careers.viu.ca/vacancies.html#filter=p_web_site_id%3D100017%26p_published_to%3DWWW%26p_language%3DDEFAULT%26p_direct%3DY%26p_format%3DMOBILE%26p_include_exclude_from_list%3DN%26p_search%3D"
@@ -807,24 +1081,49 @@ def scrape_vancouver_island_university():
                 link_element = job_card.find_element(By.CSS_SELECTOR, "h2 a")
                 job_link = link_element.get_attribute("href")
 
-                # Navigate to the job detail page
-                driver.get(job_link)
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == job_link), None)
 
-                # Wait for the job title and date to load
-                WebDriverWait(driver, 20).until(
-                    EC.presence_of_element_located((By.XPATH, "/html/body/div[2]/div/div[2]/div[6]/section/div/div/div/div/div/div/div[1]/div/div/div/h1"))
-                )
+                if job_link not in existing_job_links:
+                    # Navigate to the job detail page
+                    driver.get(job_link)
 
-                # Extract job title
-                title_element = driver.find_element(By.XPATH, "/html/body/div[2]/div/div[2]/div[6]/section/div/div/div/div/div/div/div[1]/div/div/div/h1")
-                title = title_element.text.strip()
+                    # Wait for the job title and date to load
+                    WebDriverWait(driver, 20).until(
+                        EC.presence_of_element_located((By.XPATH, "/html/body/div[2]/div/div[2]/div[6]/section/div/div/div/div/div/div/div[1]/div/div/div/h1"))
+                    )
 
-                # Extract posted date
-                date_element = driver.find_element(By.XPATH, "/html/body/div[2]/div/div[2]/div[6]/section/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div[1]/div[2]/div[17]/div[2]")
-                date_posted = date_element.text.strip()
+                    # Extract job title
+                    title_element = driver.find_element(By.XPATH, "/html/body/div[2]/div/div[2]/div[6]/section/div/div/div/div/div/div/div[1]/div/div/div/h1")
+                    title = title_element.text.strip()
 
-                job = {"title": title, "school": "Vancouver Island University", "link": job_link, "date_posted": date_posted}
-                jobs.append(job)
+                    # Extract posted date
+                    date_element = driver.find_element(By.XPATH, "/html/body/div[2]/div/div[2]/div[6]/section/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div[1]/div[2]/div[17]/div[2]")
+                    date_posted = date_element.text.strip()
+
+                    # For new jobs, use 'new_since' as the date if no date is provided
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "title": title, 
+                        "school": "Vancouver Island University", 
+                        "link": job_link, 
+                        "date": date_posted if date_posted else new_since, 
+                        "new_since": new_since
+                    }
+                    jobs.append(job)
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+
+                else:
+                    # Existing job: retain 'new_since' and 'date'
+                    job = {
+                        "title": existing_job["title"],
+                        "school": "Vancouver Island University",
+                        "link": job_link,
+                        "date": existing_job.get("date", "No date provided"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    jobs.append(job)
+                    logging.info(f"Job already exists: {existing_job['title']}")
 
                 # Navigate back to the job listing page
                 driver.back()
@@ -842,6 +1141,8 @@ def scrape_vancouver_island_university():
 
     logging.info(f"Found {len(jobs)} jobs at Vancouver Island University")
     return jobs
+
+
 
 import logging
 from selenium.common.exceptions import TimeoutException, NoSuchElementException, StaleElementReferenceException
@@ -935,16 +1236,7 @@ def scrape_manitoba():
 
 
 
-
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import StaleElementReferenceException, TimeoutException, WebDriverException
-import logging
-import time
-
-def scrape_brandon():
+def scrape_brandon(existing_job_links, existing_jobs):
     logging.info("Scraping Brandon University")
     jobs = []
     url = "https://www.brandonu.ca/jobs/"
@@ -975,14 +1267,34 @@ def scrape_brandon():
                 for job_link in job_links:
                     title = job_link.text.strip()
                     link = job_link.get_attribute("href")
-                    
-                    job = {
-                        "title": title,
-                        "link": link,
-                        "school": "Brandon University",
-                    }
+
+                    # Check if the job already exists
+                    existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+                    if link not in existing_job_links:
+                        # New job, assign 'new_since'
+                        new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        job = {
+                            "title": title,
+                            "link": link,
+                            "school": "Brandon University",
+                            "date": new_since,  # Use new_since if no date is provided
+                            "new_since": new_since
+                        }
+                        logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    else:
+                        # Existing job: retain 'new_since' and 'date'
+                        job = {
+                            "title": existing_job["title"],
+                            "link": link,
+                            "school": "Brandon University",
+                            "date": existing_job.get("date", "No date provided"),
+                            "new_since": existing_job.get("new_since", None)
+                        }
+                        logging.info(f"Job already exists: {existing_job['title']}")
+
                     jobs.append(job)
-                    logging.info(f"Added job: {title}, link: {link}")
+
             except Exception as e:
                 logging.warning(f"Could not extract job details for xpath {base_xpath}: {e}")
 
@@ -992,7 +1304,9 @@ def scrape_brandon():
     logging.info(f"Found {len(jobs)} jobs at Brandon University")
     return jobs
 
-def scrape_cmu():
+
+
+def scrape_cmu(existing_job_links, existing_jobs):
     logging.info("Scraping Canadian Mennonite University")
     jobs = []
     url = "https://www.cmu.ca/about/employment"
@@ -1018,19 +1332,41 @@ def scrape_cmu():
             if not link.startswith("http"):
                 link = "https://www.cmu.ca" + link  # Ensure the full URL is formed
 
-            job = {
-                "title": title,
-                "link": link,
-                "school": "Canadian Mennonite University",
-            }
+            # Check if the job already exists
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+            if link not in existing_job_links:
+                # New job, assign 'new_since'
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "link": link,
+                    "school": "Canadian Mennonite University",
+                    "date": new_since,  # Use new_since if no date is provided
+                    "new_since": new_since
+                }
+                logging.info(f"Added new job: {title}, new_since: {new_since}")
+            else:
+                # Existing job: retain 'new_since' and 'date'
+                job = {
+                    "title": existing_job["title"],
+                    "link": link,
+                    "school": "Canadian Mennonite University",
+                    "date": existing_job.get("date", "No date provided"),
+                    "new_since": existing_job.get("new_since", None)
+                }
+                logging.info(f"Job already exists: {existing_job['title']}")
+
             jobs.append(job)
-            logging.info(f"Added job: {title}, link: {link}")
 
     except Exception as e:
         logging.error(f"An error occurred during scraping: {e}")
     
     logging.info(f"Found {len(jobs)} jobs at Canadian Mennonite University")
     return jobs
+
+
+
 
 def scrape_stpauls():
     logging.info("Scraping St. Paul's College")
@@ -1077,7 +1413,9 @@ def scrape_stpauls():
     logging.info(f"Found {len(jobs)} jobs at St. Paul's College")
     return jobs
 
-def scrape_university_of_saint_boniface():
+
+
+def scrape_university_of_saint_boniface(existing_job_links, existing_jobs):
     logging.info("Scraping Université de Saint-Boniface")
     jobs = []
     url = "https://carrieres.ustboniface.ca/offres/offres.php#postes"
@@ -1109,16 +1447,40 @@ def scrape_university_of_saint_boniface():
             # Extract the link
             link = element.find_element(By.CSS_SELECTOR, 'a.btn-outline').get_attribute('href')
 
-            # Store the job details
-            job = {"title": title, "school": "Université de Saint-Boniface", "date": date_text, "link": link}
+            # Check if the job already exists
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+            if link not in existing_job_links:
+                # New job, assign 'new_since'
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "Université de Saint-Boniface",
+                    "date": date_text if date_text else new_since,  # Use date if available, else use new_since
+                    "link": link,
+                    "new_since": new_since
+                }
+                logging.info(f"Added new job: {title}, new_since: {new_since}")
+            else:
+                # Existing job: retain 'new_since' and 'date'
+                job = {
+                    "title": existing_job["title"],
+                    "school": "Université de Saint-Boniface",
+                    "date": existing_job.get("date", "No date provided"),
+                    "link": link,
+                    "new_since": existing_job.get("new_since", None)
+                }
+                logging.info(f"Job already exists: {existing_job['title']}")
+
             jobs.append(job)
-            logging.info(f"Added job: {title}, link: {link}, date: {date_text}")
 
         except Exception as e:
             logging.warning(f"Could not extract job details: {e}")
 
     logging.info(f"Found {len(jobs)} jobs at Université de Saint-Boniface")
     return jobs
+
+
 
 import re
 
@@ -1172,7 +1534,9 @@ def scrape_university_of_winnipeg():
     logging.info(f"Found {len(jobs)} jobs at University of Winnipeg")
     return jobs
 
-def scrape_university_of_new_brunswick():
+
+
+def scrape_university_of_new_brunswick(existing_job_links, existing_jobs):
     logging.info("Scraping University of New Brunswick")
     jobs = []
     url = "https://www.unb.ca/hr/careers/support-staff.php"
@@ -1201,11 +1565,32 @@ def scrape_university_of_new_brunswick():
                 # Extract the job link
                 link = element.get_attribute("href")
                 
-                # Since there's no date available, we set it to "Date not available"
-                date_text = "Date not available"
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
                 
-                # Store the job data
-                job = {"title": title, "school": "University of New Brunswick", "date": date_text, "link": link}
+                if link not in existing_job_links:
+                    # New job, assign 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    date_text = "Date not available"  # Since no date is available, we use this placeholder
+                    job = {
+                        "title": title,
+                        "school": "University of New Brunswick",
+                        "date": date_text,
+                        "link": link,
+                        "new_since": new_since
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job, retain 'new_since' and 'date'
+                    job = {
+                        "title": existing_job["title"],
+                        "school": "University of New Brunswick",
+                        "date": existing_job.get("date", "Date not available"),
+                        "link": link,
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {existing_job['title']}")
+
                 jobs.append(job)
 
             except Exception as e:
@@ -1216,6 +1601,9 @@ def scrape_university_of_new_brunswick():
 
     logging.info(f"Found {len(jobs)} jobs at University of New Brunswick")
     return jobs
+
+
+
 
 def scrape_mount_allison_university():
     logging.info("Scraping Mount Allison University")
@@ -1263,7 +1651,9 @@ def scrape_mount_allison_university():
     logging.info(f"Found {len(jobs)} jobs at Mount Allison University")
     return jobs
 
-def scrape_st_thomas_university():
+
+
+def scrape_st_thomas_university(existing_job_links, existing_jobs):
     logging.info("Scraping St. Thomas University")
     jobs = []
     url = "https://www.stu.ca/employment/"
@@ -1271,7 +1661,7 @@ def scrape_st_thomas_university():
     driver.get(url)
 
     try:
-        # Use a more flexible selector to find all job listings
+        # Use a flexible selector to find all job listings
         job_elements = driver.find_elements(By.XPATH, "//div[contains(@class, 'content')]//p//a")
         logging.info(f"Found {len(job_elements)} job elements on the page")
         
@@ -1280,12 +1670,33 @@ def scrape_st_thomas_university():
                 title = job_element.text.strip()
                 link = job_element.get_attribute('href')
 
-                # Since the date is available on the page, we note that here
-                date_text = "Closing date is available on the page"
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
-                job = {"title": title, "school": "St. Thomas University", "date": date_text, "link": link}
+                if link not in existing_job_links:
+                    # New job, assign 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    date_text = "Closing date is available on the page"  # Date isn't directly extracted here
+                    job = {
+                        "title": title,
+                        "school": "St. Thomas University",
+                        "date": date_text,
+                        "link": link,
+                        "new_since": new_since
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job, retain 'new_since' and 'date'
+                    job = {
+                        "title": existing_job["title"],
+                        "school": "St. Thomas University",
+                        "date": existing_job.get("date", "Date not available"),
+                        "link": link,
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {existing_job['title']}")
+
                 jobs.append(job)
-                logging.info(f"Added job: {title}, link: {link}")
 
             except Exception as e:
                 logging.warning(f"Could not extract job details: {e}")
@@ -1296,7 +1707,9 @@ def scrape_st_thomas_university():
     logging.info(f"Found {len(jobs)} jobs at St. Thomas University")
     return jobs
 
-def scrape_universite_de_moncton():
+
+
+def scrape_universite_de_moncton(existing_job_links, existing_jobs):
     logging.info("Scraping Université de Moncton")
     jobs = []
     url = "https://www.umoncton.ca/emploi/?case=4&Type=0"
@@ -1321,10 +1734,32 @@ def scrape_universite_de_moncton():
                 title = job_element.text.strip()
                 link = job_element.get_attribute("href")
 
-                # Since no date is available, set it to "Date not provided"
-                date_text = "Date not provided"
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
-                job = {"title": title, "school": "Université de Moncton", "date": date_text, "link": link}
+                if link not in existing_job_links:
+                    # New job, assign 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    date_text = "Date not provided"  # No date is available, so set it to "Date not provided"
+                    job = {
+                        "title": title,
+                        "school": "Université de Moncton",
+                        "date": date_text,
+                        "link": link,
+                        "new_since": new_since
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job, retain 'new_since' and 'date'
+                    job = {
+                        "title": existing_job["title"],
+                        "school": "Université de Moncton",
+                        "date": existing_job.get("date", "Date not provided"),
+                        "link": link,
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {existing_job['title']}")
+
                 jobs.append(job)
 
             except Exception as e:
@@ -1336,7 +1771,8 @@ def scrape_universite_de_moncton():
     logging.info(f"Found {len(jobs)} jobs at Université de Moncton")
     return jobs
 
-def scrape_acadia_university():
+
+def scrape_acadia_university(existing_job_links, existing_jobs):
     logging.info("Scraping Acadia University")
     jobs = []
     url = "https://www2.acadiau.ca/about-acadia/leadership/vice-president-academic-671/faculty-librarian-offerings.html?_gl=1*68bgkf*_ga*MTk0OTI2NjAzNC4xNzI1NDYzNDE3*_ga_ER6057ZV8N*MTcyNTQ2MzQxNi4xLjEuMTcyNTQ2MzQ0NC4zMi4wLjA."
@@ -1361,17 +1797,34 @@ def scrape_acadia_university():
                 additional_info_element = driver.find_element(By.XPATH, additional_xpath)
                 additional_info = additional_info_element.text.strip()
 
-                # Append to jobs list
-                job = {
-                    "title": title,
-                    "link": link,
-                    "additional_info": additional_info,
-                    "school": "Acadia University",
-                    "date": "Date not available"  # No dates found in HTML
-                }
-                jobs.append(job)
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
-                logging.info(f"Extracted job: {title} with link: {link}")
+                if link not in existing_job_links:
+                    # New job, assign 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "title": title,
+                        "link": link,
+                        "additional_info": additional_info,
+                        "school": "Acadia University",
+                        "date": "Date not available",  # No dates found in HTML
+                        "new_since": new_since
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job, retain 'new_since' and 'date'
+                    job = {
+                        "title": existing_job["title"],
+                        "link": link,
+                        "additional_info": existing_job.get("additional_info", additional_info),
+                        "school": "Acadia University",
+                        "date": existing_job.get("date", "Date not available"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {existing_job['title']}")
+
+                jobs.append(job)
 
                 # Increment to check the next h4 element
                 h4_index += 1
@@ -1386,7 +1839,9 @@ def scrape_acadia_university():
     logging.info(f"Found {len(jobs)} jobs at Acadia University")
     return jobs
 
-def scrape_cape_breton_university():
+
+
+def scrape_cape_breton_university(existing_job_links, existing_jobs):
     logging.info("Scraping Cape Breton University")
     jobs = []
     url = "https://www.cbu.ca/current-students/career-services/student-job-opportunities/"
@@ -1414,15 +1869,32 @@ def scrape_cape_breton_university():
                 link_element = driver.find_element(By.XPATH, link_xpath)
                 link = link_element.get_attribute("href")
 
-                # Add job details to the list
-                job = {
-                    "title": title,
-                    "school": "Cape Breton University",
-                    "date": "No date available",
-                    "link": link
-                }
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+                if link not in existing_job_links:
+                    # New job, assign 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "title": title,
+                        "school": "Cape Breton University",
+                        "date": "No date available",  # No dates found in HTML
+                        "link": link,
+                        "new_since": new_since
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job, retain 'new_since' and 'date'
+                    job = {
+                        "title": existing_job["title"],
+                        "school": "Cape Breton University",
+                        "link": link,
+                        "date": existing_job.get("date", "No date available"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {existing_job['title']}")
+
                 jobs.append(job)
-                logging.info(f"Added job: {title}")
 
                 # Increment to check the next div
                 div_index += 1
@@ -1437,7 +1909,9 @@ def scrape_cape_breton_university():
     logging.info(f"Found {len(jobs)} jobs at Cape Breton University")
     return jobs
 
-def scrape_dalhousie_university():
+
+
+def scrape_dalhousie_university(existing_job_links, existing_jobs):
     logging.info("Scraping Dalhousie University")
     jobs = []
     url = "https://dal.peopleadmin.ca/postings/search"
@@ -1461,15 +1935,32 @@ def scrape_dalhousie_university():
                     title = job_element.text.strip()
                     link = job_element.get_attribute("href")
 
-                    # Add the job details to the list
-                    job = {
-                        "title": title,
-                        "school": "Dalhousie University",
-                        "date": "No date available",
-                        "link": link
-                    }
+                    # Check if the job already exists
+                    existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+                    if link not in existing_job_links:
+                        # New job, assign 'new_since'
+                        new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        job = {
+                            "title": title,
+                            "school": "Dalhousie University",
+                            "date": "No date available",  # No date provided on the page
+                            "link": link,
+                            "new_since": new_since  # Track when the job was scraped
+                        }
+                        logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    else:
+                        # Existing job, retain 'new_since' and 'date'
+                        job = {
+                            "title": existing_job["title"],
+                            "school": "Dalhousie University",
+                            "link": link,
+                            "date": existing_job.get("date", "No date available"),
+                            "new_since": existing_job.get("new_since", None)
+                        }
+                        logging.info(f"Job already exists: {existing_job['title']}")
+
                     jobs.append(job)
-                    logging.info(f"Added job: {title}")
 
                 except Exception as e:
                     logging.warning(f"Could not extract job details: {e}")
@@ -1493,7 +1984,9 @@ def scrape_dalhousie_university():
     logging.info(f"Found {len(jobs)} jobs at Dalhousie University")
     return jobs
 
-def scrape_nscad_university():
+
+
+def scrape_nscad_university(existing_job_links, existing_jobs):
     logging.info("Scraping NSCAD University job listings")
     jobs = []
     url = "https://jobs.careerbeacon.com/employer-profile/nscad-university"
@@ -1517,13 +2010,31 @@ def scrape_nscad_university():
             title = job_element.text.strip()
             link = job_element.get_attribute('href')
             
-            # Store the job details
-            job = {
-                "title": title,
-                "school": "NSCAD University",
-                "link": link,
-                "date": "No date available"  # No date provided
-            }
+            # Check if the job already exists
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+            if link not in existing_job_links:
+                # New job, assign 'new_since'
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "NSCAD University",
+                    "link": link,
+                    "date": new_since,  # No date provided, use 'new_since'
+                    "new_since": new_since
+                }
+                logging.info(f"Added new job: {title}, new_since: {new_since}")
+            else:
+                # Existing job, retain 'new_since' and 'date'
+                job = {
+                    "title": existing_job["title"],
+                    "school": "NSCAD University",
+                    "link": link,
+                    "date": existing_job.get("date", "No date available"),
+                    "new_since": existing_job.get("new_since", None)
+                }
+                logging.info(f"Job already exists: {existing_job['title']}")
+
             jobs.append(job)
             logging.info(f"Added job {index}: {title}")
             
@@ -1534,7 +2045,7 @@ def scrape_nscad_university():
     return jobs
 
 
-def scrape_smu_jobs():
+def scrape_smu_jobs(existing_job_links, existing_jobs):
     logging.info("Scraping Saint Mary’s University (Staff Employment Opportunities)")
     jobs = []
     url = "https://www.smu.ca/about/staff-employment-opportunities.html"
@@ -1559,13 +2070,31 @@ def scrape_smu_jobs():
             title = job_element.text.strip()
             link = job_element.get_attribute('href')
             
-            # Store the job details
-            job = {
-                "title": title,
-                "school": "Saint Mary’s University",
-                "link": link,
-                "date": "No date available"  # No date provided on the page
-            }
+            # Check if the job already exists
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+            if link not in existing_job_links:
+                # New job, assign 'new_since'
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "Saint Mary’s University",
+                    "link": link,
+                    "date": new_since,  # No date provided, so using 'new_since'
+                    "new_since": new_since
+                }
+                logging.info(f"Added new job: {title}, new_since: {new_since}")
+            else:
+                # Existing job, retain 'new_since' and 'date'
+                job = {
+                    "title": existing_job["title"],
+                    "school": "Saint Mary’s University",
+                    "link": link,
+                    "date": existing_job.get("date", "No date available"),
+                    "new_since": existing_job.get("new_since", None)
+                }
+                logging.info(f"Job already exists: {existing_job['title']}")
+
             jobs.append(job)
             logging.info(f"Added job {row_index}: {title}")
             
@@ -1579,7 +2108,8 @@ def scrape_smu_jobs():
     logging.info(f"Scraping complete. Found {len(jobs)} jobs at Saint Mary’s University.")
     return jobs
 
-def scrape_universite_sainte_anne():
+
+def scrape_universite_sainte_anne(existing_job_links, existing_jobs):
     logging.info("Scraping Université Sainte-Anne")
     jobs = []
     url = "https://www.usainteanne.ca/offres-demploi"
@@ -1603,13 +2133,31 @@ def scrape_universite_sainte_anne():
                 title = title_element.text.strip()
                 link = title_element.get_attribute("href")
                 
-                # Store the job details
-                job = {
-                    "title": title,
-                    "link": link,
-                    "school": "Université Sainte-Anne",
-                    "date": "No date available"  # No dates available on the page
-                }
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+                if link not in existing_job_links:
+                    # New job, assign 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "title": title,
+                        "school": "Université Sainte-Anne",
+                        "link": link,
+                        "date": new_since,  # Using 'new_since' as the date since no date is available
+                        "new_since": new_since
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job, retain 'new_since' and 'date'
+                    job = {
+                        "title": existing_job["title"],
+                        "school": "Université Sainte-Anne",
+                        "link": link,
+                        "date": existing_job.get("date", "No date available"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {existing_job['title']}")
+
                 jobs.append(job)
                 logging.info(f"Added job {row_index}: {title}")
 
@@ -1626,7 +2174,8 @@ def scrape_universite_sainte_anne():
     logging.info(f"Found {len(jobs)} jobs at Université Sainte-Anne")
     return jobs
 
-def scrape_university_of_kings_college():
+
+def scrape_university_of_kings_college(existing_job_links, existing_jobs):
     logging.info("Scraping University of King's College")
     jobs = []
     url = "https://ukings.ca/campus-community/employment/"
@@ -1644,13 +2193,31 @@ def scrape_university_of_kings_college():
             title = job_element.get_attribute("title")
             link = job_element.get_attribute("href")
 
-            # Add job details to the list
-            job = {
-                "title": title,
-                "school": "University of King's College",
-                "date": "No date provided",  # No date available on the page
-                "link": link
-            }
+            # Check if the job already exists
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+            if link not in existing_job_links:
+                # New job, assign 'new_since'
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "University of King's College",
+                    "date": new_since,  # No date available, using 'new_since'
+                    "link": link,
+                    "new_since": new_since
+                }
+                logging.info(f"Added new job: {title}, new_since: {new_since}")
+            else:
+                # Existing job, retain 'new_since' and 'date'
+                job = {
+                    "title": existing_job["title"],
+                    "school": "University of King's College",
+                    "date": existing_job.get("date", "No date provided"),
+                    "link": link,
+                    "new_since": existing_job.get("new_since", None)
+                }
+                logging.info(f"Job already exists: {existing_job['title']}")
+
             jobs.append(job)
             logging.info(f"Added job {div_index}: {title}")
 
@@ -1668,7 +2235,8 @@ def scrape_university_of_kings_college():
     return jobs
 
 
-def scrape_lethbridge():
+
+def scrape_lethbridge(existing_job_links, existing_jobs):
     logging.info("Scraping University of Lethbridge")
     jobs = []
     url = "https://uleth.peopleadmin.ca/postings/search?utf8=✓&query=&query_v0_posted_at_date=&query_position_type_id=3&285&commit=Search"
@@ -1693,6 +2261,9 @@ def scrape_lethbridge():
             title = driver.execute_script("return arguments[0].textContent;", element).strip()
             link = element.get_attribute("href")
             
+            # Check if the job already exists
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
             # Extract job posting date by locating the sibling elements
             parent_div = element.find_element(By.XPATH, "..")
             try:
@@ -1701,8 +2272,28 @@ def scrape_lethbridge():
             except Exception:
                 date_text = "Date not found"
 
-            # Add job data to the list
-            job = {"title": title, "school": "University of Lethbridge", "date": date_text, "link": link}
+            if link not in existing_job_links:
+                # New job, assign 'new_since'
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "University of Lethbridge",
+                    "date": date_text if date_text != "Date not found" else new_since,
+                    "link": link,
+                    "new_since": new_since
+                }
+                logging.info(f"Added new job: {title}, new_since: {new_since}")
+            else:
+                # Existing job, retain 'new_since' and 'date'
+                job = {
+                    "title": title,
+                    "school": "University of Lethbridge",
+                    "date": existing_job.get("date", "No date provided"),
+                    "link": link,
+                    "new_since": existing_job.get("new_since", None)
+                }
+                logging.info(f"Job already exists: {title}")
+
             jobs.append(job)
 
         except Exception as e:
@@ -1711,7 +2302,8 @@ def scrape_lethbridge():
     logging.info(f"Found {len(jobs)} jobs at University of Lethbridge")
     return jobs
 
-def scrape_brock_university():
+
+def scrape_brock_university(existing_job_links, existing_jobs):
     logging.info("Scraping Brock University Careers Page")
     jobs = []
     url = "https://brocku.wd3.myworkdayjobs.com/brocku_careers"
@@ -1737,20 +2329,37 @@ def scrape_brock_university():
                     title_element = driver.find_element(By.XPATH, title_xpath)
                     title = title_element.text
                     link = title_element.get_attribute("href")  # Use the relative link directly
-                    
+
                     # Extract job date
                     date_element = driver.find_element(By.XPATH, date_xpath)
                     posting_date = date_element.text.strip()
 
-                    # Append job data
-                    job = {
-                        "school": "Brock University",
-                        "title": title,
-                        "date": posting_date,
-                        "link": link,  # Use the correct link
-                    }
+                    # Check if the job already exists
+                    existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+                    if link not in existing_job_links:
+                        # New job, assign 'new_since'
+                        new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        job = {
+                            "school": "Brock University",
+                            "title": title,
+                            "date": posting_date if posting_date else new_since,
+                            "link": link,
+                            "new_since": new_since
+                        }
+                        logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    else:
+                        # Existing job: retain 'new_since' and 'date'
+                        job = {
+                            "school": "Brock University",
+                            "title": title,
+                            "date": existing_job.get("date", "No date provided"),
+                            "link": link,
+                            "new_since": existing_job.get("new_since", None)
+                        }
+                        logging.info(f"Job already exists: {title}")
+
                     jobs.append(job)
-                    logging.info(f"Added job: {title}, posted on {posting_date}, link: {link}")
 
                     # Increment index to move to the next job listing
                     index += 1
@@ -1791,7 +2400,8 @@ def scrape_brock_university():
     logging.info(f"Total jobs found: {len(jobs)}")
     return jobs
 
-def scrape_carleton_university():
+
+def scrape_carleton_university(existing_job_links, existing_jobs):
     logging.info("Scraping Carleton University Career Opportunities")
     jobs = []
     url = "https://carleton.njoyn.com/CL2/xweb/xweb.asp?CLID=53443&page=joblisting&lang=1"
@@ -1824,15 +2434,32 @@ def scrape_carleton_university():
                     date_element = driver.find_element(By.XPATH, date_xpath)
                     posting_date = date_element.text.strip()
 
-                    # Append job data
-                    job = {
-                        "school": "Carleton University",
-                        "title": title,
-                        "date": posting_date,
-                        "link": link,
-                    }
+                    # Check if the job already exists
+                    existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+                    if link not in existing_job_links:
+                        # New job, assign 'new_since'
+                        new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        job = {
+                            "school": "Carleton University",
+                            "title": title,
+                            "date": posting_date if posting_date else new_since,
+                            "link": link,
+                            "new_since": new_since
+                        }
+                        logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    else:
+                        # Existing job: retain 'new_since' and 'date'
+                        job = {
+                            "school": "Carleton University",
+                            "title": title,
+                            "date": existing_job.get("date", "No date provided"),
+                            "link": link,
+                            "new_since": existing_job.get("new_since", None)
+                        }
+                        logging.info(f"Job already exists: {title}")
+
                     jobs.append(job)
-                    logging.info(f"Added job: {title}, posted on {posting_date}, link: {link}")
 
                     # Increment index to move to the next job listing
                     index += 1
@@ -1851,7 +2478,8 @@ def scrape_carleton_university():
     logging.info(f"Total jobs found: {len(jobs)}")
     return jobs
 
-def scrape_huron_university():
+
+def scrape_huron_university(existing_job_links, existing_jobs):
     logging.info("Scraping Huron University Careers Page")
     jobs = []
     url = "https://huron.wd1.myworkdayjobs.com/en-US/huroncareers"
@@ -1882,15 +2510,32 @@ def scrape_huron_university():
                 date_element = driver.find_element(By.XPATH, date_xpath)
                 posting_date = date_element.text.strip()
 
-                # Store the job data
-                job = {
-                    "school": "Huron University College",
-                    "title": title,
-                    "date": posting_date,
-                    "link": full_link,
-                }
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == full_link), None)
+
+                if full_link not in existing_job_links:
+                    # New job, assign 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "Huron University College",
+                        "title": title,
+                        "date": posting_date if posting_date else new_since,
+                        "link": full_link,
+                        "new_since": new_since
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job: retain 'new_since' and 'date'
+                    job = {
+                        "school": "Huron University College",
+                        "title": title,
+                        "date": existing_job.get("date", "No date provided"),
+                        "link": full_link,
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {title}")
+
                 jobs.append(job)
-                logging.info(f"Added job: {title}, posted on {posting_date}, link: {full_link}")
 
             except Exception as e:
                 logging.warning(f"Could not extract job details: {e}")
@@ -1918,7 +2563,8 @@ def scrape_huron_university():
     logging.info(f"Total jobs found: {len(jobs)}")
     return jobs
 
-def scrape_kings_university_college():
+
+def scrape_kings_university_college(existing_job_links, existing_jobs):
     logging.info("Scraping King's University College Employment Page")
     jobs = []
     url = "https://www.kings.uwo.ca/current-students/money-matters/employment/employment-opportunities/"
@@ -1948,12 +2594,31 @@ def scrape_kings_university_college():
                     link_element = driver.find_element(By.CSS_SELECTOR, link_selector)
                     link = link_element.get_attribute("href")
 
-                    # Append job data
-                    job = {
-                        "school": "King's University College",
-                        "title": title,
-                        "link": link,
-                    }
+                    # Check if the job already exists
+                    existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+                    if link not in existing_job_links:
+                        # New job, assign 'new_since'
+                        new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        job = {
+                            "school": "King's University College",
+                            "title": title,
+                            "link": link,
+                            "date": new_since,
+                            "new_since": new_since
+                        }
+                        logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    else:
+                        # Existing job: retain 'new_since' and 'date'
+                        job = {
+                            "school": "King's University College",
+                            "title": title,
+                            "link": link,
+                            "date": existing_job.get("date", "No date provided"),
+                            "new_since": existing_job.get("new_since", None)
+                        }
+                        logging.info(f"Job already exists: {title}")
+
                     jobs.append(job)
                     logging.info(f"Added job: {title}, link: {link}")
 
@@ -1974,7 +2639,9 @@ def scrape_kings_university_college():
     logging.info(f"Total jobs found: {len(jobs)}")
     return jobs
 
-def scrape_lakehead_university():
+
+
+def scrape_lakehead_university(existing_job_links, existing_jobs):
     logging.info("Scraping Lakehead University Faculty Job Listings")
     jobs = []
     url = "https://www.lakeheadu.ca/faculty-and-staff/departments/services/hr/employment-opportunities/faculty"
@@ -2009,14 +2676,29 @@ def scrape_lakehead_university():
                     date_element = driver.find_element(By.XPATH, date_xpath_thunder_bay)
                     posting_date = date_element.text.strip()
 
-                    jobs.append({
-                        "school": "Lakehead University",
-                        "title": title,
-                        "date": posting_date,
-                        "link": link
-                    })
+                    # Check if job exists
+                    existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+                    if link not in existing_job_links:
+                        new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        job = {
+                            "school": "Lakehead University",
+                            "title": title,
+                            "date": posting_date if posting_date else new_since,
+                            "link": link,
+                            "new_since": new_since
+                        }
+                        logging.info(f"Added new job: {title}, posted on {posting_date}, new_since: {new_since}")
+                    else:
+                        job = {
+                            "school": "Lakehead University",
+                            "title": title,
+                            "date": existing_job.get("date", "No date provided"),
+                            "link": link,
+                            "new_since": existing_job.get("new_since", None)
+                        }
+                        logging.info(f"Job already exists: {title}")
 
-                    logging.info(f"Added job: {title}, posted on {posting_date}, link: {link}")
+                    jobs.append(job)
                     job_index += 1
                     section_counter += 1  # Increment section counter
 
@@ -2043,14 +2725,29 @@ def scrape_lakehead_university():
                     date_element = driver.find_element(By.XPATH, date_xpath_orillia)
                     posting_date = date_element.text.strip()
 
-                    jobs.append({
-                        "school": "Lakehead University",
-                        "title": title,
-                        "date": posting_date,
-                        "link": link
-                    })
+                    # Check if job exists
+                    existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+                    if link not in existing_job_links:
+                        new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        job = {
+                            "school": "Lakehead University",
+                            "title": title,
+                            "date": posting_date if posting_date else new_since,
+                            "link": link,
+                            "new_since": new_since
+                        }
+                        logging.info(f"Added new job: {title}, posted on {posting_date}, new_since: {new_since}")
+                    else:
+                        job = {
+                            "school": "Lakehead University",
+                            "title": title,
+                            "date": existing_job.get("date", "No date provided"),
+                            "link": link,
+                            "new_since": existing_job.get("new_since", None)
+                        }
+                        logging.info(f"Job already exists: {title}")
 
-                    logging.info(f"Added job: {title}, posted on {posting_date}, link: {link}")
+                    jobs.append(job)
                     job_index += 1
                     section_counter += 1  # Increment section counter
 
@@ -2064,10 +2761,11 @@ def scrape_lakehead_university():
             logging.error(f"Error occurred during scraping: {e}")
             break
 
-    logging.info(f"Total jobs found: {len(jobs)}")
+    logging.info(f"Found {len(jobs)} jobs at Lakehead University")
     return jobs
 
-def scrape_nipissing_university():
+
+def scrape_nipissing_university(existing_job_links, existing_jobs):
     logging.info("Scraping Nipissing University")
     jobs = []
     url = "https://www.nipissingu.ca/employment-postings"
@@ -2103,13 +2801,29 @@ def scrape_nipissing_university():
                     except:
                         closing_date = "Open until filled"
                     
-                    # Add job details to the jobs list
-                    job = {
-                        "title": title,
-                        "school": "Nipissing University",
-                        "date": closing_date,
-                        "link": link
-                    }
+                    # Check if the job already exists
+                    existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+                    if link not in existing_job_links:
+                        new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        job = {
+                            "title": title,
+                            "school": "Nipissing University",
+                            "date": closing_date,
+                            "link": link,
+                            "new_since": new_since
+                        }
+                        logging.info(f"Added new job: {title}, closing date: {closing_date}, new_since: {new_since}")
+                    else:
+                        # If the job already exists, keep the old date and 'new_since'
+                        job = {
+                            "title": title,
+                            "school": "Nipissing University",
+                            "date": existing_job.get("date", closing_date),
+                            "link": link,
+                            "new_since": existing_job.get("new_since", None)
+                        }
+                        logging.info(f"Job already exists: {title}")
+
                     jobs.append(job)
                 
                 except Exception as e:
@@ -2121,7 +2835,8 @@ def scrape_nipissing_university():
     logging.info(f"Found {len(jobs)} jobs at Nipissing University")
     return jobs
 
-def scrape_ocad_university():
+
+def scrape_ocad_university(existing_job_links, existing_jobs):
     logging.info("Scraping OCAD University")
     jobs = []
     url = "https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=OCADU&cws=37"
@@ -2155,13 +2870,29 @@ def scrape_ocad_university():
             title = job_element.text
             link = job_element.get_attribute("href")
 
-            # Append job details
-            job = {
-                "title": title,
-                "school": "OCAD University",
-                "date": "No date provided",
-                "link": link
-            }
+            # Check if the job already exists
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+            if link not in existing_job_links:
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "OCAD University",
+                    "date": "No date provided",
+                    "link": link,
+                    "new_since": new_since  # Mark when the job was scraped
+                }
+                logging.info(f"Added new job: {title}, new_since: {new_since}")
+            else:
+                # If the job already exists, keep the old date and 'new_since'
+                job = {
+                    "title": title,
+                    "school": "OCAD University",
+                    "date": existing_job.get("date", "No date provided"),
+                    "link": link,
+                    "new_since": existing_job.get("new_since", None)
+                }
+                logging.info(f"Job already exists: {title}")
+
             jobs.append(job)
             job_index += 1
 
@@ -2171,6 +2902,8 @@ def scrape_ocad_university():
 
     logging.info(f"Found {len(jobs)} jobs at OCAD University")
     return jobs
+
+
 
 def scrape_ontario_tech():
     logging.info("Scraping Ontario Tech University")
@@ -2270,7 +3003,7 @@ def scrape_queens_university():
     return jobs
 
 
-def scrape_redeemer_university():
+def scrape_redeemer_university(existing_job_links, existing_jobs):
     logging.info("Scraping Redeemer University")
     jobs = []
     url = "https://www.redeemer.ca/about/careers/"
@@ -2291,13 +3024,32 @@ def scrape_redeemer_university():
                 title = job_element.text
                 link = job_element.get_attribute("href")
 
-                # Add job details to the jobs list
-                job = {
-                    "title": title,
-                    "school": "Redeemer University",
-                    "link": link
-                }
+                # Check if the job already exists in the scraped jobs
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+                if link not in existing_job_links:
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "title": title,
+                        "school": "Redeemer University",
+                        "link": link,
+                        "date": new_since,  # Assign new_since if no date available
+                        "new_since": new_since
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job, retain the original date and new_since
+                    job = {
+                        "title": title,
+                        "school": "Redeemer University",
+                        "link": link,
+                        "date": existing_job.get("date", "No date provided"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {title}")
+
                 jobs.append(job)
+
             except Exception as e:
                 logging.warning(f"Could not extract job details: {e}")
 
@@ -2308,7 +3060,7 @@ def scrape_redeemer_university():
     return jobs
 
 
-def scrape_trent_university():
+def scrape_trent_university(existing_job_links, existing_jobs):
     logging.info("Scraping Trent University Job Listings")
     jobs = []
     
@@ -2330,12 +3082,31 @@ def scrape_trent_university():
                 
                 title = job_element.text
                 link = job_element.get_attribute('href')
-                
-                job = {
-                    "title": title,
-                    "link": link,
-                    "school": "Trent University - Full-Time Faculty"
-                }
+
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+                if link not in existing_job_links:
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "title": title,
+                        "link": link,
+                        "school": "Trent University - Full-Time Faculty",
+                        "date": new_since,
+                        "new_since": new_since
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job, retain the original date and new_since
+                    job = {
+                        "title": title,
+                        "link": link,
+                        "school": "Trent University - Full-Time Faculty",
+                        "date": existing_job.get("date", "No date provided"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {title}")
+
                 jobs.append(job)
                 table_index += 1
             except Exception as e:
@@ -2358,12 +3129,31 @@ def scrape_trent_university():
                 
                 title = job_element.text
                 link = job_element.get_attribute('href')
-                
-                job = {
-                    "title": title,
-                    "link": link,
-                    "school": "Trent University - Non-Academic Positions"
-                }
+
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+                if link not in existing_job_links:
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "title": title,
+                        "link": link,
+                        "school": "Trent University - Non-Academic Positions",
+                        "date": new_since,
+                        "new_since": new_since
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job, retain the original date and new_since
+                    job = {
+                        "title": title,
+                        "link": link,
+                        "school": "Trent University - Non-Academic Positions",
+                        "date": existing_job.get("date", "No date provided"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {title}")
+
                 jobs.append(job)
                 row_index += 1
             except Exception as e:
@@ -2374,6 +3164,7 @@ def scrape_trent_university():
 
     logging.info(f"Found {len(jobs)} jobs at Trent University")
     return jobs
+
 
 def scrape_university_of_guelph():
     logging.info("Scraping University of Guelph Faculty, Librarian & Veterinarian positions")
@@ -2422,7 +3213,7 @@ def scrape_university_of_guelph():
     return jobs
 
 
-def scrape_university_of_ottawa():
+def scrape_university_of_ottawa(existing_job_links, existing_jobs):
     logging.info("Scraping University of Ottawa Career Opportunities")
     jobs = []
     url = "https://uottawa.wd3.myworkdayjobs.com/en-US/uOttawa_External_Career_Site"
@@ -2453,16 +3244,31 @@ def scrape_university_of_ottawa():
                 date_element = driver.find_element(By.XPATH, date_xpath)
                 posting_date = date_element.text.strip()
 
-                # Append job data to the list
-                job = {
-                    "school": "University of Ottawa",
-                    "title": title,
-                    "date": posting_date,
-                    "link": link,
-                }
-                jobs.append(job)
-                logging.info(f"Added job: {title}, posted on {posting_date}, link: {link}")
+                # Check if the job is new by comparing the link
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                if link not in existing_job_links:
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "University of Ottawa",
+                        "title": title,
+                        "date": posting_date if posting_date else new_since,  # Use the posting date or 'new_since' as fallback
+                        "link": link,
+                        "new_since": new_since  # Track when the job was scraped
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job, retain the 'new_since' or 'date'
+                    job = {
+                        "school": "University of Ottawa",
+                        "title": title,
+                        "date": existing_job.get("date", "No date provided"),  # Retain the original date if available
+                        "link": link,
+                        "new_since": existing_job.get("new_since", None)  # Retain 'new_since' for existing jobs
+                    }
+                    logging.info(f"Job already exists: {title}")
+
+                jobs.append(job)
                 index += 1  # Move to the next job listing
             except Exception as e:
                 logging.warning(f"No more job listings found at index {index} on page {page_number}: {e}")
@@ -2492,6 +3298,7 @@ def scrape_university_of_ottawa():
 
     logging.info(f"Total jobs found: {len(jobs)}")
     return jobs
+
 
 from selenium.common.exceptions import WebDriverException
 import time
@@ -2559,7 +3366,7 @@ def scrape_mcmaster():
 
 
 
-def scrape_st_michaels():
+def scrape_st_michaels(existing_job_links, existing_jobs):
     logging.info("Scraping University of St. Michael’s College job postings")
     jobs = []
 
@@ -2596,16 +3403,32 @@ def scrape_st_michaels():
                 date_element = driver.find_element(By.XPATH, date_xpath)
                 posting_date = date_element.text.strip()
 
-                # Creating job dictionary with required structure
-                job = {
-                    "school": "University of St. Michael’s College",
-                    "title": title,
-                    "date": posting_date,  # Using "date" for the posting date
-                    "link": link
-                }
-                jobs.append(job)
-                logging.info(f"Found job: {title}, Posted: {posting_date}")
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                if link not in existing_job_links:
+                    # For new jobs, assign today's date as 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "University of St. Michael’s College",
+                        "title": title,
+                        "date": posting_date if posting_date else new_since,  # Use posting date or 'new_since'
+                        "link": link,
+                        "new_since": new_since  # Track when the job was scraped
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job, retain original 'new_since' and 'date'
+                    job = {
+                        "school": "University of St. Michael’s College",
+                        "title": title,
+                        "date": existing_job.get("date", "No date provided"),
+                        "link": link,
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {title}")
+
+                jobs.append(job)
                 job_index += 1
 
             except Exception as e:
@@ -2619,9 +3442,9 @@ def scrape_st_michaels():
         driver.quit()
         logging.info(f"Scraped {len(jobs)} jobs from University of St. Michael’s College")
         return jobs
+
     
-    
-def scrape_u_of_toronto():
+def scrape_u_of_toronto(existing_job_links, existing_jobs):
     logging.info("Scraping University of Toronto job postings")
     jobs = []
 
@@ -2648,15 +3471,34 @@ def scrape_u_of_toronto():
                     title = title_element.text.strip()
                     link = title_element.get_attribute('href')
 
-                    job = {
-                        "school": "University of Toronto",
-                        "title": title,
-                        "link": link,
-                    }
-                    jobs.append(job)
-                    logging.info(f"Found job: {title}")
+                    # Check if the job already exists
+                    existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                    if link not in existing_job_links:
+                        # For new jobs, assign today's date as 'new_since'
+                        new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        job = {
+                            "school": "University of Toronto",
+                            "title": title,
+                            "link": link,
+                            "date": new_since,  # Use 'new_since' as the date for new jobs
+                            "new_since": new_since  # Track when the job was scraped
+                        }
+                        logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    else:
+                        # Existing job, retain original 'new_since' and 'date'
+                        job = {
+                            "school": "University of Toronto",
+                            "title": title,
+                            "link": link,
+                            "date": existing_job.get("date", "No date provided"),
+                            "new_since": existing_job.get("new_since", None)
+                        }
+                        logging.info(f"Job already exists: {title}")
+
+                    jobs.append(job)
                     job_index += 1
+
                 except Exception as e:
                     logging.warning(f"No more jobs found on current page after {job_index - 1} listings.")
                     break
@@ -2685,7 +3527,8 @@ def scrape_u_of_toronto():
         return jobs
 
 
-def scrape_trinity_college():
+
+def scrape_trinity_college(existing_job_links, existing_jobs):
     logging.info("Scraping Trinity College School job postings")
     jobs = []
 
@@ -2711,15 +3554,34 @@ def scrape_trinity_college():
                 title = title_element.text.strip()
                 link = title_element.get_attribute('href')
 
-                job = {
-                    "school": "Trinity College School",
-                    "title": title,
-                    "link": link,
-                }
-                jobs.append(job)
-                logging.info(f"Found job: {title}")
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                if link not in existing_job_links:
+                    # For new jobs, assign today's date as 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "Trinity College School",
+                        "title": title,
+                        "link": link,
+                        "date": new_since,  # Use 'new_since' as the date for new jobs
+                        "new_since": new_since  # Track when the job was scraped
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job, retain original 'new_since' and 'date'
+                    job = {
+                        "school": "Trinity College School",
+                        "title": title,
+                        "link": link,
+                        "date": existing_job.get("date", "No date provided"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {title}")
+
+                jobs.append(job)
                 div_index += 1
+
             except NoSuchElementException:
                 logging.warning(f"No more jobs found after {div_index - 1} listings.")
                 break
@@ -2785,7 +3647,7 @@ def scrape_university_of_waterloo():
         return jobs
 
 
-def scrape_university_of_windsor():
+def scrape_university_of_windsor(existing_job_links, existing_jobs):
     logging.info("Scraping University of Windsor job postings")
     jobs = []
 
@@ -2811,15 +3673,34 @@ def scrape_university_of_windsor():
                 title = title_element.text.strip()
                 link = title_element.get_attribute('href')
 
-                job = {
-                    "school": "University of Windsor",
-                    "title": title,
-                    "link": link,
-                }
-                jobs.append(job)
-                logging.info(f"Found job: {title}")
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                if link not in existing_job_links:
+                    # For new jobs, assign today's date as 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "University of Windsor",
+                        "title": title,
+                        "link": link,
+                        "date": new_since,  # Use 'new_since' as the date for new jobs
+                        "new_since": new_since  # Track when the job was scraped
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job, retain original 'new_since' and 'date'
+                    job = {
+                        "school": "University of Windsor",
+                        "title": title,
+                        "link": link,
+                        "date": existing_job.get("date", "No date provided"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {title}")
+
+                jobs.append(job)
                 div_index += 1
+
             except NoSuchElementException:
                 logging.warning(f"No more jobs found after {div_index - 1} listings.")
                 break
@@ -2888,7 +3769,7 @@ def scrape_victoria_university():
         return jobs
     
     
-def scrape_wilfrid_laurier_university():
+def scrape_wilfrid_laurier_university(existing_job_links, existing_jobs):
     logging.info("Scraping Wilfrid Laurier University job postings")
     jobs = []
     
@@ -2914,15 +3795,34 @@ def scrape_wilfrid_laurier_university():
                 title = title_element.text.strip()
                 link = title_element.get_attribute('href')
 
-                job = {
-                    "school": "Wilfrid Laurier University",
-                    "title": title,
-                    "link": link,
-                }
-                jobs.append(job)
-                logging.info(f"Found job: {title}")
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                if link not in existing_job_links:
+                    # For new jobs, assign today's date as 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "Wilfrid Laurier University",
+                        "title": title,
+                        "link": link,
+                        "date": new_since,  # Use 'new_since' as the date for new jobs
+                        "new_since": new_since  # Track when the job was scraped
+                    }
+                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                else:
+                    # Existing job, retain original 'new_since' and 'date'
+                    job = {
+                        "school": "Wilfrid Laurier University",
+                        "title": title,
+                        "link": link,
+                        "date": existing_job.get("date", "No date provided"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {title}")
+
+                jobs.append(job)
                 job_index += 1
+
             except NoSuchElementException:
                 logging.info(f"No more jobs found after {job_index - 1} listings.")
                 break
@@ -2934,9 +3834,9 @@ def scrape_wilfrid_laurier_university():
         driver.quit()
         logging.info(f"Scraped {len(jobs)} jobs from Wilfrid Laurier University")
         return jobs
+
     
-    
-def scrape_york_university():
+def scrape_york_university(existing_job_links):
     logging.info("Scraping York University job postings")
     jobs = []
     
@@ -2944,8 +3844,6 @@ def scrape_york_university():
     driver = webdriver.Chrome()  # Ensure you have the correct path for your webdriver
     driver.get(url)
     
-    
-
     try:
         # Wait for the page to load and ensure job listings are present
         WebDriverWait(driver, 15).until(
@@ -2968,15 +3866,28 @@ def scrape_york_university():
                 date_element = driver.find_element(By.XPATH, date_xpath)
                 posting_date = date_element.text.strip()
 
-                job = {
-                    "school": "York University",
-                    "title": title,
-                    "link": link,
-                    "date": posting_date
-                }
-                jobs.append(job)
-                logging.info(f"Found job: {title} - {posting_date}")
+                # Check if the job is new by comparing the link
+                if link not in existing_job_links:
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "York University",
+                        "title": title,
+                        "link": link,
+                        "date": posting_date if posting_date else new_since,  # Use posted date or new_since
+                        "new_since": new_since  # Track when the job was scraped
+                    }
+                    logging.info(f"Added new job: {title} - {posting_date or new_since}")
+                else:
+                    # Existing job, retain original date
+                    job = {
+                        "school": "York University",
+                        "title": title,
+                        "link": link,
+                        "date": posting_date  # Use the existing posting date
+                    }
+                    logging.info(f"Job already exists: {title} - {posting_date}")
 
+                jobs.append(job)
                 job_index += 1
             except NoSuchElementException:
                 logging.info(f"No more jobs found after {job_index - 1} listings.")
@@ -2989,7 +3900,7 @@ def scrape_york_university():
         driver.quit()
         logging.info(f"Scraped {len(jobs)} jobs from York University")
         return jobs
-    
+
     
 def scrape_upei():
     logging.info("Scraping University of Prince Edward Island job postings")
@@ -3042,7 +3953,7 @@ def scrape_upei():
 
 
 
-def scrape_bishops_university():
+def scrape_bishops_university(existing_job_links, existing_jobs):
     logging.info("Scraping Bishop's University job postings")
     jobs = []
     
@@ -3067,14 +3978,32 @@ def scrape_bishops_university():
                 link_element = driver.find_element(By.XPATH, link_xpath)
                 link = link_element.get_attribute('href')
 
-                # Append job details to the list
-                job = {
-                    "school": "Bishop's University",
-                    "title": name,
-                    "link": link
-                }
+                # Check if the job already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+                if link not in existing_job_links:
+                    # For new jobs, assign today's date as 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "Bishop's University",
+                        "title": name,
+                        "link": link,
+                        "date": new_since,  # Use 'new_since' as the date for new jobs
+                        "new_since": new_since  # Track when the job was scraped
+                    }
+                    logging.info(f"Added new job: {name}, new_since: {new_since}")
+                else:
+                    # Existing job, retain original 'new_since' and 'date'
+                    job = {
+                        "school": "Bishop's University",
+                        "title": name,
+                        "link": link,
+                        "date": existing_job.get("date", "No date provided"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {name}")
+
                 jobs.append(job)
-                logging.info(f"Found job: {name}")
 
                 job_index += 1
             except NoSuchElementException:
@@ -3088,9 +4017,10 @@ def scrape_bishops_university():
         driver.quit()
         logging.info(f"Scraped {len(jobs)} jobs from Bishop's University")
         return jobs
+
     
     
-def scrape_ets():
+def scrape_ets(existing_job_links, existing_jobs):
     logging.info("Scraping École de technologie supérieure job postings")
     jobs = []
     
@@ -3110,16 +4040,34 @@ def scrape_ets():
                 name = name_link_element.text.strip()
                 link = name_link_element.get_attribute('href')
 
-                # Append job details to the list
-                job = {
-                    "school": "École de technologie supérieure",
-                    "title": name,
-                    "link": link
-                }
-                jobs.append(job)
-                logging.info(f"Found job: {name}")
+                # Check if the job is new or already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                if link not in existing_job_links:
+                    # For new jobs, assign current date and time as 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "École de technologie supérieure",
+                        "title": name,
+                        "link": link,
+                        "date": new_since,  # Set 'new_since' as the date
+                        "new_since": new_since
+                    }
+                    logging.info(f"Added new job: {name}, new_since: {new_since}")
+                else:
+                    # Existing job: retain original 'new_since' and 'date'
+                    job = {
+                        "school": "École de technologie supérieure",
+                        "title": name,
+                        "link": link,
+                        "date": existing_job.get("date", "No date provided"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {name}")
+
+                jobs.append(job)
                 job_index += 1
+
             except NoSuchElementException:
                 logging.info(f"No more jobs found after {job_index - 1} listings.")
                 break
@@ -3130,11 +4078,12 @@ def scrape_ets():
     finally:
         driver.quit()
         logging.info(f"Scraped {len(jobs)} jobs from ÉTS")
-        return jobs    
+        return jobs
+ 
     
 
 
-def scrape_hec_montreal():
+def scrape_hec_montreal(existing_job_links, existing_jobs):
     logging.info("Scraping HEC Montréal job postings")
     jobs = []
     
@@ -3175,15 +4124,32 @@ def scrape_hec_montreal():
                 name = name_link_element.text.strip()
                 link = name_link_element.get_attribute('href')
 
-                # Append job details to the list
-                job = {
-                    "school": "HEC Montréal",
-                    "title": name,
-                    "link": link
-                }
-                jobs.append(job)
-                logging.info(f"Found job: {name}")
+                # Check if the job is new or already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                if link not in existing_job_links:
+                    # For new jobs, assign current date and time as 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "HEC Montréal",
+                        "title": name,
+                        "link": link,
+                        "date": new_since,  # Set 'new_since' as the date
+                        "new_since": new_since
+                    }
+                    logging.info(f"Added new job: {name}, new_since: {new_since}")
+                else:
+                    # Existing job: retain original 'new_since' and 'date'
+                    job = {
+                        "school": "HEC Montréal",
+                        "title": name,
+                        "link": link,
+                        "date": existing_job.get("date", "No date provided"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {name}")
+
+                jobs.append(job)
                 job_index += 2  # Increment by 2 as the div index seems to increase by 2 for each listing
             except (NoSuchElementException, TimeoutException):
                 logging.info(f"No more jobs found after {job_index - 1} listings.")
@@ -3198,7 +4164,8 @@ def scrape_hec_montreal():
         return jobs
 
 
-def scrape_polytechnique_montreal():
+
+def scrape_polytechnique_montreal(existing_job_links, existing_jobs):
     logging.info("Scraping Polytechnique Montréal job postings")
     jobs = []
     
@@ -3230,15 +4197,32 @@ def scrape_polytechnique_montreal():
                     name = name_link_element.text.strip()
                     link = name_link_element.get_attribute('href')
 
-                    # Append job details to the list
-                    job = {
-                        "school": "Polytechnique Montréal",
-                        "title": name,
-                        "link": link
-                    }
-                    jobs.append(job)
-                    logging.info(f"Found job in section {section}: {name}")
+                    # Check if the job is new or already exists
+                    existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                    if link not in existing_job_links:
+                        # For new jobs, assign current date and time as 'new_since'
+                        new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        job = {
+                            "school": "Polytechnique Montréal",
+                            "title": name,
+                            "link": link,
+                            "date": new_since,  # Set 'new_since' as the date
+                            "new_since": new_since
+                        }
+                        logging.info(f"Added new job: {name}, new_since: {new_since}")
+                    else:
+                        # Existing job: retain original 'new_since' and 'date'
+                        job = {
+                            "school": "Polytechnique Montréal",
+                            "title": name,
+                            "link": link,
+                            "date": existing_job.get("date", "No date provided"),
+                            "new_since": existing_job.get("new_since", None)
+                        }
+                        logging.info(f"Job already exists: {name}")
+
+                    jobs.append(job)
                     job_index += 1  # Increment to the next job in the list
                 except NoSuchElementException:
                     logging.info(f"No more jobs found in section {section} after {job_index - 1} listings.")
@@ -3255,7 +4239,8 @@ def scrape_polytechnique_montreal():
 
 
 
-def scrape_sherbrooke():
+
+def scrape_sherbrooke(existing_job_links, existing_jobs):
     logging.info("Scraping Université de Sherbrooke job postings")
     jobs = []
     
@@ -3280,15 +4265,32 @@ def scrape_sherbrooke():
                 name = name_link_element.text.strip()
                 link = name_link_element.get_attribute('href')
 
-                # Append job details to the list
-                job = {
-                    "school": "Université de Sherbrooke",
-                    "title": name,
-                    "link": link
-                }
-                jobs.append(job)
-                logging.info(f"Found job: {name}")
+                # Check if the job is new or already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                if link not in existing_job_links:
+                    # For new jobs, assign current date and time as 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "Université de Sherbrooke",
+                        "title": name,
+                        "link": link,
+                        "date": new_since,  # Set 'new_since' as the date
+                        "new_since": new_since
+                    }
+                    logging.info(f"Added new job: {name}, new_since: {new_since}")
+                else:
+                    # Existing job: retain original 'new_since' and 'date'
+                    job = {
+                        "school": "Université de Sherbrooke",
+                        "title": name,
+                        "link": link,
+                        "date": existing_job.get("date", "No date provided"),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {name}")
+
+                jobs.append(job)
                 job_index += 1  # Increment to the next job in the list
             except NoSuchElementException:
                 logging.info(f"No more jobs found after {job_index - 1} listings.")
@@ -3303,7 +4305,8 @@ def scrape_sherbrooke():
         return jobs
 
 
-def scrape_uqam():
+
+def scrape_uqam(existing_job_links, existing_jobs):
     logging.info("Scraping Université du Québec à Montréal (UQAM) job postings with pagination")
     jobs = []
     
@@ -3329,15 +4332,32 @@ def scrape_uqam():
                     name = name_link_element.text.strip()
                     link = name_link_element.get_attribute('href')
 
-                    # Append job details to the list
-                    job = {
-                        "school": "Université du Québec à Montréal (UQAM)",
-                        "title": name,
-                        "link": link
-                    }
-                    jobs.append(job)
-                    logging.info(f"Found job: {name}")
+                    # Check if the job is new or already exists
+                    existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                    if link not in existing_job_links:
+                        # For new jobs, assign current date and time as 'new_since'
+                        new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        job = {
+                            "school": "Université du Québec à Montréal (UQAM)",
+                            "title": name,
+                            "link": link,
+                            "date": new_since,  # Set 'new_since' as the date
+                            "new_since": new_since
+                        }
+                        logging.info(f"Added new job: {name}, new_since: {new_since}")
+                    else:
+                        # Existing job: retain original 'new_since' and 'date'
+                        job = {
+                            "school": "Université du Québec à Montréal (UQAM)",
+                            "title": name,
+                            "link": link,
+                            "date": existing_job.get("date", "No date provided"),
+                            "new_since": existing_job.get("new_since", None)
+                        }
+                        logging.info(f"Job already exists: {name}")
+
+                    jobs.append(job)
                     job_index += 1  # Increment to the next job in the list
                 except NoSuchElementException:
                     logging.info(f"No more jobs found after {job_index - 1} listings on this page.")
@@ -3430,11 +4450,11 @@ def scrape_uqac_jobs():
 
 
 
-def scrape_uqar_jobs():
+def scrape_uqar_jobs(existing_job_links, existing_jobs):
     logging.info("Scraping Université du Québec à Rimouski (UQAR) job postings")
     jobs = []
     
-    # Hardcoded URLs for the first 10 pages
+    # URLs for all 20 pages
     urls = [
         "https://emploi.uqar.ca/emplois-travail-boulot-postes-ouverts/",
         "https://emploi.uqar.ca/emplois-travail-boulot-postes-ouverts/page/2/",
@@ -3482,15 +4502,32 @@ def scrape_uqar_jobs():
                         name = name_link_element.text.strip()
                         link = name_link_element.get_attribute('href')
 
-                        # Append job details to the list
-                        job = {
-                            "school": "Université du Québec à Rimouski (UQAR)",
-                            "title": name,
-                            "link": link
-                        }
-                        jobs.append(job)
-                        logging.info(f"Found job: {name}")
+                        # Check if the job already exists
+                        existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                        if link not in existing_job_links:
+                            # For new jobs, assign current date and time as 'new_since'
+                            new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                            job = {
+                                "school": "Université du Québec à Rimouski (UQAR)",
+                                "title": name,
+                                "link": link,
+                                "date": new_since,  # Set 'new_since' as the date
+                                "new_since": new_since
+                            }
+                            logging.info(f"Added new job: {name}, new_since: {new_since}")
+                        else:
+                            # For existing jobs, keep their original 'new_since' and 'date'
+                            job = {
+                                "school": "Université du Québec à Rimouski (UQAR)",
+                                "title": name,
+                                "link": link,
+                                "date": existing_job.get("date", "No date provided"),
+                                "new_since": existing_job.get("new_since", None)
+                            }
+                            logging.info(f"Job already exists: {name}")
+
+                        jobs.append(job)
                         job_index += 1  # Increment to the next job in the list
                     except NoSuchElementException:
                         logging.info(f"No more jobs found on page {url}.")
@@ -3505,7 +4542,7 @@ def scrape_uqar_jobs():
 
 
 
-def scrape_universite_laval_jobs():
+def scrape_universite_laval_jobs(existing_job_links, existing_jobs):
     logging.info("Scraping Université Laval job postings")
     jobs = []
     
@@ -3523,7 +4560,7 @@ def scrape_universite_laval_jobs():
                 # XPath for job name and link (with tr[#] structure for each listing)
                 name_link_xpath = f"/html/body/div[3]/section/div/div/div[2]/div/div/div/div/article/div[1]/table/tbody/tr[{job_index}]/td[3]/span[2]/a"
                 
-                # XPath for the job posting date (without `/text()[1]`)
+                # XPath for the job posting date
                 date_xpath = f"/html/body/div[3]/section/div/div/div[2]/div/div/div/div/article/div[1]/table/tbody/tr[{job_index}]/td[4]/span[2]"
 
                 # Wait for the job name/link element to be visible
@@ -3540,16 +4577,32 @@ def scrape_universite_laval_jobs():
                 date_element = driver.find_element(By.XPATH, date_xpath)
                 date_posted = date_element.text.strip()
 
-                # Append job details to the list
-                job = {
-                    "school": "Université Laval",
-                    "title": name,
-                    "link": link,
-                    "date_posted": date_posted
-                }
-                jobs.append(job)
-                logging.info(f"Found job: {name} (Posted on: {date_posted})")
+                # Check if the job is new or already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                if link not in existing_job_links:
+                    # For new jobs, assign current date and time as 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "Université Laval",
+                        "title": name,
+                        "link": link,
+                        "date_posted": date_posted,
+                        "new_since": new_since  # Set 'new_since' for new jobs
+                    }
+                    logging.info(f"Added new job: {name}, new_since: {new_since}")
+                else:
+                    # For existing jobs, keep their original 'new_since' and 'date'
+                    job = {
+                        "school": "Université Laval",
+                        "title": name,
+                        "link": link,
+                        "date_posted": existing_job.get("date_posted", date_posted),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {name}")
+
+                jobs.append(job)
                 job_index += 1  # Increment to the next job in the list
             except NoSuchElementException:
                 logging.info(f"No more jobs found after {job_index - 1} listings.")
@@ -3562,7 +4615,7 @@ def scrape_universite_laval_jobs():
         return jobs
     
     
-def scrape_campion_college_jobs():
+def scrape_campion_college_jobs(existing_job_links, existing_jobs):
     logging.info("Scraping Campion College job postings")
     jobs = []
     
@@ -3589,18 +4642,40 @@ def scrape_campion_college_jobs():
                 name = name_link_element.text.strip()
                 link = name_link_element.get_attribute('href')
 
-                # Append job details to the list
-                job = {
-                    "school": "Campion College",
-                    "title": name,
-                    "link": link
-                }
-                jobs.append(job)
-                logging.info(f"Found job: {name}")
+                # Check if the job is new or already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                if link not in existing_job_links:
+                    # For new jobs, assign current date and time as 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "Campion College",
+                        "title": name,
+                        "link": link,
+                        "new_since": new_since  # Set 'new_since' for new jobs
+                    }
+                    logging.info(f"Added new job: {name}, new_since: {new_since}")
+                else:
+                    # For existing jobs, retain original 'new_since' and 'date'
+                    job = {
+                        "school": "Campion College",
+                        "title": name,
+                        "link": link,
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {name}")
+
+                jobs.append(job)
                 job_index += 1  # Increment to the next job in the list
+                
+            except NoSuchElementException:
+                logging.info(f"No more jobs found after {job_index - 1} listings.")
+                break
+            except TimeoutException:
+                logging.warning("Timed out waiting for the job listing to load.")
+                break
             except Exception as e:
-                logging.error(f"Error or no more jobs found on page: {e}")
+                logging.error(f"Error occurred: {e}")
                 break
 
     except Exception as e:
@@ -3612,13 +4687,11 @@ def scrape_campion_college_jobs():
         return jobs
 
 
-
-def scrape_fnuniv_jobs():
+def scrape_fnuniv_jobs(existing_job_links, existing_jobs):
     logging.info("Scraping First Nations University of Canada job postings")
     jobs = []
     
     url = "https://can241.dayforcehcm.com/CandidatePortal/en-US/Fnuniv"
-    
     driver = webdriver.Chrome()  # Ensure the correct path to your webdriver
 
     try:
@@ -3642,24 +4715,44 @@ def scrape_fnuniv_jobs():
 
                 # XPath for the date (updated to extract the parent element)
                 date_xpath = f"/html/body/div[1]/div/div[1]/main/div[3]/ul/li[{job_index}]/div[1]/div[1]/div[3]"
-
-                # Extract the date text from the element
                 date_element = driver.find_element(By.XPATH, date_xpath)
                 date = date_element.text.strip()
 
-                # Append job details to the list
-                job = {
-                    "school": "First Nations University of Canada",
-                    "title": name,
-                    "link": link,
-                    "date_posted": date
-                }
-                jobs.append(job)
-                logging.info(f"Found job: {name}")
+                # Check if the job is new or already exists
+                existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
+                if link not in existing_job_links:
+                    # For new jobs, assign current date and time as 'new_since'
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "First Nations University of Canada",
+                        "title": name,
+                        "link": link,
+                        "date_posted": date,
+                        "new_since": new_since  # Set 'new_since' for new jobs
+                    }
+                    logging.info(f"Added new job: {name}, new_since: {new_since}")
+                else:
+                    # For existing jobs, retain original 'new_since' and 'date'
+                    job = {
+                        "school": "First Nations University of Canada",
+                        "title": name,
+                        "link": link,
+                        "date_posted": existing_job.get("date_posted", date),
+                        "new_since": existing_job.get("new_since", None)
+                    }
+                    logging.info(f"Job already exists: {name}")
+
+                jobs.append(job)
                 job_index += 1  # Increment to the next job in the list
             except NoSuchElementException:
                 logging.info(f"No more jobs found after {job_index - 1} listings.")
+                break
+            except TimeoutException:
+                logging.warning("Timed out waiting for the job listing to load.")
+                break
+            except Exception as e:
+                logging.error(f"Error occurred: {e}")
                 break
 
     except Exception as e:
@@ -3671,7 +4764,7 @@ def scrape_fnuniv_jobs():
         return jobs
 
 
-def scrape_stm_jobs():
+def scrape_stm_jobs(existing_job_links, existing_jobs):
     logging.info("Scraping St. Thomas More College job postings")
     jobs = []
 
@@ -3684,7 +4777,6 @@ def scrape_stm_jobs():
         while True:
             try:
                 # XPath pattern for job title (text content) and link
-                name_xpath = f"/html/body/div/div/section[2]/div/div/div[2]/div/div/div/p[{job_index}]/a/text()"
                 link_xpath = f"/html/body/div/div/section[2]/div/div/div[2]/div/div/div/p[{job_index}]/a"
                 
                 # Wait for the name element to be present
@@ -3698,15 +4790,30 @@ def scrape_stm_jobs():
                 # Extract the link
                 link = driver.find_element(By.XPATH, link_xpath).get_attribute('href')
 
-                # Append job details to the list
-                job = {
-                    "school": "St. Thomas More College",
-                    "title": name,
-                    "link": link
-                }
-                jobs.append(job)
-                logging.info(f"Found job: {name}")
+                # Check if the job is new by comparing the link
+                if link not in existing_job_links:
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "St. Thomas More College",
+                        "title": name,
+                        "link": link,
+                        "date": new_since,  # Using the scrape time as the date
+                        "new_since": new_since  # Track when the job was scraped
+                    }
+                    logging.info(f"Added new job: {name} (Posted on: {new_since})")
+                else:
+                    # Existing job, retain the original 'new_since' and 'date'
+                    existing_job = next((job for job in existing_jobs if job['link'] == link), None)
+                    job = {
+                        "school": "St. Thomas More College",
+                        "title": name,
+                        "link": link,
+                        "date": existing_job['date'] if existing_job and 'date' in existing_job else "No date provided",
+                        "new_since": existing_job['new_since'] if existing_job and 'new_since' in existing_job else datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    }
+                    logging.info(f"Job already exists: {name}")
 
+                jobs.append(job)
                 job_index += 1  # Move to the next listing
             except NoSuchElementException:
                 logging.info("No more jobs found.")
@@ -3721,8 +4828,7 @@ def scrape_stm_jobs():
         return jobs
 
 
-
-def scrape_uofr_jobs():
+def scrape_uofr_jobs(existing_job_links, existing_jobs):
     logging.info("Scraping University of Regina job postings")
     jobs = []
 
@@ -3747,15 +4853,30 @@ def scrape_uofr_jobs():
                 name = name_link_element.text.strip()
                 link = name_link_element.get_attribute('href')
 
-                # Append job details to the list
-                job = {
-                    "school": "University of Regina",
-                    "title": name,
-                    "link": link
-                }
-                jobs.append(job)
-                logging.info(f"Found job: {name}")
+                # Check if the job is new by comparing the link
+                if link not in existing_job_links:
+                    new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    job = {
+                        "school": "University of Regina",
+                        "title": name,
+                        "link": link,
+                        "date": new_since,  # Using scrape time as date
+                        "new_since": new_since  # Track when the job was scraped
+                    }
+                    logging.info(f"Added new job: {name} (Posted on: {new_since})")
+                else:
+                    # Existing job, retain the original 'new_since' and 'date'
+                    existing_job = next((job for job in existing_jobs if job['link'] == link), None)
+                    job = {
+                        "school": "University of Regina",
+                        "title": name,
+                        "link": link,
+                        "date": existing_job['date'] if existing_job and 'date' in existing_job else "No date provided",
+                        "new_since": existing_job['new_since'] if existing_job and 'new_since' in existing_job else datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    }
+                    logging.info(f"Job already exists: {name}")
 
+                jobs.append(job)
                 job_index += 1  # Move to the next listing
             except NoSuchElementException:
                 logging.info("No more jobs found.")
@@ -3772,7 +4893,7 @@ def scrape_uofr_jobs():
 
 
 
-def scrape_uofs_jobs():
+def scrape_uofs_jobs(existing_job_links, existing_jobs):
     logging.info("Scraping University of Saskatchewan job postings")
     jobs = []
 
@@ -3800,16 +4921,30 @@ def scrape_uofs_jobs():
                     link = driver.find_element(By.XPATH, link_xpath).get_attribute('href')
                     date_posted = driver.find_element(By.XPATH, date_xpath).text.strip()
 
-                    # Append job details to the list
-                    job = {
-                        "school": "University of Saskatchewan",
-                        "title": name,
-                        "link": link,
-                        "date_posted": date_posted
-                    }
-                    jobs.append(job)
-                    logging.info(f"Found job: {name} (Posted on: {date_posted})")
+                    # Check if the job is new by comparing the link
+                    if link not in existing_job_links:
+                        new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        job = {
+                            "school": "University of Saskatchewan",
+                            "title": name,
+                            "link": link,
+                            "date": date_posted if date_posted else new_since,  # Use date posted or new_since
+                            "new_since": new_since  # Track when the job was scraped
+                        }
+                        logging.info(f"Added new job: {name} (Posted on: {date_posted or new_since})")
+                    else:
+                        # Existing job, retain the original 'new_since' date
+                        existing_job = next((job for job in existing_jobs if job['link'] == link), None)
+                        job = {
+                            "school": "University of Saskatchewan",
+                            "title": name,
+                            "link": link,
+                            "date": existing_job['date'] if existing_job and 'date' in existing_job else date_posted,
+                            "new_since": existing_job['new_since'] if existing_job and 'new_since' in existing_job else new_since
+                        }
+                        logging.info(f"Job already exists: {name} (Posted on: {date_posted})")
 
+                    jobs.append(job)
                     job_index += 1  # Move to the next listing
                 except NoSuchElementException:
                     logging.info("No more jobs found on this page.")
@@ -3839,7 +4974,6 @@ def scrape_uofs_jobs():
 
 
 
-
 def scrape_stmarys():
     logging.info("Scraping St. Mary's University")
     jobs = []
@@ -3857,7 +4991,7 @@ def scrape_stmarys():
 
     # Explicitly wait for the job elements to be present
     job_link_selector = ".card-body a"
-    WebDriverWait(driver, 10).until(
+    WebDriverWait(driver, 60).until(
         EC.presence_of_all_elements_located((By.CSS_SELECTOR, job_link_selector))
     )
 
@@ -3894,78 +5028,29 @@ def scrape_stmarys():
 
 
 
-# Combine all scraping functions, including the new scrape_stmarys function
-logging.info("Starting the scraping process")
-new_jobs = (
-    scrape_york_university() +
-    scrape_athabasca() +
-    scrape_mtroyal() +
-    scrape_memorial() +  # Updated Memorial scraper
-    scrape_macewan_rss() +
-    scrape_concordia() +
-    scrape_stmarys() +
-    scrape_ualberta() +
-    scrape_ucalgary() +
-    scrape_capilano() +
-    scrape_kwantlen() +
-    scrape_royal_roads() +
-    scrape_sfu() +
-    scrape_ubc_jobs() +
-    scrape_unbc_jobs() +
-    scrape_ufv_jobs() +
-    scrape_uvic() +
-    scrape_vancouver_island_university() +
-    scrape_brandon() +
-    scrape_cmu() +
-    scrape_university_of_saint_boniface() +
-    scrape_university_of_new_brunswick() +
-    scrape_mount_allison_university() +
-    scrape_st_thomas_university() +
-    scrape_universite_de_moncton() +
-    scrape_acadia_university() +
-    scrape_cape_breton_university() +
-    scrape_dalhousie_university() +
-    scrape_nscad_university() +
-    scrape_smu_jobs() +
-    scrape_universite_sainte_anne() +
-    scrape_university_of_kings_college() +
-    scrape_lethbridge() +
-    scrape_brock_university() +
-    scrape_carleton_university() +
-    scrape_huron_university() +
-    scrape_kings_university_college() +
-    scrape_lakehead_university() +
-    scrape_nipissing_university() +
-    scrape_ocad_university() +
-    scrape_ontario_tech() +
-    scrape_queens_university() +
-    scrape_redeemer_university() +
-    scrape_trent_university() +
-    scrape_university_of_ottawa() +
-    scrape_st_michaels() +
-    scrape_u_of_toronto() +
-    scrape_trinity_college() +
-    scrape_university_of_windsor() +
-    scrape_victoria_university() +
-    scrape_wilfrid_laurier_university() +
-    scrape_upei() +
-    scrape_bishops_university() +
-    scrape_ets() +
-    scrape_hec_montreal() +
-    scrape_polytechnique_montreal() +
-    scrape_sherbrooke() +
-    scrape_uqam() +
-    scrape_uqac_jobs() +
-    scrape_uqar_jobs() +
-    scrape_universite_laval_jobs() +
-    scrape_campion_college_jobs() +
-    scrape_fnuniv_jobs() +
-    scrape_stm_jobs() +
-    scrape_uofr_jobs() +
-    scrape_uofs_jobs()
-)
+from datetime import datetime
+import dateutil.parser
+import os
+import json
+import logging
 
-driver.quit()
+# Helper function to add ordinal suffixes
+def ordinal(n):
+    if 11 <= (n % 100) <= 13:
+        return f'{n}th'
+    else:
+        return f'{n}{"st" if n % 10 == 1 else "nd" if n % 10 == 2 else "rd" if n % 10 == 3 else "th"}'
+
+# Helper function to format dates nicely
+def format_date(date_string):
+    try:
+        parsed_date = dateutil.parser.parse(date_string)
+        return parsed_date.strftime(f'%B {ordinal(parsed_date.day)}, %Y')
+    except Exception as e:
+        logging.warning(f"Could not parse date '{date_string}': {e}")
+        return date_string  # Return original string if parsing fails
+
+logging.info("Starting the scraping process")
 
 # Load existing jobs
 def load_existing_jobs():
@@ -3977,8 +5062,82 @@ def load_existing_jobs():
 logging.info("Loading existing jobs")
 existing_jobs = load_existing_jobs()
 
-current_job_links = {job['link'] for job in new_jobs}
+# Extract the links of existing jobs to check for duplicates
 existing_job_links = {job['link'] for job in existing_jobs}
+
+# Combine all scraping functions, passing the existing job links to each function
+new_jobs = (
+    scrape_york_university(existing_job_links) +
+    scrape_athabasca(existing_job_links, existing_jobs) +
+    scrape_mtroyal(existing_job_links, existing_jobs) +
+    scrape_memorial(existing_job_links, existing_jobs) +  # Updated Memorial scraper
+    scrape_macewan_rss(existing_job_links, existing_jobs) +
+    scrape_concordia(existing_job_links, existing_jobs) +
+    #scrape_stmarys() +
+    scrape_ualberta(existing_job_links, existing_jobs) +
+    scrape_ucalgary(existing_job_links, existing_jobs) +
+    scrape_capilano() +
+    scrape_kwantlen(existing_job_links, existing_jobs) +
+    scrape_royal_roads(existing_job_links, existing_jobs) +
+    scrape_sfu(existing_job_links, existing_jobs) +
+    scrape_ubc_jobs(existing_job_links, existing_jobs) +
+    scrape_unbc_jobs() +
+    scrape_ufv_jobs(existing_job_links, existing_jobs) +
+    scrape_uvic(existing_job_links, existing_jobs) +
+    scrape_vancouver_island_university(existing_job_links, existing_jobs) +
+    scrape_brandon(existing_job_links, existing_jobs) +
+    scrape_cmu(existing_job_links, existing_jobs) +
+    scrape_university_of_saint_boniface(existing_job_links, existing_jobs) +
+    scrape_university_of_new_brunswick(existing_job_links, existing_jobs) +
+    scrape_mount_allison_university() +
+    scrape_st_thomas_university(existing_job_links, existing_jobs) +
+    scrape_universite_de_moncton(existing_job_links, existing_jobs) +
+    scrape_acadia_university(existing_job_links, existing_jobs) +
+    scrape_cape_breton_university(existing_job_links, existing_jobs) +
+    scrape_dalhousie_university(existing_job_links, existing_jobs) +
+    scrape_nscad_university(existing_job_links, existing_jobs) +
+    scrape_smu_jobs(existing_job_links, existing_jobs) +
+    scrape_universite_sainte_anne(existing_job_links, existing_jobs) +
+    scrape_university_of_kings_college(existing_job_links, existing_jobs) +
+    scrape_lethbridge(existing_job_links, existing_jobs) +
+    scrape_brock_university(existing_job_links, existing_jobs) +
+    scrape_carleton_university(existing_job_links, existing_jobs) +
+    scrape_huron_university(existing_job_links, existing_jobs) +
+    scrape_kings_university_college(existing_job_links, existing_jobs) +
+    scrape_lakehead_university(existing_job_links, existing_jobs) +
+    scrape_nipissing_university(existing_job_links, existing_jobs) +
+    scrape_ocad_university(existing_job_links, existing_jobs) +
+    scrape_ontario_tech() +
+    scrape_queens_university() +
+    scrape_redeemer_university(existing_job_links, existing_jobs) +
+    scrape_trent_university(existing_job_links, existing_jobs) +
+    scrape_university_of_ottawa(existing_job_links, existing_jobs) +
+    scrape_st_michaels(existing_job_links, existing_jobs) +
+    scrape_u_of_toronto(existing_job_links, existing_jobs) +
+    scrape_trinity_college(existing_job_links, existing_jobs) +
+    scrape_university_of_windsor(existing_job_links, existing_jobs) +
+    scrape_victoria_university() +
+    scrape_wilfrid_laurier_university(existing_job_links, existing_jobs) +
+    scrape_upei() +
+    scrape_bishops_university(existing_job_links, existing_jobs) +
+    scrape_ets(existing_job_links, existing_jobs) +
+    scrape_hec_montreal(existing_job_links, existing_jobs) +
+    scrape_polytechnique_montreal(existing_job_links, existing_jobs) +
+    scrape_sherbrooke(existing_job_links, existing_jobs) +
+    scrape_uqam(existing_job_links, existing_jobs) +
+    scrape_uqac_jobs() +
+    scrape_uqar_jobs(existing_job_links, existing_jobs) +
+    scrape_universite_laval_jobs(existing_job_links, existing_jobs) +
+    scrape_campion_college_jobs(existing_job_links, existing_jobs) +
+    scrape_fnuniv_jobs(existing_job_links, existing_jobs) +
+    scrape_stm_jobs(existing_job_links, existing_jobs) +
+    scrape_uofr_jobs(existing_job_links, existing_jobs) +
+    scrape_uofs_jobs(existing_job_links, existing_jobs)
+)
+
+driver.quit()
+
+current_job_links = {job['link'] for job in new_jobs}
 
 # Determine new and removed jobs based on the link attribute
 added_jobs = [job for job in new_jobs if job['link'] not in existing_job_links]
@@ -3990,9 +5149,9 @@ logging.info(f"Removed jobs: {len(removed_jobs)}")
 # Preserve 'new_since' for existing jobs and add 'new_since' for new jobs
 for job in new_jobs:
     if job['link'] in existing_job_links:
-        # Preserve 'new_since' for existing jobs; if missing, assign today's date
+        # Preserve 'new_since' for existing jobs
         job['new_since'] = next(
-            (existing_job.get('new_since', datetime.now().strftime('%Y-%m-%d')) 
+            (existing_job.get('new_since', datetime.now().isoformat()) 
              for existing_job in existing_jobs if existing_job['link'] == job['link']), 
             None
         )
@@ -4000,9 +5159,9 @@ for job in new_jobs:
         # For new jobs, assign today's date as 'new_since'
         job['new_since'] = datetime.now().isoformat()
 
-    # If no date is provided, use 'new_since' as the 'date'
+    # If no date is provided, use 'new_since' as the 'date' and format it
     if "date" not in job or not job["date"]:
-        job["date"] = job['new_since']  # Use 'new_since' for jobs with no date
+        job["date"] = format_date(job['new_since'])  # Format 'new_since' for jobs with no date
 
 # Save the new job listings with 'new_since'
 data = {"jobs": new_jobs, "last_updated": datetime.now().isoformat()}

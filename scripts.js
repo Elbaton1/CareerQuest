@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   fetchJobs();
   populateFilter();
   displayTimestamp();
-  fetchScrapingLog();
+  fetchScrapingLog(); // This function was missing
   loadBookmarkedJobs();
 
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
@@ -46,47 +46,70 @@ function fetchJobs() {
     });
 }
 
+function fetchScrapingLog() {
+  fetch("Beans/scraping_log.json")
+    .then((response) => response.json())
+    .then((data) => {
+      console.log("Scraping log data: ", data);
+      // Additional logic to handle scraping log can be added here if needed
+    })
+    .catch((error) => {
+      console.error("Error fetching scraping log:", error);
+    });
+}
+
 function isJobNew(job) {
   const today = new Date();
   let jobDate;
 
-  // Use the job's date or fallback to 'new_since'
   if (job.date) {
     jobDate = new Date(job.date);
   } else if (job.new_since) {
-    jobDate = new Date(job.new_since); // Use new_since if date is missing
+    jobDate = new Date(job.new_since);
   } else {
-    jobDate = new Date(); // Fallback for rare cases where neither is present
+    jobDate = new Date(); // Fallback to today's date if no date is available
   }
 
   const diffDays = Math.floor((today - jobDate) / (1000 * 60 * 60 * 24));
-  return diffDays <= 3; // Mark as new if within 3 days
+  return diffDays <= 3; // Jobs posted within the last 3 days are considered new
 }
 
+// Updated displayJobs function to sort by new jobs first
 function displayJobs(jobs) {
   const jobListings = document.getElementById("job-listings");
   jobListings.innerHTML = "";
 
-  jobs.forEach((job) => {
+  // Separate new jobs from other jobs
+  const newJobs = jobs.filter(isJobNew); // Filter for new jobs
+  const otherJobs = jobs.filter((job) => !isJobNew(job)); // Filter for non-new jobs
+
+  // Combine new jobs at the top, followed by other jobs
+  const sortedJobs = [...newJobs, ...otherJobs]; // New jobs come first
+
+  // Display sorted jobs
+  sortedJobs.forEach((job, index) => {
     const isNew = isJobNew(job);
 
     const jobElement = document.createElement("div");
     jobElement.classList.add("job-listing", "col-md-4");
 
+    // Fallback for job id if not provided in the data
+    const jobId = job.id || index;
+
     jobElement.innerHTML = `
       <div class="job-header">
-        ${isNew ? '<span class="new-badge">New</span>' : ""}
+        ${
+          isNew ? '<span class="new-badge">New</span>' : ""
+        } <!-- Show "New" badge if the job is new -->
         <h2><a href="${job.link}" target="_blank" class="job-title-link">${
       job.title
     }</a></h2>
       </div>
       <p>${job.school}</p>
-      <p>Posted on: ${job.date || job.new_since || "Date not provided"}</p>
+      <p>Posted on: ${formatDisplayDate(job.date || job.new_since)}</p>
       <div class="details">
         <span>${job.school}</span>
-        <a href="#" class="bookmark-job" data-job-id="${
-          job.id
-        }"><i class="far fa-bookmark"></i></a>
+        <a href="#" class="bookmark-job" data-job-id="${jobId}"><i class="far fa-bookmark"></i></a>
         <a href="${
           job.link
         }" target="_blank" class="read-more-link">Read More</a>
@@ -95,6 +118,7 @@ function displayJobs(jobs) {
     jobListings.appendChild(jobElement);
   });
 
+  // Handle bookmark job functionality
   document.querySelectorAll(".bookmark-job").forEach((button) => {
     button.addEventListener("click", function (e) {
       e.preventDefault();
@@ -104,6 +128,20 @@ function displayJobs(jobs) {
       this.querySelector("i").classList.toggle("far");
     });
   });
+}
+
+function formatDisplayDate(dateString) {
+  if (!dateString) {
+    return "Date not provided"; // Fallback if no date is available
+  }
+
+  const date = new Date(dateString);
+  if (isNaN(date.getTime())) {
+    return "Date not provided"; // Fallback if the date is invalid
+  }
+
+  // Return formatted date in MM/DD/YYYY format
+  return `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
 }
 
 function bookmarkJob(jobId) {
@@ -223,7 +261,7 @@ function displayTimestamp() {
     .then((response) => response.json())
     .then((data) => {
       const lastUpdated = new Date(data.last_updated);
-      const formattedDate = formatDate(lastUpdated);
+      const formattedDate = formatDisplayDate(lastUpdated);
       document.getElementById(
         "timestamp"
       ).innerText = `Jobs last added on: ${formattedDate}`;
@@ -231,17 +269,4 @@ function displayTimestamp() {
     .catch((error) => {
       console.error("Error fetching last update timestamp:", error);
     });
-}
-
-function formatDate(date) {
-  let hours = date.getHours();
-  const minutes = date.getMinutes();
-  const ampm = hours >= 12 ? "PM" : "AM";
-  hours = hours % 12;
-  hours = hours ? hours : 12;
-  const minutesStr = minutes < 10 ? "0" + minutes : minutes;
-  const strTime = `${hours}:${minutesStr} ${ampm}`;
-  return `${
-    date.getMonth() + 1
-  }/${date.getDate()}/${date.getFullYear()} ${strTime}`;
 }
