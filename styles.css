@@ -1,17 +1,19 @@
 :root {
-  --primary-color: #ff4500;
-  --secondary-color: #f0f0f0;
-  --text-color: #333;
-  --background-color: #ffffff;
+  --primary-color: #4a90e2;
+  --secondary-color: #f5a623;
+  --text-color: #333333;
+  --background-color: #f0f4f8;
+  --card-background: #ffffff;
   --shadow-color: rgba(0, 0, 0, 0.1);
   --border-radius: 10px;
-  --hero-background: url("https://www.example.com/hero-image.jpg");
-  --dark-primary-color: #333;
-  --dark-secondary-color: #444;
-  --dark-text-color: #ddd;
-  --dark-background-color: #111;
-  --listing-background: linear-gradient(135deg, #e8f0fe 25%, #f8e1e7 100%);
-  --listing-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  --hero-background: url("https://source.unsplash.com/random/1920x1080/?career");
+  --dark-primary-color: #2c3e50;
+  --dark-secondary-color: #34495e;
+  --dark-text-color: #ecf0f1;
+  --dark-background-color: #1a1a1a;
+  --listing-background: linear-gradient(135deg, #ffffff 25%, #f8f8f8 100%);
+  --listing-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+  --transition-speed: 0.3s;
 }
 
 body {
@@ -21,8 +23,8 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  background: url("https://www.transparenttextures.com/patterns/hexellence.png");
-  background-color: var(--secondary-color);
+  background: url("https://www.transparenttextures.com/patterns/cubes.png");
+  background-color: var(--background-color);
   background-repeat: repeat;
   background-attachment: fixed;
   color: var(--text-color);
@@ -30,26 +32,28 @@ body {
 
 main {
   flex: 1;
+  padding: 2rem 0;
+}
+
+header {
+  background: linear-gradient(90deg, #4a90e2, #5ca0f2);
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px var(--shadow-color);
 }
 
 header h1 {
   margin: 0;
   font-size: 2.5em;
-  font-weight: 300;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 215, 0, 1) 0%,
-    rgba(255, 165, 0, 1) 50%,
-    rgba(255, 69, 0, 1) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   padding: 10px;
-  transition: transform 0.3s ease, letter-spacing 0.3s ease;
+  transition: transform var(--transition-speed) ease,
+    letter-spacing var(--transition-speed) ease;
 }
 
 header h1:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   letter-spacing: 1px;
 }
 
@@ -59,56 +63,66 @@ header h1:hover {
 }
 
 nav {
-  background: url("https://www.transparenttextures.com/patterns/tex2res3.png"),
-    linear-gradient(90deg, #444, #666);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px var(--shadow-color);
   width: 80%;
-  margin: 0 auto;
-  border-radius: 10px;
+  margin: 1rem auto;
+  border-radius: var(--border-radius);
 }
 
 nav .nav-link {
   color: #ffffff;
   font-size: 1.1em;
   padding: 10px 20px;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color var(--transition-speed),
+    color var(--transition-speed);
 }
 
 nav .nav-link:hover {
   background-color: rgba(255, 255, 255, 0.2);
-  color: #000000;
+  color: #ffffff;
 }
 
 nav .nav-link.active {
-  background-color: rgba(255, 255, 255, 0.4);
-  color: #000000;
-}
-
-@media (max-width: 768px) {
-  nav {
-    width: 100%;
-    border-radius: 0;
-  }
-  nav .nav-link {
-    display: block;
-    text-align: center;
-    padding: 15px 0;
-  }
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
 }
 
 #hero {
   background: var(--hero-background) no-repeat center center/cover;
   padding: 70px 0;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}
+
+#hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #hero h2 {
   font-size: 2.5em;
   margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 1;
 }
 
 #hero p {
   font-size: 1.2em;
   margin-bottom: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
 }
 
 #timestamp {
@@ -120,26 +134,30 @@ nav .nav-link.active {
   background: rgba(0, 0, 0, 0.5);
   padding: 5px 10px;
   border-radius: 5px;
+  z-index: 1;
 }
 
 .social-icons a {
-  color: #ff4500;
+  color: var(--secondary-color);
   font-size: 1.5em;
   margin: 0 10px;
-  transition: color 0.3s ease;
+  transition: color var(--transition-speed) ease;
 }
 
 .social-icons a:hover {
-  color: #f0f0f0;
+  color: var(--primary-color);
 }
 
 .about-section {
   padding: 50px 0;
+  background-color: var(--card-background);
+  box-shadow: 0 0 10px var(--shadow-color);
 }
 
-about-section h2 {
+.about-section h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
+  color: var(--primary-color);
 }
 
 .about-section p.lead {
@@ -156,6 +174,15 @@ about-section h2 {
 .about-section ul li {
   font-size: 1.2em;
   margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.about-section ul li::before {
+  content: "•";
+  color: var(--primary-color);
+  position: absolute;
+  left: 0;
 }
 
 .job-listings {
@@ -172,11 +199,13 @@ about-section h2 {
   margin: 15px;
   flex: 0 0 calc(33.333% - 30px);
   box-sizing: border-box;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform var(--transition-speed) ease,
+    box-shadow var(--transition-speed) ease;
   border-radius: var(--border-radius);
   border: 2px solid transparent;
   opacity: 0;
   animation: fadeIn 0.5s forwards;
+  position: relative;
 }
 
 .job-listing h2 {
@@ -189,7 +218,7 @@ about-section h2 {
 .job-listing h2 a {
   color: inherit;
   text-decoration: none;
-  transition: color 0.3s;
+  transition: color var(--transition-speed);
 }
 
 .job-listing h2 a:hover {
@@ -226,13 +255,66 @@ about-section h2 {
   color: var(--primary-color);
   text-decoration: none;
   font-weight: bold;
+  transition: color var(--transition-speed);
 }
 
 .job-listing .details a:hover {
   text-decoration: underline;
+  color: var(--text-color);
+}
+
+.new-badge {
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background: linear-gradient(135deg, var(--secondary-color), #f7b733);
+  color: #fff;
+  font-size: 0.65em;
+  font-weight: 600;
+  padding: 3px 6px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 6px;
+  letter-spacing: 0.5px;
+  animation: pulse 2s infinite;
+  transition: transform 0.15s ease-in-out, background 0.3s ease;
+}
+
+.new-badge:hover {
+  transform: scale(1.07);
+  background: linear-gradient(135deg, #f7b733, var(--secondary-color));
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color var(--transition-speed);
+}
+
+#back-to-top:hover {
+  background-color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {
+  nav {
+    width: 100%;
+    border-radius: 0;
+  }
+  nav .nav-link {
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+  }
   .job-listing {
     flex: 0 0 calc(50% - 30px);
   }
@@ -250,6 +332,21 @@ about-section h2 {
   }
 }
 
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
 body.dark-mode {
   background-color: var(--dark-background-color);
   color: var(--dark-text-color);
@@ -260,65 +357,24 @@ body.dark-mode .job-listing {
   color: var(--dark-text-color);
 }
 
-body.dark-mode header,
+body.dark-mode header {
+  background: linear-gradient(
+    90deg,
+    var(--dark-primary-color),
+    var(--dark-secondary-color)
+  );
+}
+
 body.dark-mode footer {
   background-color: var(--dark-primary-color);
 }
 
-#back-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: none;
-  background-color: var(--primary-color);
-  color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 15px;
-  cursor: pointer;
-  z-index: 1000;
-}
-/* Compact and stylish New badge */
-.new-badge {
-  position: absolute; /* Make it float above the card */
-  top: -10px; /* Move it slightly above the card */
-  left: 10px; /* Position it towards the left side */
-  background: linear-gradient(135deg, #ff6f00, #ff8e3c); /* Vibrant gradient */
-  color: #fff; /* White text for contrast */
-  font-size: 0.65em; /* Smaller font size */
-  font-weight: 600; /* Bold, but balanced */
-  padding: 3px 6px; /* Compact padding */
-  border-radius: 10px; /* Subtle rounded corners */
-  text-transform: uppercase; /* Uppercase for emphasis */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Softer shadow */
-  margin-right: 6px; /* Reduced margin */
-  letter-spacing: 0.5px; /* Subtle letter spacing */
-  animation: pulse 2s infinite; /* Subtle pulse animation */
-  transition: transform 0.15s ease-in-out, background 0.3s ease; /* Smooth transition */
+body.dark-mode .job-listing h2,
+body.dark-mode .job-listing .details a {
+  color: var(--secondary-color);
 }
 
-/* Pulse animation */
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  50% {
-    transform: scale(1.03); /* Subtle pulse effect */
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
-  }
-  100% {
-    transform: scale(1);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-}
-
-/* Hover effect */
-.new-badge:hover {
-  transform: scale(1.07); /* Slight hover effect */
-  background: linear-gradient(
-    135deg,
-    #ff6f00,
-    #ffae42
-  ); /* Gradient change on hover */
+body.dark-mode .job-listing p,
+body.dark-mode .job-listing .details span {
+  color: #bbb;
 }

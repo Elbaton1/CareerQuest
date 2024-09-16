@@ -71,7 +71,7 @@ function isJobNew(job) {
   }
 
   const diffDays = Math.floor((today - jobDate) / (1000 * 60 * 60 * 24));
-  return diffDays <= 3; // Jobs posted within the last 3 days are considered new
+  return diffDays <= 1; // Jobs posted within the last 3 days are considered new
 }
 
 // Updated displayJobs function to sort by new jobs first
