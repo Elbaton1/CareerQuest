@@ -495,3 +495,10 @@ body::before {
     scroll-behavior: auto !important;
   }
 }
+@media (max-width: 768px) {
+  /* Adjust logo size on mobile */
+  .logo-img {
+    max-width: 150px; /* Adjust this value as needed */
+    height: auto;
+  }
+}
