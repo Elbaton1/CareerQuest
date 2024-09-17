@@ -3,52 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Awesome Platform</title>
+    <title>Sota Platform</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="landing-styles.css" />
+    <style>
+      .click-hint {
+        font-size: 0.85rem;
+        color: var(--accent-color-1);
+        margin-bottom: 20px;
+        animation: slowBlink 3s infinite;
+        text-align: center;
+      }
+
+      @keyframes slowBlink {
+        0%,
+        70% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+    </style>
   </head>
   <body>
     <header class="landing-header text-center">
-      <h1>Welcome to Our Platform</h1>
-      <p class="lead">Explore the best career opportunities with a click</p>
+      <h1>Welcome to Sota Platform</h1>
+      <p class="lead">
+        Explore Thought Leadership, Careers, and Grant Opportunities
+      </p>
+      <p class="click-hint">Click the logos below to explore!</p>
     </header>
 
     <main>
       <section class="logos-section text-center">
         <div class="container">
-          <!-- Logo 1 and bubble explanation (side by side) -->
+          <!-- Logo 1 and bubble explanation (Sota Careers -> CareerQuest) -->
           <div class="logo-bubble-wrap">
             <a href="careerquest.html" class="logo-link">
-              <img src="logo1.png" alt="CareerQuest Logo" class="logo-img" />
+              <img src="logo1.png" alt="Sota Careers Logo" class="logo-img" />
             </a>
             <div class="bubble">
-              <p>CareerQuest</p>
-              <span class="bubble-text">Find your dream university job!</span>
+              <p>Sota Careers</p>
+              <span class="bubble-text"
+                >Explore the best career opportunities with Sota.</span
+              >
             </div>
           </div>
 
-          <!-- Logo 2 and bubble explanation -->
+          <!-- Logo 2 and bubble explanation (Sota Thought Leadership) -->
           <div class="logo-bubble-wrap">
-            <a href="#" class="logo-link">
-              <img src="logo2.png" alt="Project 2 Logo" class="logo-img" />
+            <a href="sota-thought-leadership.html" class="logo-link">
+              <img
+                src="logo2.png"
+                alt="Sota Thought Leadership Logo"
+                class="logo-img"
+              />
             </a>
             <div class="bubble">
-              <p>Project 2</p>
-              <span class="bubble-text">A new exciting platform!</span>
+              <p>Sota Thought Leadership</p>
+              <span class="bubble-text"
+                >Discover insights and innovation in leadership.</span
+              >
             </div>
           </div>
 
-          <!-- Logo 3 and bubble explanation -->
+          <!-- Logo 3 and bubble explanation (Sota Grant Advisor) -->
           <div class="logo-bubble-wrap">
-            <a href="#" class="logo-link">
-              <img src="logo3.png" alt="Project 3 Logo" class="logo-img" />
+            <a href="sota-grant-advisor.html" class="logo-link">
+              <img
+                src="logo3.png"
+                alt="Sota Grant Advisor Logo"
+                class="logo-img"
+              />
             </a>
             <div class="bubble">
-              <p>Project 3</p>
-              <span class="bubble-text">Coming Soon!</span>
+              <p>Sota Grant Advisor</p>
+              <span class="bubble-text"
+                >Find the perfect grant for your next big project.</span
+              >
             </div>
           </div>
         </div>
@@ -56,7 +92,7 @@
     </main>
 
     <footer class="text-center">
-      <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+      <p>&copy; 2024 Sota Platform. All Rights Reserved.</p>
     </footer>
   </body>
 </html>
