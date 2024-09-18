@@ -751,9 +751,6 @@ def scrape_ubc_jobs(existing_job_links, existing_jobs):
         "UBC Faculty Jobs": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcfacultyjobs"
     }
 
-    # Base URL for constructing the full job link
-    base_url = "https://ubc.wd10.myworkdayjobs.com"
-
     for school_name, url in urls.items():
         driver.get(url)
 
@@ -774,9 +771,9 @@ def scrape_ubc_jobs(existing_job_links, existing_jobs):
                     title_element = job_item.find_element(By.CSS_SELECTOR, "a[data-automation-id='jobTitle']")
                     title = title_element.text
 
-                    # Extract the relative link and create the full URL
+                    # Extract the full link
                     relative_link = title_element.get_attribute("href")
-                    full_link = base_url + relative_link
+                    full_link = relative_link  # No need to prepend base_url, it's already a full URL
 
                     # Extract the posting date using the provided XPath
                     date_xpath = f"/html/body/div/div/div/div[3]/div/div/div[2]/section/ul/li[{index}]/div[3]/div/div/dl/dd"
