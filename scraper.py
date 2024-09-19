@@ -5064,7 +5064,7 @@ existing_job_links = {job['link'] for job in existing_jobs}
 
 # Combine all scraping functions, passing the existing job links to each function
 new_jobs = (
-    scrape_york_university(existing_job_links) +
+    #scrape_york_university(existing_job_links) +
     scrape_athabasca(existing_job_links, existing_jobs) +
     scrape_mtroyal(existing_job_links, existing_jobs) +
     scrape_memorial(existing_job_links, existing_jobs) +  # Updated Memorial scraper
