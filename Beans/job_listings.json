@@ -106,20 +106,6 @@
             "new_since": "2024-10-07T22:27:43.818247"
         },
         {
-            "title": "AV Support Casual",
-            "school": "Mount Royal University",
-            "date": "2024-10-04 20:38:23",
-            "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2938",
-            "new_since": "2024-10-04T20:56:14.480753"
-        },
-        {
-            "title": "General Cleaner",
-            "school": "Mount Royal University",
-            "date": "2024-10-04 20:38:23",
-            "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2936",
-            "new_since": "2024-10-04T20:56:14.480753"
-        },
-        {
             "title": "Assistant Professor, Accounting (Teaching & Service)",
             "school": "Mount Royal University",
             "date": "2024-10-04 20:38:24",
@@ -134,24 +120,10 @@
             "new_since": "2024-10-04T20:56:14.481759"
         },
         {
-            "title": "Assistant Professor, Nursing",
-            "school": "Mount Royal University",
-            "date": "2024-09-27 21:23:05",
-            "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2930",
-            "new_since": "2024-09-27T21:39:57.908791"
-        },
-        {
             "title": "TLEG Project Assistant (Casual)",
             "school": "Mount Royal University",
             "date": "2024-09-27 14:26:41",
             "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2933",
-            "new_since": "2024-09-27T14:41:58.248324"
-        },
-        {
-            "title": "Program Assistant, IUBP",
-            "school": "Mount Royal University",
-            "date": "2024-09-27 14:26:41",
-            "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2903",
             "new_since": "2024-09-27T14:41:58.248324"
         },
         {
@@ -547,13 +519,6 @@
             "link": "https://www.macewan.ca/about-macewan/careers/opportunities/postings/?competition=24.09.282"
         },
         {
-            "title": "Functional Analyst - HR Information Systems and Reporting",
-            "school": "MacEwan University",
-            "date": "2024-09-26 20:50:23",
-            "new_since": "2024-09-26T21:05:54.988773",
-            "link": "https://www.macewan.ca/about-macewan/careers/opportunities/postings/?competition=24.09.281"
-        },
-        {
             "title": "Senior Development Officer - Alumni and Development, University Relations",
             "school": "MacEwan University",
             "date": "2024-09-27 14:26:47",
@@ -617,18 +582,18 @@
             "new_since": "2024-10-11T19:59:52.268268"
         },
         {
-            "title": "Clinical Psychology - Assistant or Associate Professor - Edmonton AB",
-            "school": "Concordia University of Edmonton",
-            "date": "2024-09-27 21:23:10",
-            "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/153?language=en",
-            "new_since": "2024-09-27T21:39:57.909795"
-        },
-        {
             "title": "Dean, Faculty of Science - Edmonton AB",
             "school": "Concordia University of Edmonton",
             "date": "2024-09-13 22:30:36",
             "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/148?language=en",
             "new_since": "2024-09-13T22:46:34.371564"
+        },
+        {
+            "title": "Clinical Psychology - Assistant or Associate Professor - Edmonton AB",
+            "school": "Concordia University of Edmonton",
+            "date": "2024-09-27 21:23:10",
+            "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/153?language=en",
+            "new_since": "2024-09-27T21:39:57.909795"
         },
         {
             "title": "Dean, Faculty of Management - Edmonton AB",
@@ -643,6 +608,20 @@
             "date": "2024-10-03 20:10:11",
             "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/154?language=en",
             "new_since": "2024-10-03T20:28:15.587744"
+        },
+        {
+            "title": "Postdoctoral Fellowship in Electronics and Signal Processing\nCompetition 1597",
+            "school": "University of Alberta",
+            "date": "October 11, 2024",
+            "link": "https://apps.ualberta.ca/careers/posting/1597",
+            "new_since": "2024-10-12T23:20:30.264670"
+        },
+        {
+            "title": "Clinical Research Associate\nCompetition 1594",
+            "school": "University of Alberta",
+            "date": "October 11, 2024",
+            "link": "https://apps.ualberta.ca/careers/posting/1594",
+            "new_since": "2024-10-12T23:20:30.264670"
         },
         {
             "title": "Supervisor, Clinical Staff\nCompetition 1586",
@@ -841,13 +820,6 @@
             "new_since": "2024-10-07T22:27:43.819252"
         },
         {
-            "title": "International Recruitment and Relations Coordinator\nCompetition 1564",
-            "school": "University of Alberta",
-            "date": "October 4, 2024",
-            "link": "https://apps.ualberta.ca/careers/posting/1564",
-            "new_since": "2024-10-04T20:56:14.481759"
-        },
-        {
             "title": "Assistant Department Administrator\nCompetition 1566",
             "school": "University of Alberta",
             "date": "October 4, 2024",
@@ -897,13 +869,6 @@
             "new_since": "2024-10-04T20:56:14.481759"
         },
         {
-            "title": "Recruitment Services Coordinator\nCompetition 1554",
-            "school": "University of Alberta",
-            "date": "October 4, 2024",
-            "link": "https://apps.ualberta.ca/careers/posting/1554",
-            "new_since": "2024-10-04T20:56:14.481759"
-        },
-        {
             "title": "Executive Coordinator, AVP, ShS\nCompetition 1555",
             "school": "University of Alberta",
             "date": "October 4, 2024",
@@ -915,20 +880,6 @@
             "school": "University of Alberta",
             "date": "October 3, 2024",
             "link": "https://apps.ualberta.ca/careers/posting/1551",
-            "new_since": "2024-10-03T20:28:15.587744"
-        },
-        {
-            "title": "Senior Project Coordinator\nCompetition 1552",
-            "school": "University of Alberta",
-            "date": "October 3, 2024",
-            "link": "https://apps.ualberta.ca/careers/posting/1552",
-            "new_since": "2024-10-03T20:28:15.587744"
-        },
-        {
-            "title": "Medical Education Program Coordinator\nCompetition 1550",
-            "school": "University of Alberta",
-            "date": "October 3, 2024",
-            "link": "https://apps.ualberta.ca/careers/posting/1550",
             "new_since": "2024-10-03T20:28:15.587744"
         },
         {
@@ -995,13 +946,6 @@
             "new_since": "2024-10-01T21:46:27.848672"
         },
         {
-            "title": "Talent Acquisition Support Coordinator\nCompetition 1529",
-            "school": "University of Alberta",
-            "date": "September 27, 2024",
-            "link": "https://apps.ualberta.ca/careers/posting/1529",
-            "new_since": "2024-09-27T21:39:57.909795"
-        },
-        {
             "title": "Medical Geneticist (tenure-track) at the rank of Assistant Professor or higher\nCompetition 1530",
             "school": "University of Alberta",
             "date": "September 27, 2024",
@@ -1023,13 +967,6 @@
             "new_since": "2024-09-27T21:39:57.909795"
         },
         {
-            "title": "Awards and Events Coordinator\nCompetition 1539",
-            "school": "University of Alberta",
-            "date": "September 27, 2024",
-            "link": "https://apps.ualberta.ca/careers/posting/1539",
-            "new_since": "2024-09-27T14:41:58.249322"
-        },
-        {
             "title": "AMHSP Clinical Academic Colleague (Clinical Faculty) Position in Child and Adolescent Psychiatry\nCompetition 1519",
             "school": "University of Alberta",
             "date": "September 27, 2024",
@@ -1048,13 +985,6 @@
             "school": "University of Alberta",
             "date": "September 26, 2024",
             "link": "https://apps.ualberta.ca/careers/posting/1535",
-            "new_since": "2024-09-26T21:05:54.988773"
-        },
-        {
-            "title": "Payment Services Administrator\nCompetition 1533",
-            "school": "University of Alberta",
-            "date": "September 26, 2024",
-            "link": "https://apps.ualberta.ca/careers/posting/1533",
             "new_since": "2024-09-26T21:05:54.988773"
         },
         {
@@ -1170,25 +1100,11 @@
             "new_since": "2024-09-16T23:03:40.193915"
         },
         {
-            "title": "Associate Director, Learning Abroad Programs\nCompetition 1470",
-            "school": "University of Alberta",
-            "date": "September 16, 2024",
-            "link": "https://apps.ualberta.ca/careers/posting/1470",
-            "new_since": "2024-09-16T23:03:40.193915"
-        },
-        {
             "title": "Full Professor and Singhmar Chair in Classical Indian Polity and Society\nCompetition 1466",
             "school": "University of Alberta",
             "date": "September 16, 2024",
             "link": "https://apps.ualberta.ca/careers/posting/1466",
             "new_since": "2024-09-16T23:03:40.193915"
-        },
-        {
-            "title": "Regional Project Coordinator\nCompetition 1449",
-            "school": "University of Alberta",
-            "date": "September 13, 2024",
-            "link": "https://apps.ualberta.ca/careers/posting/1449",
-            "new_since": "2024-09-13T22:46:34.371564"
         },
         {
             "title": "Assistant/Associate/Full Professor, Interventional Cardiology, Division of Pediatric Cardiology\nCompetition 1443",
@@ -1842,13 +1758,6 @@
             "new_since": "2024-09-11T01:37:18.933512"
         },
         {
-            "title": "Enterprise Developer\nCompetition 1451",
-            "school": "University of Alberta",
-            "date": "September 16th, 2024",
-            "link": "https://apps.ualberta.ca/careers/posting/1451",
-            "new_since": "2024-09-16T04:01:37.769994"
-        },
-        {
             "title": "Executive Assistant\nCompetition 1492",
             "school": "University of Alberta",
             "date": "October 7th, 2024",
@@ -2059,6 +1968,13 @@
             "new_since": "2024-10-08T22:12:19.432115"
         },
         {
+            "title": "Business Systems Analyst",
+            "school": "Capilano University",
+            "date": "10/11/2024",
+            "link": "https://jobs-capilanou.peopleadmin.com/postings/7569",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
             "title": "Accessibility Services Support Assistant",
             "school": "Capilano University",
             "date": "08/09/2024",
@@ -2099,13 +2015,6 @@
             "date": "10/08/2024",
             "link": "https://jobs-capilanou.peopleadmin.com/postings/7547",
             "new_since": "2024-10-08T22:12:19.432115"
-        },
-        {
-            "title": "Instructor - Faculty of Arts & Sciences (French)",
-            "school": "Capilano University",
-            "date": "10/03/2024",
-            "link": "https://jobs-capilanou.peopleadmin.com/postings/7545",
-            "new_since": "2024-10-09T15:31:19.101595"
         },
         {
             "title": "Records Officer",
@@ -2168,13 +2077,6 @@
             "school": "Capilano University",
             "date": "09/25/2024",
             "link": "https://jobs-capilanou.peopleadmin.com/postings/7507",
-            "new_since": "2024-10-09T15:31:19.101595"
-        },
-        {
-            "title": "Instructor - Faculty of Arts & Sciences (Women's and Gender Studies)",
-            "school": "Capilano University",
-            "date": "09/23/2024",
-            "link": "https://jobs-capilanou.peopleadmin.com/postings/7494",
             "new_since": "2024-10-09T15:31:19.101595"
         },
         {
@@ -2276,6 +2178,370 @@
             "new_since": "2024-09-19T09:54:31.435252"
         },
         {
+            "title": "Consultant, Academic Plan Implementation",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3723",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Coordinator, Career Development Services",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3717",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Credential Evaluation Coordinator",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3432",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Data Systems Coordinator",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3724",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Design Research Assistant General",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3727",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Director, Internal Audit",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=2554",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Employment and Community Studies Instructor",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3462",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Financial Aid Advisor",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3642",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "French Instructor",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3716",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Front-end Development for Interactive Applications instructor - Computer Science and Technology related",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3700",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Front-end Development for Interactive Applications instructor - Design related",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3699",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Global Development Coordinator",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3655",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Horticulture Student Assistant",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3630",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "HRIS Administrator",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3662",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Indigenous Emerging Entrepreneur in Residence",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3686",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Indigenous Recruitment and Outreach Coordinator",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3351",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Indigenous Services, Student Assistant",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=1809",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Instructional Associate, Fine Arts",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3442",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Instructional Associate, Fine Arts (On-call)",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3194",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "International Admissions Specialist",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3680",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "International Recruitment & Admissions Coordinator",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3669",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "International Recruitment & Admissions Coordinator",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3677",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "International Support Assistant",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3519",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Junior Programmer Analyst",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3706",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "KPU Collective Peer Mentor",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3629",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Lab Instructor, Faculty of Arts",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3709",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Labour Relations Specialist",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:04",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3400",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Labour Relations Specialist",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3660",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Learning Strategist - Learning Centre",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3621",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Library Campus Supervisor",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3696",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Manager, Financial Operations",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3636",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Manager, Financial Reporting",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3635",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Network Specialist",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3693",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Network Specialist",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3694",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Nursing Instructor - Bachelor of Psychiatric Nursing",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3647",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Nursing Instructor - Bachelor of Science in Nursing Program",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3615",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Nursing Instructor - Bachelor of Science in Nursing Program",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3616",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "OER Grant Project Student Assistant",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3697",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "OER Grant Project Student Assistant",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3713",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Organizational Development Specialist",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3670",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "President and Vice Chancellor",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3385",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Print Media Instructor",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3674",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Product Design instructor",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3707",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Project Leader (Systems Analyst)",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3382",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Recreation Programs Assistant",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3710",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Research Administrative Assistant",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3551",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Research Assistant, Office of Research Services",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=2209",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Research Communications & Events Coordinator",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3676",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Research Ethics Coordinator",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3701",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Student Assistant, International",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3725",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Student Recruitment Coordinator",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3675",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
+            "title": "Welding Instructor",
+            "school": "Kwantlen Polytechnic University",
+            "date": "2024-10-12 23:04:05",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=JT63GS&cws=37&rid=3610",
+            "new_since": "2024-10-12T23:20:30.267208"
+        },
+        {
             "title": "Program Coordinator, PCS",
             "school": "Royal Roads University",
             "date": "Program Coordinator, PCS",
@@ -2360,18 +2626,18 @@
             "new_since": "2024-10-08T22:12:19.433115"
         },
         {
-            "title": "Coordinator, Alumni Relations",
-            "school": "Simon Fraser University",
-            "date": "2024-09-23 19:09:35",
-            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=SIMOFRAS&cws=37&rid=6005",
-            "new_since": "2024-09-23T19:23:12.553635"
-        },
-        {
             "title": "Curriculum Coordinator",
             "school": "Simon Fraser University",
             "date": "2024-10-11 19:45:50",
             "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=SIMOFRAS&cws=37&rid=6043",
             "new_since": "2024-10-11T19:59:52.274800"
+        },
+        {
+            "title": "Curriculum Specialist",
+            "school": "Simon Fraser University",
+            "date": "2024-10-12 23:04:18",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=SIMOFRAS&cws=37&rid=6045",
+            "new_since": "2024-10-12T23:20:30.267208"
         },
         {
             "title": "Director",
@@ -2451,13 +2717,6 @@
             "new_since": "2024-10-11T19:59:52.274800"
         },
         {
-            "title": "Manager, Academic Programs",
-            "school": "Simon Fraser University",
-            "date": "2024-10-07 22:13:17",
-            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=SIMOFRAS&cws=37&rid=6030",
-            "new_since": "2024-10-07T22:27:43.825785"
-        },
-        {
             "title": "Manager, Global Engagement",
             "school": "Simon Fraser University",
             "date": "2024-10-03 20:12:50",
@@ -2519,13 +2778,6 @@
             "date": "2024-10-03 20:12:50",
             "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=SIMOFRAS&cws=37&rid=6020",
             "new_since": "2024-10-03T20:28:15.590262"
-        },
-        {
-            "title": "Specialist, Accessible Exam Services",
-            "school": "Simon Fraser University",
-            "date": "2024-10-07 22:13:17",
-            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=SIMOFRAS&cws=37&rid=6028",
-            "new_since": "2024-10-07T22:27:43.825785"
         },
         {
             "title": "Specialist, Labour and Employee Relations",
@@ -2603,6 +2855,20 @@
             "date": "Posted 30+ Days Ago",
             "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstudentjob/job/BC-Childrens-Hospital/Research-Associate_JR17322-2",
             "new_since": "2024-09-17T23:56:01.062145"
+        },
+        {
+            "school": "University of British Columbia (UBC)",
+            "title": "Admissions Coordinator",
+            "date": "Posted Today",
+            "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Admissions-Coordinator_JR18909",
+            "new_since": "2024-10-12T23:20:30.268207"
+        },
+        {
+            "school": "University of British Columbia (UBC)",
+            "title": "Nursing Practice Educator",
+            "date": "Posted Yesterday",
+            "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Nursing-Practice-Educator_JR18115",
+            "new_since": "2024-10-12T23:20:30.268207"
         },
         {
             "school": "University of British Columbia (UBC)",
@@ -2732,17 +2998,17 @@
         },
         {
             "school": "University of British Columbia (UBC)",
-            "title": "Indigenous Strategic Programming Manager",
-            "date": "Posted Today",
-            "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Indigenous-Strategic-Programming-Manager_JR18802",
-            "new_since": "2024-10-01T21:46:27.856193"
-        },
-        {
-            "school": "University of British Columbia (UBC)",
             "title": "Indigenous Strategic Programming Specialist",
             "date": "Posted Today",
             "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Indigenous-Strategic-Programming-Specialist_JR18804-1",
             "new_since": "2024-10-01T21:46:27.856193"
+        },
+        {
+            "school": "University of British Columbia (UBC)",
+            "title": "Senior Business Analyst",
+            "date": "Posted 3 Days Ago",
+            "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Senior-Business-Analyst_JR18898",
+            "new_since": "2024-10-12T23:20:30.268207"
         },
         {
             "school": "University of British Columbia (UBC)",
@@ -2886,13 +3152,6 @@
         },
         {
             "school": "University of British Columbia (UBC)",
-            "title": "Third Cook - Residence (Auxiliary)",
-            "date": "Posted Today",
-            "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Third-Cook---Residence--Auxiliary-_JR18861-1",
-            "new_since": "2024-10-07T22:27:43.826784"
-        },
-        {
-            "school": "University of British Columbia (UBC)",
             "title": "Research Assistant/Technician 4",
             "date": "Posted Today",
             "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Research-Assistant-Technician-4_JR18847",
@@ -2935,13 +3194,6 @@
         },
         {
             "school": "University of British Columbia (UBC)",
-            "title": "Administrative Support",
-            "date": "Posted Today",
-            "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Administrative-Support_JR18845",
-            "new_since": "2024-10-04T20:56:14.483760"
-        },
-        {
-            "school": "University of British Columbia (UBC)",
             "title": "Senior Financial Spec 1a (Gr 8)",
             "date": "Posted Today",
             "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Senior-Financial-Spec-1a--Gr-8-_JR18879",
@@ -2952,13 +3204,6 @@
             "title": "Systems Administrator I",
             "date": "Posted Today",
             "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Systems-Administrator-I_JR18853",
-            "new_since": "2024-10-04T20:56:14.483760"
-        },
-        {
-            "school": "University of British Columbia (UBC)",
-            "title": "Executive Coordinator, to the Vice Dean, Education, Faculty of Medicine",
-            "date": "Posted Today",
-            "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Executive-Coordinator--to-the-Vice-Dean--Education--Faculty-of-Medicine_JR18859",
             "new_since": "2024-10-04T20:56:14.483760"
         },
         {
@@ -2980,13 +3225,6 @@
             "title": "Director of Enterprise Digital Transformation and Automation",
             "date": "Posted Today",
             "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Director-of-Enterprise-Digital-Transformation-and-Automation_JR18854-1",
-            "new_since": "2024-10-04T20:56:14.483760"
-        },
-        {
-            "school": "University of British Columbia (UBC)",
-            "title": "Research Assistant/Tech 2 - Participant Recruiter (VEC)",
-            "date": "Posted Today",
-            "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Off-Campus-Hospital-Sites/Research-Assistant-Tech-2---Participant-Recruiter--VEC-_JR18857",
             "new_since": "2024-10-04T20:56:14.483760"
         },
         {
@@ -3030,6 +3268,13 @@
             "date": "Posted Yesterday",
             "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Research-Assistant-Tech-3---Perrone_JR18808",
             "new_since": "2024-10-03T20:28:15.590262"
+        },
+        {
+            "school": "University of British Columbia (UBC)",
+            "title": "HR Assistant",
+            "date": "Posted 9 Days Ago",
+            "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/HR-Assistant_JR18829",
+            "new_since": "2024-10-11T19:59:52.276802"
         },
         {
             "school": "University of British Columbia (UBC)",
@@ -3152,13 +3397,6 @@
         },
         {
             "school": "University of British Columbia (UBC)",
-            "title": "Associate Director, Ancillary Procurement",
-            "date": "Posted Yesterday",
-            "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Associate-Director--Ancillary-Procurement_JR18715",
-            "new_since": "2024-09-24T23:20:46.712320"
-        },
-        {
-            "school": "University of British Columbia (UBC)",
             "title": "Tenure-Track Assistant Professor of Teaching",
             "date": "Posted 5 Days Ago",
             "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus/Tenure-Track-Assistant-Professor-of-Teaching_JR18193-1",
@@ -3166,17 +3404,17 @@
         },
         {
             "school": "University of British Columbia (UBC)",
+            "title": "Technology Support Analyst l",
+            "date": "Posted 23 Days Ago",
+            "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus---Vancouver-BC-Canada/Technology-Support-Analyst-l_JR18640",
+            "new_since": "2024-10-12T23:20:30.269208"
+        },
+        {
+            "school": "University of British Columbia (UBC)",
             "title": "Chief Enterprise Risk and Assurance Officer",
             "date": "Posted 17 Days Ago",
             "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Vancouver-Campus---Vancouver-BC-Canada/Chief-Enterprise-Risk-and-Assurance-Officer_JR18589",
             "new_since": "2024-10-03T20:28:15.591290"
-        },
-        {
-            "school": "University of British Columbia (UBC)",
-            "title": "Research Coordinator",
-            "date": "Posted 19 Days Ago",
-            "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Okanagan-Campus/Research-Coordinator_JR18412-1",
-            "new_since": "2024-09-24T23:20:46.712320"
         },
         {
             "school": "University of British Columbia (UBC)",
@@ -3439,13 +3677,6 @@
         },
         {
             "school": "University of British Columbia (UBC)",
-            "title": "Assistant Professor",
-            "date": "Posted 22 Days Ago",
-            "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcfacultyjobs/job/UBC-Off-Campus-Hospital-Sites/Assistant-Professor_JR18554",
-            "new_since": "2024-10-03T20:28:15.591290"
-        },
-        {
-            "school": "University of British Columbia (UBC)",
             "title": "Assistant Professor of Teaching in Biostatistics and Data Science",
             "date": "Posted 23 Days Ago",
             "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcfacultyjobs/job/UBC-Vancouver-Campus/Assistant-Professor-of-Teaching-in-Biostatistics-and-Data-Science_JR18520",
@@ -3583,6 +3814,13 @@
             "date": "Posted 30+ Days Ago",
             "link": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcfacultyjobs/job/UBC-Vancouver-Campus/Site-Faculty--Faculty-Development--Victoria_JR1447",
             "new_since": "2024-09-24T23:20:46.713312"
+        },
+        {
+            "school": "University of Northern British Columbia",
+            "title": "Division of Medical Sciences Librarian",
+            "date": "Oct 11, 2024",
+            "link": "https://www.unbc.ca/career-opportunities/95006/division-medical-sciences-librarian",
+            "new_since": "2024-10-12T23:20:30.270207"
         },
         {
             "school": "University of Northern British Columbia",
@@ -3853,170 +4091,163 @@
         {
             "title": "Coordinator, Research Centre and Institutes (South Asian Studies Institute)",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:39",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-0431&BRID=288452&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:05",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-0431&BRID=288452&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Advisor, Education & Career",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:40",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J1024-0479&BRID=292593&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:06",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J1024-0479&BRID=292593&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Assistant, International Student Services",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:41",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J1024-0367&BRID=292591&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:08",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J1024-0367&BRID=292591&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Assistant Professor, Agriculture",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:43",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J1024-0396&BRID=292573&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:09",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J1024-0396&BRID=292573&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Department Coordinator (Agriculture Technology)",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:44",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J1024-0416&BRID=292502&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:10",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J1024-0416&BRID=292502&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Assistant Professor, School of Communication",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:45",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1450&BRID=292143&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:11",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1450&BRID=292143&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Coordinator, Digital Media and Marketing, Continuing Education",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:46",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J1024-0109&BRID=291893&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:12",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J1024-0109&BRID=291893&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Assistant Professor, Electrical",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:48",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1043&BRID=291275&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:13",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1043&BRID=291275&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Auxiliary, Exam Invigilators",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:48",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J1024-0173&BRID=291680&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:14",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J1024-0173&BRID=291680&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Assistant Professor, Nursing, BSN Program",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:49",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1095&BRID=291676&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:15",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1095&BRID=291676&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Director, Enterprise Risk",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:51",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J1024-0163&BRID=291663&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:16",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J1024-0163&BRID=291663&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Sessional Instructor, School of Health Studies",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:52",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0824-1188&BRID=286550&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:18",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0824-1188&BRID=286550&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Senior Associate Registrar",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:53",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1336&BRID=291580&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:19",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1336&BRID=291580&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Analyst, Business Financial Systems",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:54",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1517&BRID=291577&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:20",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1517&BRID=291577&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Continuing Education Instructors",
             "school": "University of the Fraser Valley",
             "date": "November 1, 2024",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0224-0753&BRID=259565&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
-        },
-        {
-            "title": "Senior Advisor, Human Resources",
-            "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:56",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-0507&BRID=288929&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0224-0753&BRID=259565&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Sessional Instructor, Planning, Geography, and Environmental Studies",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:57",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1280&BRID=290613&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:22",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1280&BRID=290613&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Sessional Instructor, Biology",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:46:58",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1109&BRID=290117&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:23",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1109&BRID=290117&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Sessional Instructor, Agriculture Technology",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:47:00",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1263&BRID=290400&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:25",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1263&BRID=290400&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Sessional Instructor, School of Communication",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:47:01",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1101&BRID=290366&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:26",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1101&BRID=290366&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Sessional Instructor, Political Science",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:47:02",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1057&BRID=290299&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:27",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-1057&BRID=290299&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Sessional Instructor, Modern Languages (French)",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:47:03",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-0730&BRID=289653&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:28",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-0730&BRID=289653&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Assistant Professor, School of Criminology",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:47:04",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-0393&BRID=289389&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:29",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0924-0393&BRID=289389&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "Sessional Instructor, Criminology",
             "school": "University of the Fraser Valley",
-            "date": "2024-10-11 19:47:06",
-            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=ZVxQRxNfDVAFY3FzQVBUZ09AdmEraVVcdF1MIikJenldWUAdUTEbcmouJS5ALiReeUcYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0824-1346&BRID=286842&lang=1",
-            "new_since": "2024-10-11T19:59:52.280796"
+            "date": "2024-10-12 23:05:30",
+            "link": "https://ufv.njoyn.com/CL3/xweb/xweb.asp?tbtoken=Z1xdQB9bDVAHa3YDNVdUF09OcWxcaVUqelxMISwIfHleUEJtXUBtcGJzAkEYGhBUSHRgF3U%3D&chk=ZVpaShM%3D&clid=56144&Page=JobDetails&Jobid=J0824-1346&BRID=286842&lang=1",
+            "new_since": "2024-10-12T23:20:30.271207"
         },
         {
             "title": "ECE 250 - Linear Circuits I",
@@ -4552,20 +4783,6 @@
             "new_since": "2024-10-04T20:56:14.488885"
         },
         {
-            "title": "CO-OP/INTERNSHIP WINTER 2025: RESEARCH ASSISTANT",
-            "school": "Cape Breton University",
-            "link": "https://www.cbu.ca/current-students/career-services/student-job-opportunities/co-op-internship-winter-2025-research-assistant/",
-            "date": "No date available",
-            "new_since": "2024-09-30T23:58:17.893177"
-        },
-        {
-            "title": "ENGINEERING STUDENT CO-OP",
-            "school": "Cape Breton University",
-            "link": "https://www.cbu.ca/current-students/career-services/student-job-opportunities/engineering-student-co-op/",
-            "date": "No date available",
-            "new_since": "2024-09-30T23:58:17.893177"
-        },
-        {
             "title": "CO-OP/INTERNSHIP WINTER 2025: BUSINESS ANALYTICS STUDENT (TELUS) ALL TERMS / ETUDIANT COOPERATIF TOUT TERMES (CONTRACT)",
             "school": "Cape Breton University",
             "link": "https://www.cbu.ca/current-students/career-services/student-job-opportunities/co-op-internship-winter-2025-business-analytics-student-telus-all-terms-etudiant-cooperatif-tout-termes-contract/",
@@ -4624,15 +4841,15 @@
         {
             "title": "Financial Coordinator",
             "school": "Dalhousie University",
-            "date": "No date available",
             "link": "https://dal.peopleadmin.ca/postings/17761",
+            "date": "No date available",
             "new_since": "2024-10-11T19:59:52.282801"
         },
         {
             "title": "Africentric Cohort Coordinator (Designated Posting)",
             "school": "Dalhousie University",
-            "date": "No date available",
             "link": "https://dal.peopleadmin.ca/postings/17760",
+            "date": "No date available",
             "new_since": "2024-10-11T19:59:52.282801"
         },
         {
@@ -4802,13 +5019,6 @@
             "link": "https://dal.peopleadmin.ca/postings/17683",
             "date": "No date available",
             "new_since": "2024-09-24T23:20:46.716318"
-        },
-        {
-            "title": "Gynecologic Oncologist - Subspecialist",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/17664",
-            "date": "No date available",
-            "new_since": "2024-09-19T11:53:47.618709"
         },
         {
             "title": "Tier 1 Canada Research Chair in Ocean Particle Fluxes",
@@ -5019,27 +5229,6 @@
             "link": "https://jobs.careerbeacon.com/details/receptionist-executive-management-group--presidents-office/2115154?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2115154&utm_term=jobtitle",
             "date": "2024-10-03 20:16:40",
             "new_since": "2024-10-03T20:28:15.596278"
-        },
-        {
-            "title": "Senior Director, Financial Services \u2013 Financial Services",
-            "school": "Saint Mary\u2019s University",
-            "link": "https://jobs.careerbeacon.com/details/senior-director-financial-services--financial-services/2114612?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2114612&utm_term=jobtitle",
-            "date": "2024-09-27 14:31:00",
-            "new_since": "2024-09-27T14:41:58.259823"
-        },
-        {
-            "title": "Financial Analyst \u2013 Financial Services",
-            "school": "Saint Mary\u2019s University",
-            "link": "https://jobs.careerbeacon.com/details/financial-analyst--financial-services/2114616?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2114616&utm_term=jobtitle",
-            "date": "2024-09-27 14:31:00",
-            "new_since": "2024-09-27T14:41:58.259823"
-        },
-        {
-            "title": "Secretary IV \u2013 Accounting, Sobey School of Business (Bargaining Unit 179)",
-            "school": "Saint Mary\u2019s University",
-            "link": "https://jobs.careerbeacon.com/details/secretary-iv--accounting-sobey-school-of-business--bargaining-unit-179/2114840?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2114840&utm_term=jobtitle",
-            "date": "2024-09-27 14:31:00",
-            "new_since": "2024-09-27T14:41:58.259823"
         },
         {
             "title": "Senior Compensation and Classification Consultant \u2013 People & Culture",
@@ -7002,13 +7191,6 @@
             "new_since": "2024-09-11T01:37:18.938042"
         },
         {
-            "title": "Graduate Admissions and Awards Officer",
-            "school": "OCAD University",
-            "date": "No date provided",
-            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=OCADU&cws=37&rid=3362",
-            "new_since": "2024-10-07T11:47:21.865993"
-        },
-        {
             "title": "Graduate Research Assistant: The Rhizome",
             "school": "OCAD University",
             "date": "No date provided",
@@ -7035,6 +7217,13 @@
             "date": "No date provided",
             "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=OCADU&cws=37&rid=3303",
             "new_since": "2024-10-10T23:02:44.519971"
+        },
+        {
+            "title": "OCAD University Student Union: Manager of HR and Administration",
+            "school": "OCAD University",
+            "date": "No date provided",
+            "link": "https://tre.tbe.taleo.net/tre01/ats/careers/v2/viewRequisition?org=OCADU&cws=37&rid=3311",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Engineering Outreach and Community Coordinator - Limited Term",
@@ -7096,204 +7285,190 @@
             "title": "Project Coordinator",
             "school": "Queen\u2019s University",
             "date": "October 17, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J1024-0422&BRID=390641&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J1024-0422&BRID=390641&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Divisional Assistant",
             "school": "Queen\u2019s University",
             "date": "October 27, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0724-0523&BRID=385881&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0724-0523&BRID=385881&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Coordinator, Athlete Services",
             "school": "Queen\u2019s University",
             "date": "October 27, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0863&BRID=390601&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0863&BRID=390601&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Coordinator, Youth Programs & Community Engagement",
             "school": "Queen\u2019s University",
             "date": "November 3, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0854&BRID=390579&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0854&BRID=390579&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Program Manager",
             "school": "Queen\u2019s University",
             "date": "November 7, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0824-0822&BRID=390311&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0824-0822&BRID=390311&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Senior Platform Architect",
             "school": "Queen\u2019s University",
             "date": "October 14, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0926&BRID=390117&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0926&BRID=390117&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Career Development Coordinator",
             "school": "Queen\u2019s University",
             "date": "October 17, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0909&BRID=390073&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0909&BRID=390073&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Legal Counsel",
             "school": "Queen\u2019s University",
             "date": "October 27, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0399&BRID=390018&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0399&BRID=390018&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Awards Officer",
             "school": "Queen\u2019s University",
             "date": "October 17, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J1024-0048&BRID=390004&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J1024-0048&BRID=390004&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Digital Classroom Technologist",
             "school": "Queen\u2019s University",
             "date": "October 20, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0929&BRID=389969&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0929&BRID=389969&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Senior Director Student Conduct and Care",
             "school": "Queen\u2019s University",
             "date": "October 28, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0659&BRID=389965&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0659&BRID=389965&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "HR Advisor",
             "school": "Queen\u2019s University",
             "date": "October 14, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0120&BRID=389955&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0120&BRID=389955&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Financial Reporting Officer",
             "school": "Queen\u2019s University",
             "date": "October 23, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0524-0971&BRID=380513&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0524-0971&BRID=380513&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Technical Support Assistant",
             "school": "Queen\u2019s University",
             "date": "October 16, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0824-1028&BRID=389804&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0824-1028&BRID=389804&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "TD Civic Engagement, Strategic Initiatives and Impact Coordinator",
             "school": "Queen\u2019s University",
             "date": "October 17, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0400&BRID=389679&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0400&BRID=389679&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Research Assistant",
             "school": "Queen\u2019s University",
             "date": "October 21, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0843&BRID=389550&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0843&BRID=389550&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Alumni & Development Coordinator",
             "school": "Queen\u2019s University",
             "date": "October 14, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0857&BRID=389516&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0857&BRID=389516&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Associate Director, Marketing, Communications & External Relations",
             "school": "Queen\u2019s University",
             "date": "October 27, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0371&BRID=389520&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
-        },
-        {
-            "title": "Manager, Recruitment and Admissions",
-            "school": "Queen\u2019s University",
-            "date": "October 11, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0495&BRID=389370&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
-        },
-        {
-            "title": "Administrative Assistant to the Associate Vice-Principal (Finance and Administration)",
-            "school": "Queen\u2019s University",
-            "date": "October 11, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0672&BRID=389259&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0371&BRID=389520&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Donor Engagement Officer",
             "school": "Queen\u2019s University",
             "date": "October 20, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0515&BRID=388933&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0515&BRID=388933&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Educational Assistant",
             "school": "Queen\u2019s University",
             "date": "October 15, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0552&BRID=388796&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0552&BRID=388796&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Machinist",
             "school": "Queen\u2019s University",
             "date": "October 14, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0118&BRID=388785&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0924-0118&BRID=388785&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Indigenous Recruitment and Student Advisor",
             "school": "Queen\u2019s University",
             "date": "N/A",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0923-0840&BRID=366207&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0923-0840&BRID=366207&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Associate Director, Operations (Research Centres and Institutes)",
             "school": "Queen\u2019s University",
             "date": "October 14, 2024",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0724-0428&BRID=388598&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0724-0428&BRID=388598&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Indigenous STEM Outreach Coordinator",
             "school": "Queen\u2019s University",
             "date": "N/A",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0824-0685&BRID=387803&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0824-0685&BRID=387803&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Cancer Research Study Coordinator",
             "school": "Queen\u2019s University",
             "date": "N/A",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0823-0021&BRID=346437&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0823-0021&BRID=346437&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Cancer Research Monitor/Auditor",
             "school": "Queen\u2019s University",
             "date": "N/A",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0423-0319&BRID=320719&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0423-0319&BRID=320719&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "Cancer Research Study Coordinator",
             "school": "Queen\u2019s University",
             "date": "N/A",
-            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZVpYSx5eDVAFYXZzNVwiZE9Md2ZdaVUqAVBMWisLB3leLUAcXzUfcmJ1A0QYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0321-0471&BRID=346453&lang=1",
-            "new_since": "2024-10-11T19:59:52.293336"
+            "link": "https://queensu.njoyn.com/cl4/xweb/xweb.asp?tbtoken=ZlFcRBxeDVAHYQQFMlIgZE88c2dZaVVdcVdMIV4EfHlaWUFqKkAYc2V8cDIYGhJWQXJjF3U%3D&chk=ZVpaShM%3D&clid=74827&Page=JobDetails&Jobid=J0321-0471&BRID=346453&lang=1",
+            "new_since": "2024-10-12T23:20:30.284532"
         },
         {
             "title": "MAT-215 Statistics",
@@ -7468,13 +7643,6 @@
             "title": "APTPUO - Hiver2025 - FLS2621-A",
             "date": "Posted Today",
             "link": "https://uottawa.wd3.myworkdayjobs.com/en-US/uOttawa_External_Career_Site/job/Ottawa-ON/APTPUO---Hiver2025---FLS2621-A_JR17901",
-            "new_since": "2024-10-11T19:59:52.293336"
-        },
-        {
-            "school": "University of Ottawa",
-            "title": "CUPE-automne 2024 - TA - MAT1771 A00 Statistique descriptive",
-            "date": "Posted Today",
-            "link": "https://uottawa.wd3.myworkdayjobs.com/en-US/uOttawa_External_Career_Site/job/Ottawa-ON/CUPE-automne-2024---TA---MAT1771-A00-Statistique-descriptive_JR17896",
             "new_since": "2024-10-11T19:59:52.293336"
         },
         {
@@ -7860,13 +8028,6 @@
             "title": "CUPE - Fall/Winter 2024-25 - RA - Common Law",
             "date": "Posted Today",
             "link": "https://uottawa.wd3.myworkdayjobs.com/en-US/uOttawa_External_Career_Site/job/Ottawa-ON/CUPE---Fall-Winter-2024-25---RA---Common-Law_JR17709",
-            "new_since": "2024-10-07T11:47:21.867008"
-        },
-        {
-            "school": "University of Ottawa",
-            "title": "CUPE - Fall 2024 - ADM4377 - TA",
-            "date": "Posted Today",
-            "link": "https://uottawa.wd3.myworkdayjobs.com/en-US/uOttawa_External_Career_Site/job/Ottawa-ON/CUPE---Fall-2024---ADM4377---TA_JR17265",
             "new_since": "2024-10-07T11:47:21.867008"
         },
         {
@@ -9509,13 +9670,6 @@
         },
         {
             "school": "University of Ottawa",
-            "title": "REPOST - APTPUO - Winter 2025 - MBA6265B00",
-            "date": "Posted Today",
-            "link": "https://uottawa.wd3.myworkdayjobs.com/en-US/uOttawa_External_Career_Site/job/Ottawa-ON/APTPUO---Winter-2025---MBA6265B00_JR15900",
-            "new_since": "2024-09-11T14:41:32.892974"
-        },
-        {
-            "school": "University of Ottawa",
             "title": "Security Guard - Safety",
             "date": "Posted 8 Days Ago",
             "link": "https://uottawa.wd3.myworkdayjobs.com/en-US/uOttawa_External_Career_Site/job/Ottawa-ON/Security-Guard---Safety_JR12233",
@@ -9691,10 +9845,38 @@
         },
         {
             "school": "University of St. Michael\u2019s College",
+            "title": "Undergraduate Officer and Program Promotions Coordinator",
+            "date": "Closes: October 18, 2024",
+            "link": "https://stmikes.utoronto.ca/job/undergraduate-officer-and-program-promotions-coordinator",
+            "new_since": "2024-10-12T23:20:30.298978"
+        },
+        {
+            "school": "University of St. Michael\u2019s College",
             "title": "Winter 2025 | BMS421H1S Histories of Letterpress Printing",
             "date": "Closes: November 1, 2024",
             "link": "https://stmikes.utoronto.ca/job/winter-2025-bms421h1s-histories-of-letterpress-printing",
             "new_since": "2024-10-03T20:28:15.620419"
+        },
+        {
+            "school": "University of Toronto",
+            "title": "Assistant Professor - Finance",
+            "link": "https://jobs.utoronto.ca/job/Toronto-Assistant-Professor-Finance-ON/584568317/",
+            "date": "2024-10-12 23:11:20",
+            "new_since": "2024-10-12T23:20:30.298978"
+        },
+        {
+            "school": "University of Toronto",
+            "title": "Assoc Professor/ Professor - UHN Centre for Mental Health and Program Medical Director UHN-CAMH",
+            "link": "https://jobs.utoronto.ca/job/Toronto-Assoc-Professor-Professor-UHN-Centre-for-Mental-Health-and-Program-Medical-Director-UHN-CAMH-ON/583723217/",
+            "date": "2024-10-12 23:11:20",
+            "new_since": "2024-10-12T23:20:30.298978"
+        },
+        {
+            "school": "University of Toronto",
+            "title": "Communications and Department Assistant",
+            "link": "https://jobs.utoronto.ca/job/Toronto-Communications-and-Department-Assistant-ON/585524717/",
+            "date": "2024-10-12 23:11:20",
+            "new_since": "2024-10-12T23:20:30.298978"
         },
         {
             "school": "University of Toronto",
@@ -9721,55 +9903,6 @@
             "school": "University of Toronto",
             "title": "Associate Professor / Professor- Forensic Analytical Toxicology",
             "link": "https://jobs.utoronto.ca/job/Mississauga-Associate-Professor-Professor-Forensic-Analytical-Toxicology-ON/584523417/",
-            "date": "2024-10-11 19:50:56",
-            "new_since": "2024-10-11T19:59:52.308008"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Financial Administrator",
-            "link": "https://jobs.utoronto.ca/job/Toronto-Financial-Administrator-ON/585490317/",
-            "date": "2024-10-11 19:50:56",
-            "new_since": "2024-10-11T19:59:52.308008"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Senior Research Associate (40% FTE)",
-            "link": "https://jobs.utoronto.ca/job/Toronto-Senior-Research-Associate-%2840-FTE%29-ON/585494117/",
-            "date": "2024-10-11 19:50:56",
-            "new_since": "2024-10-11T19:59:52.308008"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Communications Officer",
-            "link": "https://jobs.utoronto.ca/job/Toronto-Communications-Officer-ON/585495717/",
-            "date": "2024-10-11 19:50:56",
-            "new_since": "2024-10-11T19:59:52.308008"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Teaching Lab Coordinator",
-            "link": "https://jobs.utoronto.ca/job/Toronto-Teaching-Lab-Coordinator-ON/585497717/",
-            "date": "2024-10-11 19:50:56",
-            "new_since": "2024-10-11T19:59:52.308008"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Sessional Lecturer - CDN367H1S - Canadian Pluralism",
-            "link": "https://jobs.utoronto.ca/job/Toronto-Sessional-Lecturer-CDN367H1S-Canadian-Pluralism-ON/585498717/",
-            "date": "2024-10-11 19:50:56",
-            "new_since": "2024-10-11T19:59:52.308008"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Sessional Lecturer - COG341H1S - Issues in Cognitive Science I: Attentn, Perceptn, & Consciousness",
-            "link": "https://jobs.utoronto.ca/job/Toronto-Sessional-Lecturer-COG341H1S-Issues-in-Cognitive-Science-I-Attentn%2C-Perceptn%2C-&-Consciousness-ON/585498817/",
-            "date": "2024-10-11 19:50:56",
-            "new_since": "2024-10-11T19:59:52.308008"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Sessional Lecturer - COG402H1S - Seminar in Cognitive Science",
-            "link": "https://jobs.utoronto.ca/job/Toronto-Sessional-Lecturer-COG402H1S-Seminar-in-Cognitive-Science-ON/585499217/",
             "date": "2024-10-11 19:50:56",
             "new_since": "2024-10-11T19:59:52.308008"
         },
@@ -9838,6 +9971,48 @@
         },
         {
             "school": "University of Toronto",
+            "title": "Senior Research Associate (40% FTE)",
+            "link": "https://jobs.utoronto.ca/job/Toronto-Senior-Research-Associate-%2840-FTE%29-ON/585494117/",
+            "date": "2024-10-11 19:50:56",
+            "new_since": "2024-10-11T19:59:52.308008"
+        },
+        {
+            "school": "University of Toronto",
+            "title": "Communications Officer",
+            "link": "https://jobs.utoronto.ca/job/Toronto-Communications-Officer-ON/585495717/",
+            "date": "2024-10-11 19:50:56",
+            "new_since": "2024-10-11T19:59:52.308008"
+        },
+        {
+            "school": "University of Toronto",
+            "title": "Sessional Lecturer - CDN367H1S - Canadian Pluralism",
+            "link": "https://jobs.utoronto.ca/job/Toronto-Sessional-Lecturer-CDN367H1S-Canadian-Pluralism-ON/585498717/",
+            "date": "2024-10-11 19:50:56",
+            "new_since": "2024-10-11T19:59:52.308008"
+        },
+        {
+            "school": "University of Toronto",
+            "title": "Sessional Lecturer - COG341H1S - Issues in Cognitive Science I: Attentn, Perceptn, & Consciousness",
+            "link": "https://jobs.utoronto.ca/job/Toronto-Sessional-Lecturer-COG341H1S-Issues-in-Cognitive-Science-I-Attentn%2C-Perceptn%2C-&-Consciousness-ON/585498817/",
+            "date": "2024-10-11 19:50:56",
+            "new_since": "2024-10-11T19:59:52.308008"
+        },
+        {
+            "school": "University of Toronto",
+            "title": "Sessional Lecturer - COG402H1S - Seminar in Cognitive Science",
+            "link": "https://jobs.utoronto.ca/job/Toronto-Sessional-Lecturer-COG402H1S-Seminar-in-Cognitive-Science-ON/585499217/",
+            "date": "2024-10-11 19:50:56",
+            "new_since": "2024-10-11T19:59:52.308008"
+        },
+        {
+            "school": "University of Toronto",
+            "title": "Financial Administrator",
+            "link": "https://jobs.utoronto.ca/job/Toronto-Financial-Administrator-ON/585490317/",
+            "date": "2024-10-11 19:50:56",
+            "new_since": "2024-10-11T19:59:52.308008"
+        },
+        {
+            "school": "University of Toronto",
             "title": "Associate Professor / Professor - Statistical Sciences",
             "link": "https://jobs.utoronto.ca/job/Toronto-Associate-Professor-Professor-Statistical-Sciences-ON/585510517/",
             "date": "2024-10-11 19:50:56",
@@ -9861,6 +10036,13 @@
             "school": "University of Toronto",
             "title": "Program Coordinator",
             "link": "https://jobs.utoronto.ca/job/Toronto-Program-Coordinator-ON/585514117/",
+            "date": "2024-10-11 19:50:56",
+            "new_since": "2024-10-11T19:59:52.308008"
+        },
+        {
+            "school": "University of Toronto",
+            "title": "Teaching Lab Coordinator",
+            "link": "https://jobs.utoronto.ca/job/Toronto-Teaching-Lab-Coordinator-ON/585497717/",
             "date": "2024-10-11 19:50:56",
             "new_since": "2024-10-11T19:59:52.308008"
         },
@@ -9978,48 +10160,6 @@
         },
         {
             "school": "University of Toronto",
-            "title": "Sessional Lecturer - PSY 341H1S - LEC0101 - Psychopathologies of Childhood",
-            "link": "https://jobs.utoronto.ca/job/Toronto-Sessional-Lecturer-PSY-341H1S-LEC0101-Psychopathologies-of-Childhood-ON/585409317/",
-            "date": "2024-10-09 15:22:06",
-            "new_since": "2024-10-09T15:31:19.132931"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Sessional Lecturer - PSY 341H1S - LEC0201 - Psychopathologies of Childhood",
-            "link": "https://jobs.utoronto.ca/job/Toronto-Sessional-Lecturer-PSY-341H1S-LEC0201-Psychopathologies-of-Childhood-ON/585409517/",
-            "date": "2024-10-09 15:22:06",
-            "new_since": "2024-10-09T15:31:19.132931"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Sessional Lecturer - MAT244H5S LEC102 - Differential Equations I",
-            "link": "https://jobs.utoronto.ca/job/Mississauga-Sessional-Lecturer-MAT244H5S-LEC102-Differential-Equations-I-ON/585425117/",
-            "date": "2024-10-10 22:53:38",
-            "new_since": "2024-10-10T23:02:44.533005"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Assistant Director, Operations",
-            "link": "https://jobs.utoronto.ca/job/Toronto-Assistant-Director%2C-Operations-ON/585424417/",
-            "date": "2024-10-10 22:53:38",
-            "new_since": "2024-10-10T23:02:44.533005"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Sessional Lecturer - MAT134H5S LEC0102 - Integral Calculus for Life Sciences",
-            "link": "https://jobs.utoronto.ca/job/Mississauga-Sessional-Lecturer-MAT134H5S-LEC0102-Integral-Calculus-for-Life-Sciences-ON/585424817/",
-            "date": "2024-10-10 22:53:38",
-            "new_since": "2024-10-10T23:02:44.533005"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Sessional Lecturer - MAT136H5S LEC109 - Integral Calculus",
-            "link": "https://jobs.utoronto.ca/job/Mississauga-Sessional-Lecturer-MAT136H5S-LEC109-Integral-Calculus-ON/585424717/",
-            "date": "2024-10-10 22:53:38",
-            "new_since": "2024-10-10T23:02:44.533005"
-        },
-        {
-            "school": "University of Toronto",
             "title": "Course Administrator",
             "link": "https://jobs.utoronto.ca/job/Toronto-Course-Administrator-ON/585418417/",
             "date": "2024-10-10 22:53:38",
@@ -10125,6 +10265,13 @@
         },
         {
             "school": "University of Toronto",
+            "title": "Veterinary Technologist I",
+            "link": "https://jobs.utoronto.ca/job/Mississauga-Veterinary-Technologist-I-ON/585402017/",
+            "date": "2024-10-09 15:22:06",
+            "new_since": "2024-10-09T15:31:19.132931"
+        },
+        {
+            "school": "University of Toronto",
             "title": "Supervisor, Payroll and Benefits",
             "link": "https://jobs.utoronto.ca/job/Toronto-Supervisor%2C-Payroll-and-Benefits-ON/585418317/",
             "date": "2024-10-10 22:53:38",
@@ -10132,10 +10279,45 @@
         },
         {
             "school": "University of Toronto",
-            "title": "Veterinary Technologist I",
-            "link": "https://jobs.utoronto.ca/job/Mississauga-Veterinary-Technologist-I-ON/585402017/",
+            "title": "Sessional Lecturer - PSY 341H1S - LEC0101 - Psychopathologies of Childhood",
+            "link": "https://jobs.utoronto.ca/job/Toronto-Sessional-Lecturer-PSY-341H1S-LEC0101-Psychopathologies-of-Childhood-ON/585409317/",
             "date": "2024-10-09 15:22:06",
             "new_since": "2024-10-09T15:31:19.132931"
+        },
+        {
+            "school": "University of Toronto",
+            "title": "Sessional Lecturer - PSY 341H1S - LEC0201 - Psychopathologies of Childhood",
+            "link": "https://jobs.utoronto.ca/job/Toronto-Sessional-Lecturer-PSY-341H1S-LEC0201-Psychopathologies-of-Childhood-ON/585409517/",
+            "date": "2024-10-09 15:22:06",
+            "new_since": "2024-10-09T15:31:19.132931"
+        },
+        {
+            "school": "University of Toronto",
+            "title": "Sessional Lecturer - MAT244H5S LEC102 - Differential Equations I",
+            "link": "https://jobs.utoronto.ca/job/Mississauga-Sessional-Lecturer-MAT244H5S-LEC102-Differential-Equations-I-ON/585425117/",
+            "date": "2024-10-10 22:53:38",
+            "new_since": "2024-10-10T23:02:44.533005"
+        },
+        {
+            "school": "University of Toronto",
+            "title": "Assistant Director, Operations",
+            "link": "https://jobs.utoronto.ca/job/Toronto-Assistant-Director%2C-Operations-ON/585424417/",
+            "date": "2024-10-10 22:53:38",
+            "new_since": "2024-10-10T23:02:44.533005"
+        },
+        {
+            "school": "University of Toronto",
+            "title": "Sessional Lecturer - MAT134H5S LEC0102 - Integral Calculus for Life Sciences",
+            "link": "https://jobs.utoronto.ca/job/Mississauga-Sessional-Lecturer-MAT134H5S-LEC0102-Integral-Calculus-for-Life-Sciences-ON/585424817/",
+            "date": "2024-10-10 22:53:38",
+            "new_since": "2024-10-10T23:02:44.533005"
+        },
+        {
+            "school": "University of Toronto",
+            "title": "Sessional Lecturer - MAT136H5S LEC109 - Integral Calculus",
+            "link": "https://jobs.utoronto.ca/job/Mississauga-Sessional-Lecturer-MAT136H5S-LEC109-Integral-Calculus-ON/585424717/",
+            "date": "2024-10-10 22:53:38",
+            "new_since": "2024-10-10T23:02:44.533005"
         },
         {
             "school": "University of Toronto",
@@ -10237,6 +10419,13 @@
         },
         {
             "school": "University of Toronto",
+            "title": "Recruitment and Admissions Coordinator",
+            "link": "https://jobs.utoronto.ca/job/Toronto-Recruitment-and-Admissions-Coordinator-ON/585347417/",
+            "date": "2024-10-08 22:03:09",
+            "new_since": "2024-10-08T22:12:19.463432"
+        },
+        {
+            "school": "University of Toronto",
             "title": "Executive Assistant",
             "link": "https://jobs.utoronto.ca/job/Toronto-Executive-Assistant-ON/585371217/",
             "date": "2024-10-08 22:03:09",
@@ -10281,13 +10470,6 @@
             "school": "University of Toronto",
             "title": "Executive Assistant & Faculty Affairs Administrator",
             "link": "https://jobs.utoronto.ca/job/Toronto-Executive-Assistant-&-Faculty-Affairs-Administrator-ON/585355117/",
-            "date": "2024-10-08 22:03:09",
-            "new_since": "2024-10-08T22:12:19.463432"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Recruitment and Admissions Coordinator",
-            "link": "https://jobs.utoronto.ca/job/Toronto-Recruitment-and-Admissions-Coordinator-ON/585347417/",
             "date": "2024-10-08 22:03:09",
             "new_since": "2024-10-08T22:12:19.463432"
         },
@@ -10374,27 +10556,6 @@
             "link": "https://jobs.utoronto.ca/job/Toronto-Sessional-Lecturer-NFS302H1S-Nutrition%2C-Athletics%2C-Performance-ON/585322317/",
             "date": "2024-10-08 22:03:09",
             "new_since": "2024-10-08T22:12:19.464432"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Sessional Lecturer - EES1118H/EESD28",
-            "link": "https://jobs.utoronto.ca/job/Toronto-Sessional-Lecturer-EES1118HEESD28-ON/585320017/",
-            "date": "2024-10-07 22:18:33",
-            "new_since": "2024-10-07T22:27:43.854067"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Sessional Lecturer - PHYB21H3",
-            "link": "https://jobs.utoronto.ca/job/Toronto-Sessional-Lecturer-PHYB21H3-ON/585320917/",
-            "date": "2024-10-07 22:18:33",
-            "new_since": "2024-10-07T22:27:43.854067"
-        },
-        {
-            "school": "University of Toronto",
-            "title": "Student Services & Admissions Assistant",
-            "link": "https://jobs.utoronto.ca/job/Toronto-Student-Services-&-Admissions-Assistant-ON/585318117/",
-            "date": "2024-10-07 22:18:33",
-            "new_since": "2024-10-07T22:27:43.854067"
         },
         {
             "school": "Trinity College School",
@@ -10559,20 +10720,6 @@
         },
         {
             "school": "Wilfrid Laurier University",
-            "title": "*REPOST* YC245 BV/WV/MV - Children, Numeracy and Society (Winter 2025)",
-            "link": "https://careers.wlu.ca/job/Brantford-REPOST-YC245-BVWVMV-Children%2C-Numeracy-and-Society-%28Winter-2025%29-ON/729023947/",
-            "date": "2024-10-07 22:19:19",
-            "new_since": "2024-10-07T22:27:43.858193"
-        },
-        {
-            "school": "Wilfrid Laurier University",
-            "title": "*REPOST* HR327 BR - Understanding Public Policy for Issue Advocacy (Winter 2025)",
-            "link": "https://careers.wlu.ca/job/Brantford-REPOST-HR327-BR-Understanding-Public-Policy-for-Issue-Advocacy-%28Winter-2025%29-ON/729024147/",
-            "date": "2024-10-07 22:19:19",
-            "new_since": "2024-10-07T22:27:43.858193"
-        },
-        {
-            "school": "Wilfrid Laurier University",
             "title": "HR401 BR - Philosophy of Human Rights (Winter 2025)",
             "link": "https://careers.wlu.ca/job/Brantford-HR401-BR-Philosophy-of-Human-Rights-%28Winter-2025%29-ON/729024047/",
             "date": "2024-10-07 22:19:19",
@@ -10713,13 +10860,6 @@
         },
         {
             "school": "Wilfrid Laurier University",
-            "title": "Executive Administrative Assistant",
-            "link": "https://careers.wlu.ca/job/Other-Executive-Administrative-Assistant/728986347/",
-            "date": "2024-09-24 23:12:27",
-            "new_since": "2024-09-24T23:20:46.741067"
-        },
-        {
-            "school": "Wilfrid Laurier University",
             "title": "Schlegel Research Chair in Music Therapy and Aging.",
             "link": "https://careers.wlu.ca/job/Waterloo-Schlegel-Research-Chair-in-Music-Therapy-and-Aging_-ON/728982147/",
             "date": "2024-09-23 19:15:01",
@@ -10801,27 +10941,6 @@
             "link": "https://jobboard.ubishops.ca/job/agent-de-relations-humaines-laisse-ton-empreinte-en-protection-de-la-jeunesse-en-monteregie-3/",
             "date": "2024-10-03 20:20:11",
             "new_since": "2024-10-03T20:28:15.630010"
-        },
-        {
-            "school": "Bishop's University",
-            "title": "Marketing and Communications Manager",
-            "link": "https://jobboard.ubishops.ca/job/marketing-and-communications-manager/",
-            "date": "2024-09-27 14:34:11",
-            "new_since": "2024-09-27T14:41:58.286727"
-        },
-        {
-            "school": "Bishop's University",
-            "title": "Sponsorship and Fundraising Manager",
-            "link": "https://jobboard.ubishops.ca/job/sponsorship-and-fundraising-manager/",
-            "date": "2024-09-27 14:34:11",
-            "new_since": "2024-09-27T14:41:58.286727"
-        },
-        {
-            "school": "Bishop's University",
-            "title": "Event Coordinator",
-            "link": "https://jobboard.ubishops.ca/job/event-coordinator/",
-            "date": "2024-09-27 14:34:11",
-            "new_since": "2024-09-27T14:41:58.286727"
         },
         {
             "school": "\u00c9cole de technologie sup\u00e9rieure",
@@ -11063,6 +11182,27 @@
         },
         {
             "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al (UQAM)",
+            "title": "Technicienne, technicien en gestion des ressources humaines du personnel enseignant - Service du personnel enseignant (45723)",
+            "link": "https://atlas.workland.com/work/45723/technicienne-technicien-en-gestion-des-ressources-humaines-du-personnel-enseignant-service-du-personnel-enseignant-45723",
+            "date": "2024-10-12 23:13:48",
+            "new_since": "2024-10-12T23:20:30.308974"
+        },
+        {
+            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al (UQAM)",
+            "title": "Directrice, directeur du service de soutien aux d\u00e9partements \u00e0 la Facult\u00e9 des arts (46144)",
+            "link": "https://atlas.workland.com/work/46144/directrice-directeur-du-service-de-soutien-aux-departements-a-la-faculte-des-arts-46144",
+            "date": "2024-10-12 23:13:48",
+            "new_since": "2024-10-12T23:20:30.308974"
+        },
+        {
+            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al (UQAM)",
+            "title": "Directrice, directeur des Services aux personnes \u00e9tudiantes et des laboratoires informatiques (46942)",
+            "link": "https://atlas.workland.com/work/46942/directrice-directeur-des-services-aux-personnes-etudiantes-et-des-laboratoires-informatiques-46942",
+            "date": "2024-10-12 23:13:48",
+            "new_since": "2024-10-12T23:20:30.308974"
+        },
+        {
+            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al (UQAM)",
             "title": "Agente, agent de gestion des \u00e9tudes - ESG | Vice-d\u00e9canat aux \u00e9tudes (1500) (46936)",
             "link": "https://atlas.workland.com/work/46936/agente-agent-de-gestion-des-etudes-esg-vice-decanat-aux-etudes-1500-46936",
             "date": "2024-10-11 19:53:21",
@@ -11109,27 +11249,6 @@
             "link": "https://atlas.workland.com/work/46672/technicienne-technicien-en-informatique-faculte-des-sciences-departement-de-mathematiques-46672",
             "date": "2024-10-07 22:21:04",
             "new_since": "2024-10-07T22:27:43.864713"
-        },
-        {
-            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al (UQAM)",
-            "title": "Administratrice, administrateur de baux - Bureau des transactions immobili\u00e8res (45869)",
-            "link": "https://atlas.workland.com/work/45869/administratrice-administrateur-de-baux-bureau-des-transactions-immobilieres-45869",
-            "date": "2024-10-07 22:21:04",
-            "new_since": "2024-10-07T22:27:43.864713"
-        },
-        {
-            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al (UQAM)",
-            "title": "Technicienne, technicien en gestion des ressources humaines - SPCS (46430)",
-            "link": "https://atlas.workland.com/work/46430/technicienne-technicien-en-gestion-des-ressources-humaines-spcs-46430",
-            "date": "2024-10-04 20:49:30",
-            "new_since": "2024-10-04T20:56:14.524421"
-        },
-        {
-            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Montr\u00e9al (UQAM)",
-            "title": "Commis \u00e0 la paie (appellation interne \u00ab Commis \u00e0 la gestion des ressources humaines \u00bb) - SRG (46079)",
-            "link": "https://atlas.workland.com/work/46079/commis-a-la-paie-appellation-interne-commis-a-la-gestion-des-ressources-humaines-srg-46079",
-            "date": "2024-10-03 20:21:34",
-            "new_since": "2024-10-03T20:28:15.632781"
         },
         {
             "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Chicoutimi (UQAC)",
@@ -11203,6 +11322,13 @@
         },
         {
             "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
+            "title": "Charg\u00e9(e) de projet",
+            "link": "https://emploi.uqar.ca/emploi/marc-andre-pare-consultant-inc-556-91-chargee-de-projet/",
+            "date": "2024-10-12 23:14:28",
+            "new_since": "2024-10-12T23:20:30.309960"
+        },
+        {
+            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
             "title": "Responsable des communications",
             "link": "https://emploi.uqar.ca/emploi/collectif-pour-un-quebec-sans-pauvrete-547-91-responsable-des-communications/",
             "date": "2024-10-11 19:54:02",
@@ -11263,6 +11389,13 @@
             "link": "https://emploi.uqar.ca/emploi/centre-de-services-scolaire-de-montreal-550-137-cssdm-enseignantes-non-legalement-qualifiees-et-enseignants-non-legalement-qualifies-secteur-des-jeunes-fgj-annee-scolaire-2024-2025/",
             "date": "2024-10-11 19:54:02",
             "new_since": "2024-10-11T19:59:52.317541"
+        },
+        {
+            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
+            "title": "Infirmier(e) practicien(ne) sp\u00e9cialis\u00e9(e)",
+            "link": "https://emploi.uqar.ca/emploi/serespro-546-91-infirmiere-practicienne-specialisee/",
+            "date": "2024-10-12 23:14:38",
+            "new_since": "2024-10-12T23:20:30.310966"
         },
         {
             "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
@@ -11329,13 +11462,6 @@
         },
         {
             "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
-            "title": "Charg\u00e9\u00b7e de projet \u2013 Secondaire en spectacle Estrie",
-            "link": "https://emploi.uqar.ca/emploi/conseil-sport-loisir-de-lestrie-549-137-charge%c2%b7e-de-projet-secondaire-en-spectacle-estrie/",
-            "date": "2024-10-10 22:56:46",
-            "new_since": "2024-10-10T23:02:44.541528"
-        },
-        {
-            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
             "title": "Professionnel(le) en d\u00e9ficience visuelle \u2013 Mandat suprar\u00e9gional",
             "link": "https://emploi.uqar.ca/emploi/centre-de-services-scolaires-des-premieres-seigneuries-547-91-professionnelle-en-deficience-visuelle-mandat-supraregional-2/",
             "date": "2024-10-10 22:56:46",
@@ -11389,6 +11515,13 @@
             "link": "https://emploi.uqar.ca/emploi/brh-556-91-ingenieur-en-structure/",
             "date": "2024-10-08 22:06:22",
             "new_since": "2024-10-08T22:12:19.475599"
+        },
+        {
+            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
+            "title": "Pr\u00e9pos\u00e9, pr\u00e9pos\u00e9e au service \u00e0 la client\u00e8le",
+            "link": "https://emploi.uqar.ca/emploi/tecnic-556-137-prepose-preposee-au-service-a-la-clientele/",
+            "date": "2024-10-12 23:15:00",
+            "new_since": "2024-10-12T23:20:30.311966"
         },
         {
             "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
@@ -11630,13 +11763,6 @@
         },
         {
             "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
-            "title": "Conseiller / conseill\u00e8re aux entreprises",
-            "link": "https://emploi.uqar.ca/emploi/developpement-economique-nouvelle-beauce-556-91-conseiller-conseillere-aux-entreprises/",
-            "date": "2024-09-30 23:52:18",
-            "new_since": "2024-09-30T23:58:17.926445"
-        },
-        {
-            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
             "title": "Relationniste de presse 28548",
             "link": "https://emploi.uqar.ca/emploi/musee-de-la-civilisation-91-relationniste-de-presse-28548/",
             "date": "2024-09-30 23:52:18",
@@ -11826,13 +11952,6 @@
         },
         {
             "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
-            "title": "Assistant(e)-tr\u00e9sorier(\u00e8re)",
-            "link": "https://emploi.uqar.ca/emploi/marc-andre-pare-consultant-inc-556-91-assistante-tresorierere/",
-            "date": "2024-10-10 22:58:14",
-            "new_since": "2024-10-10T23:02:44.546101"
-        },
-        {
-            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
             "title": "Enseignant(e) du fran\u00e7ais et des arts plastiques",
             "link": "https://emploi.uqar.ca/emploi/945-avenue-wolfe-quebec-qc-canada-137-enseignante-du-francais-et-des-arts-plastiques/",
             "date": "2024-09-27 14:36:42",
@@ -11938,13 +12057,6 @@
         },
         {
             "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
-            "title": "Enseignantes et enseignants de fran\u00e7ais langue seconde (accueil) Secteur des jeunes (FGJ)",
-            "link": "https://emploi.uqar.ca/emploi/centre-de-services-scolaire-de-montreal-550-137-enseignantes-et-enseignants-de-francais-langue-seconde-accueil-secteur-des-jeunes-fgj-2/",
-            "date": "2024-09-11 17:16:36",
-            "new_since": "2024-09-11T17:22:22.669964"
-        },
-        {
-            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
             "title": "Ing\u00e9nieur.e CPI \u2013 \u00c9lectricit\u00e9 industrielle (Affectation \u00e0 Sept-\u00celes)",
             "link": "https://emploi.uqar.ca/emploi/bba-553-91-ingenieur-e-cpi-electricite-industrielle-affectation-a-sept-iles/",
             "date": "2024-09-17 00:33:59",
@@ -11977,13 +12089,6 @@
             "link": "https://emploi.uqar.ca/emploi/centre-de-services-scolaire-de-la-cote-du-sud-556-91-animatrice-ou-animateur-de-developpement-personnel-et-de-lengagement-communautaire-ecoles-pole-5-et-secondaire-louis-jacques-casault/",
             "date": "2024-09-30 23:53:47",
             "new_since": "2024-09-30T23:58:17.930445"
-        },
-        {
-            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
-            "title": "Professionnel en pr\u00e9vention",
-            "link": "https://emploi.uqar.ca/emploi/entrac-inc-547-91-kinesiologue-professionnel-en-prevention/",
-            "date": "September 11th, 2024",
-            "new_since": "2024-09-11T01:37:18.946644"
         },
         {
             "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
@@ -12052,20 +12157,6 @@
             "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
             "title": "Enseignant(e) \u2013 Suppl\u00e9ance",
             "link": "https://emploi.uqar.ca/emploi/945-avenue-wolfe-quebec-qc-canada-137-enseignante-banque-de-suppleance/",
-            "date": "September 11th, 2024",
-            "new_since": "2024-09-11T01:37:18.948587"
-        },
-        {
-            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
-            "title": "Professeure r\u00e9guli\u00e8re ou professeur r\u00e9gulier dans le domaine du g\u00e9nie m\u00e9canique \u2013 Sp\u00e9cialit\u00e9 conception et fabrication et fabrication durable",
-            "link": "https://emploi.uqar.ca/emploi/universite-du-quebec-en-abitibi-temiscamingue-552-91-professeure-reguliere-ou-professeur-regulier-dans-le-domaine-du-genie-mecanique-specialite-conception-et-fabrication-et-fabrication-durab/",
-            "date": "September 11th, 2024",
-            "new_since": "2024-09-11T01:37:18.948587"
-        },
-        {
-            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
-            "title": "Commis comptable",
-            "link": "https://emploi.uqar.ca/emploi/forages-boissonneault-inc-556-91-adjointe-administratifve/",
             "date": "September 11th, 2024",
             "new_since": "2024-09-11T01:37:18.948587"
         },
@@ -12462,6 +12553,50 @@
             "new_since": "2024-09-11T01:37:18.951587"
         },
         {
+            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
+            "title": "Intervenant communautaire",
+            "link": "https://emploi.uqar.ca/emploi/rehab-556-91-intervenant-communautaire-3/",
+            "date": "2024-10-12 23:18:01",
+            "new_since": "2024-10-12T23:20:30.320504"
+        },
+        {
+            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
+            "title": "Septembre 2024- Fiscalit\u00e9 (CPA) \u2013 Temps Plein \u2013 Ville de Qu\u00e9bec",
+            "link": "https://emploi.uqar.ca/emploi/pwc-561-91-septembre-2024-fiscalite-cpa-temps-plein-ville-de-quebec/",
+            "date": "2024-10-12 23:18:01",
+            "new_since": "2024-10-12T23:20:30.320504"
+        },
+        {
+            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
+            "title": "Administrateur de propri\u00e9t\u00e9s bilingue (fran\u00e7ais)-Google Suite",
+            "link": "https://emploi.uqar.ca/emploi/teamrecruiter-com-546-91-administrateur-de-proprietes-bilingue-francais-google-suite/",
+            "date": "2024-10-12 23:18:01",
+            "new_since": "2024-10-12T23:20:30.320504"
+        },
+        {
+            "school": "Universit\u00e9 du Qu\u00e9bec \u00e0 Rimouski (UQAR)",
+            "title": "Repr\u00e9sentant r\u00e9gional \u00e9t\u00e9 2023 pour Young Canadians for Resources",
+            "link": "https://emploi.uqar.ca/emploi/young-canadians-for-resources-546-91-representant-regional-ete-2023-pour-young-canadians-for-resources/",
+            "date": "2024-10-12 23:18:01",
+            "new_since": "2024-10-12T23:20:30.320504"
+        },
+        {
+            "school": "Universit\u00e9 Laval",
+            "title": "Administratrice ou administrateur en ressources informationnelles, niveau 2 - Infrastructures institutionnelles",
+            "link": "https://www.rh.ulaval.ca/emploi/HCM/9282/emplois-personnel-professionnel",
+            "date_posted": "Du 12 oct 2024\nau 22 oct 2024",
+            "new_since": "2024-10-12T23:20:30.320504",
+            "date": "October 12th, 2024"
+        },
+        {
+            "school": "Universit\u00e9 Laval",
+            "title": "Conseill\u00e8re ou conseiller en pr\u00e9vention des risques psychosociaux",
+            "link": "https://www.rh.ulaval.ca/emploi/HCM/9285/emplois-personnel-professionnel",
+            "date_posted": "Du 12 oct 2024\nau 20 oct 2024",
+            "new_since": "2024-10-12T23:20:30.323496",
+            "date": "October 12th, 2024"
+        },
+        {
             "school": "Universit\u00e9 Laval",
             "title": "Conseill\u00e8re ou conseiller en d\u00e9veloppement de la recherche",
             "link": "https://www.rh.ulaval.ca/emploi/HCM/9278/emplois-personnel-professionnel",
@@ -12663,13 +12798,6 @@
             "school": "Campion College",
             "title": "Assistant Professor (Tenure-Track), Department of Earth Sciences",
             "link": "https://urcareers.uregina.ca/postings/16668",
-            "new_since": "2024-10-08T22:12:19.488131",
-            "date": "October 8th, 2024"
-        },
-        {
-            "school": "Campion College",
-            "title": "Assistant Professor (Tenure-Track), Department of Mathematics & Statistics (Pure Mathematics)",
-            "link": "https://urcareers.uregina.ca/postings/16637",
             "new_since": "2024-10-08T22:12:19.488131",
             "date": "October 8th, 2024"
         },
@@ -13210,5 +13338,5 @@
             "new_since": "2024-10-07T22:27:43.880252"
         }
     ],
-    "last_updated": "2024-10-11T19:59:52.336654"
+    "last_updated": "2024-10-12T23:20:30.333020"
 }
