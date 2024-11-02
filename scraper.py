@@ -2646,7 +2646,7 @@ def scrape_lakehead_university(existing_job_links, existing_jobs):
     driver.get(url)
 
     # Wait for the page to load and the first job element to be present
-    WebDriverWait(driver, 10).until(
+    WebDriverWait(driver, 30).until(
         EC.presence_of_element_located((By.XPATH, "/html/body/div/div/div/div[1]/div/div[3]/div/div/div/div/article/div[1]/div/div/div/div[1]/div/div[1]/a"))
     )
 
@@ -5084,7 +5084,7 @@ new_jobs = (
     scrape_vancouver_island_university(existing_job_links, existing_jobs) +
     scrape_brandon(existing_job_links, existing_jobs) +
     scrape_cmu(existing_job_links, existing_jobs) +
-    scrape_university_of_saint_boniface(existing_job_links, existing_jobs) +
+    #scrape_university_of_saint_boniface(existing_job_links, existing_jobs) +
     scrape_university_of_new_brunswick(existing_job_links, existing_jobs) +
     scrape_mount_allison_university() +
     scrape_st_thomas_university(existing_job_links, existing_jobs) +
@@ -5101,7 +5101,7 @@ new_jobs = (
     scrape_carleton_university(existing_job_links, existing_jobs) +
     scrape_huron_university(existing_job_links, existing_jobs) +
     scrape_kings_university_college(existing_job_links, existing_jobs) +
-    scrape_lakehead_university(existing_job_links, existing_jobs) +
+    #scrape_lakehead_university(existing_job_links, existing_jobs) +
     scrape_nipissing_university(existing_job_links, existing_jobs) +
     scrape_ocad_university(existing_job_links, existing_jobs) +
     scrape_ontario_tech() +
