@@ -57,6 +57,13 @@
             "new_since": "2024-12-28T02:58:35.452391"
         },
         {
+            "title": "Accounts Payable Administrator (Clerk PL4)",
+            "school": "University of New Brunswick",
+            "date": "Date not available",
+            "link": "https://jobs.careerbeacon.com/details/accounts-payable-administrator-clerk-pl4/2130817?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2130817&utm_term=jobtitle",
+            "new_since": "2025-01-02T16:53:44.628542"
+        },
+        {
             "title": "Communications Officer",
             "school": "University of New Brunswick",
             "date": "Date not available",
@@ -167,6 +174,20 @@
             "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/122681/",
             "date": "No date available",
             "new_since": "2024-12-03T21:42:29.630164"
+        },
+        {
+            "title": "Applications & Systems Analyst",
+            "school": "Dalhousie University",
+            "date": "No date available",
+            "link": "https://dal.peopleadmin.ca/postings/18123",
+            "new_since": "2025-01-02T16:53:44.629538"
+        },
+        {
+            "title": "Executive Assistant",
+            "school": "Dalhousie University",
+            "date": "No date available",
+            "link": "https://dal.peopleadmin.ca/postings/18122",
+            "new_since": "2025-01-02T16:53:44.629538"
         },
         {
             "title": "Human Resources Coordinator",
@@ -646,6 +667,13 @@
         },
         {
             "school": "University of Prince Edward Island",
+            "title": "MTS Level 5 - Library Technician - Public Service - Robertson Library",
+            "link": "https://www.upei.ca/hr/competition/04e25",
+            "date": "Closing date: Jan 9, 2025",
+            "new_since": "2025-01-02T16:53:44.629538"
+        },
+        {
+            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - Faculty of Indigenous Knowledge, Education, Research, and Applied Studies - Winter 2025",
             "link": "https://www.upei.ca/hr/competition/119si24",
             "date": "Closing date: Jan 2, 2025",
@@ -676,7 +704,7 @@
             "school": "University of Prince Edward Island",
             "title": "MTS Level 6 - Registered Veterinary Technician - Small Animal ICU/Float - Days, 4 on/4 off - Veterinary Teaching Hospital - Atlantic Veterinary College *Reposted*",
             "link": "https://www.upei.ca/hr/competition/247e24r",
-            "date": "Closing date: Jan 1, 2025",
+            "date": "Closing date: Jan 15, 2025",
             "new_since": "2024-12-18T13:16:18.533698"
         },
         {
@@ -716,13 +744,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "MTS Level 6 - Exam Coordinator - Student Affairs - Accessibility Services - Student Experience Hub *Amended*",
-            "link": "https://www.upei.ca/hr/competition/250e24",
-            "date": "Closing date: Jan 1, 2025",
-            "new_since": "2024-12-12T23:16:31.529565"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - Faculty of Nursing - Winter 2025 *Amended Course Title*",
             "link": "https://www.upei.ca/hr/competition/117si24",
             "date": "Closing date: Dec 26, 2024",
@@ -733,13 +754,6 @@
             "title": "Sessional Instructor - Faculty of Nursing - Winter 2025",
             "link": "https://www.upei.ca/hr/competition/116si24",
             "date": "Closing date: Dec 26, 2024",
-            "new_since": "2024-12-12T23:16:31.529565"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "ADS Level 5- Administrative Assistant - Security Services Division - Department of Facilities Management",
-            "link": "https://www.upei.ca/hr/competition/242e24",
-            "date": "Closing date: Jan 1, 2025",
             "new_since": "2024-12-12T23:16:31.529565"
         },
         {
@@ -1247,5 +1261,5 @@
             "new_since": "2024-10-21T23:36:44.941798"
         }
     ],
-    "last_updated": "2025-01-01T00:55:06.242148"
+    "last_updated": "2025-01-02T16:53:44.631543"
 }
