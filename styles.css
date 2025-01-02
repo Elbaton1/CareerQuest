@@ -1,52 +1,157 @@
 :root {
-  --primary-color: #4a90e2;
-  --secondary-color: #f5a623;
-  --text-color: #333333;
-  --background-color: #f0f4f8;
+  /*--------------------------------------------------------------
+  # Color Variables
+  --------------------------------------------------------------*/
+  /* Light Mode Colors */
+  --primary-color: #555555; /* Neutral gray instead of blue */
+  --secondary-color: #f5a623; /* Accent color remains as orange */
+  --text-color: #141414;
+  --background-color: #ffffff;
   --card-background: #ffffff;
-  --shadow-color: rgba(0, 0, 0, 0.1);
+  --shadow-color: rgba(0, 0, 0, 0.05); /* Lighter shadow for a cleaner look */
   --border-radius: 10px;
-  --hero-background: url("https://source.unsplash.com/random/1920x1080/?career");
+  --transition-speed: 0.3s;
+
+  /* Dark Mode Colors */
   --dark-primary-color: #2c3e50;
   --dark-secondary-color: #34495e;
-  --dark-text-color: #ecf0f1;
-  --dark-background-color: #1a1a1a;
-  --listing-background: linear-gradient(135deg, #ffffff 25%, #f8f8f8 100%);
-  --listing-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
-  --transition-speed: 0.3s;
+  --dark-text-color: #ffffff;
+  --dark-background-color: #1c1c1c;
+  --dark-card-background: #2c3e50;
+
+  /* Gradients */
+  --gradient-header: linear-gradient(
+    90deg,
+    #d0cfcf,
+    #777777
+  ); /* Neutral gradient */
+  --gradient-badge: linear-gradient(135deg, var(--secondary-color), #f7b733);
+
+  /* Overlay */
+  --overlay-background: rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode {
+  /* Override variables for Dark Mode */
+  --primary-color: var(--dark-primary-color);
+  --secondary-color: var(--dark-secondary-color);
+  --text-color: var(--dark-text-color);
+  --background-color: var(--dark-background-color);
+  --card-background: var(--dark-card-background);
+  --shadow-color: rgba(255, 255, 255, 0.1);
+}
+
+/*--------------------------------------------------------------
+# Base Styles
+--------------------------------------------------------------*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: "Roboto", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-size: 0.75rem; /* 12px */
+  line-height: 1.5;
   margin: 0;
   padding: 0;
-  background: url("https://www.transparenttextures.com/patterns/cubes.png");
   background-color: var(--background-color);
-  background-repeat: repeat;
-  background-attachment: fixed;
   color: var(--text-color);
+  transition: background-color var(--transition-speed),
+    color var(--transition-speed);
 }
 
-main {
-  flex: 1;
-  padding: 2rem 0;
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+  color: var(--text-color);
+  margin: 0 0 20px 0;
+  line-height: 1.5;
 }
 
+h1 {
+  font-size: 1rem; /* 16px */
+  font-weight: 400; /* Lighter weight */
+}
+
+h2 {
+  font-size: 1rem; /* 16px */
+  font-weight: 400; /* Lighter weight */
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: 0.875rem; /* 14px */
+  font-weight: 300; /* Lighter weight */
+}
+
+/* Paragraphs */
+p {
+  margin: 0 0 20px 0;
+  line-height: 1.6;
+  font-family: "Playfair Display", serif;
+  font-size: 0.75rem; /* 12px */
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color var(--transition-speed);
+}
+
+a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+/* Buttons */
+button,
+.btn {
+  cursor: pointer;
+  transition: background-color var(--transition-speed),
+    transform var(--transition-speed);
+  border: none;
+  border-radius: var(--border-radius);
+  font-family: "Playfair Display", serif;
+  font-size: 0.75rem; /* 12px */
+  padding: 0.5rem 1rem;
+}
+
+button:hover,
+.btn:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
 header {
-  background: linear-gradient(90deg, #4a90e2, #5ca0f2);
+  background: var(--gradient-header);
   padding: 1rem 0;
   box-shadow: 0 2px 10px var(--shadow-color);
+  position: relative;
+  z-index: 1000;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2.5em;
-  font-weight: 700;
+  font-size: 1rem; /* 16px */
+  font-weight: 400; /* Lighter weight */
   color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
   padding: 10px;
   transition: transform var(--transition-speed) ease,
     letter-spacing var(--transition-speed) ease;
@@ -54,7 +159,7 @@ header h1 {
 
 header h1:hover {
   transform: scale(1.05);
-  letter-spacing: 1px;
+  letter-spacing: 0.05em; /* Slight letter spacing */
 }
 
 .header-link {
@@ -62,9 +167,10 @@ header h1:hover {
   color: inherit;
 }
 
+/* Navigation */
 nav {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  background: rgba(96, 156, 153, 0);
+
   box-shadow: 0 4px 8px var(--shadow-color);
   width: 80%;
   margin: 1rem auto;
@@ -79,64 +185,21 @@ nav .nav-link {
     color var(--transition-speed);
 }
 
-nav .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #ffffff;
-}
-
+nav .nav-link:hover,
 nav .nav-link.active {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0);
   color: #ffffff;
 }
 
-#hero {
-  background: var(--hero-background) no-repeat center center/cover;
-  padding: 70px 0;
-  text-align: center;
+.dark-mode nav .nav-link:hover,
+.dark-mode nav .nav-link.active {
+  background-color: rgba(0, 0, 0, 0.2);
   color: #ffffff;
-  position: relative;
 }
 
-#hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-#hero h2 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  position: relative;
-  z-index: 1;
-}
-
-#hero p {
-  font-size: 1.2em;
-  margin-bottom: 10px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  z-index: 1;
-}
-
-#timestamp {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 1em;
-  color: #ffffff;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 5px 10px;
-  border-radius: 5px;
-  z-index: 1;
-}
-
+/*--------------------------------------------------------------
+# Social Icons
+--------------------------------------------------------------*/
 .social-icons a {
   color: var(--secondary-color);
   font-size: 1.5em;
@@ -148,20 +211,25 @@ nav .nav-link.active {
   color: var(--primary-color);
 }
 
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
 .about-section {
   padding: 50px 0;
   background-color: var(--card-background);
   box-shadow: 0 0 10px var(--shadow-color);
+  border-radius: var(--border-radius);
 }
 
 .about-section h2 {
-  font-size: 2.5em;
+  font-family: "Merriweather", serif;
+  font-size: 1rem; /* 16px */
   margin-bottom: 20px;
   color: var(--primary-color);
 }
 
 .about-section p.lead {
-  font-size: 1.5em;
+  font-size: 0.75rem; /* 12px */
   font-weight: 300;
   margin-bottom: 20px;
 }
@@ -172,7 +240,7 @@ nav .nav-link.active {
 }
 
 .about-section ul li {
-  font-size: 1.2em;
+  font-size: 0.75rem; /* 12px */
   margin-bottom: 10px;
   padding-left: 20px;
   position: relative;
@@ -185,6 +253,9 @@ nav .nav-link.active {
   left: 0;
 }
 
+/*--------------------------------------------------------------
+# Job Listings
+--------------------------------------------------------------*/
 .job-listings {
   display: flex;
   flex-wrap: wrap;
@@ -193,7 +264,7 @@ nav .nav-link.active {
 }
 
 .job-listing {
-  background: var(--listing-background);
+  background: var(--card-background);
   box-shadow: 0 6px 12px var(--shadow-color);
   padding: 20px;
   margin: 15px;
@@ -206,13 +277,22 @@ nav .nav-link.active {
   opacity: 0;
   animation: fadeIn 0.5s forwards;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.job-listing:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px var(--shadow-color);
+  border-color: var(--primary-color);
 }
 
 .job-listing h2 {
-  font-size: 1.1em;
+  font-size: 1rem; /* 16px */
   margin-bottom: 10px;
   color: var(--primary-color);
-  text-shadow: var(--listing-text-shadow);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .job-listing h2 a {
@@ -227,15 +307,9 @@ nav .nav-link.active {
 }
 
 .job-listing p {
-  font-size: 0.9em;
+  font-size: 0.75rem; /* 12px */
   color: #666;
   margin: 5px 0;
-}
-
-.job-listing:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 12px 24px var(--shadow-color);
-  border-color: var(--primary-color);
 }
 
 .job-listing .details {
@@ -246,15 +320,15 @@ nav .nav-link.active {
 }
 
 .job-listing .details span {
-  font-size: 0.8em;
+  font-size: 0.8rem; /* 12px */
   color: #999;
 }
 
 .job-listing .details a {
-  font-size: 0.8em;
+  font-size: 0.8rem; /* 12px */
   color: var(--primary-color);
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
   transition: color var(--transition-speed);
 }
 
@@ -263,11 +337,12 @@ nav .nav-link.active {
   color: var(--text-color);
 }
 
+/* New Badge */
 .new-badge {
   position: absolute;
   top: -10px;
   left: 10px;
-  background: linear-gradient(135deg, var(--secondary-color), #f7b733);
+  background: var(--gradient-badge);
   color: #fff;
   font-size: 0.65em;
   font-weight: 600;
@@ -286,6 +361,57 @@ nav .nav-link.active {
   background: linear-gradient(135deg, #f7b733, var(--secondary-color));
 }
 
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+  background-color: var(--background-color);
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--text-color);
+  box-shadow: 0 -2px 5px var(--shadow-color);
+  transition: background-color var(--transition-speed),
+    color var(--transition-speed);
+}
+
+footer h5 {
+  font-family: "Merriweather", serif;
+  font-size: 1rem; /* 16px */
+  margin-bottom: 15px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: var(--text-color);
+  transition: color var(--transition-speed);
+}
+
+footer ul li a:hover {
+  color: var(--primary-color);
+}
+
+footer .social-icons a {
+  color: var(--secondary-color);
+  font-size: 1.5em;
+  margin: 0 10px;
+  transition: color var(--transition-speed);
+}
+
+footer .social-icons a:hover {
+  color: var(--primary-color);
+}
+
+/*--------------------------------------------------------------
+# Back to Top Button
+--------------------------------------------------------------*/
 #back-to-top {
   position: fixed;
   bottom: 20px;
@@ -305,6 +431,9 @@ nav .nav-link.active {
   background-color: var(--secondary-color);
 }
 
+/*--------------------------------------------------------------
+# Responsive Design
+--------------------------------------------------------------*/
 @media (max-width: 768px) {
   nav {
     width: 100%;
@@ -318,14 +447,38 @@ nav .nav-link.active {
   .job-listing {
     flex: 0 0 calc(50% - 30px);
   }
+  .search-bar {
+    flex-direction: column;
+  }
+  .search-bar input {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: var(--border-radius);
+  }
+  .search-bar button {
+    width: 100%;
+    border-radius: var(--border-radius);
+  }
+  .filter-bar {
+    flex-direction: column;
+  }
+  .filter-bar label {
+    margin-bottom: 10px;
+  }
+  .filter-bar select {
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
   .job-listing {
-    flex: 0 0 calc(100% - 30px);
+    flex: 0 0 100%;
   }
 }
 
+/*--------------------------------------------------------------
+# Animations
+--------------------------------------------------------------*/
 @keyframes fadeIn {
   to {
     opacity: 1;
@@ -345,36 +498,4 @@ nav .nav-link.active {
     transform: scale(1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-}
-
-body.dark-mode {
-  background-color: var(--dark-background-color);
-  color: var(--dark-text-color);
-}
-
-body.dark-mode .job-listing {
-  background: var(--dark-secondary-color);
-  color: var(--dark-text-color);
-}
-
-body.dark-mode header {
-  background: linear-gradient(
-    90deg,
-    var(--dark-primary-color),
-    var(--dark-secondary-color)
-  );
-}
-
-body.dark-mode footer {
-  background-color: var(--dark-primary-color);
-}
-
-body.dark-mode .job-listing h2,
-body.dark-mode .job-listing .details a {
-  color: var(--secondary-color);
-}
-
-body.dark-mode .job-listing p,
-body.dark-mode .job-listing .details span {
-  color: #bbb;
 }
