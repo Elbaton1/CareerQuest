@@ -168,6 +168,11 @@ button:hover,
   background-color: transparent; /* Remove background color on hover */
 }
 
+/* Custom Hamburger Icon for Light Navbar */
+.custom-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(20,20,20,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 /* Dark Mode Navbar */
 .dark-mode .custom-navbar {
   background-color: #1c1c1c; /* Dark background for navbar in dark mode */
@@ -181,6 +186,11 @@ button:hover,
 .dark-mode .custom-navbar .navbar-nav .nav-link.active {
   color: var(--secondary-color); /* Accent color on hover/active in dark mode */
   background-color: transparent;
+}
+
+/* Custom Hamburger Icon for Dark Navbar */
+.dark-mode .custom-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 /*--------------------------------------------------------------
@@ -460,7 +470,7 @@ body.dark-mode .job-listing .details a {
 
 body.dark-mode .job-listing p,
 body.dark-mode .job-listing .details span {
-  color: #000000;
+  color: #bbb;
 }
 
 body.dark-mode .footer {
