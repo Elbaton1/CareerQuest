@@ -147,6 +147,7 @@ button:hover,
   font-family: "Merriweather", serif;
   font-size: 1.2rem;
   color: var(--text-color);
+  letter-spacing: 0.5px; /* Enhanced letter-spacing for elegance */
 }
 
 .custom-navbar .navbar-brand:hover {
@@ -189,7 +190,7 @@ button:hover,
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .job-listing {
@@ -202,7 +203,7 @@ button:hover,
   transition: transform var(--transition-speed) ease,
     box-shadow var(--transition-speed) ease;
   border-radius: var(--border-radius);
-  border: 2px solid transparent;
+  border: 1px solid #e0e0e0; /* Subtle border for minimalistic look */
   opacity: 0;
   animation: fadeIn 0.5s forwards;
   position: relative;
@@ -294,6 +295,7 @@ button:hover,
 @media (min-width: 768px) {
   .job-listing {
     flex: 0 0 calc(33.333% - 30px);
+    margin: 15px;
   }
 }
 
@@ -405,6 +407,7 @@ button:hover,
 @media (max-width: 480px) {
   .job-listing {
     flex: 0 0 100%;
+    margin: 15px 0;
   }
 }
 
@@ -443,6 +446,7 @@ body.dark-mode {
 body.dark-mode .job-listing {
   background: var(--dark-card-background);
   color: var(--dark-text-color);
+  border: 1px solid #444444;
 }
 
 body.dark-mode .custom-navbar {
@@ -456,7 +460,7 @@ body.dark-mode .job-listing .details a {
 
 body.dark-mode .job-listing p,
 body.dark-mode .job-listing .details span {
-  color: #bbb;
+  color: #000000;
 }
 
 body.dark-mode .footer {
