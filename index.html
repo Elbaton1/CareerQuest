@@ -6,7 +6,7 @@
     <title>CareerQuest</title>
     <!-- Import Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400&family=Playfair+Display:wght@400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Playfair+Display:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <!-- Bootstrap CSS -->
@@ -23,15 +23,10 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Header -->
-    <header class="bg-dark text-white text-center py-4">
-      <div id="timestamp" class="text-left pl-4"></div>
-      <h1>
-        <a href="careerquest.html" class="header-link text-white"
-          >CareerQuest</a
-        >
-      </h1>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="careerquest.html">CareerQuest</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -44,42 +39,46 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="careerquest.html" class="nav-link active">Home</a>
+              <a class="nav-link active" href="careerquest.html">Home</a>
             </li>
             <li class="nav-item">
-              <a href="about.html" class="nav-link">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
               <a href="#" id="dark-mode-toggle" class="nav-link">Dark Mode</a>
             </li>
           </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
 
     <!-- Main Content -->
     <main>
-      <div id="home" class="container mt-4">
+      <div class="container mt-5">
         <!-- Search Bar -->
         <div class="search-bar form-inline justify-content-center mb-4">
           <input
             type="text"
             id="search"
-            class="form-control mr-2"
+            class="form-control mr-2 search-input"
             placeholder="Search for jobs or schools..."
           />
-          <button class="btn btn-success" onclick="searchJobs()">Search</button>
+          <button class="btn btn-success search-button" onclick="searchJobs()">
+            Search
+          </button>
         </div>
 
         <!-- Filter Bar -->
         <div class="filter-bar mb-4 text-center">
-          <label for="filter-school">Filter by School:</label>
-          <select id="filter-school" class="form-control w-50 mx-auto">
+          <label for="filter-school" class="filter-label"
+            >Filter by School:</label
+          >
+          <select id="filter-school" class="form-control filter-select">
             <option value="all">All Schools</option>
             <!-- Add more options dynamically -->
           </select>
@@ -88,36 +87,38 @@
         <!-- Job Listings -->
         <div id="job-listings" class="job-listings row">
           <!-- Sample Job Listing -->
-          <div class="job-listing">
-            <span class="new-badge">New</span>
-            <h2 class="job-title"><a href="#">Software Engineer</a></h2>
-            <p class="company">Tech Corp</p>
-            <p class="location">New York, NY</p>
-            <p class="description">
-              Develop and maintain web applications using the latest
-              technologies.
-            </p>
-            <div class="details">
-              <span class="badge">Full-Time</span>
-              <button class="btn apply-btn">Apply Now</button>
+          <div class="col-md-4">
+            <div class="job-card">
+              <span class="new-badge">New</span>
+              <h2 class="job-title"><a href="#">Software Engineer</a></h2>
+              <p class="company">Tech Corp</p>
+              <p class="location">New York, NY</p>
+              <p class="description">
+                Develop and maintain web applications using the latest
+                technologies.
+              </p>
+              <div class="details">
+                <span class="badge badge-primary">Full-Time</span>
+                <button class="btn btn-apply">Apply Now</button>
+              </div>
             </div>
           </div>
-          <!-- Repeat .job-listing as needed -->
+          <!-- Repeat .job-card as needed -->
         </div>
       </div>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-4 mt-auto">
+    <footer class="footer">
       <div class="container">
         <div class="row">
           <!-- Quick Links -->
           <div class="col-md-4">
             <h5>Quick Links</h5>
             <ul class="list-unstyled">
-              <li><a href="careerquest.html" class="text-white">Home</a></li>
-              <li><a href="about.html" class="text-white">About</a></li>
-              <li><a href="contact.html" class="text-white">Contact</a></li>
+              <li><a href="careerquest.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
           <!-- Contact Information -->
@@ -150,7 +151,9 @@
     </footer>
 
     <!-- Back to Top Button -->
-    <button id="back-to-top" title="Back to top">&uarr;</button>
+    <button id="back-to-top" title="Back to top" aria-label="Back to Top">
+      &uarr;
+    </button>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

@@ -3,26 +3,26 @@
   # Color Variables
   --------------------------------------------------------------*/
   /* Light Mode Colors */
-  --primary-color: #555555; /* Neutral gray instead of blue */
-  --secondary-color: #f5a623; /* Accent color remains as orange */
-  --text-color: #141414;
-  --background-color: #ffffff;
-  --card-background: #ffffff;
-  --shadow-color: rgba(0, 0, 0, 0.05); /* Lighter shadow for a cleaner look */
+  --primary-color: #555555; /* Neutral gray for primary elements */
+  --secondary-color: #f5a623; /* Accent color (orange) */
+  --text-color: #141414; /* Dark text */
+  --background-color: #ffffff; /* White background */
+  --card-background: #ffffff; /* White card background */
+  --shadow-color: rgba(0, 0, 0, 0.05); /* Subtle shadow */
   --border-radius: 10px;
   --transition-speed: 0.3s;
 
   /* Dark Mode Colors */
   --dark-primary-color: #2c3e50;
   --dark-secondary-color: #34495e;
-  --dark-text-color: #ffffff;
-  --dark-background-color: #1c1c1c;
+  --dark-text-color: #ffffff; /* White text in dark mode */
+  --dark-background-color: #1c1c1c; /* Dark background */
   --dark-card-background: #2c3e50;
 
   /* Gradients */
   --gradient-header: linear-gradient(
     90deg,
-    #d0cfcf,
+    #555555,
     #777777
   ); /* Neutral gradient */
   --gradient-badge: linear-gradient(135deg, var(--secondary-color), #f7b733);
@@ -136,121 +136,50 @@ button:hover,
 }
 
 /*--------------------------------------------------------------
-# Header
+# Navigation
 --------------------------------------------------------------*/
-header {
-  background: var(--gradient-header);
-  padding: 1rem 0;
-  box-shadow: 0 2px 10px var(--shadow-color);
-  position: relative;
-  z-index: 1000;
+.custom-navbar {
+  background-color: var(--background-color); /* White background for navbar */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
-  margin: 0;
-  font-size: 1rem; /* 16px */
-  font-weight: 400; /* Lighter weight */
-  color: #ffffff;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
-  padding: 10px;
-  transition: transform var(--transition-speed) ease,
-    letter-spacing var(--transition-speed) ease;
-}
-
-header h1:hover {
-  transform: scale(1.05);
-  letter-spacing: 0.05em; /* Slight letter spacing */
-}
-
-.header-link {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Navigation */
-nav {
-  background: rgba(96, 156, 153, 0);
-
-  box-shadow: 0 4px 8px var(--shadow-color);
-  width: 80%;
-  margin: 1rem auto;
-  border-radius: var(--border-radius);
-}
-
-nav .nav-link {
-  color: #ffffff;
-  font-size: 1.1em;
-  padding: 10px 20px;
-  transition: background-color var(--transition-speed),
-    color var(--transition-speed);
-}
-
-nav .nav-link:hover,
-nav .nav-link.active {
-  background-color: rgba(255, 255, 255, 0);
-  color: #ffffff;
-}
-
-.dark-mode nav .nav-link:hover,
-.dark-mode nav .nav-link.active {
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #ffffff;
-}
-
-/*--------------------------------------------------------------
-# Social Icons
---------------------------------------------------------------*/
-.social-icons a {
-  color: var(--secondary-color);
-  font-size: 1.5em;
-  margin: 0 10px;
-  transition: color var(--transition-speed) ease;
-}
-
-.social-icons a:hover {
-  color: var(--primary-color);
-}
-
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
-.about-section {
-  padding: 50px 0;
-  background-color: var(--card-background);
-  box-shadow: 0 0 10px var(--shadow-color);
-  border-radius: var(--border-radius);
-}
-
-.about-section h2 {
+.custom-navbar .navbar-brand {
   font-family: "Merriweather", serif;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.custom-navbar .navbar-brand:hover {
+  color: var(--secondary-color);
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: var(--text-color); /* Black text for nav links */
   font-size: 1rem; /* 16px */
-  margin-bottom: 20px;
-  color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  transition: color var(--transition-speed),
+    background-color var(--transition-speed);
 }
 
-.about-section p.lead {
-  font-size: 0.75rem; /* 12px */
-  font-weight: 300;
-  margin-bottom: 20px;
+.custom-navbar .navbar-nav .nav-link:hover,
+.custom-navbar .navbar-nav .nav-link.active {
+  color: var(--secondary-color); /* Change to accent color on hover/active */
+  background-color: transparent; /* Remove background color on hover */
 }
 
-.about-section ul {
-  list-style: none;
-  padding: 0;
+/* Dark Mode Navbar */
+.dark-mode .custom-navbar {
+  background-color: #1c1c1c; /* Dark background for navbar in dark mode */
 }
 
-.about-section ul li {
-  font-size: 0.75rem; /* 12px */
-  margin-bottom: 10px;
-  padding-left: 20px;
-  position: relative;
+.dark-mode .custom-navbar .navbar-nav .nav-link {
+  color: #ffffff; /* White text for nav links in dark mode */
 }
 
-.about-section ul li::before {
-  content: "•";
-  color: var(--primary-color);
-  position: absolute;
-  left: 0;
+.dark-mode .custom-navbar .navbar-nav .nav-link:hover,
+.dark-mode .custom-navbar .navbar-nav .nav-link.active {
+  color: var(--secondary-color); /* Accent color on hover/active in dark mode */
+  background-color: transparent;
 }
 
 /*--------------------------------------------------------------
@@ -267,8 +196,8 @@ nav .nav-link.active {
   background: var(--card-background);
   box-shadow: 0 6px 12px var(--shadow-color);
   padding: 20px;
-  margin: 15px;
-  flex: 0 0 calc(33.333% - 30px);
+  margin: 15px 0;
+  flex: 0 0 calc(100% - 30px);
   box-sizing: border-box;
   transition: transform var(--transition-speed) ease,
     box-shadow var(--transition-speed) ease;
@@ -361,10 +290,17 @@ nav .nav-link.active {
   background: linear-gradient(135deg, #f7b733, var(--secondary-color));
 }
 
+/* Apply better spacing to job listings on larger screens */
+@media (min-width: 768px) {
+  .job-listing {
+    flex: 0 0 calc(33.333% - 30px);
+  }
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-footer {
+.footer {
   background-color: var(--background-color);
   padding: 40px 20px;
   text-align: center;
@@ -374,39 +310,47 @@ footer {
     color var(--transition-speed);
 }
 
-footer h5 {
+.footer h5 {
   font-family: "Merriweather", serif;
   font-size: 1rem; /* 16px */
   margin-bottom: 15px;
 }
 
-footer ul {
+.footer ul {
   list-style: none;
   padding: 0;
 }
 
-footer ul li {
+.footer ul li {
   margin-bottom: 10px;
 }
 
-footer ul li a {
+.footer ul li a {
   color: var(--text-color);
   transition: color var(--transition-speed);
 }
 
-footer ul li a:hover {
+.footer ul li a:hover {
   color: var(--primary-color);
 }
 
-footer .social-icons a {
+.social-icons a {
   color: var(--secondary-color);
   font-size: 1.5em;
   margin: 0 10px;
   transition: color var(--transition-speed);
 }
 
-footer .social-icons a:hover {
+.social-icons a:hover {
   color: var(--primary-color);
+}
+
+.footer a {
+  color: var(--primary-color);
+}
+
+.footer a:hover {
+  color: var(--secondary-color);
 }
 
 /*--------------------------------------------------------------
@@ -435,18 +379,6 @@ footer .social-icons a:hover {
 # Responsive Design
 --------------------------------------------------------------*/
 @media (max-width: 768px) {
-  nav {
-    width: 100%;
-    border-radius: 0;
-  }
-  nav .nav-link {
-    display: block;
-    text-align: center;
-    padding: 15px 0;
-  }
-  .job-listing {
-    flex: 0 0 calc(50% - 30px);
-  }
   .search-bar {
     flex-direction: column;
   }
@@ -498,4 +430,44 @@ footer .social-icons a:hover {
     transform: scale(1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+}
+
+/*--------------------------------------------------------------
+# Dark Mode Styles
+--------------------------------------------------------------*/
+body.dark-mode {
+  background-color: var(--dark-background-color);
+  color: var(--dark-text-color);
+}
+
+body.dark-mode .job-listing {
+  background: var(--dark-card-background);
+  color: var(--dark-text-color);
+}
+
+body.dark-mode .custom-navbar {
+  background-color: #1c1c1c; /* Dark background for navbar in dark mode */
+}
+
+body.dark-mode .job-listing h2,
+body.dark-mode .job-listing .details a {
+  color: var(--secondary-color);
+}
+
+body.dark-mode .job-listing p,
+body.dark-mode .job-listing .details span {
+  color: #bbb;
+}
+
+body.dark-mode .footer {
+  background-color: #1c1c1c;
+  color: var(--secondary-color);
+}
+
+body.dark-mode .footer a {
+  color: var(--secondary-color);
+}
+
+body.dark-mode .footer a:hover {
+  color: var(--primary-color);
 }
