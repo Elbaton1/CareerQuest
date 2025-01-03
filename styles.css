@@ -12,37 +12,14 @@
   --border-radius: 10px;
   --transition-speed: 0.3s;
 
-  /* Dark Mode Colors */
-  --dark-primary-color: #2c3e50;
-  --dark-secondary-color: #34495e;
-  --dark-text-color: #ffffff; /* White text in dark mode */
-  --dark-background-color: #1c1c1c; /* Dark background */
-  --dark-card-background: #2c3e50;
-
-  /* Gradients */
-  --gradient-header: linear-gradient(
-    90deg,
-    #555555,
-    #777777
-  ); /* Neutral gradient */
-  --gradient-badge: linear-gradient(
-    135deg,
-    var(--secondary-color),
-    #b52815
-  ); /* Consider updating if needed */
-
-  /* Overlay */
-  --overlay-background: rgba(0, 0, 0, 0.5);
-
-  /* New Accent Color Variables */
-  --accent-light: #ff4d4d; /* Lighter shade for accents */
-  --accent-dark: #b52815; /* Darker shade for accents */
+  /* New Bullet Color Variables */
+  --bullet-color-light: #ffffff; /* White bullets for light mode */
+  --bullet-color-dark: #ffffff; /* White bullets for dark mode */
 }
 
 /* Define a darker shade for hover states */
 :root {
   --secondary-color-hover: #b52815; /* Darker Wendy's red for hover */
-  /* Optional: Update gradient-badge if you want to harmonize with new red */
   --gradient-badge: linear-gradient(
     135deg,
     var(--secondary-color),
@@ -172,6 +149,24 @@ a:hover::after {
 a:hover {
   color: var(--secondary-color);
   text-decoration: underline;
+}
+
+/* New styles to exclude footer logo link from general <a> styles */
+.footer-logo-link {
+  position: static; /* Remove relative positioning */
+}
+
+.footer-logo-link::after {
+  display: none; /* Remove the red line */
+}
+
+.footer-logo-link:hover {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Keep original color */
+}
+
+.footer-logo-link img.footer-logo:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
 }
 
 /* Buttons */
@@ -383,7 +378,6 @@ button:hover,
   color: var(--text-color);
 }
 
-/* Added red dot next to details */
 .job-listing .details span::before {
   content: "•";
   color: var(--secondary-color);
@@ -401,6 +395,18 @@ button:hover,
 .job-listing .details a:hover {
   text-decoration: underline;
   color: var(--text-color);
+}
+
+/* Changed bullet color to white */
+.footer ul li::before {
+  content: "•";
+  color: var(--bullet-color-light); /* White bullets for light mode */
+  position: absolute;
+  left: -15px;
+}
+
+.dark-mode .footer ul li::before {
+  color: var(--bullet-color-dark); /* White bullets for dark mode */
 }
 
 /* New Badge */
@@ -504,14 +510,6 @@ button:hover,
 .footer ul li {
   margin-bottom: 10px;
   position: relative; /* For list item accents */
-}
-
-/* Added red bullet points */
-.footer ul li::before {
-  content: "•";
-  color: var(--secondary-color);
-  position: absolute;
-  left: -15px;
 }
 
 .footer ul li a {
@@ -653,6 +651,7 @@ body.dark-mode .footer a:hover {
   background-color: var(--secondary-color-hover); /* Darker shade on hover */
   border-color: var(--secondary-color-hover);
 }
+
 /* Ensure the logo image scales properly */
 .navbar-brand img {
   max-height: 170px; /* Adjust the height as needed */
@@ -661,5 +660,19 @@ body.dark-mode .footer a:hover {
 }
 
 .navbar-brand img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/*--------------------------------------------------------------
+# Footer Logo Styles
+--------------------------------------------------------------*/
+.footer-logo {
+  max-height: 170px; /* Adjust as needed */
+  width: 115px;
+  transition: transform 0.3s ease;
+  margin-right: 110px;
+}
+
+.footer-logo:hover {
   transform: scale(1.05); /* Slight zoom on hover */
 }
