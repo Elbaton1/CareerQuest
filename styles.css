@@ -670,7 +670,6 @@ body.dark-mode .footer a:hover {
   max-height: 170px; /* Adjust as needed */
   width: 115px;
   transition: transform 0.3s ease;
-  margin-right: 110px;
 }
 
 .footer-logo:hover {
