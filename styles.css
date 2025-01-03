@@ -28,7 +28,7 @@
   --gradient-badge: linear-gradient(
     135deg,
     var(--secondary-color),
-    #f7b733
+    #b52815
   ); /* Consider updating if needed */
 
   /* Overlay */
@@ -158,7 +158,7 @@ button:hover,
 --------------------------------------------------------------*/
 .custom-navbar {
   background-color: var(--background-color); /* White background for navbar */
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
 }
 
 .custom-navbar .navbar-brand {
@@ -223,7 +223,7 @@ button:hover,
 
 .job-listing {
   background: var(--card-background);
-  box-shadow: 0 6px 12px var(--shadow-color);
+  box-shadow: #da291c;
   padding: 20px;
   margin: 15px 0;
   flex: 0 0 calc(100% - 30px);

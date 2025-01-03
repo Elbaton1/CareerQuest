@@ -85,6 +85,11 @@ def scrape_memorial(existing_job_links, existing_jobs):
                 # Check if the job is new by comparing the link
                 if link not in existing_job_links:
                     new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    
+                    # Assign today's date if date is missing
+                    if not date:
+                        date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
+                    
                     job = {
                         "title": title,
                         "school": "Memorial University",
@@ -92,7 +97,7 @@ def scrape_memorial(existing_job_links, existing_jobs):
                         "link": link,
                         "new_since": new_since
                     }
-                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    logging.info(f"Added new job: {title}, new_since: {new_since}, date: {date}")
                 else:
                     # Existing job: retain the 'new_since' and 'date'
                     job = {
@@ -177,6 +182,11 @@ def scrape_university_of_new_brunswick(existing_job_links, existing_jobs):
 
                 if link not in existing_job_links:
                     new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    
+                    # Assign today's date if date is missing
+                    if not date:
+                        date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
+                    
                     job = {
                         "title": title,
                         "school": "University of New Brunswick",
@@ -184,7 +194,7 @@ def scrape_university_of_new_brunswick(existing_job_links, existing_jobs):
                         "link": link,
                         "new_since": new_since
                     }
-                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    logging.info(f"Added new job: {title}, new_since: {new_since}, date: {date}")
                 else:
                     # Existing job, retain 'new_since' and 'date'
                     job = {
@@ -255,6 +265,11 @@ def scrape_mount_allison_university(existing_job_links, existing_jobs):
                 if link not in existing_job_links:
                     # New job, assign 'new_since'
                     new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    
+                    # Assign today's date if date is missing
+                    if not date:
+                        date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
+                    
                     job = {
                         "title": title,
                         "school": "Mount Allison University",
@@ -262,7 +277,7 @@ def scrape_mount_allison_university(existing_job_links, existing_jobs):
                         "link": link,
                         "new_since": new_since
                     }
-                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    logging.info(f"Added new job: {title}, new_since: {new_since}, date: {date}")
                 else:
                     # Existing job, check if the date has changed
                     existing_date = existing_job.get("date")
@@ -271,7 +286,7 @@ def scrape_mount_allison_university(existing_job_links, existing_jobs):
                         job = {
                             "title": existing_job["title"],
                             "school": "Mount Allison University",
-                            "date": date,
+                            "date": date if date else existing_date,
                             "link": link,
                             "new_since": existing_job.get("new_since", None)
                         }
@@ -281,7 +296,7 @@ def scrape_mount_allison_university(existing_job_links, existing_jobs):
                         logging.info(f"No date change for existing job: {title}")
 
                 jobs.append(job)
-                logging.info(f"Processed job {i}: {title}, date: {date}")
+                logging.info(f"Processed job {i}: {title}, date: {date if date else 'No Date'}")
 
             except Exception as e:
                 logging.warning(f"Could not extract job details for job index {i}: {e}")
@@ -291,7 +306,6 @@ def scrape_mount_allison_university(existing_job_links, existing_jobs):
 
     logging.info(f"Found {len(jobs)} jobs at Mount Allison University")
     return jobs
-
 
 
 def scrape_st_thomas_university(existing_job_links, existing_jobs):
@@ -328,6 +342,11 @@ def scrape_st_thomas_university(existing_job_links, existing_jobs):
 
                 if link not in existing_job_links:
                     new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    
+                    # Assign today's date if date is missing
+                    if not date:
+                        date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
+                    
                     job = {
                         "title": title,
                         "school": "St. Thomas University",
@@ -335,7 +354,7 @@ def scrape_st_thomas_university(existing_job_links, existing_jobs):
                         "link": link,
                         "new_since": new_since
                     }
-                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    logging.info(f"Added new job: {title}, new_since: {new_since}, date: {date}")
                 else:
                     # Existing job, retain 'new_since' and 'date'
                     job = {
@@ -400,6 +419,11 @@ def scrape_universite_de_moncton(existing_job_links, existing_jobs):
 
                 if link not in existing_job_links:
                     new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    
+                    # Assign today's date if date is missing
+                    if not date:
+                        date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
+                    
                     job = {
                         "title": title,
                         "school": "Université de Moncton",
@@ -407,7 +431,7 @@ def scrape_universite_de_moncton(existing_job_links, existing_jobs):
                         "link": link,
                         "new_since": new_since
                     }
-                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    logging.info(f"Added new job: {title}, new_since: {new_since}, date: {date}")
                 else:
                     # Existing job, retain 'new_since' and 'date'
                     job = {
@@ -473,6 +497,11 @@ def scrape_acadia_university(existing_job_links, existing_jobs):
 
                 if link not in existing_job_links:
                     new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    
+                    # Assign today's date if date is missing
+                    if not date:
+                        date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
+                    
                     job = {
                         "title": title,
                         "link": link,
@@ -481,7 +510,7 @@ def scrape_acadia_university(existing_job_links, existing_jobs):
                         "date": date,
                         "new_since": new_since
                     }
-                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    logging.info(f"Added new job: {title}, new_since: {new_since}, date: {date}")
                 else:
                     # Existing job, retain 'new_since' and 'date'
                     job = {
@@ -559,6 +588,11 @@ def scrape_cape_breton_university(existing_job_links, existing_jobs):
 
                 if link not in existing_job_links:
                     new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    
+                    # Assign today's date if date is missing
+                    if not date:
+                        date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
+                    
                     job = {
                         "title": title,
                         "school": "Cape Breton University",
@@ -566,7 +600,7 @@ def scrape_cape_breton_university(existing_job_links, existing_jobs):
                         "link": link,
                         "new_since": new_since
                     }
-                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    logging.info(f"Added new job: {title}, new_since: {new_since}, date: {date}")
                 else:
                     # Existing job, retain 'new_since' and 'date'
                     job = {
@@ -635,6 +669,11 @@ def scrape_dalhousie_university(existing_job_links, existing_jobs):
 
                     if link not in existing_job_links:
                         new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        
+                        # Assign today's date if date is missing
+                        if not date:
+                            date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
+                        
                         job = {
                             "title": title,
                             "school": "Dalhousie University",
@@ -642,7 +681,7 @@ def scrape_dalhousie_university(existing_job_links, existing_jobs):
                             "link": link,
                             "new_since": new_since
                         }
-                        logging.info(f"Added new job: {title}, new_since: {new_since}")
+                        logging.info(f"Added new job: {title}, new_since: {new_since}, date: {date}")
                     else:
                         # Existing job, retain 'new_since' and 'date'
                         job = {
@@ -720,14 +759,19 @@ def scrape_nscad_university(existing_job_links, existing_jobs):
 
             if link not in existing_job_links:
                 new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                
+                # Assign today's date if date is missing
+                if not date:
+                    date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
+                
                 job = {
                     "title": title,
                     "school": "NSCAD University",
-                    "link": link,
                     "date": date,
+                    "link": link,
                     "new_since": new_since
                 }
-                logging.info(f"Added new job: {title}, new_since: {new_since}")
+                logging.info(f"Added new job: {title}, new_since: {new_since}, date: {date}")
             else:
                 # Existing job, retain 'new_since' and 'date'
                 job = {
@@ -777,7 +821,8 @@ def scrape_smu_jobs(existing_job_links, existing_jobs):
             # Try to scrape the date, if available
             try:
                 # Example XPath for date; replace with actual path
-                date_element = driver.find_element(By.XPATH, f"/html/body/div[2]/div[2]/div[1]/div[1]/div/table/tbody/tr[{row_index}]/td[2]/span")
+                date_xpath = f"/html/body/div[2]/div[2]/div[1]/div[1]/div/table/tbody/tr[{row_index}]/td[2]/span"
+                date_element = driver.find_element(By.XPATH, date_xpath)
                 date_text = date_element.text.strip()
                 date = format_date(date_text)
             except NoSuchElementException:
@@ -791,14 +836,19 @@ def scrape_smu_jobs(existing_job_links, existing_jobs):
 
             if link not in existing_job_links:
                 new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                
+                # Assign today's date if date is missing
+                if not date:
+                    date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
+                
                 job = {
                     "title": title,
                     "school": "Saint Mary’s University",
-                    "link": link,
                     "date": date,
+                    "link": link,
                     "new_since": new_since
                 }
-                logging.info(f"Added new job: {title}, new_since: {new_since}")
+                logging.info(f"Added new job: {title}, new_since: {new_since}, date: {date}")
             else:
                 # Existing job, retain 'new_since' and 'date'
                 job = {
@@ -868,14 +918,19 @@ def scrape_universite_sainte_anne(existing_job_links, existing_jobs):
 
                 if link not in existing_job_links:
                     new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    
+                    # Assign today's date if date is missing
+                    if not date:
+                        date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
+                    
                     job = {
                         "title": title,
                         "school": "Université Sainte-Anne",
-                        "link": link,
                         "date": date,
+                        "link": link,
                         "new_since": new_since
                     }
-                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    logging.info(f"Added new job: {title}, new_since: {new_since}, date: {date}")
                 else:
                     # Existing job, retain 'new_since' and 'date'
                     job = {
@@ -939,6 +994,11 @@ def scrape_university_of_kings_college(existing_job_links, existing_jobs):
 
             if link not in existing_job_links:
                 new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                
+                # Assign today's date if date is missing
+                if not date:
+                    date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
+                
                 job = {
                     "title": title,
                     "school": "University of King's College",
@@ -946,7 +1006,7 @@ def scrape_university_of_kings_college(existing_job_links, existing_jobs):
                     "link": link,
                     "new_since": new_since
                 }
-                logging.info(f"Added new job: {title}, new_since: {new_since}")
+                logging.info(f"Added new job: {title}, new_since: {new_since}, date: {date}")
             else:
                 # Existing job, retain 'new_since' and 'date'
                 job = {
@@ -1012,6 +1072,11 @@ def scrape_upei(existing_job_links, existing_jobs):
 
                 if link not in existing_job_links:
                     new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    
+                    # Assign today's date if date is missing
+                    if not date:
+                        date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
+                    
                     job = {
                         "school": "University of Prince Edward Island",
                         "title": title,
@@ -1019,7 +1084,7 @@ def scrape_upei(existing_job_links, existing_jobs):
                         "date": f"Closing date: {date}" if date else None,
                         "new_since": new_since
                     }
-                    logging.info(f"Added new job: {title}, new_since: {new_since}")
+                    logging.info(f"Added new job: {title}, new_since: {new_since}, date: {date}")
                 else:
                     # Existing job, retain 'new_since' and 'date'
                     job = {
@@ -1075,7 +1140,7 @@ logging.info("Starting the scraping process")
 # Load existing jobs
 def load_existing_jobs():
     if os.path.exists('Beans/job_listings.json'):
-        with open('Beans/job_listings.json', 'r') as file:
+        with open('Beans/job_listings.json', 'r', encoding='utf-8') as file:
             try:
                 return json.load(file)['jobs']
             except json.JSONDecodeError:
@@ -1130,17 +1195,18 @@ for job in new_jobs:
             None
         )
     else:
-        # For new jobs, assign today's date as 'new_since'
+        # For new jobs, assign 'new_since' as now
         job['new_since'] = datetime.now().isoformat()
-
-    # If no date is provided, keep it as None
-    if "date" not in job or not job["date"]:
-        job["date"] = None  # You can choose to keep it as None or set a specific default
+        
+        # Assign today's date if 'date' is missing
+        if not job.get("date"):
+            job["date"] = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
 
 # Save the new job listings with 'new_since'
 data = {"jobs": new_jobs, "last_updated": datetime.now().isoformat()}
-with open("Beans/job_listings.json", "w") as file:
-    json.dump(data, file, indent=4)
+os.makedirs('Beans', exist_ok=True)  # Ensure the directory exists
+with open("Beans/job_listings.json", "w", encoding='utf-8') as file:
+    json.dump(data, file, indent=4, ensure_ascii=False)
 logging.info("New job listings saved")
 
 
@@ -1150,7 +1216,7 @@ def log_scraping_details(added_jobs, removed_jobs):
     log_data = []
     if os.path.exists(log_file):
         try:
-            with open(log_file, 'r') as file:
+            with open(log_file, 'r', encoding='utf-8') as file:
                 log_data = json.load(file)
                 if not isinstance(log_data, list):
                     log_data = []
@@ -1167,8 +1233,8 @@ def log_scraping_details(added_jobs, removed_jobs):
 
     log_data.append(log_entry)
 
-    with open(log_file, 'w') as file:
-        json.dump(log_data, file, indent=4)
+    with open(log_file, 'w', encoding='utf-8') as file:
+        json.dump(log_data, file, indent=4, ensure_ascii=False)
     logging.info("Scraping details logged")
 
 
