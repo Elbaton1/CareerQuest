@@ -670,8 +670,28 @@ body.dark-mode .footer a:hover {
   max-height: 170px; /* Adjust as needed */
   width: 115px;
   transition: transform 0.3s ease;
+
+  /* Center the logo */
+  display: block;
+  margin: 0 auto;
 }
 
-.footer-logo:hover {
-  transform: scale(1.05); /* Slight zoom on hover */
+.footer-logo-link {
+  /* Ensure the link doesn't interfere with centering */
+  display: inline-block;
+}
+
+/* Responsive Adjustments for Mobile Devices */
+@media (max-width: 768px) {
+  .footer-logo {
+    width: 80px; /* Adjust width for smaller screens */
+    max-height: 130px; /* Adjust height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-logo {
+    width: 70px; /* Further adjust width for very small screens */
+    max-height: 120px; /* Further adjust height for very small screens */
+  }
 }
