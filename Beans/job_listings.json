@@ -71,20 +71,6 @@
             "new_since": "2024-12-11T16:47:23.163492"
         },
         {
-            "title": "Mental Health Nurse",
-            "school": "University of New Brunswick",
-            "date": "Date not available",
-            "link": "https://jobs.careerbeacon.com/details/mental-health-nurse/2126641?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2126641&utm_term=jobtitle",
-            "new_since": "2024-12-11T16:47:23.163492"
-        },
-        {
-            "title": "Administrative Coordinator (Secretary PL5)",
-            "school": "University of New Brunswick",
-            "date": "Date not available",
-            "link": "https://jobs.careerbeacon.com/details/administrative-coordinator-secretary-pl5/2128033?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2128033&utm_term=jobtitle",
-            "new_since": "2024-12-07T21:56:37.371885"
-        },
-        {
             "title": "Project Coordinator",
             "school": "University of New Brunswick",
             "date": "Date not available",
@@ -176,6 +162,13 @@
             "new_since": "2024-12-03T21:42:29.630164"
         },
         {
+            "title": "Administrator: The Beatrice Hunter Cancer Research Institute",
+            "school": "Dalhousie University",
+            "date": "January 3rd, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/18124",
+            "new_since": "2025-01-03T16:56:03.546308"
+        },
+        {
             "title": "Applications & Systems Analyst",
             "school": "Dalhousie University",
             "link": "https://dal.peopleadmin.ca/postings/18123",
@@ -200,13 +193,6 @@
             "title": "Manager, Compensation and Benefits",
             "school": "Dalhousie University",
             "link": "https://dal.peopleadmin.ca/postings/18118",
-            "date": "No date available",
-            "new_since": "2024-12-28T02:58:35.452391"
-        },
-        {
-            "title": "Administrator: The Beatrice Hunter Cancer Research Institute",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/18117",
             "date": "No date available",
             "new_since": "2024-12-28T02:58:35.452391"
         },
@@ -2290,5 +2276,5 @@
             "new_since": "2025-01-02T22:39:56.974339"
         }
     ],
-    "last_updated": "2025-01-03T11:26:51.537737"
+    "last_updated": "2025-01-03T16:56:03.549322"
 }
