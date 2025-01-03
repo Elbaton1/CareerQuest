@@ -485,3 +485,16 @@ body.dark-mode .footer a {
 body.dark-mode .footer a:hover {
   color: var(--primary-color);
 }
+/*--------------------------------------------------------------
+# Custom Button - Orange
+--------------------------------------------------------------*/
+.btn-orange {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: #ffffff; /* White text for contrast */
+}
+
+.btn-orange:hover {
+  background-color: #d4881c; /* Darker shade of orange for hover */
+  border-color: #d4881c;
+}
