@@ -33,6 +33,10 @@
 
   /* Overlay */
   --overlay-background: rgba(0, 0, 0, 0.5);
+
+  /* New Accent Color Variables */
+  --accent-light: #ff4d4d; /* Lighter shade for accents */
+  --accent-dark: #b52815; /* Darker shade for accents */
 }
 
 /* Define a darker shade for hover states */
@@ -94,16 +98,25 @@ h6 {
   color: var(--text-color);
   margin: 0 0 20px 0;
   line-height: 1.5;
+  position: relative; /* For accent lines */
 }
 
-h1 {
-  font-size: 1rem; /* 16px */
-  font-weight: 400; /* Lighter weight */
-}
-
+h1,
 h2 {
   font-size: 1rem; /* 16px */
   font-weight: 400; /* Lighter weight */
+}
+
+/* Added red accent line below h1 and h2 */
+h1::after,
+h2::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: var(--secondary-color);
+  bottom: -10px;
+  left: 0;
 }
 
 h3,
@@ -120,6 +133,7 @@ p {
   line-height: 1.6;
   font-family: "Playfair Display", serif;
   font-size: 0.75rem; /* 12px */
+  position: relative; /* For possible accent additions */
 }
 
 /* Links */
@@ -127,6 +141,23 @@ a {
   color: var(--primary-color);
   text-decoration: none;
   transition: color var(--transition-speed);
+  position: relative; /* For underline accents */
+}
+
+a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--secondary-color);
+  transition: width var(--transition-speed);
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+}
+
+a:hover::after {
+  width: 100%;
 }
 
 a:hover {
@@ -145,6 +176,25 @@ button,
   font-family: "Playfair Display", serif;
   font-size: 0.75rem; /* 12px */
   padding: 0.5rem 1rem;
+  position: relative; /* For possible accent additions */
+}
+
+button::after,
+.btn::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: var(--secondary-color);
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform var(--transition-speed);
+}
+
+button:hover::after,
+.btn:hover::after {
+  transform: scaleX(1);
 }
 
 button:hover,
@@ -166,6 +216,16 @@ button:hover,
   font-size: 1.2rem;
   color: var(--text-color);
   letter-spacing: 0.5px; /* Enhanced letter-spacing for elegance */
+  position: relative; /* For accent underline */
+}
+
+.custom-navbar .navbar-brand::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: var(--secondary-color);
+  margin: 5px auto 0;
 }
 
 .custom-navbar .navbar-brand:hover {
@@ -178,6 +238,25 @@ button:hover,
   padding: 0.5rem 1rem;
   transition: color var(--transition-speed),
     background-color var(--transition-speed);
+  position: relative; /* For hover underline */
+}
+
+.custom-navbar .navbar-nav .nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: var(--secondary-color);
+  transition: width var(--transition-speed);
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.custom-navbar .navbar-nav .nav-link:hover::after,
+.custom-navbar .navbar-nav .nav-link.active::after {
+  width: 100%;
 }
 
 .custom-navbar .navbar-nav .nav-link:hover,
@@ -223,7 +302,7 @@ button:hover,
 
 .job-listing {
   background: var(--card-background);
-  box-shadow: #da291c;
+  box-shadow: 0 4px 6px var(--shadow-color); /* Updated box-shadow */
   padding: 20px;
   margin: 15px 0;
   flex: 0 0 calc(100% - 30px);
@@ -238,6 +317,19 @@ button:hover,
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+/* Added red border accent */
+.job-listing::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background-color: var(--secondary-color);
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
 }
 
 .job-listing:hover {
@@ -280,6 +372,13 @@ button:hover,
 .job-listing .details span {
   font-size: 0.8rem; /* 12px */
   color: var(--text-color); /* Changed from #999 to var(--text-color) */
+}
+
+/* Added red dot next to details */
+.job-listing .details span::before {
+  content: "•";
+  color: var(--secondary-color);
+  margin-right: 5px;
 }
 
 .job-listing .details a {
@@ -344,6 +443,16 @@ button:hover,
   font-family: "Merriweather", serif;
   font-size: 1rem; /* 16px */
   margin-bottom: 15px;
+  position: relative; /* For accent underline */
+}
+
+.footer h5::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: var(--secondary-color);
+  margin: 5px auto 0;
 }
 
 .footer ul {
@@ -353,6 +462,15 @@ button:hover,
 
 .footer ul li {
   margin-bottom: 10px;
+  position: relative; /* For list item accents */
+}
+
+/* Added red bullet points */
+.footer ul li::before {
+  content: "•";
+  color: var(--secondary-color);
+  position: absolute;
+  left: -15px;
 }
 
 .footer ul li a {
