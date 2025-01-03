@@ -4,7 +4,7 @@
   --------------------------------------------------------------*/
   /* Light Mode Colors */
   --primary-color: #555555; /* Neutral gray for primary elements */
-  --secondary-color: #f5a623; /* Accent color (orange) */
+  --secondary-color: #da291c; /* Accent color (Wendy's red) */
   --text-color: #141414; /* Dark text */
   --background-color: #ffffff5e; /* White background */
   --card-background: #ffffff; /* White card background */
@@ -25,16 +25,34 @@
     #555555,
     #777777
   ); /* Neutral gradient */
-  --gradient-badge: linear-gradient(135deg, var(--secondary-color), #f7b733);
+  --gradient-badge: linear-gradient(
+    135deg,
+    var(--secondary-color),
+    #f7b733
+  ); /* Consider updating if needed */
 
   /* Overlay */
   --overlay-background: rgba(0, 0, 0, 0.5);
 }
 
+/* Define a darker shade for hover states */
+:root {
+  --secondary-color-hover: #b52815; /* Darker Wendy's red for hover */
+  /* Optional: Update gradient-badge if you want to harmonize with new red */
+  --gradient-badge: linear-gradient(
+    135deg,
+    var(--secondary-color),
+    #da291c
+  ); /* Currently transitions to yellow-orange */
+}
+
+/*--------------------------------------------------------------
+# Dark Mode Overrides
+--------------------------------------------------------------*/
 .dark-mode {
   /* Override variables for Dark Mode */
   --primary-color: var(--dark-primary-color);
-  --secondary-color: var(--dark-secondary-color);
+  --secondary-color: #da291c; /* Keeping Wendy's red as the secondary color in dark mode */
   --text-color: var(--dark-text-color);
   --background-color: var(--dark-background-color);
   --card-background: var(--dark-card-background);
@@ -131,7 +149,7 @@ button,
 
 button:hover,
 .btn:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color-hover);
   transform: scale(1.05);
 }
 
@@ -248,7 +266,7 @@ button:hover,
 
 .job-listing p {
   font-size: 0.75rem; /* 12px */
-  color: #666;
+  color: var(--text-color); /* Changed from #666 to var(--text-color) */
   margin: 5px 0;
 }
 
@@ -261,7 +279,7 @@ button:hover,
 
 .job-listing .details span {
   font-size: 0.8rem; /* 12px */
-  color: #999;
+  color: var(--text-color); /* Changed from #999 to var(--text-color) */
 }
 
 .job-listing .details a {
@@ -298,7 +316,7 @@ button:hover,
 
 .new-badge:hover {
   transform: scale(1.07);
-  background: linear-gradient(135deg, #f7b733, var(--secondary-color));
+  background: linear-gradient(135deg, #da291c, var(--secondary-color));
 }
 
 /* Apply better spacing to job listings on larger screens */
@@ -485,8 +503,9 @@ body.dark-mode .footer a {
 body.dark-mode .footer a:hover {
   color: var(--primary-color);
 }
+
 /*--------------------------------------------------------------
-# Custom Button - Orange
+# Custom Button - Orange (Now Wendy's Red)
 --------------------------------------------------------------*/
 .btn-orange {
   background-color: var(--secondary-color);
@@ -495,6 +514,8 @@ body.dark-mode .footer a:hover {
 }
 
 .btn-orange:hover {
-  background-color: #d4881c; /* Darker shade of orange for hover */
-  border-color: #d4881c;
+  background-color: var(
+    --secondary-color-hover
+  ); /* Darker shade of Wendy's red for hover */
+  border-color: var(--secondary-color-hover);
 }
