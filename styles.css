@@ -136,6 +136,15 @@ p {
   position: relative; /* For possible accent additions */
 }
 
+/* Centered, bold title for Academic listings */
+.academic-job-title {
+  text-align: center; /* Center the text */
+  color: var(--secondary-color); /* Accent color (Wendy’s red) */
+  font-size: 1.2rem; /* Slightly larger than body text */
+  font-weight: 700; /* Bold font weight */
+  margin-bottom: 1.5rem; /* Spacing beneath */
+}
+
 /* Links */
 a {
   color: var(--primary-color);
@@ -358,7 +367,7 @@ button:hover,
 
 .job-listing p {
   font-size: 0.75rem; /* 12px */
-  color: var(--text-color); /* Changed from #666 to var(--text-color) */
+  color: var(--text-color);
   margin: 5px 0;
 }
 
@@ -371,7 +380,7 @@ button:hover,
 
 .job-listing .details span {
   font-size: 0.8rem; /* 12px */
-  color: var(--text-color); /* Changed from #999 to var(--text-color) */
+  color: var(--text-color);
 }
 
 /* Added red dot next to details */
@@ -453,8 +462,8 @@ button:hover,
 
 @media (max-width: 480px) {
   .job-listing {
-    flex: 0 0 95%; /* Reduced width from 100% to 95% */
-    margin: 15px auto; /* Center the card with automatic left/right margins */
+    flex: 0 0 95%;
+    margin: 15px auto;
   }
 }
 
@@ -473,7 +482,7 @@ button:hover,
 
 .footer h5 {
   font-family: "Merriweather", serif;
-  font-size: 1rem; /* 16px */
+  font-size: 1rem;
   margin-bottom: 15px;
   position: relative; /* For accent underline */
 }
@@ -533,9 +542,6 @@ button:hover,
   color: var(--secondary-color);
 }
 
-/*--------------------------------------------------------------
-# Back to Top Button
---------------------------------------------------------------*/
 #back-to-top {
   position: fixed;
   bottom: 20px;
@@ -563,10 +569,9 @@ button:hover,
 }
 
 @media (max-width: 480px) {
-  /* Modified job-listing styles for better mobile display */
   .job-listing {
-    flex: 0 0 95%; /* Reduced width */
-    margin: 15px auto; /* Centered with automatic margins */
+    flex: 0 0 95%;
+    margin: 15px auto;
   }
 }
 
@@ -645,8 +650,16 @@ body.dark-mode .footer a:hover {
 }
 
 .btn-orange:hover {
-  background-color: var(
-    --secondary-color-hover
-  ); /* Darker shade of Wendy's red for hover */
+  background-color: var(--secondary-color-hover); /* Darker shade on hover */
   border-color: var(--secondary-color-hover);
+}
+/* Ensure the logo image scales properly */
+.navbar-brand img {
+  max-height: 170px; /* Adjust the height as needed */
+  width: 115px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
 }
