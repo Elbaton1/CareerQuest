@@ -426,6 +426,38 @@ button:hover,
   }
 }
 
+/* Adjustments for Mobile Devices */
+@media (max-width: 768px) {
+  .search-bar {
+    flex-direction: column;
+  }
+  .search-bar input {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: var(--border-radius);
+  }
+  .search-bar button {
+    width: 100%;
+    border-radius: var(--border-radius);
+  }
+  .filter-bar {
+    flex-direction: column;
+  }
+  .filter-bar label {
+    margin-bottom: 10px;
+  }
+  .filter-bar select {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .job-listing {
+    flex: 0 0 95%; /* Reduced width from 100% to 95% */
+    margin: 15px auto; /* Center the card with automatic left/right margins */
+  }
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -527,33 +559,14 @@ button:hover,
 # Responsive Design
 --------------------------------------------------------------*/
 @media (max-width: 768px) {
-  .search-bar {
-    flex-direction: column;
-  }
-  .search-bar input {
-    width: 100%;
-    margin-bottom: 10px;
-    border-radius: var(--border-radius);
-  }
-  .search-bar button {
-    width: 100%;
-    border-radius: var(--border-radius);
-  }
-  .filter-bar {
-    flex-direction: column;
-  }
-  .filter-bar label {
-    margin-bottom: 10px;
-  }
-  .filter-bar select {
-    width: 100%;
-  }
+  /* Existing styles for max-width: 768px */
 }
 
 @media (max-width: 480px) {
+  /* Modified job-listing styles for better mobile display */
   .job-listing {
-    flex: 0 0 100%;
-    margin: 15px 0;
+    flex: 0 0 95%; /* Reduced width */
+    margin: 15px auto; /* Centered with automatic margins */
   }
 }
 
