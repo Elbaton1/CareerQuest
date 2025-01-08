@@ -1,18 +1,11 @@
 {
     "jobs": [
         {
-            "title": "MANAGER, STEWARDSHIP PROGRAMS (BAND LEVEL 9)",
+            "title": "MANAGER, ELECTRICAL SYSTEMS",
             "school": "Memorial University",
-            "date": "2024-12-07 21:56:03",
-            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5786",
-            "new_since": "2024-12-07T21:56:37.371885"
-        },
-        {
-            "title": "CHIEF FINANCIAL OFFICER",
-            "school": "Memorial University",
-            "date": "2024-12-28 02:57:58",
-            "link": "https://careers.mun.ca/leadership/api/careers/file/5715",
-            "new_since": "2024-12-28T02:58:35.452391"
+            "date": "No date provided",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=4595",
+            "new_since": "2024-09-11T01:37:18.930516"
         },
         {
             "title": "SENIOR DEVELOPMENT OFFICER (BAND LEVEL 9)",
@@ -22,10 +15,38 @@
             "new_since": "2024-09-11T01:37:18.930516"
         },
         {
-            "title": "MANAGER, ELECTRICAL SYSTEMS",
+            "title": "MANAGER, STEWARDSHIP PROGRAMS (BAND LEVEL 9)",
+            "school": "Memorial University",
+            "date": "2024-12-07 21:56:03",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5786",
+            "new_since": "2024-12-07T21:56:37.371885"
+        },
+        {
+            "title": "ADMINISTRATIVE STAFF SPECIALIST II (BAND LEVEL 7)",
+            "school": "Memorial University",
+            "date": "January 7th, 2025",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5795",
+            "new_since": "2025-01-07T22:49:15.259425"
+        },
+        {
+            "title": "ACCOUNTING CLERK - PURCHASING (BAND LEVEL 4)",
+            "school": "Memorial University",
+            "date": "January 7th, 2025",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5797",
+            "new_since": "2025-01-07T22:49:15.259425"
+        },
+        {
+            "title": "CHIEF FINANCIAL OFFICER",
+            "school": "Memorial University",
+            "date": "2024-12-28 02:57:58",
+            "link": "https://careers.mun.ca/leadership/api/careers/file/5715",
+            "new_since": "2024-12-28T02:58:35.452391"
+        },
+        {
+            "title": "Instructors",
             "school": "Memorial University",
             "date": "No date provided",
-            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=4595",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=1395",
             "new_since": "2024-09-11T01:37:18.930516"
         },
         {
@@ -36,25 +57,18 @@
             "new_since": "2024-09-11T01:37:18.930516"
         },
         {
-            "title": "Instructors",
-            "school": "Memorial University",
-            "date": "No date provided",
-            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=1395",
-            "new_since": "2024-09-11T01:37:18.930516"
-        },
-        {
-            "title": "ADMINISTRATIVE SUPPORT CANDIDATE LIST FOR SHORT-TERM CONTRACTS AND TEMPORARY POSITIONS (Labrador Campus)",
-            "school": "Memorial University",
-            "date": "October 3rd, 2024",
-            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5145",
-            "new_since": "2024-10-03T20:28:15.587744"
-        },
-        {
             "title": "LIVING LAB COORDINATOR (RESEARCH ASSISTANT III) (BAND LEVEL 10)",
             "school": "Memorial University",
             "date": "2024-12-28 02:57:58",
             "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5793",
             "new_since": "2024-12-28T02:58:35.452391"
+        },
+        {
+            "title": "Web Manager",
+            "school": "University of New Brunswick",
+            "date": "January 7th, 2025",
+            "link": "https://jobs.careerbeacon.com/details/web-manager/2131931?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2131931&utm_term=jobtitle",
+            "new_since": "2025-01-07T22:49:15.259425"
         },
         {
             "title": "Student Response Assistant PL5",
@@ -120,38 +134,24 @@
             "new_since": "2024-12-28T02:58:35.452391"
         },
         {
-            "title": "JUNIOR POLICY ANALYST WITH ATLANTIC CANADA OPPORTUNITIES AGENCY (ACOA)",
+            "title": "RECENT OR POTENTIAL GRADS: ASSISTANT MANAGER, HAMMONDS PLAINS GAMING CENTER",
             "school": "Cape Breton University",
-            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/junior-policy-analyst-with-atlantic-canada-opportunities-agency-acoa/",
-            "date": "No date available",
-            "new_since": "2024-12-18T20:08:32.852438"
-        },
-        {
-            "title": "RECENT OR POTENTIAL GRADS: PARLIAMENTARY INTERNSHIP PROGRAM (PIP)",
-            "school": "Cape Breton University",
-            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/recent-or-potential-grads-parliamentary-internship-program-pip/",
-            "date": "No date available",
-            "new_since": "2024-12-18T20:08:32.852438"
-        },
-        {
-            "title": "RECENT OR POTENTIAL GRADS: STUDENT BRIDGING INVENTORY, IMMIGRATION, REFUGEES AND CITIZENSHIP CANADA",
-            "school": "Cape Breton University",
-            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/122681/",
-            "date": "No date available",
-            "new_since": "2024-12-03T21:42:29.630164"
+            "date": "January 7th, 2025",
+            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/recent-or-potential-grads-assistant-manager-hammonds-plains-gaming-center/",
+            "new_since": "2025-01-07T22:49:15.259425"
         },
         {
             "title": "Dental Assistant",
             "school": "Dalhousie University",
-            "date": "January 7th, 2025",
             "link": "https://dal.peopleadmin.ca/postings/18130",
+            "date": "January 7th, 2025",
             "new_since": "2025-01-07T02:16:57.619143"
         },
         {
             "title": "Finance Clerk",
             "school": "Dalhousie University",
-            "date": "January 7th, 2025",
             "link": "https://dal.peopleadmin.ca/postings/18129",
+            "date": "January 7th, 2025",
             "new_since": "2025-01-07T02:16:57.619143"
         },
         {
@@ -414,13 +414,6 @@
             "new_since": "2024-10-16T23:25:10.920041"
         },
         {
-            "title": "Tier 1 Canada Research Chair in Ocean Particle Fluxes",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/17644",
-            "date": "September 18th, 2024",
-            "new_since": "2024-09-18T21:47:22.462912"
-        },
-        {
             "title": "Tenure-track assistant professor in Earth surface processes",
             "school": "Dalhousie University",
             "link": "https://dal.peopleadmin.ca/postings/17602",
@@ -521,8 +514,8 @@
         {
             "title": "Technicien ou Technicienne de service",
             "school": "Université Sainte-Anne",
-            "date": "January 12th, 2025",
             "link": "https://www.usainteanne.ca/offres-demploi/technicien-ou-technicienne-de-service",
+            "date": "January 12th, 2025",
             "new_since": "2025-01-07T02:16:57.620122"
         },
         {
@@ -559,6 +552,20 @@
             "date": "November 1st, 2024",
             "link": "https://ukings.ca/campus-community/employment/director-of-chapel-music/",
             "new_since": "2024-11-02T00:07:27.681972"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "MTS Level 6 - Graphic Designer - Marketing and Communications",
+            "link": "https://www.upei.ca/hr/competition/14e25",
+            "date": "Closing date: January 14th, 2025",
+            "new_since": "2025-01-07T22:49:15.259425"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "ADS Level 5 - Administrative Assistant - Department of Development and Alumni Engagement",
+            "link": "https://www.upei.ca/hr/competition/02e25",
+            "date": "Closing date: January 14th, 2025",
+            "new_since": "2025-01-07T22:49:15.259425"
         },
         {
             "school": "University of Prince Edward Island",
@@ -643,13 +650,6 @@
             "link": "https://www.upei.ca/hr/competition/116si24",
             "date": "Closing date: Dec 26, 2024",
             "new_since": "2024-12-12T23:16:31.529565"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "PA Level 10 - Technical Lead - Information Technology Systems and Services",
-            "link": "https://www.upei.ca/hr/competition/249e24",
-            "date": "Closing date: Jan 6, 2025",
-            "new_since": "2024-12-11T16:47:23.163492"
         },
         {
             "school": "University of Prince Edward Island",
@@ -2178,5 +2178,5 @@
             "new_since": "2025-01-02T22:39:56.974339"
         }
     ],
-    "last_updated": "2025-01-07T02:16:57.625121"
+    "last_updated": "2025-01-07T22:49:15.261419"
 }
