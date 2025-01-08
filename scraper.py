@@ -379,51 +379,81 @@ def scrape_st_thomas_university(existing_job_links, existing_jobs):
 
 
 def scrape_universite_de_moncton(existing_job_links, existing_jobs):
-    logging.info("Scraping Université de Moncton")
+    logging.info("Scraping Université de Moncton (CareerBeacon)")
+
     jobs = []
-    url = "https://www.umoncton.ca/emploi/?case=4&Type=0"
+    url = "https://www.careerbeacon.com/fr/search?filter-company_id=235798%7C235799%7C235800%7C235801%7C235802%7C235803%7C235804%7C235805%7C235806%7C235807%7C241391%7C243387&jvk=2121758"
 
     driver.get(url)
 
     try:
-        # Wait for the job listings to load
-        job_table_xpath = "/html/body/div/div[1]/div[10]/div[2]/div/div/div[3]/div[3]/div/table/tbody/tr"
+        # Wait for the container that holds job postings to load
         WebDriverWait(driver, 10).until(
-            EC.presence_of_all_elements_located((By.XPATH, job_table_xpath))
+            EC.presence_of_all_elements_located((By.XPATH, "//div[@class='non_featured_job_inner_container']"))
         )
 
-        # Find all job rows
-        job_rows = driver.find_elements(By.XPATH, job_table_xpath)
-        logging.info(f"Found {len(job_rows)} job rows")
+        # Grab all job containers on the page
+        job_containers = driver.find_elements(By.XPATH, "//div[@class='non_featured_job_inner_container']")
+        logging.info(f"Found {len(job_containers)} job containers at Université de Moncton")
 
-        for row in job_rows:
+        for container in job_containers:
             try:
-                # Extract job title and link
-                job_element = row.find_element(By.XPATH, ".//td[1]/a")
-                title = job_element.text.strip()
-                link = job_element.get_attribute("href")
+                # 1) Extract the link (href) from 'data-posting_url'
+                link = container.get_attribute("data-posting_url")
 
-                # Try to scrape the date, if available
+                # 2) Extract the job title (try multiple approaches)
+                title = None
+
+                # Try a direct descendant <strong> in the "serp_job_title h6" block (English or French)
                 try:
-                    date_element = row.find_element(By.XPATH, ".//td[3]")
-                    date_text = date_element.text.strip()
-                    date = format_date(date_text)
+                    title_element = container.find_element(
+                        By.CSS_SELECTOR, 
+                        "div.serp_job_title.h6.text-primary.clickable strong"
+                    )
+                    title = title_element.text.strip()
                 except NoSuchElementException:
-                    date = None  # No date found
-                except Exception as e:
-                    logging.warning(f"Unexpected error when extracting date for job '{title}': {e}")
-                    date = None
+                    pass
 
-                # Check if the job already exists
+                # If that didn't work, try any <strong> at all:
+                if not title:
+                    try:
+                        fallback_element = container.find_element(By.XPATH, ".//strong")
+                        title = fallback_element.text.strip()
+                    except NoSuchElementException:
+                        pass
+
+                if not title:
+                    title = ""
+
+                # **Skip if the title is empty** 
+                if not title.strip():
+                    logging.info(f"Skipping a job with no title (link: {link})")
+                    continue
+
+                # 3) Extract the date from the <div class="smaller text-muted" title="YYYY-MM-DD">
+                date = None
+                try:
+                    date_element = container.find_element(By.XPATH, ".//div[contains(@class, 'smaller text-muted')]")
+                    raw_date_attr = date_element.get_attribute("title")  # e.g. "2024-12-23"
+                    if raw_date_attr and len(raw_date_attr) == 10:
+                        date = raw_date_attr
+                    else:
+                        # fallback: parse visible text (e.g., "16 days ago")
+                        text_content = date_element.text.strip()
+                        date = format_date(text_content)  # might return None
+                except NoSuchElementException:
+                    pass
+
+                # 4) Check if the job already exists
                 existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
-                if link not in existing_job_links:
+                if link and link not in existing_job_links:
                     new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                    
-                    # Assign today's date if date is missing
+
+                    # If no date found, default to today's date
                     if not date:
-                        date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
-                    
+                        date = datetime.now().strftime('%B %d, %Y')
+
                     job = {
                         "title": title,
                         "school": "Université de Moncton",
@@ -432,8 +462,9 @@ def scrape_universite_de_moncton(existing_job_links, existing_jobs):
                         "new_since": new_since
                     }
                     logging.info(f"Added new job: {title}, new_since: {new_since}, date: {date}")
-                else:
-                    # Existing job, retain 'new_since' and 'date'
+
+                elif existing_job:
+                    # If it exists, keep the old 'new_since' and 'date'
                     job = {
                         "title": existing_job["title"],
                         "school": "Université de Moncton",
@@ -442,66 +473,84 @@ def scrape_universite_de_moncton(existing_job_links, existing_jobs):
                         "new_since": existing_job.get("new_since", None)
                     }
                     logging.info(f"Job already exists: {existing_job['title']}")
+                else:
+                    # In case link is None or empty string, skip
+                    logging.warning(f"No link found for a container titled '{title}', skipping...")
+                    continue
 
                 jobs.append(job)
 
             except Exception as e:
-                logging.warning(f"Could not extract job details: {e}")
+                logging.warning(f"Could not extract job details from a container: {e}")
 
+    except TimeoutException:
+        logging.error("Timed out waiting for CareerBeacon job listings to load.")
     except Exception as e:
         logging.error(f"An error occurred while scraping Université de Moncton: {e}")
 
-    logging.info(f"Found {len(jobs)} jobs at Université de Moncton")
+    logging.info(f"Returning {len(jobs)} jobs from Université de Moncton (CareerBeacon)")
     return jobs
+
+from urllib.parse import urljoin
 
 
 def scrape_acadia_university(existing_job_links, existing_jobs):
     logging.info("Scraping Acadia University")
     jobs = []
+    base_url = "https://www2.acadiau.ca/"
     url = "https://www2.acadiau.ca/about-acadia/leadership/vice-president-academic-671/faculty-librarian-offerings.html?_gl=1*68bgkf*_ga*MTk0OTI2NjAzNC4xNzI1NDYzNDE3*_ga_ER6057ZV8N*MTcyNTQ2MzQxNi4xLjEuMTcyNTQ2MzQ0NC4zMi4wLjA."
 
     driver.get(url)
 
+    # Give extra time for h4/a elements to load
+    time.sleep(5)
+
     try:
-        # Start from the second h4 element and iterate through all job postings
-        h4_index = 2  # Adjust this starting point as needed
-        while True:
+        # Optional: Wait explicitly for at least one <h4><a> to appear on the page
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, "//h4/a"))
+        )
+
+        # Find *all* anchors inside an <h4>, rather than using a loop by index
+        link_elements = driver.find_elements(By.XPATH, "//h4/a")
+
+        logging.info(f"Found {len(link_elements)} h4/a elements at Acadia University")
+
+        for link_elem in link_elements:
             try:
-                # XPaths for each job title and link
-                job_title_xpath = f"/html/body/div[2]/div[2]/div/div/div[1]/div[2]/h4[{h4_index}]/a"
-                additional_xpath = f"/html/body/div[2]/div[2]/div/div/div[1]/div[2]/h4[{h4_index}]"
+                title = link_elem.text.strip()  # e.g., "Assistant Professor, Tenure-Track ..."
+                partial_href = link_elem.get_attribute("href")
 
-                # Locate job title and link
-                title_element = driver.find_element(By.XPATH, job_title_xpath)
-                title = title_element.text.strip()
-                link = title_element.get_attribute("href")
+                # Build a full link if the href is relative ("files/files/..."):
+                link = urljoin(base_url, partial_href)
 
-                # Get any additional information (if necessary)
-                additional_info_element = driver.find_element(By.XPATH, additional_xpath)
-                additional_info = additional_info_element.text.strip()
-
-                # Try to scrape the date, if available
+                # Try to parse date from the text if there's something like "(posted Jan 3, 2025)".
+                # It's optional—if you want a date, you can parse the substring inside the parentheses.
+                date = None
                 try:
-                    # Example XPath for date; replace with actual path
-                    date_element = driver.find_element(By.XPATH, f"/html/body/div[2]/div[2]/div/div/div[1]/div[2]/h4[{h4_index}]/following-sibling::p[1]")
-                    date_text = date_element.text.strip()
-                    date = format_date(date_text)
-                except NoSuchElementException:
-                    date = None  # No date found
+                    # For example, if the anchor text ends with "(posted Jan 3, 2025)"
+                    import re
+                    pattern = r"\(posted\s+(.*)\)$"  # capture "Jan 3, 2025"
+                    match = re.search(pattern, title)
+                    if match:
+                        date_text = match.group(1).strip()
+                        date = format_date(date_text)  # your existing format_date() method
                 except Exception as e:
-                    logging.warning(f"Unexpected error when extracting date for job '{title}': {e}")
-                    date = None
+                    logging.warning(f"Failed to parse date from '{title}': {e}")
+
+                # additional_info not strictly necessary, but you can adapt if the h4 text differs from the anchor text
+                additional_info = title
 
                 # Check if the job already exists
                 existing_job = next((job for job in existing_jobs if job["link"] == link), None)
 
                 if link not in existing_job_links:
                     new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                    
-                    # Assign today's date if date is missing
+
+                    # If no date found, default to today's date
                     if not date:
-                        date = datetime.now().strftime('%B {S}, %Y').format(S=ordinal(datetime.now().day))
-                    
+                        date = datetime.now().strftime('%B %d, %Y')
+
                     job = {
                         "title": title,
                         "link": link,
@@ -524,20 +573,13 @@ def scrape_acadia_university(existing_job_links, existing_jobs):
                     logging.info(f"Job already exists: {existing_job['title']}")
 
                 jobs.append(job)
-
-                # Increment to check the next h4 element
-                h4_index += 1
-
-            except NoSuchElementException:
-                # Exit loop if there are no more h4 elements
-                logging.info("No more job postings found.")
-                break
             except Exception as e:
-                logging.error(f"Error while scraping Acadia University: {e}")
-                break
+                logging.warning(f"Error extracting details from <h4>/<a>: {e}")
 
+    except TimeoutException:
+        logging.error("Timed out waiting for <h4>/<a> elements to appear on the Acadia University page.")
     except Exception as e:
-        logging.error(f"Error while scraping Acadia University: {e}")
+        logging.error(f"An error occurred while scraping Acadia University: {e}")
 
     logging.info(f"Found {len(jobs)} jobs at Acadia University")
     return jobs
@@ -1198,6 +1240,281 @@ def scrape_college_of_the_north_atlantic(existing_job_links, existing_jobs):
     logging.info(f"Found {len(jobs)} jobs at College of the North Atlantic")
     return jobs
 
+def scrape_nbcc(existing_job_links, existing_jobs):
+    logging.info("Scraping NBCC")
+    jobs = []
+    url = "https://nbcc.ca/career-opportunities"
+
+    driver.get(url)
+
+    try:
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located(
+                (By.XPATH, "/html/body/div/div[3]/div/div[2]/div[2]/div/div[6]/div/table/tbody/tr[1]")
+            )
+        )
+    except TimeoutException:
+        logging.error("Timeout waiting for NBCC job listings.")
+        return jobs
+
+    row_index = 1
+    while True:
+        try:
+            # Construct dynamic XPath for each job row
+            job_xpath = f"/html/body/div/div[3]/div/div[2]/div[2]/div/div[6]/div/table/tbody/tr[{row_index}]/td[1]/strong/a"
+            job_element = driver.find_element(By.XPATH, job_xpath)
+
+            title = job_element.text.strip()
+            link = job_element.get_attribute("href")
+
+            # Use current date as fallback (since no date element provided)
+            date = datetime.now().isoformat()
+
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+            if link not in existing_job_links:
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job_data = {
+                    "title": title,
+                    "school": "NBCC",
+                    "date": date,
+                    "link": link,
+                    "new_since": new_since
+                }
+                logging.info(f"Added new job: {title}")
+            else:
+                job_data = {
+                    "title": existing_job["title"],
+                    "school": "NBCC",
+                    "date": existing_job.get("date", date),
+                    "link": link,
+                    "new_since": existing_job.get("new_since")
+                }
+                logging.info(f"Job already exists: {title}")
+
+            jobs.append(job_data)
+            row_index += 1
+
+        except NoSuchElementException:
+            logging.info("No more NBCC job listings found.")
+            break
+        except Exception as e:
+            logging.error(f"Error processing NBCC job at row {row_index}: {e}")
+            break
+
+    logging.info(f"Found {len(jobs)} jobs at NBCC")
+    return jobs
+
+def scrape_mount_st_vincent(existing_job_links, existing_jobs):
+    logging.info("Scraping Mount St. Vincent University - Full Time")
+    jobs = []
+    frame_url = "https://forms.msvu.ca/iframeforms/FacultyRecruitment/fulltime/index.asp?deptid=11"
+    base_url = "https://forms.msvu.ca/iframeforms/FacultyRecruitment/fulltime/"
+
+    driver.get(frame_url)
+
+    try:
+        WebDriverWait(driver, 15).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a.MenuLink"))
+        )
+    except TimeoutException:
+        logging.warning("Timeout waiting for elements on Mount St. Vincent University full-time frame.")
+        return jobs
+
+    elements = driver.find_elements(By.CSS_SELECTOR, "a.MenuLink")
+    logging.info(f"Found {len(elements)} job elements with class MenuLink")
+
+    for idx, element in enumerate(elements, start=1):
+        try:
+            title = element.text.strip()
+            href = element.get_attribute("href")
+
+            # Construct an absolute URL if necessary
+            if not href.startswith("http"):
+                absolute_url = base_url + href.lstrip("/")
+            else:
+                absolute_url = href
+
+            # Use current date/time as fallback
+            date = datetime.now().isoformat()
+
+            if absolute_url not in existing_job_links:
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "Mount St. Vincent University - Full Time",
+                    "date": date,
+                    "link": absolute_url,
+                    "new_since": new_since
+                }
+                logging.info(f"Added new job [{idx}]: {title}")
+            else:
+                existing_job = next((job for job in existing_jobs if job["link"] == absolute_url), None)
+                job = {
+                    "title": existing_job["title"],
+                    "school": "Mount St. Vincent University - Full Time",
+                    "date": existing_job.get("date", date),
+                    "link": absolute_url,
+                    "new_since": existing_job.get("new_since", None)
+                }
+                logging.info(f"Job already exists [{idx}]: {title}")
+
+            jobs.append(job)
+        except Exception as e:
+            logging.warning(f"Error processing job [{idx}]: {e}")
+
+    logging.info(f"Total jobs found from Mount St. Vincent University - Full Time: {len(jobs)}")
+    return jobs
+
+def scrape_holland_college(existing_job_links, existing_jobs):
+    logging.info("Scraping Holland College")
+    jobs = []
+    url = "https://www.hollandcollege.com/jobs.html"
+
+    driver.get(url)
+
+    try:
+        # Wait until the table with id "myTable" is present
+        WebDriverWait(driver, 15).until(
+            EC.presence_of_element_located((By.ID, "myTable"))
+        )
+    except TimeoutException:
+        logging.warning("Timeout waiting for Holland College job listings.")
+        return jobs
+
+    try:
+        # Locate all rows within the table body of myTable
+        rows = driver.find_elements(By.XPATH, "//*[@id='myTable']/tbody/tr")
+    except Exception as e:
+        logging.error(f"Error locating job rows: {e}")
+        return jobs
+
+    logging.info(f"Found {len(rows)} job rows")
+
+    for idx, row in enumerate(rows, start=1):
+        try:
+            # Find the first <a> element within the row for the job title and link
+            element = row.find_element(By.XPATH, ".//td[1]/a")
+            title = element.text.strip()
+            link = element.get_attribute("href")
+
+            # Skip date extraction; set date as None
+            date = None
+
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+            if link not in existing_job_links:
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "Holland College",
+                    "date": date,
+                    "link": link,
+                    "new_since": new_since
+                }
+                logging.info(f"Added new job [{idx}]: {title}")
+            else:
+                job = {
+                    "title": existing_job["title"],
+                    "school": "Holland College",
+                    "date": existing_job.get("date", date),
+                    "link": link,
+                    "new_since": existing_job.get("new_since")
+                }
+                logging.info(f"Job already exists [{idx}]: {title}")
+
+            jobs.append(job)
+        except Exception as e:
+            logging.warning(f"Error processing job row [{idx}]: {e}")
+
+    logging.info(f"Found {len(jobs)} jobs at Holland College")
+    return jobs
+
+
+def scrape_ccnb(existing_job_links, existing_jobs):
+    logging.info("Scraping Collège communautaire du Nouveau-Brunswick (CCNB)")
+    jobs = []
+    url = "https://ccnb.ca/le-ccnb/offres-demploi/"
+
+    driver.get(url)
+
+    try:
+        WebDriverWait(driver, 20).until(
+            EC.presence_of_all_elements_located((By.CLASS_NAME, "make-column-clickable-elementor"))
+        )
+    except TimeoutException:
+        logging.warning("Timeout waiting for CCNB job listings.")
+        return jobs
+
+    elements = driver.find_elements(By.CLASS_NAME, "make-column-clickable-elementor")
+    logging.info(f"Found {len(elements)} job elements on CCNB page")
+
+    # Set of titles to ignore (common location names or placeholders)
+    ignored_titles = {"-", "Bathurst", "Dieppe", "Edmundston", "Campbellton", 
+                      "Péninsule acadienne", "Acadian Peninsula"}
+
+    for idx, element in enumerate(elements, start=1):
+        try:
+            title_element = element.find_element(By.CLASS_NAME, "jet-listing-dynamic-field__content")
+            title = title_element.text.strip()
+
+            # Skip entries with ignored titles
+            if not title or title in ignored_titles:
+                logging.info(f"Skipping element [{idx}] with ignored title: {title}")
+                continue
+
+            link = element.get_attribute("data-column-clickable")
+            if not link:
+                try:
+                    link_element = element.find_element(By.XPATH, "ancestor::a")
+                    link = link_element.get_attribute("href")
+                except NoSuchElementException:
+                    link = None
+
+            date = None  # Not extracting dates for CCNB in this function
+
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None) if link else None
+
+            if link and link not in existing_job_links:
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                job = {
+                    "title": title,
+                    "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                    "date": date,
+                    "link": link,
+                    "new_since": new_since
+                }
+                logging.info(f"Added new job [{idx}]: {title}")
+            elif existing_job:
+                job = {
+                    "title": existing_job["title"],
+                    "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                    "date": existing_job.get("date", date),
+                    "link": existing_job["link"],
+                    "new_since": existing_job.get("new_since")
+                }
+                logging.info(f"Job already exists [{idx}]: {title}")
+            else:
+                logging.info(f"Skipping element [{idx}] with no valid link for title: {title}")
+                continue
+
+            jobs.append(job)
+        except Exception as e:
+            logging.warning(f"Error processing CCNB job element [{idx}]: {e}")
+
+    logging.info(f"Found {len(jobs)} jobs at CCNB after filtering")
+    return jobs
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1246,9 +1563,7 @@ existing_job_links = {job['link'] for job in existing_jobs}
 
 # Combine all scraping functions, passing the existing job links to each function
 new_jobs = (
-    # scrape_york_university(existing_job_links, existing_jobs) +  # Uncomment and define if needed
     scrape_memorial(existing_job_links, existing_jobs) +  # Updated Memorial scraper
-    # scrape_stmarys(existing_job_links, existing_jobs) +  # Uncomment and define if needed
     scrape_university_of_new_brunswick(existing_job_links, existing_jobs) +
     scrape_mount_allison_university(existing_job_links, existing_jobs) +
     scrape_st_thomas_university(existing_job_links, existing_jobs) +
@@ -1261,7 +1576,11 @@ new_jobs = (
     scrape_universite_sainte_anne(existing_job_links, existing_jobs) +
     scrape_university_of_kings_college(existing_job_links, existing_jobs) +
     scrape_upei(existing_job_links, existing_jobs) +
-    scrape_college_of_the_north_atlantic(existing_job_links, existing_jobs)
+    scrape_college_of_the_north_atlantic(existing_job_links, existing_jobs) +
+    scrape_nbcc(existing_job_links, existing_jobs) +
+    scrape_mount_st_vincent(existing_job_links, existing_jobs) +
+    scrape_holland_college(existing_job_links, existing_jobs) +
+    scrape_ccnb(existing_job_links, existing_jobs)
 )
 
 driver.quit()

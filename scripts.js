@@ -63,20 +63,22 @@ function fetchScrapingLog() {
     });
 }
 
+// Updated isJobNew function
 function isJobNew(job) {
   const today = new Date();
   let jobDate;
 
-  if (job.date) {
-    jobDate = new Date(removeOrdinalSuffix(job.date));
-  } else if (job.new_since) {
+  if (job.new_since) {
+    // Use the discovery time to determine "newness"
     jobDate = new Date(job.new_since);
+  } else if (job.date) {
+    jobDate = new Date(removeOrdinalSuffix(job.date));
   } else {
-    jobDate = new Date(); // Fallback to today's date if no date is available
+    jobDate = new Date();
   }
 
   const diffDays = Math.floor((today - jobDate) / (1000 * 60 * 60 * 24));
-  return diffDays <= 1; // Jobs posted within the last day are considered new
+  return diffDays <= 1; // Jobs discovered within the last day are considered new
 }
 
 function displayJobs(jobs) {
@@ -102,9 +104,7 @@ function displayJobs(jobs) {
 
     jobElement.innerHTML = `
       <div class="job-header">
-        ${
-          isNew ? '<span class="new-badge">New</span>' : ""
-        } <!-- Show "New" badge if the job is new -->
+        ${isNew ? '<span class="new-badge">New</span>' : ""} 
         <h2><a href="${job.link}" target="_blank" class="job-title-link">${
       job.title
     }</a></h2>
