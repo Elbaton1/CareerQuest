@@ -1070,5 +1070,35 @@
                 "new_since": "2025-01-08T17:53:48.142163"
             }
         ]
+    },
+    {
+        "timestamp": "2025-01-08T20:09:31.945496",
+        "new_jobs_count": 2,
+        "removed_jobs_count": 1,
+        "new_jobs": [
+            {
+                "title": "Part-Time Position in Psychology",
+                "school": "St. Thomas University",
+                "date": "January 8th, 2025",
+                "link": "https://www.stu.ca/media/PSYC-3123-A-Sem-2-EXTERNAL.pdf",
+                "new_since": "2025-01-08T20:09:31.937916"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN NUTRITION, École des sciences des aliments, de nutrition et d’études familiales",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2123945/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-08T20:09:31.937916"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN TRADUCTION DE L’ANGLAIS VERS LE FRANÇAIS (Temporaire 4 ans), Dépt. Traduction et Langues",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2124209/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-08T18:18:12.700835"
+            }
+        ]
     }
 ]
