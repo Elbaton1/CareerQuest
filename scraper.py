@@ -1113,6 +1113,94 @@ def scrape_upei(existing_job_links, existing_jobs):
     logging.info(f"Scraped {len(jobs)} jobs from UPEI")
     return jobs
 
+def scrape_college_of_the_north_atlantic(existing_job_links, existing_jobs):
+    logging.info("Scraping College of the North Atlantic")
+    jobs = []
+    url = "https://www.cna.nl.ca/Careers/opportunities/public"
+
+    driver.get(url)
+
+    try:
+        # Wait until the first job item appears on the page
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, "//*[@id='item_0']"))
+        )
+    except Exception as e:
+        logging.error(f"Error waiting for job listings: {e}")
+        return jobs
+
+    index = 0
+    while True:
+        try:
+            # Construct XPath for job title using the dynamic index
+            name_xpath = f"//*[@id='item_{index}']/div/div[1]/div[1]/h4/b"
+            title_element = driver.find_element(By.XPATH, name_xpath)
+            title = title_element.text.strip()
+
+            # Construct XPath for job link
+            link_xpath = f"/html/body/form/div[3]/div[2]/section[3]/div/div[2]/div/div[{index+1}]/div/div[2]/div/div[3]/a"
+            link_element = driver.find_element(By.XPATH, link_xpath)
+            link = link_element.get_attribute("href")
+
+            # Construct XPath for job date
+            date_xpath = f"/html/body/form/div[3]/div[2]/section[3]/div/div[2]/div/div[{index+1}]/div/div[2]/div/div[1]/h6"
+            try:
+                date_element = driver.find_element(By.XPATH, date_xpath)
+                date_text = date_element.text.strip()
+                logging.info(f"Raw date text for job '{title}': {date_text}")
+                date = format_date(date_text)
+                if not date:
+                    logging.warning(f"Date parsing failed for job '{title}'. Using current date.")
+                    date = datetime.now().isoformat()
+            except NoSuchElementException:
+                logging.warning(f"No date element found for job '{title}'. Using current date.")
+                date = datetime.now().isoformat()
+            except Exception as e:
+                logging.warning(f"Unexpected error extracting date for job '{title}': {e}")
+                date = datetime.now().isoformat()
+
+            # Check if the job already exists in the existing data
+            existing_job = next((job for job in existing_jobs if job["link"] == link), None)
+
+            if link not in existing_job_links:
+                new_since = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                # If date somehow isn't set, fallback to current ISO date
+                if not date:
+                    date = datetime.now().isoformat()
+                job = {
+                    "title": title,
+                    "school": "College of the North Atlantic",
+                    "date": date,
+                    "link": link,
+                    "new_since": new_since
+                }
+                logging.info(f"Added new job: {title} with date: {date}")
+            else:
+                job = {
+                    "title": existing_job["title"],
+                    "school": "College of the North Atlantic",
+                    "date": existing_job.get("date", date),
+                    "link": link,
+                    "new_since": existing_job.get("new_since")
+                }
+                logging.info(f"Job already exists: {title}")
+
+            jobs.append(job)
+            index += 1
+
+        except NoSuchElementException:
+            logging.info("No more job postings found.")
+            break
+        except Exception as e:
+            logging.error(f"Error processing job at index {index}: {e}")
+            break
+
+    logging.info(f"Found {len(jobs)} jobs at College of the North Atlantic")
+    return jobs
+
+
+
+
 
 # Helper function to add ordinal suffixes
 def ordinal(n):
@@ -1128,10 +1216,11 @@ def format_date(date_string):
         return None
     try:
         parsed_date = dateutil.parser.parse(date_string)
-        return parsed_date.strftime(f'%B {ordinal(parsed_date.day)}, %Y')
+        return parsed_date.isoformat()  # Return ISO 8601 format
     except Exception as e:
         logging.warning(f"Could not parse date '{date_string}': {e}")
-        return None  # Return None if parsing fails
+        return None
+
 
 
 logging.info("Starting the scraping process")
@@ -1171,7 +1260,8 @@ new_jobs = (
     scrape_smu_jobs(existing_job_links, existing_jobs) +
     scrape_universite_sainte_anne(existing_job_links, existing_jobs) +
     scrape_university_of_kings_college(existing_job_links, existing_jobs) +
-    scrape_upei(existing_job_links, existing_jobs)
+    scrape_upei(existing_job_links, existing_jobs) +
+    scrape_college_of_the_north_atlantic(existing_job_links, existing_jobs)
 )
 
 driver.quit()

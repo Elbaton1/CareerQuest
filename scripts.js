@@ -34,6 +34,11 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+function removeOrdinalSuffix(dateStr) {
+  // Remove ordinal suffixes such as st, nd, rd, th following a number
+  return dateStr.replace(/(\d+)(st|nd|rd|th)/g, "$1");
+}
+
 function fetchJobs() {
   fetch("Beans/job_listings.json")
     .then((response) => response.json())
@@ -63,7 +68,7 @@ function isJobNew(job) {
   let jobDate;
 
   if (job.date) {
-    jobDate = new Date(job.date);
+    jobDate = new Date(removeOrdinalSuffix(job.date));
   } else if (job.new_since) {
     jobDate = new Date(job.new_since);
   } else {
@@ -71,10 +76,9 @@ function isJobNew(job) {
   }
 
   const diffDays = Math.floor((today - jobDate) / (1000 * 60 * 60 * 24));
-  return diffDays <= 1; // Jobs posted within the last 3 days are considered new
+  return diffDays <= 1; // Jobs posted within the last day are considered new
 }
 
-// Updated displayJobs function to sort by new jobs first
 function displayJobs(jobs) {
   const jobListings = document.getElementById("job-listings");
   jobListings.innerHTML = "";
@@ -135,7 +139,9 @@ function formatDisplayDate(dateString) {
     return "Date not provided"; // Fallback if no date is available
   }
 
-  const date = new Date(dateString);
+  // Remove ordinal suffixes before parsing
+  const cleanedDateString = removeOrdinalSuffix(dateString);
+  const date = new Date(cleanedDateString);
   if (isNaN(date.getTime())) {
     return "Date not provided"; // Fallback if the date is invalid
   }
