@@ -1150,5 +1150,112 @@
                 "new_since": "2025-01-08T17:19:05.418985"
             }
         ]
+    },
+    {
+        "timestamp": "2025-01-09T20:09:45.195019",
+        "new_jobs_count": 7,
+        "removed_jobs_count": 7,
+        "new_jobs": [
+            {
+                "title": "ANALYSTE FONCTIONNEL RH-Paie et finances, Service des ressources humaines et Service des finances",
+                "school": "Université de Moncton",
+                "date": "January 09, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2132306/universite-de-moncton/analyste-fonctionnel-rh-paie-et-finances-service-des-ressources-humaines-et-service-des-finances/moncton-nb",
+                "new_since": "2025-01-09T20:09:45.156213"
+            },
+            {
+                "title": "Applications & Systems Analyst",
+                "school": "Dalhousie University",
+                "date": "January 9th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18143",
+                "new_since": "2025-01-09T20:09:45.156213"
+            },
+            {
+                "title": "Doyenne ou doyen des facultés et des études collégiales",
+                "school": "Université Sainte-Anne",
+                "date": "2025-01-24T00:00:00",
+                "link": "https://www.usainteanne.ca/offres-demploi/doyenne-ou-doyen-des-facultes-et-des-etudes-collegiales",
+                "new_since": "2025-01-09T20:09:45.157216"
+            },
+            {
+                "title": "Government of Canada - IRCC: Manager and Senior Technical Advisor (Inventory)",
+                "school": "Holland College",
+                "date": "January 9th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/senior-technical-advisor-canada-gov-ircc-jan9-2025.html",
+                "new_since": "2025-01-09T20:09:45.163205"
+            },
+            {
+                "title": "Chargée ou chargé de projet en transition socioécologique",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 9th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-001-Charge.e-de-projet-en-transition-socioecologique.pdf",
+                "new_since": "2025-01-09T20:09:45.163205"
+            },
+            {
+                "title": "Grand-Sault",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 9th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-001-Charge.e-de-projet-en-transition-socioecologique.pdf",
+                "new_since": "2025-01-09T20:09:45.163205"
+            },
+            {
+                "title": "janvier 30, 2025",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 9th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-001-Charge.e-de-projet-en-transition-socioecologique.pdf",
+                "new_since": "2025-01-09T20:09:45.163205"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN GÉOGRAPHIE DE L’ENVIRONNEMENT, Dépt. Histoire et géographie",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2121414/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-08T18:18:12.700835"
+            },
+            {
+                "title": "Applications & Systems Analyst",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18123",
+                "date": "January 8th, 2025",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Technicien ou Technicienne de service",
+                "school": "Université Sainte-Anne",
+                "link": "https://www.usainteanne.ca/offres-demploi/technicien-ou-technicienne-de-service",
+                "date": "2036-01-08T00:00:00",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Government of PEI: Bilingual Administrative Support Worker",
+                "school": "Holland College",
+                "date": "January 8th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/bilingual-admin-support-worker-govpei-jan2-2024.html",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Mi'kmaq Confederacy of PEI: Senior Program Coordinator for Education Services",
+                "school": "Holland College",
+                "date": "January 8th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/senior-programcoord-education-mcpei-dec12-2024.html",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Enseignante ou enseignant - Soins infirmiers auxiliaires",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 8th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/Affichages_-regroupement-concours-Enseignement-en-soins-infirmiers-auxiliaires-3.pdf",
+                "new_since": "2025-01-08T17:19:05.418985"
+            },
+            {
+                "title": "Enseignante ou enseignant - Navigation maritime",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 8th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/24-6715-018-Enseignant.e-navigation-maritime-1.pdf",
+                "new_since": "2025-01-08T17:19:05.418985"
+            }
+        ]
     }
 ]
