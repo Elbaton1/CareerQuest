@@ -1100,5 +1100,55 @@
                 "new_since": "2025-01-08T18:18:12.700835"
             }
         ]
+    },
+    {
+        "timestamp": "2025-01-09T08:09:31.179749",
+        "new_jobs_count": 0,
+        "removed_jobs_count": 6,
+        "new_jobs": [],
+        "removed_jobs": [
+            {
+                "title": "Manager, Compensation and Benefits",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18118",
+                "date": "January 8th, 2025",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Fire Services Curriculum Assistant (ASL 5) - Bilingual",
+                "school": "NBCC",
+                "date": "2025-01-08T16:44:10.549040",
+                "link": "https://jobs.careerbeacon.com/details/fire-services-curriculum-assistant-asl-5--bilingual/2128759?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=2128759&utm_term=jobtitle",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Concierge I",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 8th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/24-6725-021-Concierge-I.pdf",
+                "new_since": "2025-01-08T17:19:05.418985"
+            },
+            {
+                "title": "Concierge I",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 8th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/24-6725-021-Concierge-I.pdf",
+                "new_since": "2025-01-08T17:19:05.418985"
+            },
+            {
+                "title": "Agente financière ou agent financier aux comptes clients (débiteurs)",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 8th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/24-6775-105-Agent.e-financier.re-comptes-clients-debiteurs.pdf",
+                "new_since": "2025-01-08T17:19:05.418985"
+            },
+            {
+                "title": "Agente financière ou agent financier aux comptes clients (débiteurs)",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 8th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/24-6775-105-Agent.e-financier.re-comptes-clients-debiteurs.pdf",
+                "new_since": "2025-01-08T17:19:05.418985"
+            }
+        ]
     }
 ]
