@@ -1257,5 +1257,35 @@
                 "new_since": "2025-01-08T17:19:05.418985"
             }
         ]
+    },
+    {
+        "timestamp": "2025-01-10T08:09:31.381339",
+        "new_jobs_count": 1,
+        "removed_jobs_count": 2,
+        "new_jobs": [
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN TRADUCTION DE L’ANGLAIS VERS LE FRANÇAIS (Temporaire 4 ans), Dépt. Traduction et Langues",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2124209/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-10T08:09:31.348332"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN NUTRITION, École des sciences des aliments, de nutrition et d’études familiales",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2123945/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-08T20:09:31.937916"
+            },
+            {
+                "title": "Human Resources Coordinator",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18119",
+                "date": "January 8th, 2025",
+                "new_since": "2025-01-08T16:44:14.929652"
+            }
+        ]
     }
 ]
