@@ -1669,5 +1669,27 @@
                 "new_since": "2025-01-08T16:44:14.929652"
             }
         ]
+    },
+    {
+        "timestamp": "2025-01-11T20:09:29.978780",
+        "new_jobs_count": 2,
+        "removed_jobs_count": 0,
+        "new_jobs": [
+            {
+                "title": "PCL Constructors Canada Inc.: Engineering Student",
+                "school": "Holland College",
+                "date": "January 11th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/engineering-student-pcl-construction-jan10-2025.html",
+                "new_since": "2025-01-11T20:09:29.952779"
+            },
+            {
+                "title": "janvier 24, 2025",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 11th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-001-Magasiniere-ou-magasinier-1.pdf",
+                "new_since": "2025-01-11T20:09:29.952779"
+            }
+        ],
+        "removed_jobs": []
     }
 ]
