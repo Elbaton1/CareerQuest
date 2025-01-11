@@ -1565,7 +1565,7 @@ existing_job_links = {job['link'] for job in existing_jobs}
 new_jobs = (
     scrape_memorial(existing_job_links, existing_jobs) +  # Updated Memorial scraper
     scrape_university_of_new_brunswick(existing_job_links, existing_jobs) +
-    scrape_mount_allison_university(existing_job_links, existing_jobs) +
+    #scrape_mount_allison_university(existing_job_links, existing_jobs) +
     scrape_st_thomas_university(existing_job_links, existing_jobs) +
     scrape_universite_de_moncton(existing_job_links, existing_jobs) +
     scrape_acadia_university(existing_job_links, existing_jobs) +
