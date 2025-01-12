@@ -1737,5 +1737,20 @@
                 "new_since": "2025-01-12T01:17:54.516835"
             }
         ]
+    },
+    {
+        "timestamp": "2025-01-12T20:09:53.977345",
+        "new_jobs_count": 0,
+        "removed_jobs_count": 1,
+        "new_jobs": [],
+        "removed_jobs": [
+            {
+                "title": "Part-Time Position in Psychology",
+                "school": "St. Thomas University",
+                "date": "January 8th, 2025",
+                "link": "https://www.stu.ca/media/PSYC-3123-A-Sem-2-EXTERNAL.pdf",
+                "new_since": "2025-01-08T20:09:31.937916"
+            }
+        ]
     }
 ]
