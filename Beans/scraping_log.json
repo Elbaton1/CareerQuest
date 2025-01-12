@@ -1714,5 +1714,28 @@
                 "new_since": "2025-01-11T08:09:32.020154"
             }
         ]
+    },
+    {
+        "timestamp": "2025-01-12T08:09:35.671492",
+        "new_jobs_count": 1,
+        "removed_jobs_count": 1,
+        "new_jobs": [
+            {
+                "title": "RESEARCH SCIENTIST (01), Dept of Chemistry and Biochemistry, Faculty of Sciences",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2118906/universite-de-moncton/research-scientist-01-dept-of-chemistry-and-biochemistry-faculty-of-sciences/moncton-nb",
+                "new_since": "2025-01-12T08:09:35.641898"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN TRADUCTION DE L’ANGLAIS VERS LE FRANÇAIS (Temporaire 4 ans), Dépt. Traduction et Langues",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2124209/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-12T01:17:54.516835"
+            }
+        ]
     }
 ]
