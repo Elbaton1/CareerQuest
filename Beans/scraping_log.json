@@ -1789,5 +1789,168 @@
                 "new_since": "2025-01-08T16:44:14.929652"
             }
         ]
+    },
+    {
+        "timestamp": "2025-01-13T20:16:59.231331",
+        "new_jobs_count": 12,
+        "removed_jobs_count": 10,
+        "new_jobs": [
+            {
+                "title": "BUILDING SERVICES SUPERVISOR",
+                "school": "Memorial University",
+                "date": "2025-01-13T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5810",
+                "new_since": "2025-01-13T20:16:59.181290"
+            },
+            {
+                "title": "ACCOUNTING CLERK II (BAND LEVEL 4)",
+                "school": "Memorial University",
+                "date": "2025-01-13T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5805",
+                "new_since": "2025-01-13T20:16:59.181290"
+            },
+            {
+                "title": "PROJECT ACCOUNTANT (BAND LEVEL 7)",
+                "school": "Memorial University",
+                "date": "2025-01-13T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5807",
+                "new_since": "2025-01-13T20:16:59.181290"
+            },
+            {
+                "title": "INSTRUCTOR (MARINE ENGINEERING)",
+                "school": "Memorial University",
+                "date": "2025-01-13T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5809",
+                "new_since": "2025-01-13T20:16:59.181290"
+            },
+            {
+                "title": "Graduate Administrator Assistant (Clerk PL4)",
+                "school": "University of New Brunswick",
+                "date": "January 13th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/graduate-administrator-assistant-clerk-pl4/2121126?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2121126&utm_term=jobtitle",
+                "new_since": "2025-01-13T20:16:59.181290"
+            },
+            {
+                "title": "Director of Executive Education & Professional Development",
+                "school": "University of New Brunswick",
+                "date": "January 13th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/director-of-executive-education--professional-development/2133209?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2133209&utm_term=jobtitle",
+                "new_since": "2025-01-13T20:16:59.181290"
+            },
+            {
+                "title": "CHERCHEUSE - CHERCHEUR, Chaire de recherche interdisciplinaire sur la santé mentale des enfants et des jeunes",
+                "school": "Université de Moncton",
+                "date": "January 13, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2130086/universite-de-moncton/chercheuse-chercheur-chaire-de-recherche-interdisciplinaire-sur-la-sante-mentale-des-enfants-et-des-jeunes/moncton-nb",
+                "new_since": "2025-01-13T20:16:59.181290"
+            },
+            {
+                "title": "Admissions and Recruitment Assistant",
+                "school": "NSCAD University",
+                "date": "January 13th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/admissions-and-recruitment-assistant/2133177",
+                "new_since": "2025-01-13T20:16:59.182308"
+            },
+            {
+                "title": "Labour Relations Assistant",
+                "school": "Saint Mary’s University",
+                "date": "January 13th, 2025",
+                "link": "https://www.careerbeacon.com/en/job/2133195/saint-mary-s-university/labour-relations-assistant/halifax-ns?utm_term=jobtitle",
+                "new_since": "2025-01-13T20:16:59.182308"
+            },
+            {
+                "title": "Sport Coordinator",
+                "school": "Saint Mary’s University",
+                "date": "January 13th, 2025",
+                "link": "https://www.careerbeacon.com/en/job/2133196/saint-mary-s-university/sport-coordinator/halifax-ns?utm_term=jobtitle",
+                "new_since": "2025-01-13T20:16:59.182308"
+            },
+            {
+                "title": "Residence Don",
+                "school": "University of King's College",
+                "date": "January 13th, 2025",
+                "link": "https://ukings.ca/campus-community/employment/residence-don/",
+                "new_since": "2025-01-13T20:16:59.182308"
+            },
+            {
+                "title": "Instructor, Orientation to Trades and Technology (OTT) Program (Trades)",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-13T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16463&JobSiteId=2,4",
+                "new_since": "2025-01-13T20:16:59.188290"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "LIVING LAB COORDINATOR (RESEARCH ASSISTANT III) (BAND LEVEL 10)",
+                "school": "Memorial University",
+                "date": "2024-12-23T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5793",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Admin Assistant PL5 (Secretary PL5)",
+                "school": "University of New Brunswick",
+                "date": "January 8th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/admin-assistant-pl5-secretary-pl5/2127340?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2127340&utm_term=jobtitle",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN TRADUCTION DE L’ANGLAIS VERS LE FRANÇAIS (Temporaire 4 ans), Dépt. Traduction et Langues",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2124209/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-13T08:09:32.602761"
+            },
+            {
+                "title": "Teaching Assistant in the Contemporary Studies Program (Part-time)",
+                "school": "University of King's College",
+                "date": "January 8th, 2025",
+                "link": "https://ukings.ca/campus-community/employment/teaching-assistant-in-the-contemporary-studies-program-part-time-3/",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "MTS Level 6 – Registered Veterinary Technician - Small Animal Hospital Medicine and Float (Days) - Veterinary Teaching Hospital - Atlantic Veterinary College *Reposted*",
+                "link": "https://www.upei.ca/hr/competition/176e24r2",
+                "date": "Closing date: 2025-01-12T00:00:00",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Instructor, Nursing Studies: IEN Bridging / RN Re-entry (Part-Time)",
+                "school": "NBCC",
+                "date": "2025-01-08T16:44:10.528040",
+                "link": "https://jobs.careerbeacon.com/details/instructor-nursing-studies-ien-bridging--rn-reentry-parttime/2131679?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=2131679&utm_term=jobtitle",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Bilingual Instructor, Nova Institution for Women (Part-time)",
+                "school": "NBCC",
+                "date": "2025-01-08T16:44:10.572041",
+                "link": "https://jobs.careerbeacon.com/details/bilingual-instructor-nova-institution-for-women-parttime/1912572?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=1912572&utm_term=jobtitle",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Instructor, Springhill Institution (Full-time/Part-time)",
+                "school": "NBCC",
+                "date": "2025-01-08T16:44:10.590550",
+                "link": "https://jobs.careerbeacon.com/details/instructor-springhill-institution-fulltimeparttime/1879295?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=1879295&utm_term=jobtitle",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Instructors, Workplace Essential Skills (Talent Pool)",
+                "school": "NBCC",
+                "date": "2025-01-08T16:44:10.630108",
+                "link": "https://jobs.careerbeacon.com/details/instructors-workplace-essential-skills-talent-pool/1879270?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=1879270&utm_term=jobtitle",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Government of PEI: Internship Program 2025",
+                "school": "Holland College",
+                "date": "January 8th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/pei-gov-internship-2025-jan6-2025.html",
+                "new_since": "2025-01-08T16:44:14.930651"
+            }
+        ]
     }
 ]
