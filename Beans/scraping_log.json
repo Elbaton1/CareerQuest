@@ -1952,5 +1952,175 @@
                 "new_since": "2025-01-08T16:44:14.930651"
             }
         ]
+    },
+    {
+        "timestamp": "2025-01-14T13:54:07.993475",
+        "new_jobs_count": 14,
+        "removed_jobs_count": 9,
+        "new_jobs": [
+            {
+                "title": "OUTREACH AND ENGAGEMENT OFFICER",
+                "school": "Memorial University",
+                "date": "2025-01-14T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5813",
+                "new_since": "2025-01-14T13:54:07.974398"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN GESTION DES SERVICES DE SANTÉ",
+                "school": "Université de Moncton",
+                "date": "January 14, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2133417/universite-de-moncton-abppum-campus-de-moncton/professeure-ou-professeur-en-gestion-des-services-de-sante/moncton-nb",
+                "new_since": "2025-01-14T13:54:07.974398"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR en informatique/cybersécurité/ ou intelligence artificielle",
+                "school": "Université de Moncton",
+                "date": "January 14, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2133457/universite-de-moncton-abppum-campus-de-moncton/professeure-ou-professeur-en-informatique-cybersecurite-ou-intelligence-artificielle/moncton-nb",
+                "new_since": "2025-01-14T13:54:07.974398"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN TRADUCTION DE L’ANGLAIS VERS LE FRANÇAIS (Temporaire 4 ans), Dépt. Traduction et Langues",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2124209/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-14T13:54:07.974398"
+            },
+            {
+                "title": "Labour Relations Assistant",
+                "school": "Saint Mary’s University",
+                "date": "January 14th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/labour-relations-assistant/2133195?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2133195&utm_term=jobtitle",
+                "new_since": "2025-01-14T13:54:07.975397"
+            },
+            {
+                "title": "Sport Coordinator",
+                "school": "Saint Mary’s University",
+                "date": "January 14th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/sport-coordinator/2133196?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2133196&utm_term=jobtitle",
+                "new_since": "2025-01-14T13:54:07.975397"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Recruiter and Advisor - Office of Recruitment and First Year Advisement",
+                "link": "https://www.upei.ca/hr/competition/12e25",
+                "date": "Closing date: 2025-01-21T00:00:00",
+                "new_since": "2025-01-14T13:54:07.975397"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Event Coordinator - Learning Wellbeing and Success (LWS) Office - Faculty of Medicine",
+                "link": "https://www.upei.ca/hr/competition/01e25",
+                "date": "Closing date: 2025-01-21T00:00:00",
+                "new_since": "2025-01-14T13:54:07.975397"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "PA Level 6 - Instructional Multimedia Specialist - Office of the Vice-President, Academic and Research",
+                "link": "https://www.upei.ca/hr/competition/09e25",
+                "date": "Closing date: 2025-01-28T00:00:00",
+                "new_since": "2025-01-14T13:54:07.975397"
+            },
+            {
+                "title": "Resource Facilitator",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-14T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16592&JobSiteId=2,4",
+                "new_since": "2025-01-14T13:54:07.977389"
+            },
+            {
+                "title": "Instructor, Nursing Studies: IEN Bridging / RN Re-entry (Part-Time)",
+                "school": "NBCC",
+                "date": "2025-01-14T13:54:01.000121",
+                "link": "https://jobs.careerbeacon.com/details/instructor-nursing-studies-ien-bridging--rn-reentry-parttime/2131679?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=2131679&utm_term=jobtitle",
+                "new_since": "2025-01-14T13:54:07.977389"
+            },
+            {
+                "title": "Bilingual Instructor, Nova Institution for Women (Part-time)",
+                "school": "NBCC",
+                "date": "2025-01-14T13:54:01.025119",
+                "link": "https://jobs.careerbeacon.com/details/bilingual-instructor-nova-institution-for-women-parttime/1912572?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=1912572&utm_term=jobtitle",
+                "new_since": "2025-01-14T13:54:07.977389"
+            },
+            {
+                "title": "Instructor, Springhill Institution (Full-time/Part-time)",
+                "school": "NBCC",
+                "date": "2025-01-14T13:54:01.041388",
+                "link": "https://jobs.careerbeacon.com/details/instructor-springhill-institution-fulltimeparttime/1879295?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=1879295&utm_term=jobtitle",
+                "new_since": "2025-01-14T13:54:07.977389"
+            },
+            {
+                "title": "Instructors, Workplace Essential Skills (Talent Pool)",
+                "school": "NBCC",
+                "date": "2025-01-14T13:54:01.057927",
+                "link": "https://jobs.careerbeacon.com/details/instructors-workplace-essential-skills-talent-pool/1879270?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=1879270&utm_term=jobtitle",
+                "new_since": "2025-01-14T13:54:07.977389"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN NUTRITION, École des sciences des aliments, de nutrition et d’études familiales",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2123945/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-11T08:09:32.020154"
+            },
+            {
+                "title": "CHERCHEUSE - CHERCHEUR, Chaire de recherche interdisciplinaire sur la santé mentale des enfants et des jeunes",
+                "school": "Université de Moncton",
+                "date": "January 13, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2130086/universite-de-moncton/chercheuse-chercheur-chaire-de-recherche-interdisciplinaire-sur-la-sante-mentale-des-enfants-et-des-jeunes/moncton-nb",
+                "new_since": "2025-01-13T20:16:59.181290"
+            },
+            {
+                "title": "Professeur.e.s - BOURSE DE RECRUTEMENT EN INCLUSION SCOLAIRE/ENSEIGNEMENT RESSOURCE, Dépt. d'ens. au primaire et psychopédagogie",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2124206/universite-de-moncton/professeur-e-s-bourse-de-recrutement-en-inclusion-scolaire-enseignement-ressource-dept-d-ens-au-primaire-et-psychopedagogie/moncton-nb",
+                "new_since": "2025-01-08T17:48:09.326039"
+            },
+            {
+                "title": "Labour Relations Assistant",
+                "school": "Saint Mary’s University",
+                "date": "January 13th, 2025",
+                "link": "https://www.careerbeacon.com/en/job/2133195/saint-mary-s-university/labour-relations-assistant/halifax-ns?utm_term=jobtitle",
+                "new_since": "2025-01-13T20:16:59.182308"
+            },
+            {
+                "title": "Sport Coordinator",
+                "school": "Saint Mary’s University",
+                "date": "January 13th, 2025",
+                "link": "https://www.careerbeacon.com/en/job/2133196/saint-mary-s-university/sport-coordinator/halifax-ns?utm_term=jobtitle",
+                "new_since": "2025-01-13T20:16:59.182308"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "ADS Level 6 - Data Control/Banking Clerk - Financial Services",
+                "link": "https://www.upei.ca/hr/competition/08e25",
+                "date": "Closing date: 2025-01-13T00:00:00",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Director of Facilities Management - Department of Facilities Management",
+                "link": "https://www.upei.ca/hr/competition/254e24",
+                "date": "Closing date: 2025-01-13T00:00:00",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Buyer II",
+                "school": "College of the North Atlantic",
+                "date": "2024-12-19T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16568&JobSiteId=2,4",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Agriculture and Agri-Food Canada - Science and Technology Branch: Summer Research Assistant",
+                "school": "Holland College",
+                "date": "January 8th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/summer-research-assistant-aafc-jan6-2025.html",
+                "new_since": "2025-01-08T16:44:14.930651"
+            }
+        ]
     }
 ]
