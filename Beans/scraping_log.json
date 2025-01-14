@@ -2122,5 +2122,91 @@
                 "new_since": "2025-01-08T16:44:14.930651"
             }
         ]
+    },
+    {
+        "timestamp": "2025-01-14T20:09:33.661272",
+        "new_jobs_count": 9,
+        "removed_jobs_count": 2,
+        "new_jobs": [
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN NUTRITION, École des sciences des aliments, de nutrition et d’études familiales",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2123945/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-14T20:09:33.625181"
+            },
+            {
+                "title": "Professeur.e.s - BOURSE DE RECRUTEMENT EN INCLUSION SCOLAIRE/ENSEIGNEMENT RESSOURCE, Dépt. d'ens. au primaire et psychopédagogie",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2124206/universite-de-moncton/professeur-e-s-bourse-de-recrutement-en-inclusion-scolaire-enseignement-ressource-dept-d-ens-au-primaire-et-psychopedagogie/moncton-nb",
+                "new_since": "2025-01-14T20:09:33.625181"
+            },
+            {
+                "title": "Ontologist / Semantic Architect",
+                "school": "Dalhousie University",
+                "date": "January 14th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18159",
+                "new_since": "2025-01-14T20:09:33.625181"
+            },
+            {
+                "title": "Assistant Aquaculture Technician",
+                "school": "Dalhousie University",
+                "date": "January 14th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18158",
+                "new_since": "2025-01-14T20:09:33.625181"
+            },
+            {
+                "title": "Buyer",
+                "school": "Dalhousie University",
+                "date": "January 14th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18157",
+                "new_since": "2025-01-14T20:09:33.625181"
+            },
+            {
+                "title": "Lead Full-Stack Developer / Semantic Architect",
+                "school": "Dalhousie University",
+                "date": "January 14th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18156",
+                "new_since": "2025-01-14T20:09:33.625181"
+            },
+            {
+                "title": "Senior Fellowship in the Humanities Foundation Year Program",
+                "school": "University of King's College",
+                "date": "January 14th, 2025",
+                "link": "https://ukings.ca/campus-community/employment/senior-fellowship-in-the-humanities/",
+                "new_since": "2025-01-14T20:09:33.625181"
+            },
+            {
+                "title": "Faculty Fellowship in the Humanities–Foundation Year Program",
+                "school": "University of King's College",
+                "date": "January 14th, 2025",
+                "link": "https://ukings.ca/campus-community/employment/faculty-fellowship-in-the-humanities/",
+                "new_since": "2025-01-14T20:09:33.625181"
+            },
+            {
+                "title": "Guidance Counsellor",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-14T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16602&JobSiteId=2,4",
+                "new_since": "2025-01-14T20:09:33.629157"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "POSTDOCTORAL RESEARCHER, LOUIS R. LAPIERRE LABORATORY, Dept. Chemistry & Biochemistry, Faculty of Science",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2118637/universite-de-moncton/postdoctoral-researcher-louis-r-lapierre-laboratory-dept-chemistry-biochemistry-faculty-of-science/moncton-nb",
+                "new_since": "2025-01-11T08:09:32.020154"
+            },
+            {
+                "title": "CHARGÉE OU CHARGÉ D’ENSEIGNEMENT DE LANGUE (FRANÇAIS LANGUE MATERNELLE), Dépt. d'études françaises - Secteur langue",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2121412/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-08T18:18:12.700835"
+            }
+        ]
     }
 ]
