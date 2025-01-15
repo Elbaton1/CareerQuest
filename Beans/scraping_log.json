@@ -2208,5 +2208,63 @@
                 "new_since": "2025-01-08T18:18:12.700835"
             }
         ]
+    },
+    {
+        "timestamp": "2025-01-15T08:43:52.680981",
+        "new_jobs_count": 2,
+        "removed_jobs_count": 5,
+        "new_jobs": [
+            {
+                "title": "CHARGÉE OU CHARGÉ D’ENSEIGNEMENT DE LANGUE (FRANÇAIS LANGUE MATERNELLE), Dépt. d'études françaises - Secteur langue",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2121412/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-15T08:43:52.658939"
+            },
+            {
+                "title": "CHERCHEUSE - CHERCHEUR, Chaire de recherche interdisciplinaire sur la santé mentale des enfants et des jeunes",
+                "school": "Université de Moncton",
+                "date": "2025-01-13",
+                "link": "https://www.careerbeacon.com/fr/emplois/2130086/universite-de-moncton/chercheuse-chercheur-chaire-de-recherche-interdisciplinaire-sur-la-sante-mentale-des-enfants-et-des-jeunes/moncton-nb",
+                "new_since": "2025-01-15T08:43:52.658939"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN TRADUCTION DE L’ANGLAIS VERS LE FRANÇAIS, Dépt. de traduction et des langues",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2123951/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-08T18:18:12.701831"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN NUTRITION, École des sciences des aliments, de nutrition et d’études familiales",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2123945/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-14T20:09:33.625181"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "MTS Level 6 - Graphic Designer - Marketing and Communications",
+                "link": "https://www.upei.ca/hr/competition/14e25",
+                "date": "Closing date: 2025-01-14T00:00:00",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "ADS Level 5 - Administrative Assistant - Department of Development and Alumni Engagement",
+                "link": "https://www.upei.ca/hr/competition/02e25",
+                "date": "Closing date: 2025-01-14T00:00:00",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Student Development Officer",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-06T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16573&JobSiteId=2,4",
+                "new_since": "2025-01-08T16:44:14.929652"
+            }
+        ]
     }
 ]
