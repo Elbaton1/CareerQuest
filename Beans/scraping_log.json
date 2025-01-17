@@ -2869,5 +2869,49 @@
                 "new_since": "2025-01-08T16:44:14.930651"
             }
         ]
+    },
+    {
+        "timestamp": "2025-01-17T20:09:37.244528",
+        "new_jobs_count": 3,
+        "removed_jobs_count": 2,
+        "new_jobs": [
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN GÉNIE CIVIL, Dépt. de Génie civil, Faculté d'ingénierie",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2121758/universite-de-moncton/professeure-ou-professeur-en-genie-civil-dept-de-genie-civil-faculte-d-ingenierie/moncton-nb",
+                "new_since": "2025-01-17T20:09:37.219840"
+            },
+            {
+                "title": "Professeur.e.s - BOURSE DE RECRUTEMENT EN INCLUSION SCOLAIRE/ENSEIGNEMENT RESSOURCE, Dépt. d'ens. au primaire et psychopédagogie",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2124206/universite-de-moncton/professeur-e-s-bourse-de-recrutement-en-inclusion-scolaire-enseignement-ressource-dept-d-ens-au-primaire-et-psychopedagogie/moncton-nb",
+                "new_since": "2025-01-17T20:09:37.219840"
+            },
+            {
+                "title": "Budget Analyst",
+                "school": "NBCC",
+                "date": "2025-01-17T20:09:25.555043",
+                "link": "https://jobs.careerbeacon.com/details/budget-analyst/2134620?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=2134620&utm_term=jobtitle",
+                "new_since": "2025-01-17T20:09:37.228368"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "CHERCHEUSE - CHERCHEUR, Chaire de recherche interdisciplinaire sur la santé mentale des enfants et des jeunes",
+                "school": "Université de Moncton",
+                "date": "2025-01-13",
+                "link": "https://www.careerbeacon.com/fr/emplois/2130086/universite-de-moncton/chercheuse-chercheur-chaire-de-recherche-interdisciplinaire-sur-la-sante-mentale-des-enfants-et-des-jeunes/moncton-nb",
+                "new_since": "2025-01-15T08:43:52.658939"
+            },
+            {
+                "title": "ANALYSTE FONCTIONNEL RH-Paie et finances, Service des ressources humaines et Service des finances",
+                "school": "Université de Moncton",
+                "date": "2025-01-09",
+                "link": "https://www.careerbeacon.com/fr/emplois/2132306/universite-de-moncton/analyste-fonctionnel-rh-paie-et-finances-service-des-ressources-humaines-et-service-des-finances/moncton-nb",
+                "new_since": "2025-01-17T09:11:26.574082"
+            }
+        ]
     }
 ]
