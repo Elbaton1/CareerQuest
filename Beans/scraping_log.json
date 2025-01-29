@@ -5612,5 +5612,189 @@
                 "new_since": "2025-01-15T20:09:38.328519"
             }
         ]
+    },
+    {
+        "timestamp": "2025-01-29T10:19:16.377440",
+        "new_jobs_count": 12,
+        "removed_jobs_count": 13,
+        "new_jobs": [
+            {
+                "title": "CLINIC ADMINISTRATOR (BAND LEVEL 8)",
+                "school": "Memorial University",
+                "date": "2025-01-28T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5833",
+                "new_since": "2025-01-29T10:19:16.349811"
+            },
+            {
+                "title": "WORK STUDY WINTER 2025: WELLNS MARKETING SPECIALIST",
+                "school": "Cape Breton University",
+                "date": "January 29th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/work-study-winter-2025-wellns-marketing-specialist/",
+                "new_since": "2025-01-29T10:19:16.349811"
+            },
+            {
+                "title": "JUNIOR ASSOCIATE, CLIENT OPERATIONS, FUND ADMINISTRATION (CO-OP POSITION)",
+                "school": "Cape Breton University",
+                "date": "January 29th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/junior-associate-client-operations-fund-administration-co-op-position/",
+                "new_since": "2025-01-29T10:19:16.349811"
+            },
+            {
+                "title": "Part-Time Academic (THEA 4735/MUSC 4360/HIST4162.06: Advanced Seminar in Baroque Culture) - Summer 2025",
+                "school": "Dalhousie University",
+                "date": "January 29th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18212",
+                "new_since": "2025-01-29T10:19:16.350810"
+            },
+            {
+                "title": "Power Platform Developer",
+                "school": "Dalhousie University",
+                "date": "January 29th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18210",
+                "new_since": "2025-01-29T10:19:16.350810"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Director, IT Operations - Information Technology Systems and Services",
+                "link": "https://www.upei.ca/hr/competition/06e25",
+                "date": "Closing date: 2025-02-04T00:00:00",
+                "new_since": "2025-01-29T10:19:16.350810"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "ADS Level 5 - Administrative Assistant - Department of Biology - Faculty of Science",
+                "link": "https://www.upei.ca/hr/competition/23e25",
+                "date": "Closing date: 2025-02-04T00:00:00",
+                "new_since": "2025-01-29T10:19:16.350810"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "PA Level 7 - Instructional Designer - Teaching and Learning Centre",
+                "link": "https://www.upei.ca/hr/competition/17e25",
+                "date": "Closing date: 2025-02-11T00:00:00",
+                "new_since": "2025-01-29T10:19:16.350810"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Payroll Specialist - Human Resources Department",
+                "link": "https://www.upei.ca/hr/competition/24e25",
+                "date": "Closing date: 2025-02-04T00:00:00",
+                "new_since": "2025-01-29T10:19:16.350810"
+            },
+            {
+                "title": "Instructor, Orientation to Trades and Technology (OTT) Program (Trades)",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-28T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16463&JobSiteId=2,4",
+                "new_since": "2025-01-29T10:19:16.357812"
+            },
+            {
+                "title": "Public Relations Specialist (Women in the Trades Community Network (WTCN) Coordinator)",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-28T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16626&JobSiteId=2,4",
+                "new_since": "2025-01-29T10:19:16.357812"
+            },
+            {
+                "title": "Cook I",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-28T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16634&JobSiteId=2,4",
+                "new_since": "2025-01-29T10:19:16.357812"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "OUTREACH AND ENGAGEMENT OFFICER",
+                "school": "Memorial University",
+                "date": "2025-01-14T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5813",
+                "new_since": "2025-01-14T13:54:07.974398"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN MATHÉMATIQUES, Dépt. de mathématiques et de statistique, Faculté des sciences",
+                "school": "Université de Moncton",
+                "date": "2024-12-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2124205/universite-de-moncton/professeure-ou-professeur-en-mathematiques-dept-de-mathematiques-et-de-statistique-faculte-des-sciences/moncton-nb",
+                "new_since": "2025-01-08T17:48:09.326039"
+            },
+            {
+                "title": "COMMUNICATIONS CO-OP STUDENT (SUMMER)",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/communications-co-op-student-summer/",
+                "date": "January 26th, 2025",
+                "new_since": "2025-01-26T08:09:31.930487"
+            },
+            {
+                "title": "FINANCE CO-OP STUDENT (SUMMER)",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/finance-co-op-student-summer/",
+                "date": "January 26th, 2025",
+                "new_since": "2025-01-26T08:09:31.930487"
+            },
+            {
+                "title": "Part-Time Academic (THEA 4735/MUSC 4360/HIST4162.06: Advanced Seminar in Baroque Culture) - Summer 2025",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18201",
+                "date": "January 24th, 2025",
+                "new_since": "2025-01-24T20:09:32.846206"
+            },
+            {
+                "title": "Power Platform Developer",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18194",
+                "date": "January 24th, 2025",
+                "new_since": "2025-01-24T03:56:41.707629"
+            },
+            {
+                "title": "Administrative Assistant",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18186",
+                "date": "January 20th, 2025",
+                "new_since": "2025-01-20T20:10:05.342933"
+            },
+            {
+                "title": "Academic Administrative Assistant",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18184",
+                "date": "January 20th, 2025",
+                "new_since": "2025-01-20T20:10:05.342933"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "PA Level 6 - Instructional Multimedia Specialist - Office of the Vice-President, Academic and Research",
+                "link": "https://www.upei.ca/hr/competition/09e25",
+                "date": "Closing date: 2025-01-28T00:00:00",
+                "new_since": "2025-01-14T13:54:07.975397"
+            },
+            {
+                "title": "Policy Planning & Research Analyst (Academic Planning Research Analyst)",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-17T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16595&JobSiteId=2,4",
+                "new_since": "2025-01-17T17:10:50.905396"
+            },
+            {
+                "title": "Experience Ventures, Arthur L. Irving Entrepreneurship Centre, Saint Mary's University: Student Placements - Various Experiential Learning Projects",
+                "school": "Holland College",
+                "date": "January 18th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/student-placements-experience-ventures-smu-jan17-2025.html",
+                "new_since": "2025-01-18T20:09:36.441630"
+            },
+            {
+                "title": "Adjointe aministrative ou adjoint administratif - Direction générale de la gestion stratégique",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 8th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/24-6775-093-Adjoint.e-Admin.-Direction-generale-de-la-gestion-strategique.pdf",
+                "new_since": "2025-01-08T17:19:05.418985"
+            },
+            {
+                "title": "Adjointe aministrative ou adjoint administratif - Direction générale de la gestion stratégique",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 8th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/24-6775-093-Adjoint.e-Admin.-Direction-generale-de-la-gestion-strategique.pdf",
+                "new_since": "2025-01-08T17:19:05.418985"
+            }
+        ]
     }
 ]
