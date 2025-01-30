@@ -5931,5 +5931,217 @@
                 "new_since": "2025-01-29T10:19:16.349811"
             }
         ]
+    },
+    {
+        "timestamp": "2025-01-30T20:10:16.806182",
+        "new_jobs_count": 14,
+        "removed_jobs_count": 15,
+        "new_jobs": [
+            {
+                "title": "Integrated Communications Specialist",
+                "school": "University of New Brunswick",
+                "date": "January 30th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/integrated-communications-specialist/2137171?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2137171&utm_term=jobtitle",
+                "new_since": "2025-01-30T20:10:16.750425"
+            },
+            {
+                "title": "Part Time Position School of Education",
+                "school": "St. Thomas University",
+                "date": "January 30th, 2025",
+                "link": "https://www.stu.ca/media/2024-25-EDUC-5133---Sem-3-External.pdf",
+                "new_since": "2025-01-30T20:10:16.750425"
+            },
+            {
+                "title": "COORDONNATRICE ou COORDONNATEUR DE PROJETS – Langues et Culture, Formation continue",
+                "school": "Université de Moncton",
+                "date": "January 30, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2130551/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-30T20:10:16.750425"
+            },
+            {
+                "title": "WORK STUDY WINTER 2025: ADDITIVE MANUFACTURING FACILITATOR",
+                "school": "Cape Breton University",
+                "date": "January 30th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/work-study-winter-2025-additive-manufacturing-facilitator/",
+                "new_since": "2025-01-30T20:10:16.751456"
+            },
+            {
+                "title": "Residency Program Assistant",
+                "school": "Dalhousie University",
+                "date": "January 30th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18218",
+                "new_since": "2025-01-30T20:10:16.751456"
+            },
+            {
+                "title": "Tier 2 Canada Research Chair in Artificial Intelligence and Healthy Aging",
+                "school": "Dalhousie University",
+                "date": "January 30th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18214",
+                "new_since": "2025-01-30T20:10:16.751456"
+            },
+            {
+                "title": "Assistant Professor - Designated Position",
+                "school": "Dalhousie University",
+                "date": "January 30th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18213",
+                "new_since": "2025-01-30T20:10:16.751456"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Maintenance Repair 1 - Plumber - Department of Facilities Management",
+                "link": "https://www.upei.ca/hr/competition/230e24r",
+                "date": "Closing date: 2025-02-13T00:00:00",
+                "new_since": "2025-01-30T20:10:16.752959"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Assistant - Department of Pathology and Microbiology - Atlantic Veterinary College",
+                "link": "https://www.upei.ca/hr/competition/09s25",
+                "date": "Closing date: 2025-02-06T00:00:00",
+                "new_since": "2025-01-30T20:10:16.752959"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Utility Worker - Department of Facilities Management",
+                "link": "https://www.upei.ca/hr/competition/19e25",
+                "date": "Closing date: 2025-02-13T00:00:00",
+                "new_since": "2025-01-30T20:10:16.752959"
+            },
+            {
+                "title": "Food Service Worker I, Casual Employment",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-30T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16341&JobSiteId=2,4",
+                "new_since": "2025-01-30T20:10:16.765496"
+            },
+            {
+                "title": "Instructor, Early Childhood Education Certificate Program",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-30T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16415&JobSiteId=2,4",
+                "new_since": "2025-01-30T20:10:16.765496"
+            },
+            {
+                "title": "Instructor, Heating Systems Technician (Oil Burner Mechanic)",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-29T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16637&JobSiteId=2,4",
+                "new_since": "2025-01-30T20:10:16.765496"
+            },
+            {
+                "title": "Payroll Clerk II",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-29T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16638&JobSiteId=2,4",
+                "new_since": "2025-01-30T20:10:16.765496"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "Engineering Outreach Coordinator",
+                "school": "University of New Brunswick",
+                "date": "January 22nd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/engineering-outreach-coordinator/2130815?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2130815&utm_term=jobtitle",
+                "new_since": "2025-01-22T20:10:02.033676"
+            },
+            {
+                "title": "Experiential Learning Engagement Coordinator",
+                "school": "University of New Brunswick",
+                "date": "January 22nd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/experiential-learning-engagement-coordinator/2134192?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2134192&utm_term=jobtitle",
+                "new_since": "2025-01-22T20:10:02.033676"
+            },
+            {
+                "title": "Experiential Administrative and Financial Coordinator",
+                "school": "University of New Brunswick",
+                "date": "January 22nd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/experiential-administrative-and-financial-coordinator/2134233?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2134233&utm_term=jobtitle",
+                "new_since": "2025-01-22T20:10:02.033676"
+            },
+            {
+                "title": "Labourer",
+                "school": "University of New Brunswick",
+                "date": "January 22nd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/labourer/2133866?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2133866&utm_term=jobtitle",
+                "new_since": "2025-01-22T20:10:02.033676"
+            },
+            {
+                "title": "Director of Executive Education & Professional Development",
+                "school": "University of New Brunswick",
+                "date": "January 22nd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/director-of-executive-education--professional-development/2133209?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2133209&utm_term=jobtitle",
+                "new_since": "2025-01-22T20:10:02.033676"
+            },
+            {
+                "title": "Part Time Positions in School of Education",
+                "school": "St. Thomas University",
+                "date": "January 17th, 2025",
+                "link": "https://www.stu.ca/media/2024-25-EDUC---Sem-3-External.pdf",
+                "new_since": "2025-01-17T09:11:26.574082"
+            },
+            {
+                "title": "DEFENCE CONSTRUCTION CANADA – COORDINATOR, CONSTRUCTION SERVICES, SUMMER 2025 – (STUDENT)- VARIOUS LOCATIONS (NS, NB, NL)",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/defence-construction-canada-coordinator-construction-services-summer-2025-student-various-locations-ns-nb-nl/",
+                "date": "January 26th, 2025",
+                "new_since": "2025-01-26T08:09:31.930487"
+            },
+            {
+                "title": "Program Coordinator",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18183",
+                "date": "January 20th, 2025",
+                "new_since": "2025-01-20T20:10:05.342933"
+            },
+            {
+                "title": "Tier 2 Canada Research Chair in Artificial Intelligence and Healthy Aging",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18174",
+                "date": "January 17th, 2025",
+                "new_since": "2025-01-17T09:11:26.574082"
+            },
+            {
+                "title": "Assistant Professor - Designated Position",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/17793",
+                "date": "January 8th, 2025",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Space Planner - Department of Facilities Management",
+                "link": "https://www.upei.ca/hr/competition/03e25",
+                "date": "Closing date: 2025-01-29T00:00:00",
+                "new_since": "2025-01-15T20:09:38.326513"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "MTS Level 3 - Housekeeping Supervisor - Ancillary Services",
+                "link": "https://www.upei.ca/hr/competition/16e25",
+                "date": "Closing date: 2025-01-29T00:00:00",
+                "new_since": "2025-01-15T20:09:38.326513"
+            },
+            {
+                "title": "Instructor - Practical Nursing",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-23T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16628&JobSiteId=2,4",
+                "new_since": "2025-01-24T03:56:41.712635"
+            },
+            {
+                "title": "Clerk Typist III",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-21T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16617&JobSiteId=2,4",
+                "new_since": "2025-01-21T20:10:09.614517"
+            },
+            {
+                "title": "Instructor, Dorchester Penitentiary",
+                "school": "NBCC",
+                "date": "2025-01-15T20:09:26.514923",
+                "link": "https://jobs.careerbeacon.com/details/instructor-dorchester-penitentiary/2133872?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=2133872&utm_term=jobtitle",
+                "new_since": "2025-01-15T20:09:38.328519"
+            }
+        ]
     }
 ]
