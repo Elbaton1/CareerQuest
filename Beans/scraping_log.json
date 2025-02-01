@@ -6369,5 +6369,168 @@
                 "new_since": "2025-01-09T20:09:45.163205"
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-01T20:09:45.823228",
+        "new_jobs_count": 2,
+        "removed_jobs_count": 20,
+        "new_jobs": [
+            {
+                "title": "TELUS CANADA BUSINESS ANALYST CO – OP STUDENT (CONTRACT) (CO-OP POSITION)",
+                "school": "Cape Breton University",
+                "date": "February 1st, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/telus-canada-business-analyst-co-op-student-contract-co-op-position/",
+                "new_since": "2025-02-01T20:09:45.768491"
+            },
+            {
+                "title": "WORK STUDY WINTER 2025: ADDITIVE MANUFACTURING FACILITATOR",
+                "school": "Cape Breton University",
+                "date": "February 1st, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/work-study-winter-2025-additive-manufacturing-facilitator/",
+                "new_since": "2025-02-01T20:09:45.768491"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN NUTRITION, École des sciences des aliments, de nutrition et d’études familiales",
+                "school": "Université de Moncton",
+                "date": "January 24, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2123945/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-24T20:09:32.846206"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN HISTOIRE DE L’ACADIE CONTEMPORAINE, Dépt. Histoire et géographie",
+                "school": "Université de Moncton",
+                "date": "January 24, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2121369/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-24T20:09:32.846206"
+            },
+            {
+                "title": "BOURSE DE RECRUTEMENT EN NUTRITION",
+                "school": "Université de Moncton",
+                "date": "2024-12-03",
+                "link": "https://www.careerbeacon.com/fr/emplois/2127525/universite-de-moncton-abppum-campus-de-moncton/bourse-de-recrutement-en-nutrition/moncton-nb",
+                "new_since": "2025-01-08T17:48:09.326039"
+            },
+            {
+                "title": "Professeur.e.s - BOURSE DE RECRUTEMENT EN INCLUSION SCOLAIRE/ENSEIGNEMENT RESSOURCE, Dépt. d'ens. au primaire et psychopédagogie",
+                "school": "Université de Moncton",
+                "date": "January 24, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2124206/universite-de-moncton/professeur-e-s-bourse-de-recrutement-en-inclusion-scolaire-enseignement-ressource-dept-d-ens-au-primaire-et-psychopedagogie/moncton-nb",
+                "new_since": "2025-01-24T20:09:32.846206"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN HISTOIRE DE L’ACADIE COLONIALE, Dépt. Histoire et géographie",
+                "school": "Université de Moncton",
+                "date": "January 24, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2121417/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-24T20:09:32.846206"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN GÉOGRAPHIE DE L’ENVIRONNEMENT, Dépt. Histoire et géographie",
+                "school": "Université de Moncton",
+                "date": "January 24, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2121414/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-24T20:09:32.846206"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN LITTÉRATURE(S) D’EXPRESSION FRANÇAISE, Dépt d'études françaises",
+                "school": "Université de Moncton",
+                "date": "January 24, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2121373/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-24T20:09:32.846206"
+            },
+            {
+                "title": "CHARGÉE OU CHARGÉ D’ENSEIGNEMENT DE LANGUE (FRANÇAIS LANGUE MATERNELLE), Dépt. d'études françaises - Secteur langue",
+                "school": "Université de Moncton",
+                "date": "January 24, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2121412/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-24T20:09:32.846206"
+            },
+            {
+                "title": "RECENT OR POTENTIAL GRADS: PARLIAMENTARY INTERNSHIP PROGRAM (PIP)",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/recent-or-potential-grads-parliamentary-internship-program-pip/",
+                "date": "January 26th, 2025",
+                "new_since": "2025-01-26T08:09:31.930487"
+            },
+            {
+                "title": "RECENT OR POTENTIAL GRADS: COMMUNITY LIAISON COORDINATOR",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/recent-or-potential-grads-community-liaison-coordinator/",
+                "date": "January 26th, 2025",
+                "new_since": "2025-01-26T08:09:31.930487"
+            },
+            {
+                "title": "Residence Programming Manager",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18185",
+                "date": "January 20th, 2025",
+                "new_since": "2025-01-20T20:10:05.342933"
+            },
+            {
+                "title": "Part-Time Academic HIST 2205:03/CANA/INDG 2050:03, Historical Issues in Indigenous Studies - summer term",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18182",
+                "date": "January 20th, 2025",
+                "new_since": "2025-01-20T20:10:05.342933"
+            },
+            {
+                "title": "Part-Time Academic HIST 3500.03, History of the Digital Age - summer term",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18181",
+                "date": "January 20th, 2025",
+                "new_since": "2025-01-20T20:10:05.342933"
+            },
+            {
+                "title": "Digital Communications & Event Coordinator",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18164",
+                "date": "January 15th, 2025",
+                "new_since": "2025-01-15T20:09:38.325504"
+            },
+            {
+                "title": "Ontologist / Semantic Architect",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18159",
+                "date": "January 14th, 2025",
+                "new_since": "2025-01-14T20:09:33.625181"
+            },
+            {
+                "title": "Lead Full-Stack Developer / Semantic Architect",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18156",
+                "date": "January 14th, 2025",
+                "new_since": "2025-01-14T20:09:33.625181"
+            },
+            {
+                "title": "Shannex Research Chair in Artificial Intelligence and Healthy Aging",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18063",
+                "date": "January 8th, 2025",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Assistant Professor of Visual Neuroscience (Designated Position)",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18029",
+                "date": "January 8th, 2025",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Assistant Professor , Department of Psychology",
+                "school": "Mount St. Vincent University - Full Time",
+                "date": "2025-01-08T16:29:49.317083",
+                "link": "https://forms.msvu.ca/iframeforms/FacultyRecruitment/fulltime/positiondetail.asp?ID=474",
+                "new_since": "2025-01-08T16:29:51.471122"
+            },
+            {
+                "title": "Assistant Professor , Department of History",
+                "school": "Mount St. Vincent University - Full Time",
+                "date": "2025-01-08T16:29:49.350155",
+                "link": "https://forms.msvu.ca/iframeforms/FacultyRecruitment/fulltime/positiondetail.asp?ID=473",
+                "new_since": "2025-01-08T16:29:51.471122"
+            }
+        ]
     }
 ]
