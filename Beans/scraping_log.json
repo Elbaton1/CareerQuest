@@ -6532,5 +6532,35 @@
                 "new_since": "2025-01-08T16:29:51.471122"
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-02T08:09:41.423113",
+        "new_jobs_count": 1,
+        "removed_jobs_count": 2,
+        "new_jobs": [
+            {
+                "title": "DEFENCE CONSTRUCTION CANADA – PROJECT ASSISTANT (INDIGENOUS YOUTH EMPLOYMENT OPPORTUNITY) – SUMMER 2025 – VARIOUS LOCATIONS (NS, NB, NL)",
+                "school": "Cape Breton University",
+                "date": "February 2nd, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/defence-construction-canada-project-assistant-indigenous-youth-employment-opportunity-summer-2025-various-locations-ns-nb-nl/",
+                "new_since": "2025-02-02T08:09:41.398601"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "RECENT OR POTENTIAL GRADS: STUDENT BRIDGING INVENTORY, IMMIGRATION, REFUGEES AND CITIZENSHIP CANADA",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/122681/",
+                "date": "January 26th, 2025",
+                "new_since": "2025-01-26T08:09:31.930487"
+            },
+            {
+                "title": "Library Technician II",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-23T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16629&JobSiteId=2,4",
+                "new_since": "2025-01-24T03:56:41.712635"
+            }
+        ]
     }
 ]
