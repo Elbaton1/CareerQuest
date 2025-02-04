@@ -6831,5 +6831,35 @@
                 "new_since": "2025-01-17T20:09:37.228368"
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-04T08:09:51.471347",
+        "new_jobs_count": 1,
+        "removed_jobs_count": 2,
+        "new_jobs": [
+            {
+                "title": "ENGINEERING STUDENT",
+                "school": "Cape Breton University",
+                "date": "February 4th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/engineering-student/",
+                "new_since": "2025-02-04T08:09:51.443128"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "WORK STUDY WINTER 2025: WELLNS MARKETING SPECIALIST",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/work-study-winter-2025-wellns-marketing-specialist/",
+                "date": "January 29th, 2025",
+                "new_since": "2025-01-29T10:19:16.349811"
+            },
+            {
+                "title": "Groundskeeper",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18206",
+                "date": "January 27th, 2025",
+                "new_since": "2025-01-27T20:10:03.634373"
+            }
+        ]
     }
 ]
