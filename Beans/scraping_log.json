@@ -6861,5 +6861,189 @@
                 "new_since": "2025-01-27T20:10:03.634373"
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-04T20:10:18.219815",
+        "new_jobs_count": 7,
+        "removed_jobs_count": 18,
+        "new_jobs": [
+            {
+                "title": "Administrative Temp Opportunities",
+                "school": "University of New Brunswick",
+                "date": "February 4th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-temp-opportunities/1953773?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=1953773&utm_term=jobtitle",
+                "new_since": "2025-02-04T20:10:18.175703"
+            },
+            {
+                "title": "Administrative Temp Opportunities",
+                "school": "University of New Brunswick",
+                "date": "February 4th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-temp-opportunities/1902601?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=1902601&utm_term=jobtitle",
+                "new_since": "2025-02-04T20:10:18.175703"
+            },
+            {
+                "title": "Biogeochemistry Technician",
+                "school": "Dalhousie University",
+                "date": "February 4th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18233",
+                "new_since": "2025-02-04T20:10:18.176708"
+            },
+            {
+                "title": "Research Development Officer",
+                "school": "Dalhousie University",
+                "date": "February 4th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18232",
+                "new_since": "2025-02-04T20:10:18.176708"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Maintence Repairman - Department of Facilities Management",
+                "link": "https://www.upei.ca/hr/competition/29e25",
+                "date": "Closing date: 2025-02-11T00:00:00",
+                "new_since": "2025-02-04T20:10:18.177715"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "ADS Level 5 - Administrative Support - Admissions - Registrar's Office - Student Experience Hub",
+                "link": "https://www.upei.ca/hr/competition/31e25",
+                "date": "Closing date: 2025-02-11T00:00:00",
+                "new_since": "2025-02-04T20:10:18.177715"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "ADS Level 5 - Client Services Representative - Veterinary Teaching Hospital - Atlantic Veterinary College",
+                "link": "https://www.upei.ca/hr/competition/27e25",
+                "date": "Closing date: 2025-02-11T00:00:00",
+                "new_since": "2025-02-04T20:10:18.177715"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "Clinic and Outreach Coordinator",
+                "school": "University of New Brunswick",
+                "date": "February 3rd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/clinic-and-outreach-coordinator/2137864?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2137864&utm_term=jobtitle",
+                "new_since": "2025-02-03T20:10:25.302868"
+            },
+            {
+                "title": "Director of Executive Education & Professional Development",
+                "school": "University of New Brunswick",
+                "date": "January 31st, 2025",
+                "link": "https://jobs.careerbeacon.com/details/director-of-executive-education--professional-development/2133209?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2133209&utm_term=jobtitle",
+                "new_since": "2025-01-31T20:09:40.088653"
+            },
+            {
+                "title": "Research Scientist",
+                "school": "University of New Brunswick",
+                "date": "January 31st, 2025",
+                "link": "https://jobs.careerbeacon.com/details/research-scientist/2137528?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2137528&utm_term=jobtitle",
+                "new_since": "2025-01-31T20:09:40.089659"
+            },
+            {
+                "title": "Integrated Communications Specialist",
+                "school": "University of New Brunswick",
+                "date": "January 30th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/integrated-communications-specialist/2137171?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2137171&utm_term=jobtitle",
+                "new_since": "2025-01-30T20:10:16.750425"
+            },
+            {
+                "title": "Patrol Supervisor",
+                "school": "University of New Brunswick",
+                "date": "January 29th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/patrol-supervisor/2136936?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2136936&utm_term=jobtitle",
+                "new_since": "2025-01-29T20:10:05.993642"
+            },
+            {
+                "title": "Administrative Assistant PL4",
+                "school": "University of New Brunswick",
+                "date": "January 27th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-assistant-pl4/2136428?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2136428&utm_term=jobtitle",
+                "new_since": "2025-01-27T20:10:03.634373"
+            },
+            {
+                "title": "Strategic Partnership & Economic Development Officer",
+                "school": "University of New Brunswick",
+                "date": "January 27th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/strategic-partnership--economic-development-officer/2136454?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2136454&utm_term=jobtitle",
+                "new_since": "2025-01-27T20:10:03.634373"
+            },
+            {
+                "title": "Research Assistant",
+                "school": "University of New Brunswick",
+                "date": "January 24th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/research-assistant/2135823?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2135823&utm_term=jobtitle",
+                "new_since": "2025-01-24T03:56:41.706630"
+            },
+            {
+                "title": "Student Service Officer – Clerk PL5",
+                "school": "University of New Brunswick",
+                "date": "January 22nd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/student-service-officer--clerk-pl5/2135484?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2135484&utm_term=jobtitle",
+                "new_since": "2025-01-22T20:10:02.033676"
+            },
+            {
+                "title": "Program Manager, UNB Microcredentials",
+                "school": "University of New Brunswick",
+                "date": "January 22nd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/program-manager-unb-microcredentials/2135187?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2135187&utm_term=jobtitle",
+                "new_since": "2025-01-22T20:10:02.033676"
+            },
+            {
+                "title": "Assistant Director Strategic Marketing, Sales and Communication",
+                "school": "University of New Brunswick",
+                "date": "January 22nd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/assistant-director-strategic-marketing-sales-and-communication/2135202?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2135202&utm_term=jobtitle",
+                "new_since": "2025-01-22T20:10:02.033676"
+            },
+            {
+                "title": "Cybersecurity Software Developer",
+                "school": "University of New Brunswick",
+                "date": "January 22nd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/cybersecurity-software-developer/2134940?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2134940&utm_term=jobtitle",
+                "new_since": "2025-01-22T20:10:02.033676"
+            },
+            {
+                "title": "HVAC Technician",
+                "school": "University of New Brunswick",
+                "date": "January 22nd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/hvac-technician/2134097?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2134097&utm_term=jobtitle",
+                "new_since": "2025-01-22T20:10:02.033676"
+            },
+            {
+                "title": "Industrial Mechanic",
+                "school": "University of New Brunswick",
+                "date": "January 22nd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/industrial-mechanic/2132857?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2132857&utm_term=jobtitle",
+                "new_since": "2025-01-22T20:10:02.033676"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "ADS Level 5 - Administrative Assistant - Faculty of Sustainable Design Engineering",
+                "link": "https://www.upei.ca/hr/competition/236e24",
+                "date": "Closing date: 2025-02-03T00:00:00",
+                "new_since": "2025-01-27T20:10:03.635378"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Senior Residence Life Advisors (Up to 5 Positions) - Ancillary Services",
+                "link": "https://www.upei.ca/hr/competition/05s25",
+                "date": "Closing date: 2025-02-03T00:00:00",
+                "new_since": "2025-01-27T20:10:03.635378"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Training Development and Performance Feedback Officer - Human Resources Department",
+                "link": "https://www.upei.ca/hr/competition/21e25",
+                "date": "Closing date: 2025-02-03T00:00:00",
+                "new_since": "2025-01-27T20:10:03.635378"
+            },
+            {
+                "title": "Instructor, Orientation to Trades and Technology (OTT) Program (Trades)",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-28T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16463&JobSiteId=2,4",
+                "new_since": "2025-01-29T10:19:16.357812"
+            }
+        ]
     }
 ]
