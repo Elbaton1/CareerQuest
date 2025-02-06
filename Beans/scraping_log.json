@@ -7292,5 +7292,77 @@
                 "new_since": "2025-01-26T08:09:31.940858"
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-06T08:09:52.570800",
+        "new_jobs_count": 2,
+        "removed_jobs_count": 7,
+        "new_jobs": [
+            {
+                "title": "ADMINISTRATIVE STUDENT",
+                "school": "Cape Breton University",
+                "date": "February 6th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/administrative-student/",
+                "new_since": "2025-02-06T08:09:52.526920"
+            },
+            {
+                "title": "ENGINEERING STUDENT",
+                "school": "Cape Breton University",
+                "date": "February 6th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/engineering-student/",
+                "new_since": "2025-02-06T08:09:52.526920"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "COORDONNATRICE ou COORDONNATEUR DE PROJETS – Langues et Culture, Formation continue",
+                "school": "Université de Moncton",
+                "date": "January 30, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2130551/universite-de-moncton//moncton-nb",
+                "new_since": "2025-01-30T20:10:16.750425"
+            },
+            {
+                "title": "SUMMER EMPLOYMENT 2025: CO-OP SAFETY INTERN",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-employment-2025-co-op-safety-intern/",
+                "date": "January 26th, 2025",
+                "new_since": "2025-01-26T08:09:31.930487"
+            },
+            {
+                "title": "PART-TIME : STUDENT CLINICAL SUPPORT ASSISTANT, SCHOOL OF NURSING",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/part-time-student-clinical-support-assistant-school-of-nursing/",
+                "date": "January 29th, 2025",
+                "new_since": "2025-01-29T20:10:05.993642"
+            },
+            {
+                "title": "Public Relations Specialist (Women in the Trades Community Network (WTCN) Coordinator)",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-28T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16626&JobSiteId=2,4",
+                "new_since": "2025-01-29T10:19:16.357812"
+            },
+            {
+                "title": "Adjointe administrative ou adjoint administratif - Affaires",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6765-002-Adjointe-ou-adjoint-administratif-Affaires2.pdf",
+                "new_since": "2025-01-24T20:09:32.849201"
+            },
+            {
+                "title": "Adjointe administrative ou adjoint administratif - Affaires",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6765-002-Adjointe-ou-adjoint-administratif-Affaires2.pdf",
+                "new_since": "2025-01-24T20:09:32.849201"
+            },
+            {
+                "title": "Adjointe administrative ou adjoint administratif - Affaires",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "January 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6765-002-Adjointe-ou-adjoint-administratif-Affaires2.pdf",
+                "new_since": "2025-01-24T20:09:32.849201"
+            }
+        ]
     }
 ]
