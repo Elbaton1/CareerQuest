@@ -22,13 +22,6 @@
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
-            "title": "ADMINISTRATIVE STAFF SPECIALIST II (BAND LEVEL 7)",
-            "school": "Memorial University",
-            "date": "2025-01-24T09:00:00",
-            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5826",
-            "new_since": "2025-01-24T20:09:32.846206"
-        },
-        {
             "title": "PAYROLL OFFICER (BAND LEVEL 5)",
             "school": "Memorial University",
             "date": "2025-01-27T09:00:00",
@@ -83,6 +76,13 @@
             "date": "2025-02-06T09:00:00",
             "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5854",
             "new_since": "2025-02-06T20:09:55.498991"
+        },
+        {
+            "title": "HOUSING COORDINATOR (BAND LEVEL 8)",
+            "school": "Memorial University",
+            "date": "2025-02-07T09:00:00",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5858",
+            "new_since": "2025-02-07T20:10:01.417765"
         },
         {
             "title": "CHIEF FINANCIAL OFFICER",
@@ -162,13 +162,6 @@
             "new_since": "2025-02-05T20:10:09.540811"
         },
         {
-            "title": "Cybersecurity Software Developer",
-            "school": "University of New Brunswick",
-            "date": "February 5th, 2025",
-            "link": "https://jobs.careerbeacon.com/details/cybersecurity-software-developer/2134940?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2134940&utm_term=jobtitle",
-            "new_since": "2025-02-05T20:10:09.540811"
-        },
-        {
             "title": "Industrial Mechanic",
             "school": "University of New Brunswick",
             "date": "February 5th, 2025",
@@ -181,69 +174,6 @@
             "date": "January 30th, 2025",
             "link": "https://www.stu.ca/media/2024-25-EDUC-5133---Sem-3-External.pdf",
             "new_since": "2025-01-30T20:10:16.750425"
-        },
-        {
-            "title": "PROFESSEURE OU PROFESSEUR EN GESTION DES SERVICES DE SANTÉ",
-            "school": "Université de Moncton",
-            "date": "January 14, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2133417/universite-de-moncton-abppum-campus-de-moncton/professeure-ou-professeur-en-gestion-des-services-de-sante/moncton-nb",
-            "new_since": "2025-01-14T13:54:07.974398"
-        },
-        {
-            "title": "PROFESSEURE ou PROFESSEUR EN PSYCHOLOGIE CLINIQUE",
-            "school": "Université de Moncton",
-            "date": "January 17, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2134602/universite-de-moncton-abppum-campus-de-moncton/professeure-ou-professeur-en-psychologie-clinique/moncton-nb",
-            "new_since": "2025-01-17T17:10:50.902393"
-        },
-        {
-            "title": "PROFESSEURE OU PROFESSEUR EN GÉNIE CIVIL, Dépt. de Génie civil, Faculté d'ingénierie",
-            "school": "Université de Moncton",
-            "date": "January 24, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2121758/universite-de-moncton/professeure-ou-professeur-en-genie-civil-dept-de-genie-civil-faculte-d-ingenierie/moncton-nb",
-            "new_since": "2025-01-24T20:09:32.846206"
-        },
-        {
-            "title": "VICE-RECTRICE OU VICE-RECTEUR, Université de Moncton, Campus de Shippagan",
-            "school": "Université de Moncton",
-            "date": "January 21, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2135185/universite-de-moncton/vice-rectrice-ou-vice-recteur-universite-de-moncton-campus-de-shippagan/shippagan-nb",
-            "new_since": "2025-01-21T20:10:09.609521"
-        },
-        {
-            "title": "PROFESSEURE OU PROFESSEUR en informatique/cybersécurité/ ou intelligence artificielle",
-            "school": "Université de Moncton",
-            "date": "2025-01-14",
-            "link": "https://www.careerbeacon.com/fr/emplois/2133457/universite-de-moncton-abppum-campus-de-moncton/professeure-ou-professeur-en-informatique-cybersecurite-ou-intelligence-artificielle/moncton-nb",
-            "new_since": "2025-01-22T20:10:02.033676"
-        },
-        {
-            "title": "PROFESSEURE OU PROFESSEUR EN ADMINISTRATION DE L’ÉDUCATION",
-            "school": "Université de Moncton",
-            "date": "2025-01-17",
-            "link": "https://www.careerbeacon.com/fr/emplois/2134531/universite-de-moncton-abppum-campus-de-moncton//moncton-nb",
-            "new_since": "2025-01-22T20:10:02.033676"
-        },
-        {
-            "title": "CHERCHEUSE - CHERCHEUR, Chaire de recherche interdisciplinaire sur la santé mentale des enfants et des jeunes",
-            "school": "Université de Moncton",
-            "date": "2025-01-13",
-            "link": "https://www.careerbeacon.com/fr/emplois/2130086/universite-de-moncton/chercheuse-chercheur-chaire-de-recherche-interdisciplinaire-sur-la-sante-mentale-des-enfants-et-des-jeunes/moncton-nb",
-            "new_since": "2025-01-24T03:56:41.706630"
-        },
-        {
-            "title": "PROFESSEURE OU PROFESSEUR EN TRADUCTION DE L’ANGLAIS VERS LE FRANÇAIS, Dépt. de traduction et des langues",
-            "school": "Université de Moncton",
-            "date": "January 24, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2123951/universite-de-moncton//moncton-nb",
-            "new_since": "2025-01-24T20:09:32.846206"
-        },
-        {
-            "title": "AGENTE ou AGENT DE RECHERCHE, Centre de recherche et de dév. en éducation (CRDE), Faculté des sciences de l’éducation",
-            "school": "Université de Moncton",
-            "date": "February 03, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2137865/universite-de-moncton//moncton-nb",
-            "new_since": "2025-02-03T20:10:25.302868"
         },
         {
             "title": "PROFESSEURE OU PROFESSEUR EN ART DRAMATIQUE (JEU ET MISE EN SCÈNE)",
@@ -260,6 +190,90 @@
             "new_since": "2025-01-17T17:10:50.903392"
         },
         {
+            "title": "PROFESSEURE OU PROFESSEUR EN ADMINISTRATION DE L’ÉDUCATION",
+            "school": "Université de Moncton",
+            "date": "2025-01-17",
+            "link": "https://www.careerbeacon.com/fr/emplois/2134531/universite-de-moncton-abppum-campus-de-moncton//moncton-nb",
+            "new_since": "2025-01-22T20:10:02.033676"
+        },
+        {
+            "title": "PROFESSEURE OU PROFESSEUR EN GÉNIE MÉCANIQUE, Dépt. de Génie mécanique – Faculté d'ingénierie",
+            "school": "Université de Moncton",
+            "date": "January 24, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2121756/universite-de-moncton//moncton-nb",
+            "new_since": "2025-01-24T20:09:32.846206"
+        },
+        {
+            "title": "CHARGÉE OU CHARGÉ D’ENSEIGNEMENT EN ÉDUCATION",
+            "school": "Université de Moncton",
+            "date": "January 17, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2134601/universite-de-moncton-abppum-campus-de-moncton//moncton-nb",
+            "new_since": "2025-01-17T17:10:50.902393"
+        },
+        {
+            "title": "CHERCHEUSE - CHERCHEUR, Chaire de recherche interdisciplinaire sur la santé mentale des enfants et des jeunes",
+            "school": "Université de Moncton",
+            "date": "2025-01-13",
+            "link": "https://www.careerbeacon.com/fr/emplois/2130086/universite-de-moncton/chercheuse-chercheur-chaire-de-recherche-interdisciplinaire-sur-la-sante-mentale-des-enfants-et-des-jeunes/moncton-nb",
+            "new_since": "2025-01-24T03:56:41.706630"
+        },
+        {
+            "title": "PROFESSEURE OU PROFESSEUR EN GESTION DES SERVICES DE SANTÉ",
+            "school": "Université de Moncton",
+            "date": "January 14, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2133417/universite-de-moncton-abppum-campus-de-moncton/professeure-ou-professeur-en-gestion-des-services-de-sante/moncton-nb",
+            "new_since": "2025-01-14T13:54:07.974398"
+        },
+        {
+            "title": "PROFESSEURE ou PROFESSEUR EN PSYCHOLOGIE CLINIQUE",
+            "school": "Université de Moncton",
+            "date": "January 17, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2134602/universite-de-moncton-abppum-campus-de-moncton/professeure-ou-professeur-en-psychologie-clinique/moncton-nb",
+            "new_since": "2025-01-17T17:10:50.902393"
+        },
+        {
+            "title": "VICE-RECTRICE OU VICE-RECTEUR, Université de Moncton, Campus de Shippagan",
+            "school": "Université de Moncton",
+            "date": "January 21, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2135185/universite-de-moncton/vice-rectrice-ou-vice-recteur-universite-de-moncton-campus-de-shippagan/shippagan-nb",
+            "new_since": "2025-01-21T20:10:09.609521"
+        },
+        {
+            "title": "PROFESSEURE OU PROFESSEUR EN TRADUCTION DE L’ANGLAIS VERS LE FRANÇAIS, Dépt. de traduction et des langues",
+            "school": "Université de Moncton",
+            "date": "January 24, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2123951/universite-de-moncton//moncton-nb",
+            "new_since": "2025-01-24T20:09:32.846206"
+        },
+        {
+            "title": "PROFESSEURE OU PROFESSEUR en informatique/cybersécurité/ ou intelligence artificielle",
+            "school": "Université de Moncton",
+            "date": "2025-01-14",
+            "link": "https://www.careerbeacon.com/fr/emplois/2133457/universite-de-moncton-abppum-campus-de-moncton/professeure-ou-professeur-en-informatique-cybersecurite-ou-intelligence-artificielle/moncton-nb",
+            "new_since": "2025-01-22T20:10:02.033676"
+        },
+        {
+            "title": "PROFESSEURE OU PROFESSEUR EN TRADUCTION DE L’ANGLAIS VERS LE FRANÇAIS (Temporaire 4 ans), Dépt. Traduction et Langues",
+            "school": "Université de Moncton",
+            "date": "January 24, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2124209/universite-de-moncton//moncton-nb",
+            "new_since": "2025-01-24T20:09:32.846206"
+        },
+        {
+            "title": "AGENTE ou AGENT DE RECHERCHE, Centre de recherche et de dév. en éducation (CRDE), Faculté des sciences de l’éducation",
+            "school": "Université de Moncton",
+            "date": "February 03, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2137865/universite-de-moncton//moncton-nb",
+            "new_since": "2025-02-03T20:10:25.302868"
+        },
+        {
+            "title": "PRÉPOSÉE ou PRÉPOSÉ AU CEPS VII, Service de l'activité physique et sportive",
+            "school": "Université de Moncton",
+            "date": "February 06, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2138696/universite-de-moncton/preposee-ou-prepose-au-ceps-vii-service-de-l-activite-physique-et-sportive/moncton-nb",
+            "new_since": "2025-02-06T20:09:55.498991"
+        },
+        {
             "title": "CHARGÉE OU CHARGÉ D'ENSEIGNEMENT EN MARKETING",
             "school": "Université de Moncton",
             "date": "2025-01-23",
@@ -274,25 +288,11 @@
             "new_since": "2025-01-24T03:56:41.706630"
         },
         {
-            "title": "PRÉPOSÉE ou PRÉPOSÉ AU CEPS VII, Service de l'activité physique et sportive",
-            "school": "Université de Moncton",
-            "date": "February 06, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2138696/universite-de-moncton/preposee-ou-prepose-au-ceps-vii-service-de-l-activite-physique-et-sportive/moncton-nb",
-            "new_since": "2025-02-06T20:09:55.498991"
-        },
-        {
-            "title": "PROFESSEURE OU PROFESSEUR EN TRADUCTION DE L’ANGLAIS VERS LE FRANÇAIS (Temporaire 4 ans), Dépt. Traduction et Langues",
+            "title": "PROFESSEURE OU PROFESSEUR EN GÉNIE CIVIL, Dépt. de Génie civil, Faculté d'ingénierie",
             "school": "Université de Moncton",
             "date": "January 24, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2124209/universite-de-moncton//moncton-nb",
+            "link": "https://www.careerbeacon.com/fr/emplois/2121758/universite-de-moncton/professeure-ou-professeur-en-genie-civil-dept-de-genie-civil-faculte-d-ingenierie/moncton-nb",
             "new_since": "2025-01-24T20:09:32.846206"
-        },
-        {
-            "title": "CHARGÉE OU CHARGÉ D’ENSEIGNEMENT EN ÉDUCATION",
-            "school": "Université de Moncton",
-            "date": "January 17, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2134601/universite-de-moncton-abppum-campus-de-moncton//moncton-nb",
-            "new_since": "2025-01-17T17:10:50.902393"
         },
         {
             "title": "PROFESSEURE OU PROFESSEUR EN ÉTHIQUE APPLIQUÉE ET PHILOSOPHIE SOCIALE, Département de philosophie",
@@ -302,25 +302,11 @@
             "new_since": "2025-01-24T20:09:32.846206"
         },
         {
-            "title": "PROFESSEURE OU PROFESSEUR EN GÉNIE MÉCANIQUE, Dépt. de Génie mécanique – Faculté d'ingénierie",
-            "school": "Université de Moncton",
-            "date": "January 24, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2121756/universite-de-moncton//moncton-nb",
-            "new_since": "2025-01-24T20:09:32.846206"
-        },
-        {
             "title": "OMBUD, Conseil de l'Université, Bureau de l'Ombud",
             "school": "Université de Moncton",
             "date": "February 05, 2025",
             "link": "https://www.careerbeacon.com/fr/emplois/2111599/universite-de-moncton/ombud-conseil-de-l-universite-bureau-de-l-ombud/moncton-nb",
             "new_since": "2025-02-05T20:10:09.540811"
-        },
-        {
-            "title": "WORK STUDY WINTER 2025: MBA DEPARTMENT SOCIAL MEDIA STRATEGIST",
-            "school": "Cape Breton University",
-            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/work-study-winter-2025-mba-department-social-media-strategist/",
-            "date": "January 29th, 2025",
-            "new_since": "2025-01-29T20:10:05.993642"
         },
         {
             "title": "WORK STUDY WINTER 2025: AUDIO DESCRIPTION COORDINATOR",
@@ -372,6 +358,27 @@
             "new_since": "2025-02-01T20:09:45.768491"
         },
         {
+            "title": "WORK STUDY WINTER 2025: STUDENT ADMINISTRATIVE SUPPORT ASSISTANT",
+            "school": "Cape Breton University",
+            "date": "February 7th, 2025",
+            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/work-study-winter-2025-student-administrative-support-assistant/",
+            "new_since": "2025-02-07T20:10:01.417765"
+        },
+        {
+            "title": "WORK STUDY WINTER 2025: STUDENT SPECIAL PROJECTS ASSISTANT– SOCIAL MEDIA",
+            "school": "Cape Breton University",
+            "date": "February 7th, 2025",
+            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/work-study-winter-2025-student-special-projects-assistant-social-media/",
+            "new_since": "2025-02-07T20:10:01.417765"
+        },
+        {
+            "title": "VOLUNTEER: COMMUNITY HELPING HANDS PROGRAM",
+            "school": "Cape Breton University",
+            "date": "February 7th, 2025",
+            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/volunteer-community-helping-hands-program/",
+            "new_since": "2025-02-07T20:10:01.417765"
+        },
+        {
             "title": "SUMMER EMPLOYMENT 2025: PARLIAMENTARY GUIDES PROGRAM",
             "school": "Cape Breton University",
             "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-employment-2025-parliamentary-guides-program/",
@@ -386,31 +393,17 @@
             "new_since": "2025-02-05T20:10:09.540811"
         },
         {
-            "title": "ADMINISTRATIVE STUDENT",
-            "school": "Cape Breton University",
-            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/administrative-student/",
-            "date": "February 6th, 2025",
-            "new_since": "2025-02-06T08:09:52.526920"
-        },
-        {
-            "title": "ENGINEERING STUDENT",
-            "school": "Cape Breton University",
-            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/engineering-student/",
-            "date": "February 6th, 2025",
-            "new_since": "2025-02-06T08:09:52.526920"
-        },
-        {
             "title": "Assistant Professor - Designated Position",
             "school": "Dalhousie University",
-            "date": "February 6th, 2025",
             "link": "https://dal.peopleadmin.ca/postings/18245",
+            "date": "February 6th, 2025",
             "new_since": "2025-02-06T20:09:55.498991"
         },
         {
             "title": "Part-Time Academic MGMT/COMM 4901: Applied Entrepreneurship & Innovation - Summer 2025",
             "school": "Dalhousie University",
-            "date": "February 6th, 2025",
             "link": "https://dal.peopleadmin.ca/postings/18244",
+            "date": "February 6th, 2025",
             "new_since": "2025-02-06T20:09:55.498991"
         },
         {
@@ -505,13 +498,6 @@
             "new_since": "2025-01-29T10:19:16.350810"
         },
         {
-            "title": "Power Platform Developer",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/18210",
-            "date": "January 29th, 2025",
-            "new_since": "2025-01-29T10:19:16.350810"
-        },
-        {
             "title": "Part-Time Academic: Clinical Instructors (Summer 2025)",
             "school": "Dalhousie University",
             "link": "https://dal.peopleadmin.ca/postings/18208",
@@ -531,13 +517,6 @@
             "link": "https://dal.peopleadmin.ca/postings/18176",
             "date": "January 17th, 2025",
             "new_since": "2025-01-17T17:10:50.903392"
-        },
-        {
-            "title": "Research Assistant",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/18173",
-            "date": "January 17th, 2025",
-            "new_since": "2025-01-17T09:11:26.574082"
         },
         {
             "title": "Postdoctoral Fellow",
@@ -703,8 +682,8 @@
         {
             "title": "NSCAD Ambassador for Art and Design (Principal Giving Officer)",
             "school": "NSCAD University",
-            "date": "February 6th, 2025",
             "link": "https://jobs.careerbeacon.com/details/nscad-ambassador-for-art-and-design-principal-giving-officer/2138167",
+            "date": "February 6th, 2025",
             "new_since": "2025-02-06T20:09:55.498991"
         },
         {
@@ -715,53 +694,95 @@
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
+            "title": "Recruitment and Enrolment Specialist, Campus Events",
+            "school": "Saint Mary’s University",
+            "date": "February 7th, 2025",
+            "link": "https://jobs.careerbeacon.com/details/recruitment-and-enrolment-specialist-campus-events/2138958?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2138958&utm_term=jobtitle",
+            "new_since": "2025-02-07T20:10:01.418765"
+        },
+        {
+            "title": "Recruitment and Enrolment Specialist (Designated Posting)",
+            "school": "Saint Mary’s University",
+            "date": "February 7th, 2025",
+            "link": "https://jobs.careerbeacon.com/details/recruitment-and-enrolment-specialist-designated-posting/2138959?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2138959&utm_term=jobtitle",
+            "new_since": "2025-02-07T20:10:01.418765"
+        },
+        {
+            "title": "Administrative Assistant, People and Culture",
+            "school": "Saint Mary’s University",
+            "date": "February 7th, 2025",
+            "link": "https://jobs.careerbeacon.com/details/administrative-assistant-people-and-culture/2139025?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2139025&utm_term=jobtitle",
+            "new_since": "2025-02-07T20:10:01.418765"
+        },
+        {
+            "title": "Stewardship Officer",
+            "school": "Saint Mary’s University",
+            "date": "February 7th, 2025",
+            "link": "https://jobs.careerbeacon.com/details/stewardship-officer/2139026?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2139026&utm_term=jobtitle",
+            "new_since": "2025-02-07T20:10:01.418765"
+        },
+        {
+            "title": "Development Officer",
+            "school": "Saint Mary’s University",
+            "date": "February 7th, 2025",
+            "link": "https://jobs.careerbeacon.com/details/development-officer/2139028?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2139028&utm_term=jobtitle",
+            "new_since": "2025-02-07T20:10:01.418765"
+        },
+        {
             "title": "Maintenance I",
             "school": "Saint Mary’s University",
-            "date": "February 6th, 2025",
             "link": "https://jobs.careerbeacon.com/details/maintenance-i/2138623?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2138623&utm_term=jobtitle",
+            "date": "February 6th, 2025",
             "new_since": "2025-02-06T20:09:55.498991"
         },
         {
             "title": "Carpenter",
             "school": "Saint Mary’s University",
-            "date": "February 6th, 2025",
             "link": "https://jobs.careerbeacon.com/details/carpenter/2138624?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2138624&utm_term=jobtitle",
+            "date": "February 6th, 2025",
             "new_since": "2025-02-06T20:09:55.498991"
         },
         {
             "title": "General Worker, Full-Time Permanent",
             "school": "Saint Mary’s University",
-            "date": "February 6th, 2025",
             "link": "https://jobs.careerbeacon.com/details/general-worker-fulltime-permanent/2138626?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2138626&utm_term=jobtitle",
+            "date": "February 6th, 2025",
             "new_since": "2025-02-06T20:09:55.498991"
         },
         {
             "title": "General Worker, Full-Time Permanent",
             "school": "Saint Mary’s University",
-            "date": "February 6th, 2025",
             "link": "https://jobs.careerbeacon.com/details/general-worker-fulltime-permanent/2138648?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2138648&utm_term=jobtitle",
+            "date": "February 6th, 2025",
             "new_since": "2025-02-06T20:09:55.498991"
         },
         {
             "title": "General Worker, Temporary Contract (12 months)",
             "school": "Saint Mary’s University",
-            "date": "February 6th, 2025",
             "link": "https://jobs.careerbeacon.com/details/general-worker-temporary-contract-12-months/2138649?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2138649&utm_term=jobtitle",
+            "date": "February 6th, 2025",
             "new_since": "2025-02-06T20:09:55.498991"
         },
         {
             "title": "Administrative Assistant, Enrolment Services",
             "school": "Saint Mary’s University",
-            "date": "February 6th, 2025",
             "link": "https://jobs.careerbeacon.com/details/administrative-assistant-enrolment-services/2138650?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2138650&utm_term=jobtitle",
+            "date": "February 6th, 2025",
             "new_since": "2025-02-06T20:09:55.498991"
         },
         {
             "title": "General Worker, Casual (2 Positions)",
             "school": "Saint Mary’s University",
-            "date": "February 6th, 2025",
             "link": "https://jobs.careerbeacon.com/details/general-worker-casual-2-positions/2138656?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2138656&utm_term=jobtitle",
+            "date": "February 6th, 2025",
             "new_since": "2025-02-06T20:09:55.498991"
+        },
+        {
+            "title": "Registraire",
+            "school": "Université Sainte-Anne",
+            "date": "2025-02-08T00:00:00",
+            "link": "https://www.usainteanne.ca/offres-demploi/registraire",
+            "new_since": "2025-02-07T20:10:01.418765"
         },
         {
             "title": "Doyenne ou doyen des facultés et des études collégiales",
@@ -1017,13 +1038,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Student Assistant - Department of Pathology and Microbiology - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/09s25",
-            "date": "Closing date: 2025-02-06T00:00:00",
-            "new_since": "2025-01-30T20:10:16.752959"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Utility Worker - Department of Facilities Management",
             "link": "https://www.upei.ca/hr/competition/19e25",
             "date": "Closing date: 2025-02-13T00:00:00",
@@ -1052,13 +1066,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Student Experience Coordinator - Department of Student Affairs",
-            "link": "https://www.upei.ca/hr/competition/10e25",
-            "date": "Closing date: 2025-02-06T00:00:00",
-            "new_since": "2025-01-17T09:11:26.574082"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - Faculty of Science - Department of Environmental Studies - Summer 2025",
             "link": "https://www.upei.ca/hr/competition/01si25",
             "date": "Closing date: 2025-02-21T00:00:00",
@@ -1083,13 +1090,6 @@
             "title": "Tenure Track Position - Assistant Professor - Department of Companion Animals - Atlantic Veterinary College *Amended*",
             "link": "https://www.upei.ca/hr/competition/44a24",
             "date": "Closing date: 2025-02-15T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "MTS Level 6 - Registered Veterinary Technician - Small Animal ICU/Float - Days, 4 on/4 off - Veterinary Teaching Hospital - Atlantic Veterinary College *Reposted*",
-            "link": "https://www.upei.ca/hr/competition/247e24r",
-            "date": "Closing date: 2025-01-15T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -2633,6 +2633,13 @@
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
+            "title": "Food Service Worker - Casual Employment",
+            "school": "College of the North Atlantic",
+            "date": "2025-02-07T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16652&JobSiteId=2,4",
+            "new_since": "2025-02-07T20:10:01.423766"
+        },
+        {
             "title": "Instructional Assistant, Commercial Cooking",
             "school": "College of the North Atlantic",
             "date": "2025-02-06T00:00:00",
@@ -2658,13 +2665,6 @@
             "school": "College of the North Atlantic",
             "date": "2025-02-04T00:00:00",
             "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16463&JobSiteId=2,4",
-            "new_since": "2025-02-06T20:09:55.502986"
-        },
-        {
-            "title": "Instructor, Practical Nursing",
-            "school": "College of the North Atlantic",
-            "date": "2025-02-04T00:00:00",
-            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16646&JobSiteId=2,4",
             "new_since": "2025-02-06T20:09:55.502986"
         },
         {
@@ -2787,6 +2787,20 @@
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
+            "title": "Instructor, Applied Community Planning (Full-time)",
+            "school": "NBCC",
+            "date": "2025-02-07T20:09:50.505301",
+            "link": "https://jobs.careerbeacon.com/details/instructor-applied-community-planning-fulltime/2138390?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=2138390&utm_term=jobtitle",
+            "new_since": "2025-02-07T20:10:01.424779"
+        },
+        {
+            "title": "Instructor, Applied Community Planning (Part-time)",
+            "school": "NBCC",
+            "date": "2025-02-07T20:09:50.532683",
+            "link": "https://jobs.careerbeacon.com/details/instructor-applied-community-planning-parttime/2138394?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=2138394&utm_term=jobtitle",
+            "new_since": "2025-02-07T20:10:01.424779"
+        },
+        {
             "title": "Instructor, Springhill Institution (Full-time/Part-time)",
             "school": "NBCC",
             "date": "2025-01-14T13:54:01.041388",
@@ -2827,20 +2841,6 @@
             "date": "2025-01-17T17:10:43.110192",
             "link": "https://forms.msvu.ca/iframeforms/FacultyRecruitment/fulltime/positiondetail.asp?ID=477",
             "new_since": "2025-01-17T17:10:50.906387"
-        },
-        {
-            "title": "PepsiCo Beverages Canada: PepsiCo Beverages - Full Time Pre-Sell Customer Representative",
-            "school": "Holland College",
-            "date": "January 26th, 2025",
-            "link": "https://www.hollandcollege.com/jobfiles/pre-sell-customer-rep-pepsico-jan24-2025.html",
-            "new_since": "2025-01-26T08:09:31.940858"
-        },
-        {
-            "title": "Watermark Theatre: Fundraising Officer - Recent Graduate",
-            "school": "Holland College",
-            "date": "January 24th, 2025",
-            "link": "https://www.hollandcollege.com/jobfiles/fundraising-officer-watermark-jan23-2025.html",
-            "new_since": "2025-01-24T20:09:32.849201"
         },
         {
             "title": "Club Red Productions Inc.: Business Affairs Intern",
@@ -3095,6 +3095,41 @@
             "new_since": "2025-01-27T20:10:03.640378"
         },
         {
+            "title": "Conseillère ou conseiller en orientation",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "February 7th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6720-005-Conseillere-ou-conseiller-en-orientation.pdf",
+            "new_since": "2025-02-07T20:10:01.425779"
+        },
+        {
+            "title": "Travailleur des opérations",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "February 7th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6710-001-Appel-dinteret-Travailleur-des-operations.pdf",
+            "new_since": "2025-02-07T20:10:01.425779"
+        },
+        {
+            "title": "Campus d'Edmundston, site de Grand-Sault",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "February 7th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6710-001-Appel-dinteret-Travailleur-des-operations.pdf",
+            "new_since": "2025-02-07T20:10:01.425779"
+        },
+        {
+            "title": "Agente ou agent à la paie - Rémunération",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "February 7th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/24-6775-099-Agente-ou-agent-a-la-paie-remuneration-1.pdf",
+            "new_since": "2025-02-07T20:10:01.425779"
+        },
+        {
+            "title": "À l’un des sites associés du CCNB ou en télétravail",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "February 7th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/24-6775-099-Agente-ou-agent-a-la-paie-remuneration-1.pdf",
+            "new_since": "2025-02-07T20:10:01.425779"
+        },
+        {
             "title": "Évaluatrice ou évaluateur - Test de connaissances du français (TCF)",
             "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
             "date": "January 31st, 2025",
@@ -3165,5 +3200,5 @@
             "new_since": "2025-01-08T17:19:05.418985"
         }
     ],
-    "last_updated": "2025-02-06T20:09:55.503980"
+    "last_updated": "2025-02-07T20:10:01.425779"
 }

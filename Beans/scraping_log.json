@@ -7548,5 +7548,231 @@
                 "new_since": "2025-01-08T17:19:05.418985"
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-07T20:10:01.450305",
+        "new_jobs_count": 18,
+        "removed_jobs_count": 13,
+        "new_jobs": [
+            {
+                "title": "HOUSING COORDINATOR (BAND LEVEL 8)",
+                "school": "Memorial University",
+                "date": "2025-02-07T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5858",
+                "new_since": "2025-02-07T20:10:01.417765"
+            },
+            {
+                "title": "WORK STUDY WINTER 2025: STUDENT ADMINISTRATIVE SUPPORT ASSISTANT",
+                "school": "Cape Breton University",
+                "date": "February 7th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/work-study-winter-2025-student-administrative-support-assistant/",
+                "new_since": "2025-02-07T20:10:01.417765"
+            },
+            {
+                "title": "WORK STUDY WINTER 2025: STUDENT SPECIAL PROJECTS ASSISTANT– SOCIAL MEDIA",
+                "school": "Cape Breton University",
+                "date": "February 7th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/work-study-winter-2025-student-special-projects-assistant-social-media/",
+                "new_since": "2025-02-07T20:10:01.417765"
+            },
+            {
+                "title": "VOLUNTEER: COMMUNITY HELPING HANDS PROGRAM",
+                "school": "Cape Breton University",
+                "date": "February 7th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/volunteer-community-helping-hands-program/",
+                "new_since": "2025-02-07T20:10:01.417765"
+            },
+            {
+                "title": "Recruitment and Enrolment Specialist, Campus Events",
+                "school": "Saint Mary’s University",
+                "date": "February 7th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/recruitment-and-enrolment-specialist-campus-events/2138958?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2138958&utm_term=jobtitle",
+                "new_since": "2025-02-07T20:10:01.418765"
+            },
+            {
+                "title": "Recruitment and Enrolment Specialist (Designated Posting)",
+                "school": "Saint Mary’s University",
+                "date": "February 7th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/recruitment-and-enrolment-specialist-designated-posting/2138959?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2138959&utm_term=jobtitle",
+                "new_since": "2025-02-07T20:10:01.418765"
+            },
+            {
+                "title": "Administrative Assistant, People and Culture",
+                "school": "Saint Mary’s University",
+                "date": "February 7th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-assistant-people-and-culture/2139025?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2139025&utm_term=jobtitle",
+                "new_since": "2025-02-07T20:10:01.418765"
+            },
+            {
+                "title": "Stewardship Officer",
+                "school": "Saint Mary’s University",
+                "date": "February 7th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/stewardship-officer/2139026?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2139026&utm_term=jobtitle",
+                "new_since": "2025-02-07T20:10:01.418765"
+            },
+            {
+                "title": "Development Officer",
+                "school": "Saint Mary’s University",
+                "date": "February 7th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/development-officer/2139028?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2139028&utm_term=jobtitle",
+                "new_since": "2025-02-07T20:10:01.418765"
+            },
+            {
+                "title": "Registraire",
+                "school": "Université Sainte-Anne",
+                "date": "2025-02-08T00:00:00",
+                "link": "https://www.usainteanne.ca/offres-demploi/registraire",
+                "new_since": "2025-02-07T20:10:01.418765"
+            },
+            {
+                "title": "Food Service Worker - Casual Employment",
+                "school": "College of the North Atlantic",
+                "date": "2025-02-07T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16652&JobSiteId=2,4",
+                "new_since": "2025-02-07T20:10:01.423766"
+            },
+            {
+                "title": "Instructor, Applied Community Planning (Full-time)",
+                "school": "NBCC",
+                "date": "2025-02-07T20:09:50.505301",
+                "link": "https://jobs.careerbeacon.com/details/instructor-applied-community-planning-fulltime/2138390?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=2138390&utm_term=jobtitle",
+                "new_since": "2025-02-07T20:10:01.424779"
+            },
+            {
+                "title": "Instructor, Applied Community Planning (Part-time)",
+                "school": "NBCC",
+                "date": "2025-02-07T20:09:50.532683",
+                "link": "https://jobs.careerbeacon.com/details/instructor-applied-community-planning-parttime/2138394?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=2138394&utm_term=jobtitle",
+                "new_since": "2025-02-07T20:10:01.424779"
+            },
+            {
+                "title": "Conseillère ou conseiller en orientation",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 7th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6720-005-Conseillere-ou-conseiller-en-orientation.pdf",
+                "new_since": "2025-02-07T20:10:01.425779"
+            },
+            {
+                "title": "Travailleur des opérations",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 7th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6710-001-Appel-dinteret-Travailleur-des-operations.pdf",
+                "new_since": "2025-02-07T20:10:01.425779"
+            },
+            {
+                "title": "Campus d'Edmundston, site de Grand-Sault",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 7th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6710-001-Appel-dinteret-Travailleur-des-operations.pdf",
+                "new_since": "2025-02-07T20:10:01.425779"
+            },
+            {
+                "title": "Agente ou agent à la paie - Rémunération",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 7th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/24-6775-099-Agente-ou-agent-a-la-paie-remuneration-1.pdf",
+                "new_since": "2025-02-07T20:10:01.425779"
+            },
+            {
+                "title": "À l’un des sites associés du CCNB ou en télétravail",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 7th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/24-6775-099-Agente-ou-agent-a-la-paie-remuneration-1.pdf",
+                "new_since": "2025-02-07T20:10:01.425779"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "ADMINISTRATIVE STAFF SPECIALIST II (BAND LEVEL 7)",
+                "school": "Memorial University",
+                "date": "2025-01-24T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5826",
+                "new_since": "2025-01-24T20:09:32.846206"
+            },
+            {
+                "title": "Cybersecurity Software Developer",
+                "school": "University of New Brunswick",
+                "date": "February 5th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/cybersecurity-software-developer/2134940?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2134940&utm_term=jobtitle",
+                "new_since": "2025-02-05T20:10:09.540811"
+            },
+            {
+                "title": "WORK STUDY WINTER 2025: MBA DEPARTMENT SOCIAL MEDIA STRATEGIST",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/work-study-winter-2025-mba-department-social-media-strategist/",
+                "date": "January 29th, 2025",
+                "new_since": "2025-01-29T20:10:05.993642"
+            },
+            {
+                "title": "ADMINISTRATIVE STUDENT",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/administrative-student/",
+                "date": "February 6th, 2025",
+                "new_since": "2025-02-06T08:09:52.526920"
+            },
+            {
+                "title": "ENGINEERING STUDENT",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/engineering-student/",
+                "date": "February 6th, 2025",
+                "new_since": "2025-02-06T08:09:52.526920"
+            },
+            {
+                "title": "Power Platform Developer",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18210",
+                "date": "January 29th, 2025",
+                "new_since": "2025-01-29T10:19:16.350810"
+            },
+            {
+                "title": "Research Assistant",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18173",
+                "date": "January 17th, 2025",
+                "new_since": "2025-01-17T09:11:26.574082"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Assistant - Department of Pathology and Microbiology - Atlantic Veterinary College",
+                "link": "https://www.upei.ca/hr/competition/09s25",
+                "date": "Closing date: 2025-02-06T00:00:00",
+                "new_since": "2025-01-30T20:10:16.752959"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Experience Coordinator - Department of Student Affairs",
+                "link": "https://www.upei.ca/hr/competition/10e25",
+                "date": "Closing date: 2025-02-06T00:00:00",
+                "new_since": "2025-01-17T09:11:26.574082"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "MTS Level 6 - Registered Veterinary Technician - Small Animal ICU/Float - Days, 4 on/4 off - Veterinary Teaching Hospital - Atlantic Veterinary College *Reposted*",
+                "link": "https://www.upei.ca/hr/competition/247e24r",
+                "date": "Closing date: 2025-01-15T00:00:00",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Instructor, Practical Nursing",
+                "school": "College of the North Atlantic",
+                "date": "2025-02-04T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16646&JobSiteId=2,4",
+                "new_since": "2025-02-06T20:09:55.502986"
+            },
+            {
+                "title": "PepsiCo Beverages Canada: PepsiCo Beverages - Full Time Pre-Sell Customer Representative",
+                "school": "Holland College",
+                "date": "January 26th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/pre-sell-customer-rep-pepsico-jan24-2025.html",
+                "new_since": "2025-01-26T08:09:31.940858"
+            },
+            {
+                "title": "Watermark Theatre: Fundraising Officer - Recent Graduate",
+                "school": "Holland College",
+                "date": "January 24th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/fundraising-officer-watermark-jan23-2025.html",
+                "new_since": "2025-01-24T20:09:32.849201"
+            }
+        ]
     }
 ]
