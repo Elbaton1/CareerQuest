@@ -8149,5 +8149,35 @@
                 "new_since": "2025-01-17T17:10:50.906387"
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-11T08:09:55.850517",
+        "new_jobs_count": 1,
+        "removed_jobs_count": 2,
+        "new_jobs": [
+            {
+                "title": "DEFENCE CONSTRUCTION CANADA – COORDINATOR, CONSTRUCTION SERVICES, SUMMER 2025 – (STUDENT)- VARIOUS LOCATIONS (NS, NB, NL)",
+                "school": "Cape Breton University",
+                "date": "February 11th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/defence-construction-canada-coordinator-construction-services-summer-2025-student-various-locations-ns-nb-nl/",
+                "new_since": "2025-02-11T08:09:55.813709"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "SUMMER EMPLOYMENT 2025: ENVIRONMENTAL/ENGINEERING STUDENT",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-employment-2025-environmental-engineering-student/",
+                "date": "January 26th, 2025",
+                "new_since": "2025-01-26T08:09:31.930487"
+            },
+            {
+                "title": "Part-Time Academic (THEA 4735/MUSC 4360/HIST4162.06: Advanced Seminar in Baroque Culture) - Summer 2025",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18212",
+                "date": "January 29th, 2025",
+                "new_since": "2025-01-29T10:19:16.350810"
+            }
+        ]
     }
 ]
