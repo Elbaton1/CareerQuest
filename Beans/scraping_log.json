@@ -9158,5 +9158,140 @@
                 "new_since": "2025-01-08T17:19:05.418985"
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-15T20:10:33.327327",
+        "new_jobs_count": 6,
+        "removed_jobs_count": 12,
+        "new_jobs": [
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN ADMINISTRATION DE L’ÉDUCATION",
+                "school": "Université de Moncton",
+                "date": "2025-01-17",
+                "link": "https://www.careerbeacon.com/fr/emplois/2134531/universite-de-moncton-abppum-campus-de-moncton//moncton-nb",
+                "new_since": "2025-02-15T20:10:33.293807"
+            },
+            {
+                "title": "ASSISTANTE VII ou ASSISTANT VII, Décanat, Faculté d’administration (2 postes temporaires)",
+                "school": "Université de Moncton",
+                "date": "2025-02-12",
+                "link": "https://www.careerbeacon.com/fr/emplois/2139998/universite-de-moncton//moncton-nb",
+                "new_since": "2025-02-15T20:10:33.293807"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN TRADUCTION DE L’ANGLAIS VERS LE FRANÇAIS (Temporaire 4 ans), Dépt. Traduction et Langues",
+                "school": "Université de Moncton",
+                "date": "2025-01-24",
+                "link": "https://www.careerbeacon.com/fr/emplois/2124209/universite-de-moncton//moncton-nb",
+                "new_since": "2025-02-15T20:10:33.293807"
+            },
+            {
+                "title": "CHARGÉE OU CHARGÉ D’ENSEIGNEMENT EN ÉDUCATION",
+                "school": "Université de Moncton",
+                "date": "2025-01-17",
+                "link": "https://www.careerbeacon.com/fr/emplois/2134601/universite-de-moncton-abppum-campus-de-moncton//moncton-nb",
+                "new_since": "2025-02-15T20:10:33.293807"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN GÉNIE MÉCANIQUE, Dépt. de Génie mécanique – Faculté d'ingénierie",
+                "school": "Université de Moncton",
+                "date": "2025-01-24",
+                "link": "https://www.careerbeacon.com/fr/emplois/2121756/universite-de-moncton//moncton-nb",
+                "new_since": "2025-02-15T20:10:33.294806"
+            },
+            {
+                "title": "AGENTE ou AGENT DE RECHERCHE, Centre de recherche et de dév. en éducation (CRDE), Faculté des sciences de l’éducation",
+                "school": "Université de Moncton",
+                "date": "2025-02-03",
+                "link": "https://www.careerbeacon.com/fr/emplois/2137865/universite-de-moncton//moncton-nb",
+                "new_since": "2025-02-15T20:10:33.294806"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN GÉNIE MÉCANIQUE, Dépt. de Génie mécanique – Faculté d'ingénierie",
+                "school": "Université de Moncton",
+                "date": "2025-01-24",
+                "link": "https://www.careerbeacon.com/fr/emplois/2121756/universite-de-moncton/professeure-ou-professeur-en-genie-mecanique-dept-de-genie-mecanique-faculte-d-ingenierie/moncton-nb",
+                "new_since": "2025-02-14T20:10:27.492643"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN ADMINISTRATION DE L’ÉDUCATION",
+                "school": "Université de Moncton",
+                "date": "2025-01-17",
+                "link": "https://www.careerbeacon.com/fr/emplois/2134531/universite-de-moncton-abppum-campus-de-moncton/professeure-ou-professeur-en-administration-de-l-education/moncton-nb",
+                "new_since": "2025-02-14T20:10:27.492643"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN TRADUCTION DE L’ANGLAIS VERS LE FRANÇAIS (Temporaire 4 ans), Dépt. Traduction et Langues",
+                "school": "Université de Moncton",
+                "date": "2025-01-24",
+                "link": "https://www.careerbeacon.com/fr/emplois/2124209/universite-de-moncton/professeure-ou-professeur-en-traduction-de-l-anglais-vers-le-francais-temporaire-4-ans-dept-traduction-et-langues/moncton-nb",
+                "new_since": "2025-02-14T20:10:27.492643"
+            },
+            {
+                "title": "CHARGÉE OU CHARGÉ D’ENSEIGNEMENT EN ÉDUCATION",
+                "school": "Université de Moncton",
+                "date": "2025-01-17",
+                "link": "https://www.careerbeacon.com/fr/emplois/2134601/universite-de-moncton-abppum-campus-de-moncton/chargee-ou-charge-d-enseignement-en-education/moncton-nb",
+                "new_since": "2025-02-14T20:10:27.492643"
+            },
+            {
+                "title": "ASSISTANTE VII ou ASSISTANT VII, Décanat, Faculté d’administration (2 postes temporaires)",
+                "school": "Université de Moncton",
+                "date": "2025-02-12",
+                "link": "https://www.careerbeacon.com/fr/emplois/2139998/universite-de-moncton/assistante-vii-ou-assistant-vii-decanat-faculte-d-administration-2-postes-temporaires/moncton-nb",
+                "new_since": "2025-02-14T20:10:27.492643"
+            },
+            {
+                "title": "AGENTE ou AGENT DE RECHERCHE, Centre de recherche et de dév. en éducation (CRDE), Faculté des sciences de l’éducation",
+                "school": "Université de Moncton",
+                "date": "2025-02-03",
+                "link": "https://www.careerbeacon.com/fr/emplois/2137865/universite-de-moncton/agente-ou-agent-de-recherche-centre-de-recherche-et-de-dev-en-education-crde-faculte-des-sciences-de-l-education/moncton-nb",
+                "new_since": "2025-02-14T20:10:27.492643"
+            },
+            {
+                "title": "Manager, Student Accessibility",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18221",
+                "date": "January 31st, 2025",
+                "new_since": "2025-01-31T20:09:40.090655"
+            },
+            {
+                "title": "Instructional Assistant, Commercial Cooking",
+                "school": "College of the North Atlantic",
+                "date": "2025-02-06T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16601&JobSiteId=2,4",
+                "new_since": "2025-02-06T20:09:55.502986"
+            },
+            {
+                "title": "Early Childhood Educator",
+                "school": "College of the North Atlantic",
+                "date": "2025-01-31T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16636&JobSiteId=2,4",
+                "new_since": "2025-01-31T20:09:40.099177"
+            },
+            {
+                "title": "Assistant Professor , Department of Communication Studies",
+                "school": "Mount St. Vincent University - Full Time",
+                "date": "2025-01-15T20:09:26.897301",
+                "link": "https://forms.msvu.ca/iframeforms/FacultyRecruitment/fulltime/positiondetail.asp?ID=475",
+                "new_since": "2025-01-15T20:09:38.328519"
+            },
+            {
+                "title": "Réparatrice ou réparateur d'entretien II",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 3rd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6720-003-Reparatrice-ou-reparateur-dentretien-II.pdf",
+                "new_since": "2025-02-03T20:10:25.313867"
+            },
+            {
+                "title": "Réparatrice ou réparateur d'entretien II",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 3rd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6720-003-Reparatrice-ou-reparateur-dentretien-II.pdf",
+                "new_since": "2025-02-03T20:10:25.313867"
+            }
+        ]
     }
 ]
