@@ -9801,5 +9801,27 @@
                 "new_since": "2025-02-03T20:10:25.313867"
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-19T08:09:56.994750",
+        "new_jobs_count": 0,
+        "removed_jobs_count": 2,
+        "new_jobs": [],
+        "removed_jobs": [
+            {
+                "title": "SUMMER EMPLOYMENT 2025: STUDENT ANALYST – OPOR/IMI",
+                "school": "Cape Breton University",
+                "date": "February 18th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-employment-2025-student-analyst-opor-imi/",
+                "new_since": "2025-02-18T20:11:08.594496"
+            },
+            {
+                "title": "Research Development Officer",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18232",
+                "date": "February 4th, 2025",
+                "new_since": "2025-02-04T20:10:18.176708"
+            }
+        ]
     }
 ]
