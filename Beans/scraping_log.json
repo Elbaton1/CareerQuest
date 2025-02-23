@@ -10600,5 +10600,34 @@
                 "new_since": "2025-02-12T20:10:06.937292"
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-23T20:10:28.307355",
+        "new_jobs_count": 0,
+        "removed_jobs_count": 3,
+        "new_jobs": [],
+        "removed_jobs": [
+            {
+                "title": "CHARGÉE OU CHARGÉ D'ENSEIGNEMENT EN MARKETING",
+                "school": "Université de Moncton",
+                "date": "2025-01-23",
+                "link": "https://www.careerbeacon.com/fr/emplois/2128902/universite-de-moncton-abppum-campus-de-moncton/chargee-ou-charge-d-enseignement-en-marketing/moncton-nb",
+                "new_since": "2025-01-24T03:56:41.706630"
+            },
+            {
+                "title": "WORK STUDY WINTER 2025: QUALITY ASSURANCE EDITOR",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/work-study-winter-2025-quality-assurance-editor/",
+                "date": "February 18th, 2025",
+                "new_since": "2025-02-18T20:11:08.594496"
+            },
+            {
+                "title": "PART-TIME CUSTOMER SERVICE REPRESENTATIVE",
+                "school": "Cape Breton University",
+                "date": "February 22nd, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/part-time-customer-service-representative/",
+                "new_since": "2025-02-22T20:10:12.986039"
+            }
+        ]
     }
 ]
