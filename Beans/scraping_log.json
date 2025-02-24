@@ -10629,5 +10629,217 @@
                 "new_since": "2025-02-22T20:10:12.986039"
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-24T20:10:28.708121",
+        "new_jobs_count": 5,
+        "removed_jobs_count": 24,
+        "new_jobs": [
+            {
+                "title": "Administrative Temp Opportunities",
+                "school": "University of New Brunswick",
+                "date": "February 24th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-temp-opportunities/1953773?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=1953773&utm_term=jobtitle",
+                "new_since": "2025-02-24T20:10:28.661894"
+            },
+            {
+                "title": "Administrative Temp Opportunities",
+                "school": "University of New Brunswick",
+                "date": "February 24th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-temp-opportunities/1902601?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=1902601&utm_term=jobtitle",
+                "new_since": "2025-02-24T20:10:28.661894"
+            },
+            {
+                "title": "Commis-comptable IX, Comptoir de services, Service des finances",
+                "school": "Université de Moncton",
+                "date": "February 24, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2142304/universite-de-moncton/commis-comptable-ix-comptoir-de-services-service-des-finances/moncton-nb",
+                "new_since": "2025-02-24T20:10:28.661894"
+            },
+            {
+                "title": "FINANCIAL ANALYST CO-OP STUDENT",
+                "school": "Cape Breton University",
+                "date": "February 24th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/financial-analyst-co-op-student/",
+                "new_since": "2025-02-24T20:10:28.661894"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Educational Consultant - Office of Academic and Student Affairs-Atlantic Veterinary College",
+                "link": "https://www.upei.ca/hr/competition/39e25",
+                "date": "Closing date: 2025-03-03T00:00:00",
+                "new_since": "2025-02-24T20:10:28.663889"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "Administrative Coordinator (Secretary PL5)",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-coordinator-secretary-pl5/2141218?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2141218&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "Technical Lead",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/technical-lead/2141221?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2141221&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "Security Patrol",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/security-patrol/2141223?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2141223&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "HVAC Technician II",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/hvac-technician-ii/2134097?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2134097&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "Refrigeration & Air Conditioning Mechanic",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/refrigeration--air-conditioning-mechanic/2140575?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2140575&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "Instructional Technology Specialist",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/instructional-technology-specialist/2132896?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2132896&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "Manager Admissions Services",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/manager-admissions-services/2140000?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2140000&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "Project Coordinator",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/project-coordinator/2140014?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2140014&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "Secretary PL4",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/secretary-pl4/2140028?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2140028&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "Student Response Assistant PL5",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/student-response-assistant-pl5/2106403?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2106403&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "Research Security Manager",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/research-security-manager/2139587?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2139587&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "Indigenous Engagement Advisor",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/indigenous-engagement-advisor/2139619?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2139619&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "Clinic and Outreach Coordinator",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/clinic-and-outreach-coordinator/2137864?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2137864&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "Research Scientist",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/research-scientist/2137528?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2137528&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "Industrial Mechanic",
+                "school": "University of New Brunswick",
+                "date": "February 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/industrial-mechanic/2132857?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2132857&utm_term=jobtitle",
+                "new_since": "2025-02-20T20:10:10.314987"
+            },
+            {
+                "title": "Instructor, 100% FTE, Limited Term",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18317",
+                "date": "February 22nd, 2025",
+                "new_since": "2025-02-22T20:10:12.986039"
+            },
+            {
+                "title": "Recruitment and Enrolment Specialist, Campus Events",
+                "school": "Saint Mary’s University",
+                "link": "https://jobs.careerbeacon.com/details/recruitment-and-enrolment-specialist-campus-events/2138958?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2138958&utm_term=jobtitle",
+                "date": "February 7th, 2025",
+                "new_since": "2025-02-07T20:10:01.418765"
+            },
+            {
+                "title": "Recruitment and Enrolment Specialist (Designated Posting)",
+                "school": "Saint Mary’s University",
+                "link": "https://jobs.careerbeacon.com/details/recruitment-and-enrolment-specialist-designated-posting/2138959?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2138959&utm_term=jobtitle",
+                "date": "February 7th, 2025",
+                "new_since": "2025-02-07T20:10:01.418765"
+            },
+            {
+                "title": "Administrative Assistant, People and Culture",
+                "school": "Saint Mary’s University",
+                "link": "https://jobs.careerbeacon.com/details/administrative-assistant-people-and-culture/2139025?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2139025&utm_term=jobtitle",
+                "date": "February 7th, 2025",
+                "new_since": "2025-02-07T20:10:01.418765"
+            },
+            {
+                "title": "Stewardship Officer",
+                "school": "Saint Mary’s University",
+                "link": "https://jobs.careerbeacon.com/details/stewardship-officer/2139026?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2139026&utm_term=jobtitle",
+                "date": "February 7th, 2025",
+                "new_since": "2025-02-07T20:10:01.418765"
+            },
+            {
+                "title": "Development Officer",
+                "school": "Saint Mary’s University",
+                "link": "https://jobs.careerbeacon.com/details/development-officer/2139028?utm_source=Saint+Mary%E2%80%99s+University&utm_medium=widget&utm_campaign=refer&utm_content=2139028&utm_term=jobtitle",
+                "date": "February 7th, 2025",
+                "new_since": "2025-02-07T20:10:01.418765"
+            },
+            {
+                "title": "Doyenne ou doyen des facultés et des études collégiales",
+                "school": "Université Sainte-Anne",
+                "link": "https://www.usainteanne.ca/offres-demploi/doyenne-ou-doyen-des-facultes-et-des-etudes-collegiales",
+                "date": "2025-01-24T00:00:00",
+                "new_since": "2025-01-09T20:09:45.157216"
+            },
+            {
+                "title": "Agente ou agent à la paie - Rémunération",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 7th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/24-6775-099-Agente-ou-agent-a-la-paie-remuneration-1.pdf",
+                "new_since": "2025-02-07T20:10:01.425779"
+            },
+            {
+                "title": "Agente ou agent à la paie - Rémunération",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 7th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/24-6775-099-Agente-ou-agent-a-la-paie-remuneration-1.pdf",
+                "new_since": "2025-02-07T20:10:01.425779"
+            }
+        ]
     }
 ]
