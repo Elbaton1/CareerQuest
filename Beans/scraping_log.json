@@ -10841,5 +10841,399 @@
                 "new_since": "2025-02-07T20:10:01.425779"
             }
         ]
+    },
+    {
+        "timestamp": "2025-02-26T20:10:39.415821",
+        "new_jobs_count": 35,
+        "removed_jobs_count": 20,
+        "new_jobs": [
+            {
+                "title": "NETWORK ADMINISTRATOR III (BAND LEVEL 7)",
+                "school": "Memorial University",
+                "date": "2025-02-25T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5891",
+                "new_since": "2025-02-26T20:10:39.365277"
+            },
+            {
+                "title": "Adjointe exécutive ou adjoint exécutif, Cabinet du Recteur",
+                "school": "Université de Moncton",
+                "date": "2025-02-25",
+                "link": "https://www.careerbeacon.com/fr/emplois/2142653/universite-de-moncton/adjointe-executive-ou-adjoint-executif-cabinet-du-recteur/moncton-nb",
+                "new_since": "2025-02-26T20:10:39.365277"
+            },
+            {
+                "title": "Direction du Bureau de Soutien à l’Innovation, Faculté des études supérieures et de la recherche",
+                "school": "Université de Moncton",
+                "date": "2025-02-25",
+                "link": "https://www.careerbeacon.com/fr/emplois/2142317/universite-de-moncton//moncton-nb",
+                "new_since": "2025-02-26T20:10:39.365277"
+            },
+            {
+                "title": "PRODUCTION MANAGER; RECENT OR POTENTIAL GRADS",
+                "school": "Cape Breton University",
+                "date": "February 26th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/production-manager-recent-or-potential-grads/",
+                "new_since": "2025-02-26T20:10:39.365277"
+            },
+            {
+                "title": "CRISM Atlantic Training Support Platform Coordinator",
+                "school": "Dalhousie University",
+                "date": "February 26th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18336",
+                "new_since": "2025-02-26T20:10:39.365277"
+            },
+            {
+                "title": "Cultiv8 Farm Coordinator",
+                "school": "Dalhousie University",
+                "date": "February 26th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18335",
+                "new_since": "2025-02-26T20:10:39.365277"
+            },
+            {
+                "title": "Work Control Centre Coordinator",
+                "school": "Dalhousie University",
+                "date": "February 26th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/18333",
+                "new_since": "2025-02-26T20:10:39.365277"
+            },
+            {
+                "title": "Residence Assistant(s)–Study Abroad Class, Berlin",
+                "school": "University of King's College",
+                "date": "February 26th, 2025",
+                "link": "https://ukings.ca/campus-community/employment/residence-assistants-berlin/",
+                "new_since": "2025-02-26T20:10:39.366276"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Fitness center Supervisor - Department of Athletics & Recreation",
+                "link": "https://www.upei.ca/hr/competition/23s25",
+                "date": "Closing date: 2025-03-05T00:00:00",
+                "new_since": "2025-02-26T20:10:39.366276"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Fitness center Supervisor (Up To 8 Positions) - Department of Athletics & Recreation",
+                "link": "https://www.upei.ca/hr/competition/22s25",
+                "date": "Closing date: 2025-03-05T00:00:00",
+                "new_since": "2025-02-26T20:10:39.366276"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Fitness center Supervisor (Up To 4 Positions) - Department of Athletics & Recreation",
+                "link": "https://www.upei.ca/hr/competition/21s25",
+                "date": "Closing date: 2025-03-05T00:00:00",
+                "new_since": "2025-02-26T20:10:39.366276"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "MTS Level 8 - Casual EAP Instructor - Experiential Education and English Language Center",
+                "link": "https://www.upei.ca/hr/competition/43e25",
+                "date": "Closing date: 2025-03-05T00:00:00",
+                "new_since": "2025-02-26T20:10:39.366276"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "ADS Level 5- Administrative Assistant - Department of Facilities Management",
+                "link": "https://www.upei.ca/hr/competition/51e25",
+                "date": "Closing date: 2025-03-04T00:00:00",
+                "new_since": "2025-02-26T20:10:39.366276"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Assistant - Sales Associates (Up to 5 Positions) - Bookstore - Ancillary Services",
+                "link": "https://www.upei.ca/hr/competition/19s25",
+                "date": "Closing date: 2025-03-04T00:00:00",
+                "new_since": "2025-02-26T20:10:39.366276"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Assistant Professor- Faculty of Nursing",
+                "link": "https://www.upei.ca/hr/competition/10a25",
+                "date": "Closing date: 2025-03-11T00:00:00",
+                "new_since": "2025-02-26T20:10:39.366276"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Sessional Instructor- Department of Psychology- Faculty of Arts- Summer 2025",
+                "link": "https://www.upei.ca/hr/competition/14si25",
+                "date": "Closing date: 2025-03-11T00:00:00",
+                "new_since": "2025-02-26T20:10:39.366276"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "ADS Level 6 - Administrative Assistant - Dean's office - Atlantic Veterinary College",
+                "link": "https://www.upei.ca/hr/competition/45e25",
+                "date": "Closing date: 2025-03-04T00:00:00",
+                "new_since": "2025-02-26T20:10:39.366276"
+            },
+            {
+                "title": "Maintenance Repair Worker Lead Hand",
+                "school": "NBCC",
+                "date": "2025-02-26T20:10:31.292288",
+                "link": "https://jobs.careerbeacon.com/details/maintenance-repair-worker-lead-hand/2142895?utm_source=New+Brunswick+Community+College+%28NBCC%29&utm_medium=widget&utm_campaign=refer&utm_content=2142895&utm_term=jobtitle",
+                "new_since": "2025-02-26T20:10:39.373271"
+            },
+            {
+                "title": "Assistant Professor, Applied Human Nutrition",
+                "school": "Mount St. Vincent University - Full Time",
+                "date": "2025-02-26T20:10:31.843016",
+                "link": "https://forms.msvu.ca/iframeforms/FacultyRecruitment/fulltime/positiondetail.asp?ID=478",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "Dept of Fisheries, Tourism, Sport and Culture-Tourism PEI: Communication and Fundraising Coordiantor",
+                "school": "Holland College",
+                "date": "February 26th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/communication-and-fundraising-coordinator-dept-of-fisheries-tourism-sport-and-culture-museums-and-heritage-division.html",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "Dept of Fisheries, Tourism, Sport and Culture-Tourism PEI: Parks East Mechanic",
+                "school": "Holland College",
+                "date": "February 26th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/mechanic-dept-fisheries-tourism-sport-and-culture-feb-25-25.html",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "Camp Triumph: Camp Counsellor ( Late summer, July/August )",
+                "school": "Holland College",
+                "date": "February 26th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/camp-counsellor-late-summer-jul-august-camp-triumph-feb-25-25.html",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "Black Spoon Bistro Bed and Breakfast Ltd.: Line Cook",
+                "school": "Holland College",
+                "date": "February 26th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/line-cook-black-spoon-bistro-bed-and-breakfast-led-feb-16-25.html",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "Save Fanning School Inc.: Journalism & Comms Officer",
+                "school": "Holland College",
+                "date": "February 26th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/journalism-and-comms-officer-save-fanning-school-inc-feb16-25.html",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "Camp Triumph: Facility Manager",
+                "school": "Holland College",
+                "date": "February 26th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/facility-manager-camp-triumph-feb-25-25.html",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "Coordonnatrice ou coordonnateur en gestion du changement",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 26th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-012-Coordonnateur.trice-en-gestion-du-changement-1.pdf",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "À un des sites associés du CCNB",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 26th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-012-Coordonnateur.trice-en-gestion-du-changement-1.pdf",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "mars 10, 2025",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 26th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-012-Coordonnateur.trice-en-gestion-du-changement-1.pdf",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "Chef des solutions technologiques",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 26th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-014-Chef-des-solutions-technologiques.pdf",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "Télétravail",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 26th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-014-Chef-des-solutions-technologiques.pdf",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "mars 10, 2025",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 26th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-014-Chef-des-solutions-technologiques.pdf",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "Chef des solutions technologiques",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 26th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-013-Chef-des-solutions-technologiques.pdf",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "À un des sites associés du CCNB ou en télétravail",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 26th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-013-Chef-des-solutions-technologiques.pdf",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "mars 10, 2025",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 26th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-013-Chef-des-solutions-technologiques.pdf",
+                "new_since": "2025-02-26T20:10:39.374270"
+            },
+            {
+                "title": "Conseiller.ère à l'enseignement et aux apprentissages",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "February 26th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-016-Conseiller.ere-a-lenseignement-et-aux-apprentissages.pdf",
+                "new_since": "2025-02-26T20:10:39.374270"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "MANAGER, STEWARDSHIP PROGRAMS (BAND LEVEL 9)",
+                "school": "Memorial University",
+                "date": "2024-12-05T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5786",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "WELLNESS NAVIGATOR (BAND LEVEL 8)",
+                "school": "Memorial University",
+                "date": "2025-02-11T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5860",
+                "new_since": "2025-02-11T20:10:27.044993"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN GÉNIE MÉCANIQUE, Dépt. de Génie mécanique – Faculté d'ingénierie",
+                "school": "Université de Moncton",
+                "date": "2025-01-24",
+                "link": "https://www.careerbeacon.com/fr/emplois/2121756/universite-de-moncton//moncton-nb",
+                "new_since": "2025-02-15T20:10:33.294806"
+            },
+            {
+                "title": "ASSISTANTE VII ou ASSISTANT VII, Décanat, Faculté d’administration (2 postes temporaires)",
+                "school": "Université de Moncton",
+                "date": "2025-02-12",
+                "link": "https://www.careerbeacon.com/fr/emplois/2139998/universite-de-moncton//moncton-nb",
+                "new_since": "2025-02-15T20:10:33.293807"
+            },
+            {
+                "title": "ADJOINTE ADMINISTRATIVE ou ADJOINT ADMINISTRATIF - Soutien académique et dév. pédagogique et professionnel - 2e concours",
+                "school": "Université de Moncton",
+                "date": "February 12, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2139994/universite-de-moncton/adjointe-administrative-ou-adjoint-administratif-soutien-academique-et-dev-pedagogique-et-professionnel-2e-concours/moncton-nb",
+                "new_since": "2025-02-12T20:10:06.933300"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN GÉNIE CIVIL, Dépt. de Génie civil, Faculté d'ingénierie",
+                "school": "Université de Moncton",
+                "date": "January 24, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2121758/universite-de-moncton/professeure-ou-professeur-en-genie-civil-dept-de-genie-civil-faculte-d-ingenierie/moncton-nb",
+                "new_since": "2025-01-24T20:09:32.846206"
+            },
+            {
+                "title": "CONSEILLÈRE ou CONSEILLER EN DÉVELOPPEMENT DES AFFAIRES ET DE LA FORMATION, Formation continue",
+                "school": "Université de Moncton",
+                "date": "February 18, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2140985/universite-de-moncton/conseillere-ou-conseiller-en-developpement-des-affaires-et-de-la-formation-formation-continue/moncton-nb",
+                "new_since": "2025-02-18T20:11:08.594496"
+            },
+            {
+                "title": "Part-Time Academic (PUAD 5250 Strategic Financial Management) Summer 2025",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18270",
+                "date": "February 14th, 2025",
+                "new_since": "2025-02-14T20:10:27.492643"
+            },
+            {
+                "title": "Part-Time Academic (POLI 3446.03: Politics of Crime - Summer 2025)",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18267",
+                "date": "February 14th, 2025",
+                "new_since": "2025-02-14T20:10:27.492643"
+            },
+            {
+                "title": "Part-Time Academic RSPT 3252.03: Health Practice Co-teaching (1/2 of a 1/2 credit) - Winter 2025",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18266",
+                "date": "February 14th, 2025",
+                "new_since": "2025-02-14T20:10:27.492643"
+            },
+            {
+                "title": "Application Specialist (Slate CRM)",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18253",
+                "date": "February 10th, 2025",
+                "new_since": "2025-02-10T20:10:31.632340"
+            },
+            {
+                "title": "Biogeochemistry Technician",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/18233",
+                "date": "February 4th, 2025",
+                "new_since": "2025-02-04T20:10:18.176708"
+            },
+            {
+                "title": "Athletics Director",
+                "school": "University of King's College",
+                "date": "January 20th, 2025",
+                "link": "https://ukings.ca/campus-community/employment/athletics-director/",
+                "new_since": "2025-01-20T20:10:05.342933"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Writing Centre Coordinator - Department of Student Affairs",
+                "link": "https://www.upei.ca/hr/competition/32e25",
+                "date": "Closing date: 2025-02-24T00:00:00",
+                "new_since": "2025-02-14T20:10:27.492643"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Assistant (Up to 2 Positions) - Experiential Education and English Language Centre - Student Experience Hub",
+                "link": "https://www.upei.ca/hr/competition/04s25",
+                "date": "Closing date: 2025-02-24T00:00:00",
+                "new_since": "2025-01-27T20:10:03.635378"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Dean of Arts - Faculty of Arts",
+                "link": "https://www.upei.ca/hr/competition/30a24",
+                "date": "Closing date: January 8th, 2025",
+                "new_since": "2025-01-08T16:44:14.929652"
+            },
+            {
+                "title": "Clerk III (Receiver/Maintenance Worker)",
+                "school": "College of the North Atlantic",
+                "date": "2025-02-17T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16670&JobSiteId=2,4",
+                "new_since": "2025-02-18T20:11:08.600489"
+            },
+            {
+                "title": "Student Development Officer",
+                "school": "College of the North Atlantic",
+                "date": "2025-02-14T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16666&JobSiteId=2,4",
+                "new_since": "2025-02-14T20:10:27.495641"
+            },
+            {
+                "title": "Early Childhood Educator, Supervisor",
+                "school": "College of the North Atlantic",
+                "date": "2025-02-14T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16535&JobSiteId=2,4",
+                "new_since": "2025-02-14T20:10:27.495641"
+            },
+            {
+                "title": "Instructor, Instrumentation & Controls Technician",
+                "school": "College of the North Atlantic",
+                "date": "2024-09-11T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16142&JobSiteId=2,4",
+                "new_since": "2025-01-08T16:44:14.929652"
+            }
+        ]
     }
 ]
