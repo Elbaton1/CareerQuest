@@ -18985,5 +18985,476 @@
                 "new_since": "2025-10-17T20:33:00.111323"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-22T09:53:49.890132",
+        "new_jobs_count": 49,
+        "removed_jobs_count": 17,
+        "new_jobs": [
+            {
+                "title": "PROJECT TECHNOLOGIST (OCEAN TECHNOLOGY)",
+                "school": "Memorial University",
+                "date": "2025-10-21T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6274",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "GESTIONNAIRE DU SERVICE DE LA PAIE",
+                "school": "Université de Moncton",
+                "date": "October 22, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2185204/universite-de-moncton/gestionnaire-du-service-de-la-paie/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "SPÉCIALISTE DE LA PAIE",
+                "school": "Université de Moncton",
+                "date": "October 22, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2185287/universite-de-moncton/specialiste-de-la-paie/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic NURS4472.03: Critical Care Nursing (Winter 2026)",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19791",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic for NURS5735.03 Pharmacotherapeutics for Nurse Practitioners (Winter 2026)",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19790",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic: NURS5200.03 - Health Care System Policy Analysis (Winter 2026)",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19789",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic NURS5893 - Health Program Planning & Evaluation (Winter 2026)",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19788",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic (POLI 3378.03 - American Politics: Polarization and Crisis) - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19787",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Project Manager",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19786",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Director, Tax Dispute Clinic",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19784",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Program Review Officer",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19783",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Program Development Officer",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19782",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic - ARBC 2100.03/RELS 2052.03: A Cultural Introduction to the Arab World - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19779",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic (Intercultural Communication 1: ASSC 3150.03) - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19778",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic - ARBC 2022.03: Intermediate Arabic II - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19775",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic - ARBC 1022.03: Introduction to Arabic II - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19774",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic - INTD 1103.03 - Halifax and the World Part II - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19773",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic - GWST 2011.03: Queering Foundations - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19772",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic - GWST 1015.03: Gender and Diversity - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19771",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic (POLI 3520.03: Peacebuilding and Post-Conflict Statebuilding) - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19770",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic (ENGL 1111: University Writing) - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19769",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "2nd Class Refrigeration & Rink Operator",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19768",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic (ENGL 3010.03: Renaissance Poetry & Culture 1) - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19766",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic (ENGL 2085.03: Video Games: Story, Wld & Play) - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19764",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic (ENGL/CRWR 2010.03: The Personal Essay) - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19763",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic (ENGL 2005.03: World Literature) - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19762",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic (ENGL 1015.03: Literature: How It Works) - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19761",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic - ENGL 1040.03: Reading Popular Culture-Writing Requirement - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19759",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic (ITAL 1001.03: Italian for Beginners, Part 2) - Winter term 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19758",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic (MUSC 3177.03: Vocal Literature) - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19757",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "IT Desktop Support",
+                "school": "NSCAD University",
+                "date": "October 22nd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/it-desktop-support/2185065",
+                "new_since": "2025-10-22T09:53:49.867620"
+            },
+            {
+                "title": "Utility Worker I",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-21T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17386&JobSiteId=2,4",
+                "new_since": "2025-10-22T09:53:49.877619"
+            },
+            {
+                "title": "Security Guard",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-21T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17422&JobSiteId=2,4",
+                "new_since": "2025-10-22T09:53:49.877619"
+            },
+            {
+                "title": "MAGASINIÈRE OU MAGASINIER I",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6720-037-Magasiniere-ou-magasinier-I.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "Campus de Bathurst",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6720-037-Magasiniere-ou-magasinier-I.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "novembre 3, 2025",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6720-037-Magasiniere-ou-magasinier-I.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "CONCIERGE I",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-018-Concierge-1.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "Campus de Campbellton",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-018-Concierge-1.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "octobre 30, 2025",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-018-Concierge-1.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "ENSEIGNANTE OU ENSEIGNANT – SOINS INFIRMIERS AUXILIAIRES",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6720-039-Enseignante-ou-enseignant-SIA.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "Campus de Bathurst",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6720-039-Enseignante-ou-enseignant-SIA.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "octobre 28, 2025",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6720-039-Enseignante-ou-enseignant-SIA.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "ENSEIGNANTE OU ENSEIGNANT – SOINS INFIRMIERS AUXILIAIRES",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-020-Enseignante-ou-enseignant-SIA.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "Campus de Campbellton",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-020-Enseignante-ou-enseignant-SIA.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "octobre 28, 2025",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-020-Enseignante-ou-enseignant-SIA.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "RÉPARATRICE OU RÉPARATEUR D’ENTRETIEN I",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-021-Reparateur.trice-dentretien.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "Campus de Campbellton",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-021-Reparateur.trice-dentretien.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "COORDONNATRICE OU COORDONNATEUR DE L'APPRENTISSAGE EXPÉRIENTIEL",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-071-Coordonnateur.trice-de-lapprentissage-experientiel.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "À l'un des campus ou sites associés du CCNB avec possibilité de télétravail",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-071-Coordonnateur.trice-de-lapprentissage-experientiel.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "COMMUNICATIONS ADVISOR (BAND LEVEL 7)",
+                "school": "Memorial University",
+                "date": "2025-10-06T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6251",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "2nd Class Refrigeration & Rink Operator",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19711",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Groundskeeper",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19709",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Utility Service Person",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19707",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Project Coordinator",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19688",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Part-Time Academic DISM 4050.03 - Communication and Professional Relationships in Disability Management - Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19687",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Part-Time Academic DISM 4040.03 - Understanding the Relationship between Health and Work - Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19685",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Part-Time Academic DISM 4010.03 - Case Management and Return to Work - Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19684",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Part-Time Academic DISM 3010.03 Sect 01 Introduction to Disability and Disability Management - Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19683",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Postgraduate Site Administrator – Halifax Community",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19675",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "MTS Level 8 - Laboratory Technologist - Bacteriology - Diagnostic Services - Atlantic Veterinary College *REPOSTED*",
+                "link": "https://www.upei.ca/hr/competition/122e25r5",
+                "date": "Closing date: 2025-10-21T00:00:00",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Development Officer - Department of Development and Alumni Engagement *REPOSTED*",
+                "link": "https://www.upei.ca/hr/competition/170e25r",
+                "date": "Closing date: 2025-10-21T00:00:00",
+                "new_since": "2025-10-17T20:33:00.109316"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "MTS Level 6 - Simulation Operations Specialist (2 positions) - Clinical Learning and Simulation Center - Faculty of Medicine",
+                "link": "https://www.upei.ca/hr/competition/203e25",
+                "date": "Closing date: 2025-10-20T00:00:00",
+                "new_since": "2025-10-17T20:33:00.109316"
+            },
+            {
+                "title": "Kognitive Sales Solutions: Financial Sales Representative",
+                "school": "Holland College",
+                "date": "October 17th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/financial-sales-rep-kognitive-sales-oct6-2026.html",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "City of Summerside: Lifeguard",
+                "school": "Holland College",
+                "date": "October 17th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/lifeguard-cityofsside-sept23-2025.html",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "Gestionnaire d'un centre de recherche manufacturier avancé",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-021-Gestionnaire-dun-centre-de-recherche-man.-avance_1.pdf",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "Gestionnaire d'un centre de recherche manufacturier avancé",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-021-Gestionnaire-dun-centre-de-recherche-man.-avance_1.pdf",
+                "new_since": "2025-10-17T20:33:00.111323"
+            }
+        ]
     }
 ]
