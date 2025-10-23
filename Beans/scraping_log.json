@@ -19456,5 +19456,105 @@
                 "new_since": "2025-10-17T20:33:00.111323"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-22T22:52:10.789621",
+        "new_jobs_count": 10,
+        "removed_jobs_count": 3,
+        "new_jobs": [
+            {
+                "title": "DEVELOPMENT OFFICER (BAND LEVEL 8)",
+                "school": "Memorial University",
+                "date": "2025-10-22T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6277",
+                "new_since": "2025-10-22T22:52:10.737619"
+            },
+            {
+                "title": "Supervision de laboratoires – chimie",
+                "school": "Université de Moncton",
+                "date": "October 22, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2185442/universite-de-moncton-campus-d-edmundston-umce//edmundston-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-22T22:52:10.738630"
+            },
+            {
+                "title": "SECRÉTAIRE DE DIRECTION, Faculté des études supérieures et de la recherche (FESR)",
+                "school": "Université de Moncton",
+                "date": "October 22, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2185298/universite-de-moncton/secretaire-de-direction-faculte-des-etudes-superieures-et-de-la-recherche-fesr/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-22T22:52:10.738630"
+            },
+            {
+                "title": "Research Associate (Internal Posting)",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19799",
+                "new_since": "2025-10-22T22:52:10.738630"
+            },
+            {
+                "title": "Director, Strategy and Operations",
+                "school": "Dalhousie University",
+                "date": "October 22nd, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19798",
+                "new_since": "2025-10-22T22:52:10.738630"
+            },
+            {
+                "title": "Payroll & Benefits Administrator",
+                "school": "University of King's College",
+                "date": "October 22nd, 2025",
+                "link": "https://ukings.ca/campus-community/employment/payroll-benefits-administrator/",
+                "new_since": "2025-10-22T22:52:10.740620"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Sessional Instructor - Faculty of Sustainable Design Engineering - Winter 2026",
+                "link": "https://www.upei.ca/hr/competition/123si25",
+                "date": "Closing date: 2025-11-05T00:00:00",
+                "new_since": "2025-10-22T22:52:10.740620"
+            },
+            {
+                "title": "Economic Development Officer (Mining Network Development Officer)",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-22T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17406&JobSiteId=2,4",
+                "new_since": "2025-10-22T22:52:10.757620"
+            },
+            {
+                "title": "MONITRICES OU MONITEURS DE STAGE – Soins infirmiers auxiliaires et Préposés aux soins aigus",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-075-APPEL-DINTERET-_-Moniteur.trice-de-stage-SIA-et-PSA-1.pdf",
+                "new_since": "2025-10-22T22:52:10.759624"
+            },
+            {
+                "title": "Campus de Bathurst, Campbellton, Dieppe, Edmundston et Péninsule acadienne, dans les milieux de stage des hôpitaux et établissements de soins longue durée",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-075-APPEL-DINTERET-_-Moniteur.trice-de-stage-SIA-et-PSA-1.pdf",
+                "new_since": "2025-10-22T22:52:10.759624"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "ELECTRONIC TECHNOLOGIST Ill (BAND LEVEL 7)",
+                "school": "Memorial University",
+                "date": "2025-10-07T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6254",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Director, Strategy and Operations",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19755",
+                "date": "October 20th, 2025",
+                "new_since": "2025-10-20T22:52:10.000823"
+            },
+            {
+                "title": "Canada Research Chair (CRC) Tier 2 in Biomedical Data Science and Precision Medicine",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19594",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            }
+        ]
     }
 ]
