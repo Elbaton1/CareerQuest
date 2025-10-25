@@ -1,6 +1,20 @@
 {
     "jobs": [
         {
+            "title": "MANAGER, FINANCIAL ACCOUNTING AND INVESTMENTS (BAND LEVEL 13)",
+            "school": "Memorial University",
+            "date": "2025-10-24T09:00:00",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6284",
+            "new_since": "2025-10-24T22:52:06.730120"
+        },
+        {
+            "title": "RESIDENCE COORDINATOR",
+            "school": "Memorial University",
+            "date": "2025-10-24T09:00:00",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6281",
+            "new_since": "2025-10-24T22:52:06.730120"
+        },
+        {
             "title": "DEVELOPMENT OFFICER (BAND LEVEL 8)",
             "school": "Memorial University",
             "date": "2025-10-22T09:00:00",
@@ -26,20 +40,6 @@
             "school": "Memorial University",
             "date": "2025-10-16T09:00:00",
             "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6266",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "DECANAL ASSISTANT (BAND LEVEL 7)",
-            "school": "Memorial University",
-            "date": "2025-10-09T09:00:00",
-            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6261",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "SOLUTIONS ARCHITECT (BAND LEVEL 9)",
-            "school": "Memorial University",
-            "date": "2025-10-08T09:00:00",
-            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6258",
             "new_since": "2025-10-17T20:33:00.108308"
         },
         {
@@ -141,11 +141,46 @@
             "new_since": "2025-10-22T09:53:49.866624"
         },
         {
-            "title": "Supervision de laboratoires – chimie",
+            "title": "Agente culturelle ou agent culturel Wolastoqey",
             "school": "Université de Moncton",
-            "date": "October 22, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2185442/universite-de-moncton-campus-d-edmundston-umce//edmundston-nb?utm_source=careerbeacon",
-            "new_since": "2025-10-22T22:52:10.738630"
+            "date": "2025-10-08",
+            "link": "https://www.careerbeacon.com/fr/emplois/2180089/universite-de-moncton-campus-d-edmundston-umce/agente-culturelle-ou-agent-culturel-wolastoqey/edmundston-nb?utm_source=careerbeacon",
+            "new_since": "2025-10-17T20:33:00.108308"
+        },
+        {
+            "title": "PROFESSEURE OU PROFESSEUR EN LINGUISTIQUE",
+            "school": "Université de Moncton",
+            "date": "2025-10-06",
+            "link": "https://www.careerbeacon.com/fr/emplois/2179898/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-linguistique/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-10-17T20:33:00.108308"
+        },
+        {
+            "title": "Direction générale de la Fondation Saint-Louis-Maillet",
+            "school": "Université de Moncton",
+            "date": "2025-10-16",
+            "link": "https://www.careerbeacon.com/fr/emplois/2183694/universite-de-moncton-campus-d-edmundston-umce/direction-generale-de-la-fondation-saint-louis-maillet/edmundston-nb?utm_source=careerbeacon",
+            "new_since": "2025-10-17T20:33:00.108308"
+        },
+        {
+            "title": "PROFESSEURE ou PROFESSEUR EN DIDACTIQUE DU FRANÇAIS",
+            "school": "Université de Moncton",
+            "date": "2025-10-06",
+            "link": "https://www.careerbeacon.com/fr/emplois/2179912/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-didactique-du-francais/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-10-17T20:33:00.108308"
+        },
+        {
+            "title": "Professeure ou professeur en environnement forestier",
+            "school": "Université de Moncton",
+            "date": "2025-10-01",
+            "link": "https://www.careerbeacon.com/fr/emplois/2179335/universite-de-moncton-campus-d-edmundston-umce/professeure-ou-professeur-en-environnement-forestier/edmundston-nb?utm_source=careerbeacon",
+            "new_since": "2025-10-17T20:33:00.108308"
+        },
+        {
+            "title": "Directrice ou directeur des services à la vie étudiante et du recrutement",
+            "school": "Université de Moncton",
+            "date": "2025-10-10",
+            "link": "https://www.careerbeacon.com/fr/emplois/2180246/universite-de-moncton-campus-de-shippagan-umcs/directrice-ou-directeur-des-services-a-la-vie-etudiante-et-du-recrutement/shippagan-nb?utm_source=careerbeacon",
+            "new_since": "2025-10-17T20:33:00.108308"
         },
         {
             "title": "Personne agente de recrutement international",
@@ -162,87 +197,10 @@
             "new_since": "2025-10-17T20:33:00.108308"
         },
         {
-            "title": "PROFESSEURE OU PROFESSEUR EN LINGUISTIQUE",
-            "school": "Université de Moncton",
-            "date": "2025-10-06",
-            "link": "https://www.careerbeacon.com/fr/emplois/2179898/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-linguistique/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "Professeure ou professeur en environnement forestier",
-            "school": "Université de Moncton",
-            "date": "2025-10-01",
-            "link": "https://www.careerbeacon.com/fr/emplois/2179335/universite-de-moncton-campus-d-edmundston-umce/professeure-ou-professeur-en-environnement-forestier/edmundston-nb?utm_source=careerbeacon",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "Agente culturelle ou agent culturel Wolastoqey",
-            "school": "Université de Moncton",
-            "date": "2025-10-08",
-            "link": "https://www.careerbeacon.com/fr/emplois/2180089/universite-de-moncton-campus-d-edmundston-umce/agente-culturelle-ou-agent-culturel-wolastoqey/edmundston-nb?utm_source=careerbeacon",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "PROFESSEURE OU PROFESSEUR EN HISTOIRE DE L’ATLANTIQUE FRANÇAIS À L’ÉPOQUE COLONIALE",
-            "school": "Université de Moncton",
-            "date": "2025-10-06",
-            "link": "https://www.careerbeacon.com/fr/emplois/2179909/universite-de-moncton-campus-de-moncton-umcm//moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-10-18T22:51:57.842512"
-        },
-        {
-            "title": "SECRÉTAIRE DE DIRECTION, Faculté des études supérieures et de la recherche (FESR)",
-            "school": "Université de Moncton",
-            "date": "October 22, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2185298/universite-de-moncton/secretaire-de-direction-faculte-des-etudes-superieures-et-de-la-recherche-fesr/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-10-22T22:52:10.738630"
-        },
-        {
-            "title": "SPÉCIALISTE DE LA PAIE",
-            "school": "Université de Moncton",
-            "date": "October 22, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2185287/universite-de-moncton/specialiste-de-la-paie/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-10-22T09:53:49.866624"
-        },
-        {
             "title": "PROFESSEURE OU PROFESSEUR EN BIOLOGIE MARINE",
             "school": "Université de Moncton",
             "date": "2025-10-07",
             "link": "https://www.careerbeacon.com/fr/emplois/2179975/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-biologie-marine/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "Directrice ou directeur des services à la vie étudiante et du recrutement",
-            "school": "Université de Moncton",
-            "date": "2025-10-10",
-            "link": "https://www.careerbeacon.com/fr/emplois/2180246/universite-de-moncton-campus-de-shippagan-umcs/directrice-ou-directeur-des-services-a-la-vie-etudiante-et-du-recrutement/shippagan-nb?utm_source=careerbeacon",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "PROFESSEURE ou PROFESSEUR EN DIDACTIQUE DU FRANÇAIS",
-            "school": "Université de Moncton",
-            "date": "2025-10-06",
-            "link": "https://www.careerbeacon.com/fr/emplois/2179912/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-didactique-du-francais/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "PROFESSEURE ou PROFESSEUR EN AUDIT avec possibilité de bourse de recrutement*",
-            "school": "Université de Moncton",
-            "date": "2025-10-10",
-            "link": "https://www.careerbeacon.com/fr/emplois/2180425/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-audit-avec-possibilite-de-bourse-de-recrutement/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "PROFESSEURE OU PROFESSEUR EN GÉOGRAPHIE DE L’ENVIRONNEMENT",
-            "school": "Université de Moncton",
-            "date": "2025-10-06",
-            "link": "https://www.careerbeacon.com/fr/emplois/2179910/universite-de-moncton-campus-de-moncton-umcm//moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-10-18T22:51:57.842512"
-        },
-        {
-            "title": "Personne coordonnatrice des affaires décanales",
-            "school": "Université de Moncton",
-            "date": "2025-10-10",
-            "link": "https://www.careerbeacon.com/fr/emplois/2180407/universite-de-moncton-campus-de-shippagan-umcs/personne-coordonnatrice-des-affaires-decanales/shippagan-nb?utm_source=careerbeacon",
             "new_since": "2025-10-17T20:33:00.108308"
         },
         {
@@ -253,11 +211,39 @@
             "new_since": "2025-10-17T20:33:00.108308"
         },
         {
-            "title": "Direction générale de la Fondation Saint-Louis-Maillet",
+            "title": "SECRÉTAIRE DE DIRECTION, Faculté des études supérieures et de la recherche (FESR)",
             "school": "Université de Moncton",
-            "date": "2025-10-16",
-            "link": "https://www.careerbeacon.com/fr/emplois/2183694/universite-de-moncton-campus-d-edmundston-umce/direction-generale-de-la-fondation-saint-louis-maillet/edmundston-nb?utm_source=careerbeacon",
-            "new_since": "2025-10-17T20:33:00.108308"
+            "date": "October 22, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2185298/universite-de-moncton/secretaire-de-direction-faculte-des-etudes-superieures-et-de-la-recherche-fesr/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-10-22T22:52:10.738630"
+        },
+        {
+            "title": "PROFESSEURE OU PROFESSEUR EN GÉOGRAPHIE DE L’ENVIRONNEMENT",
+            "school": "Université de Moncton",
+            "date": "2025-10-06",
+            "link": "https://www.careerbeacon.com/fr/emplois/2179910/universite-de-moncton-campus-de-moncton-umcm//moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-10-18T22:51:57.842512"
+        },
+        {
+            "title": "PROFESSEURE OU PROFESSEUR EN HISTOIRE DE L’ATLANTIQUE FRANÇAIS À L’ÉPOQUE COLONIALE",
+            "school": "Université de Moncton",
+            "date": "2025-10-06",
+            "link": "https://www.careerbeacon.com/fr/emplois/2179909/universite-de-moncton-campus-de-moncton-umcm//moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-10-18T22:51:57.842512"
+        },
+        {
+            "title": "SPÉCIALISTE DE LA PAIE",
+            "school": "Université de Moncton",
+            "date": "October 22, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2185287/universite-de-moncton/specialiste-de-la-paie/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-10-22T09:53:49.866624"
+        },
+        {
+            "title": "Supervision de laboratoires – chimie",
+            "school": "Université de Moncton",
+            "date": "October 22, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2185442/universite-de-moncton-campus-d-edmundston-umce//edmundston-nb?utm_source=careerbeacon",
+            "new_since": "2025-10-22T22:52:10.738630"
         },
         {
             "title": "PROFESSEURE OU PROFESSEUR EN SCIENCE POLITIQUE",
@@ -265,6 +251,20 @@
             "date": "October 20, 2025",
             "link": "https://www.careerbeacon.com/fr/emplois/2185022/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-science-politique/moncton-nb?utm_source=careerbeacon",
             "new_since": "2025-10-20T22:52:10.000823"
+        },
+        {
+            "title": "Personne coordonnatrice des affaires décanales",
+            "school": "Université de Moncton",
+            "date": "2025-10-10",
+            "link": "https://www.careerbeacon.com/fr/emplois/2180407/universite-de-moncton-campus-de-shippagan-umcs/personne-coordonnatrice-des-affaires-decanales/shippagan-nb?utm_source=careerbeacon",
+            "new_since": "2025-10-17T20:33:00.108308"
+        },
+        {
+            "title": "PROFESSEURE ou PROFESSEUR EN AUDIT avec possibilité de bourse de recrutement*",
+            "school": "Université de Moncton",
+            "date": "2025-10-10",
+            "link": "https://www.careerbeacon.com/fr/emplois/2180425/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-audit-avec-possibilite-de-bourse-de-recrutement/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-10-17T20:33:00.108308"
         },
         {
             "title": "NEW GRAD OPPORTUNITY – JUNIOR LOGISTICS COORDINATOR – TREALMONT TRADE LANE – MISSISSAUGA, ON",
@@ -286,6 +286,20 @@
             "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/new-grad-opportunity-management-trainee-enterprise-mobility-various-locations-atlantic-canada/",
             "date": "October 17th, 2025",
             "new_since": "2025-10-17T20:33:00.108308"
+        },
+        {
+            "title": "RECENT OR POTENTIAL GRADS: VARIOUS OPPORTUNITIES, BRUCE POWER",
+            "school": "Cape Breton University",
+            "date": "October 24th, 2025",
+            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/recent-or-potential-grads-various-opportunities-bruce-power/",
+            "new_since": "2025-10-24T22:52:06.731121"
+        },
+        {
+            "title": "RECENT OR POTENTIAL GRADS: VARIOUS OPPORTUNITIES, MOOG",
+            "school": "Cape Breton University",
+            "date": "October 24th, 2025",
+            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/recent-or-potential-grads-various-opportunities-moog/",
+            "new_since": "2025-10-24T22:52:06.731121"
         },
         {
             "title": "WINTER 2026 – CONTINUOUS IMPROVEMENT STUDENT – TRANSPORTATION AND LOGISTICS DIVISIONAL SERVICES – J.D. IRVING – SAINT JOHN, NB",
@@ -337,17 +351,94 @@
             "new_since": "2025-10-17T20:33:00.108308"
         },
         {
+            "title": "Research Assistant",
+            "school": "Dalhousie University",
+            "date": "October 24th, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/19818",
+            "new_since": "2025-10-24T22:52:06.731121"
+        },
+        {
+            "title": "Clinical Psychologist (Instructor)",
+            "school": "Dalhousie University",
+            "date": "October 24th, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/19815",
+            "new_since": "2025-10-24T22:52:06.731121"
+        },
+        {
+            "title": "Part-Time Academic (Organizational Theory COMM 3320) Winter 2026",
+            "school": "Dalhousie University",
+            "date": "October 24th, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/19814",
+            "new_since": "2025-10-24T22:52:06.731121"
+        },
+        {
+            "title": "Part-Time Academic (Intro to Organizational Behaviour COMM 2303) Winter 2026",
+            "school": "Dalhousie University",
+            "date": "October 24th, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/19813",
+            "new_since": "2025-10-24T22:52:06.731121"
+        },
+        {
+            "title": "Part-Time Academic (Finance 1 - Online Asynchronous COMM 2202) Winter 2026",
+            "school": "Dalhousie University",
+            "date": "October 24th, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/19812",
+            "new_since": "2025-10-24T22:52:06.731121"
+        },
+        {
+            "title": "Part-Time Academic (Cost Management COMM 3116) - Winter 2026",
+            "school": "Dalhousie University",
+            "date": "October 24th, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/19811",
+            "new_since": "2025-10-24T22:52:06.731121"
+        },
+        {
+            "title": "Research Grants Administrator",
+            "school": "Dalhousie University",
+            "date": "October 24th, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/19810",
+            "new_since": "2025-10-24T22:52:06.731121"
+        },
+        {
+            "title": "Project Manager",
+            "school": "Dalhousie University",
+            "date": "October 24th, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/19806",
+            "new_since": "2025-10-24T22:52:06.731121"
+        },
+        {
+            "title": "Business Analyst",
+            "school": "Dalhousie University",
+            "date": "October 24th, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/19805",
+            "new_since": "2025-10-24T22:52:06.731121"
+        },
+        {
+            "title": "Change Management Consultant",
+            "school": "Dalhousie University",
+            "date": "October 24th, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/19804",
+            "new_since": "2025-10-24T22:52:06.731121"
+        },
+        {
+            "title": "Education Advisor, Sexualized Violence",
+            "school": "Dalhousie University",
+            "date": "October 24th, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/19803",
+            "new_since": "2025-10-24T22:52:06.731121"
+        },
+        {
             "title": "Research Associate (Internal Posting)",
             "school": "Dalhousie University",
-            "date": "October 22nd, 2025",
             "link": "https://dal.peopleadmin.ca/postings/19799",
+            "date": "October 22nd, 2025",
             "new_since": "2025-10-22T22:52:10.738630"
         },
         {
             "title": "Director, Strategy and Operations",
             "school": "Dalhousie University",
-            "date": "October 22nd, 2025",
             "link": "https://dal.peopleadmin.ca/postings/19798",
+            "date": "October 22nd, 2025",
             "new_since": "2025-10-22T22:52:10.738630"
         },
         {
@@ -610,34 +701,6 @@
             "new_since": "2025-10-20T22:52:10.000823"
         },
         {
-            "title": "Software Developer",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/19735",
-            "date": "October 17th, 2025",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "Research Grants Administrator",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/19734",
-            "date": "October 17th, 2025",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "Custodian - Agricultural Campus",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/19733",
-            "date": "October 17th, 2025",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "Custodian - Agricultural Campus",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/19732",
-            "date": "October 17th, 2025",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
             "title": "Project Coordinator",
             "school": "Dalhousie University",
             "link": "https://dal.peopleadmin.ca/postings/19731",
@@ -659,20 +722,6 @@
             "new_since": "2025-10-17T20:33:00.108308"
         },
         {
-            "title": "Senior Manager, Dal Innovates (Internal Posting)",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/19727",
-            "date": "October 17th, 2025",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "Steamfitter",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/19720",
-            "date": "October 17th, 2025",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
             "title": "Vice-President, Research and Innovation",
             "school": "Dalhousie University",
             "link": "https://dal.peopleadmin.ca/postings/19703",
@@ -683,13 +732,6 @@
             "title": "Research Fellow",
             "school": "Dalhousie University",
             "link": "https://dal.peopleadmin.ca/postings/19696",
-            "date": "October 17th, 2025",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "Clinical Psychologist (Instructor)",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/19695",
             "date": "October 17th, 2025",
             "new_since": "2025-10-17T20:33:00.108308"
         },
@@ -862,13 +904,6 @@
             "new_since": "2025-10-17T20:33:00.108308"
         },
         {
-            "title": "Personne de résidence",
-            "school": "Université Sainte-Anne",
-            "link": "https://www.usainteanne.ca/offres-demploi/sa2025-21",
-            "date": "1698-10-17T00:00:00",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
             "title": "Enseignant/Enseignante de français langue seconde",
             "school": "Université Sainte-Anne",
             "link": "https://www.usainteanne.ca/offres-demploi/sa2303-02",
@@ -881,6 +916,20 @@
             "date": "October 22nd, 2025",
             "link": "https://ukings.ca/campus-community/employment/payroll-benefits-administrator/",
             "new_since": "2025-10-22T22:52:10.740620"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Sessional Instructor - Faculty of Arts - Department of Island Studies - Winter 2026",
+            "link": "https://www.upei.ca/hr/competition/124si25",
+            "date": "Closing date: 2025-11-07T00:00:00",
+            "new_since": "2025-10-24T22:52:06.731121"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "MTS Level 8 - Laboratory Technologist - Bacteriology - Diagnostic Services - Atlantic Veterinary College *Reposted*",
+            "link": "https://www.upei.ca/hr/competition/122e25r6",
+            "date": "Closing date: 2025-10-30T00:00:00",
+            "new_since": "2025-10-24T22:52:06.731121"
         },
         {
             "school": "University of Prince Edward Island",
@@ -901,20 +950,6 @@
             "title": "Shad Canada Program Director - Teaching and Learning Centre",
             "link": "https://www.upei.ca/hr/competition/00e25",
             "date": "Closing date: 2025-11-11T00:00:00",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "MTS Level 3 - Kennel Assistant (2 Positions) - Veterinary Teaching Hospital - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/181e25",
-            "date": "Closing date: 2025-10-22T00:00:00",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "ADS Level 5 - Administrative Assistant - Faculty of Sustainable Design Engineering",
-            "link": "https://www.upei.ca/hr/competition/209e25",
-            "date": "Closing date: 2025-10-22T00:00:00",
             "new_since": "2025-10-17T20:33:00.108308"
         },
         {
@@ -940,13 +975,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Student Assistant - Department of Applied Human Sciences - Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/125s25",
-            "date": "Closing date: 2025-10-23T00:00:00",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor- School of Mathematical and Computational Sciences - Faculty of Science - Winter 2026",
             "link": "https://www.upei.ca/hr/competition/122si25",
             "date": "Closing date: 2025-10-30T00:00:00",
@@ -968,13 +996,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Graduate Research Assistant (2 Positions) - Faculty of Education",
-            "link": "https://www.upei.ca/hr/competition/124s25",
-            "date": "Closing date: 2025-10-22T00:00:00",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructors - Department of Psychology - Faculty of Arts - Winter 2026 *Reposted*",
             "link": "https://www.upei.ca/hr/competition/95si25r",
             "date": "Closing date: 2025-10-28T00:00:00",
@@ -986,13 +1007,6 @@
             "link": "https://www.upei.ca/hr/competition/46a25",
             "date": "Closing date: 2025-11-04T00:00:00",
             "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "MTS Level 8 - Molecular Diagnostic Microbiology Technologist - Regional Diagnostic Virology Services (RVDS) - Diagnostic Services - Atlantic Veterinary College *Reposted*",
-            "link": "https://www.upei.ca/hr/competition/173e25r",
-            "date": "Closing date: 2025-10-22T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
         },
         {
             "school": "University of Prince Edward Island",
@@ -3571,10 +3585,38 @@
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
+            "title": "Food Service Worker I",
+            "school": "College of the North Atlantic",
+            "date": "2025-10-24T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17265&JobSiteId=2,4",
+            "new_since": "2025-10-24T22:52:06.736117"
+        },
+        {
+            "title": "Instructor, Veterinary Technician (DVM)",
+            "school": "College of the North Atlantic",
+            "date": "2025-10-23T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17426&JobSiteId=2,4",
+            "new_since": "2025-10-24T22:52:06.736117"
+        },
+        {
+            "title": "Instructor, Veterinary Technician (RVT)",
+            "school": "College of the North Atlantic",
+            "date": "2025-10-23T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17429&JobSiteId=2,4",
+            "new_since": "2025-10-24T22:52:06.736117"
+        },
+        {
             "title": "Instructor, Mining Engineering Technician",
             "school": "College of the North Atlantic",
             "date": "2025-08-14T00:00:00",
             "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=16970&JobSiteId=2,4",
+            "new_since": "2025-10-17T20:33:00.111323"
+        },
+        {
+            "title": "Instructor, Powerline Technician",
+            "school": "College of the North Atlantic",
+            "date": "2025-09-18T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17358&JobSiteId=2,4",
             "new_since": "2025-10-17T20:33:00.111323"
         },
         {
@@ -3585,24 +3627,17 @@
             "new_since": "2025-10-22T22:52:10.757620"
         },
         {
-            "title": "Instructor, Powerline Technician",
+            "title": "Utility Worker I",
             "school": "College of the North Atlantic",
-            "date": "2025-09-18T00:00:00",
-            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17358&JobSiteId=2,4",
-            "new_since": "2025-10-17T20:33:00.111323"
+            "date": "2025-10-21T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17386&JobSiteId=2,4",
+            "new_since": "2025-10-22T09:53:49.877619"
         },
         {
             "title": "Security Guard",
             "school": "College of the North Atlantic",
             "date": "2025-10-21T00:00:00",
             "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17422&JobSiteId=2,4",
-            "new_since": "2025-10-22T09:53:49.877619"
-        },
-        {
-            "title": "Utility Worker I",
-            "school": "College of the North Atlantic",
-            "date": "2025-10-21T00:00:00",
-            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17386&JobSiteId=2,4",
             "new_since": "2025-10-22T09:53:49.877619"
         },
         {
@@ -3648,13 +3683,6 @@
             "new_since": "2025-10-17T20:33:00.111323"
         },
         {
-            "title": "Food Service Worker I",
-            "school": "College of the North Atlantic",
-            "date": "2025-10-15T00:00:00",
-            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17401&JobSiteId=2,4",
-            "new_since": "2025-10-17T20:33:00.111323"
-        },
-        {
             "title": "Instructor, Academic Math",
             "school": "College of the North Atlantic",
             "date": "2025-10-15T00:00:00",
@@ -3666,13 +3694,6 @@
             "school": "College of the North Atlantic",
             "date": "2025-10-15T00:00:00",
             "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17404&JobSiteId=2,4",
-            "new_since": "2025-10-17T20:33:00.111323"
-        },
-        {
-            "title": "Clerk Typist III",
-            "school": "College of the North Atlantic",
-            "date": "2025-10-15T00:00:00",
-            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17380&JobSiteId=2,4",
             "new_since": "2025-10-17T20:33:00.111323"
         },
         {
@@ -3732,6 +3753,13 @@
             "new_since": "2025-10-17T20:33:00.111323"
         },
         {
+            "title": "Assistant Professor , Faculty of Education",
+            "school": "Mount St. Vincent University - Full Time",
+            "date": "2025-10-24T22:51:59.540438",
+            "link": "https://forms.msvu.ca/iframeforms/FacultyRecruitment/fulltime/positiondetail.asp?ID=498",
+            "new_since": "2025-10-24T22:52:06.736117"
+        },
+        {
             "title": "Assistant Professor , English Department",
             "school": "Mount St. Vincent University - Full Time",
             "date": "2025-10-17T20:32:48.093346",
@@ -3739,11 +3767,11 @@
             "new_since": "2025-10-17T20:33:00.111323"
         },
         {
-            "title": "Experience Ventures: Challenge / Hackathon Participant at Experience Ventures (30+ placements)",
+            "title": "Mi'kmaq Confederacy of PEI: Marine Projects Specialist",
             "school": "Holland College",
-            "date": "October 17th, 2025",
-            "link": "https://www.hollandcollege.com/jobfiles/challenge-hackathon-experience-ventures.html",
-            "new_since": "2025-10-17T20:33:00.111323"
+            "date": "October 24th, 2025",
+            "link": "https://www.hollandcollege.com/jobfiles/marine-projects-specialist-mcpei-oct22-2025.html",
+            "new_since": "2025-10-24T22:52:06.736117"
         },
         {
             "title": "McDonalds Restaurant: Crew Person",
@@ -3802,6 +3830,90 @@
             "new_since": "2025-10-17T20:33:00.111323"
         },
         {
+            "title": "Coordonnatrice ou coordonnateur à la formation en santé (Réadaptation pulmonaire)",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6775-077-Coordination-a-la-formation-en-sante-readaptation-pulmonaire.pdf",
+            "new_since": "2025-10-24T22:52:06.736117"
+        },
+        {
+            "title": "Campus de Dieppe, en mode hybride (télétravail et présentiel)",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6775-077-Coordination-a-la-formation-en-sante-readaptation-pulmonaire.pdf",
+            "new_since": "2025-10-24T22:52:06.736117"
+        },
+        {
+            "title": "novembre 7, 2025",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6775-077-Coordination-a-la-formation-en-sante-readaptation-pulmonaire.pdf",
+            "new_since": "2025-10-24T22:52:06.736117"
+        },
+        {
+            "title": "Coordonnatrice ou coordonnateur clinique à la formation en santé (Vieillir chez soi)",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6775-073-Coordination-clinique-a-la-formation-en-sante-Vieillir-chez-soi.pdf",
+            "new_since": "2025-10-24T22:52:06.736117"
+        },
+        {
+            "title": "À l’un des campus ou site associés du CCNB en mode hybride (télétravail et présentiel)",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6775-073-Coordination-clinique-a-la-formation-en-sante-Vieillir-chez-soi.pdf",
+            "new_since": "2025-10-24T22:52:06.736117"
+        },
+        {
+            "title": "novembre 7, 2025",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6775-073-Coordination-clinique-a-la-formation-en-sante-Vieillir-chez-soi.pdf",
+            "new_since": "2025-10-24T22:52:06.736117"
+        },
+        {
+            "title": "Coordonnatrice ou coordonnateur à la formation en santé (Projet Vieillir chez soi)",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6775-072-Coordination-formation-Sante-Vieillir-chez-soi.pdf",
+            "new_since": "2025-10-24T22:52:06.736117"
+        },
+        {
+            "title": "À l’un des campus ou site associés du CCNB en mode hybride (télétravail et présentiel)",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6775-072-Coordination-formation-Sante-Vieillir-chez-soi.pdf",
+            "new_since": "2025-10-24T22:52:06.737117"
+        },
+        {
+            "title": "novembre 7, 2025",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6775-072-Coordination-formation-Sante-Vieillir-chez-soi.pdf",
+            "new_since": "2025-10-24T22:52:06.737117"
+        },
+        {
+            "title": "COORDONNATRICE OU COORDONNATEUR EN GESTION DU CHANGEMENT",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6775-076-Coordination-en-gestion-du-changement.pdf",
+            "new_since": "2025-10-24T22:52:06.737117"
+        },
+        {
+            "title": "À un des sites associés du CCNB ou en télétravail",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6775-076-Coordination-en-gestion-du-changement.pdf",
+            "new_since": "2025-10-24T22:52:06.737117"
+        },
+        {
+            "title": "novembre 7, 2025",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6775-076-Coordination-en-gestion-du-changement.pdf",
+            "new_since": "2025-10-24T22:52:06.737117"
+        },
+        {
             "title": "MAGASINIÈRE OU MAGASINIER I",
             "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
             "date": "October 22nd, 2025",
@@ -3886,27 +3998,6 @@
             "new_since": "2025-10-22T09:53:49.878625"
         },
         {
-            "title": "Enseignante ou enseignant - Affaires",
-            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "October 17th, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/25-6775-068-Enseignant.e-Affaires.pdf",
-            "new_since": "2025-10-17T20:33:00.111323"
-        },
-        {
-            "title": "Enseignante ou enseignant - Affaires",
-            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "October 17th, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/25-6775-068-Enseignant.e-Affaires.pdf",
-            "new_since": "2025-10-17T20:33:00.111323"
-        },
-        {
-            "title": "Enseignante ou enseignant - Affaires",
-            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "October 17th, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/25-6775-068-Enseignant.e-Affaires.pdf",
-            "new_since": "2025-10-17T20:33:00.111323"
-        },
-        {
             "title": "Agente ou agent à la paie - Rémunération",
             "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
             "date": "October 17th, 2025",
@@ -3970,18 +4061,32 @@
             "new_since": "2025-10-17T20:33:00.111323"
         },
         {
-            "title": "MONITRICES OU MONITEURS DE STAGE – Soins infirmiers auxiliaires et Préposés aux soins aigus",
+            "title": "Enseignante ou enseignant – Secrétariat médical",
             "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "October 22nd, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/25-6775-075-APPEL-DINTERET-_-Moniteur.trice-de-stage-SIA-et-PSA-1.pdf",
-            "new_since": "2025-10-22T22:52:10.759624"
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6725-022-Appel-dinteret_Enseignant.e_secretariat-medical.pdf",
+            "new_since": "2025-10-24T22:52:06.737117"
+        },
+        {
+            "title": "Campus de Campbellton",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6725-022-Appel-dinteret_Enseignant.e_secretariat-medical.pdf",
+            "new_since": "2025-10-24T22:52:06.737117"
+        },
+        {
+            "title": "Enseignantes ou enseignants responsables de stage - SIA et PSA",
+            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6775-075-APPEL-DINTERET-_Enseignants.es_responsables_de-stage-SIA-et-PSA.pdf",
+            "new_since": "2025-10-24T22:52:06.737117"
         },
         {
             "title": "Campus de Bathurst, Campbellton, Dieppe, Edmundston et Péninsule acadienne, dans les milieux de stage des hôpitaux et établissements de soins longue durée",
             "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "October 22nd, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/25-6775-075-APPEL-DINTERET-_-Moniteur.trice-de-stage-SIA-et-PSA-1.pdf",
-            "new_since": "2025-10-22T22:52:10.759624"
+            "date": "October 24th, 2025",
+            "link": "https://ccnb.ca/wp-content/uploads/25-6775-075-APPEL-DINTERET-_Enseignants.es_responsables_de-stage-SIA-et-PSA.pdf",
+            "new_since": "2025-10-24T22:52:06.737117"
         },
         {
             "title": "RÉPARATRICE OU RÉPARATEUR D’ENTRETIEN I",
@@ -4037,13 +4142,6 @@
             "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
             "date": "October 17th, 2025",
             "link": "https://ccnb.ca/wp-content/uploads/APPEL-DINTERET-Surveillant.e-test-de-connaissances-du-francais-TCF-2.pdf",
-            "new_since": "2025-10-17T20:33:00.111323"
-        },
-        {
-            "title": "Surveillante ou surveillant de test de connaissances du français (TCF)",
-            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "October 17th, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/APPEL-DINTERET-Surveillant.e-test-de-connaissances-du-francais-TCF-1.pdf",
             "new_since": "2025-10-17T20:33:00.111323"
         },
         {
@@ -4124,5 +4222,5 @@
             "new_since": "2025-02-07T20:10:01.425779"
         }
     ],
-    "last_updated": "2025-10-22T22:52:10.759624"
+    "last_updated": "2025-10-24T22:52:06.737117"
 }
