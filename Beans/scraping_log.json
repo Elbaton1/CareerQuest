@@ -20598,5 +20598,434 @@
                 "new_since": "2025-10-28T22:51:58.180152"
             }
         ]
+    },
+    {
+        "timestamp": "2025-10-31T22:52:02.336624",
+        "new_jobs_count": 29,
+        "removed_jobs_count": 31,
+        "new_jobs": [
+            {
+                "title": "MAINTENANCE CARPENTER (BAND LEVEL 7)",
+                "school": "Memorial University",
+                "date": "2025-10-31T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6303",
+                "new_since": "2025-10-31T22:52:02.313617"
+            },
+            {
+                "title": "FACILITIES SERVICES TECHNICIAN (BAND LEVEL 3)",
+                "school": "Memorial University",
+                "date": "2025-10-31T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6300",
+                "new_since": "2025-10-31T22:52:02.313617"
+            },
+            {
+                "title": "RESEARCH COMPUTING SPECIALIST (BAND LEVEL 7)",
+                "school": "Memorial University",
+                "date": "2025-10-30T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6295",
+                "new_since": "2025-10-31T22:52:02.313617"
+            },
+            {
+                "title": "ADMINISTRATIVE STAFF SPECIALIST Ill (BAND LEVEL 8)",
+                "school": "Memorial University",
+                "date": "2025-10-30T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6291",
+                "new_since": "2025-10-31T22:52:02.313617"
+            },
+            {
+                "title": "TRAINING ASSISTANT (BAND LEVEL 4)",
+                "school": "Memorial University",
+                "date": "2025-10-30T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6289",
+                "new_since": "2025-10-31T22:52:02.313617"
+            },
+            {
+                "title": "Part-Time Position - Social Work",
+                "school": "St. Thomas University",
+                "date": "October 31st, 2025",
+                "link": "https://www.stu.ca/media/SCWK-6033-Sem-2-EXTERNAL.pdf",
+                "new_since": "2025-10-31T22:52:02.313617"
+            },
+            {
+                "title": "JOB FAIR: BRETON CRAFTHOUSE",
+                "school": "Cape Breton University",
+                "date": "October 31st, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/job-fair-breton-crafthouse/",
+                "new_since": "2025-10-31T22:52:02.313617"
+            },
+            {
+                "title": "SUMMER 2026 – CIVIL ENGINEERING STUDENT – GULF OPERATORS – SAINT JOHN, NB",
+                "school": "Cape Breton University",
+                "date": "October 31st, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-civil-engineering-student-gulf-operators-saint-john-nb/",
+                "new_since": "2025-10-31T22:52:02.314629"
+            },
+            {
+                "title": "SUMMER 2026 – ACCOUNTING STUDENT – J.D. IRVING CONSTRUCTION AND EQUIPMENT DIVISION – SAINT JOHN, NB",
+                "school": "Cape Breton University",
+                "date": "October 31st, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-accounting-student-j-d-irving-construction-and-equipment-division-saint-john-nb/",
+                "new_since": "2025-10-31T22:52:02.314629"
+            },
+            {
+                "title": "Electrician",
+                "school": "Dalhousie University",
+                "date": "October 31st, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19853",
+                "new_since": "2025-10-31T22:52:02.314629"
+            },
+            {
+                "title": "Admissions Coordinator",
+                "school": "Dalhousie University",
+                "date": "October 31st, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19851",
+                "new_since": "2025-10-31T22:52:02.314629"
+            },
+            {
+                "title": "Coordinator, Enrolment Service Hubs",
+                "school": "Dalhousie University",
+                "date": "October 31st, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19850",
+                "new_since": "2025-10-31T22:52:02.314629"
+            },
+            {
+                "title": "Program Review Officer",
+                "school": "Dalhousie University",
+                "date": "October 31st, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19849",
+                "new_since": "2025-10-31T22:52:02.314629"
+            },
+            {
+                "title": "Program Development Officer",
+                "school": "Dalhousie University",
+                "date": "October 31st, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19848",
+                "new_since": "2025-10-31T22:52:02.314629"
+            },
+            {
+                "title": "Academic Position in the Contemporary Studies Program (Part-time)",
+                "school": "University of King's College",
+                "date": "October 31st, 2025",
+                "link": "https://ukings.ca/campus-community/employment/ctmp-4002/",
+                "new_since": "2025-10-31T22:52:02.315618"
+            },
+            {
+                "title": "Academic Position in the Contemporary Studies Program (Part-time)",
+                "school": "University of King's College",
+                "date": "October 31st, 2025",
+                "link": "https://ukings.ca/campus-community/employment/ctmp3410/",
+                "new_since": "2025-10-31T22:52:02.315618"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "ADS Level 5 - Administrative Assistant - Department of Chemistry - Faculty of Science",
+                "link": "https://www.upei.ca/hr/competition/212e25",
+                "date": "Closing date: 2025-11-06T00:00:00",
+                "new_since": "2025-10-31T22:52:02.315618"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "MTS Level 6 – Registered Veterinary Technician (RVT) - Small Animal ICU Float - Rotating Overnight Schedule 4 On/4 Off - Veterinary Teaching Hospital - Atlantic Veterinary College",
+                "link": "https://www.upei.ca/hr/competition/213e25",
+                "date": "Closing date: 2025-11-23T00:00:00",
+                "new_since": "2025-10-31T22:52:02.315618"
+            },
+            {
+                "title": "Instructor, Heavy Equipment Operator",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-30T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17454&JobSiteId=2,4",
+                "new_since": "2025-10-31T22:52:02.319616"
+            },
+            {
+                "title": "Employment Services Officer (Client Services Officer)",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-30T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17455&JobSiteId=2,4",
+                "new_since": "2025-10-31T22:52:02.319616"
+            },
+            {
+                "title": "Clerk Typist III",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-30T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17458&JobSiteId=2,4",
+                "new_since": "2025-10-31T22:52:02.319616"
+            },
+            {
+                "title": "City of Summerside: Industrial Electrical Technician",
+                "school": "Holland College",
+                "date": "October 31st, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/industrial-electrical-technician-cityofsside-oct30-2025.html",
+                "new_since": "2025-10-31T22:52:02.320623"
+            },
+            {
+                "title": "Deerfield Pub/Glen Arbor Golf Course: Cook",
+                "school": "Holland College",
+                "date": "October 31st, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/cook-deerfield-pub-glen-arbour-golf-club-oct-30-25.html",
+                "new_since": "2025-10-31T22:52:02.320623"
+            },
+            {
+                "title": "Enseignante ou enseignant – cours connexes, commis comptable et paie",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 31st, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-024-Enseignant.e-Cours-connexes-commis-comptable-et-paie.pdf",
+                "new_since": "2025-10-31T22:52:02.321623"
+            },
+            {
+                "title": "Campus de Campbellton",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 31st, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-024-Enseignant.e-Cours-connexes-commis-comptable-et-paie.pdf",
+                "new_since": "2025-10-31T22:52:02.321623"
+            },
+            {
+                "title": "Enseignante ou enseignant – Réseautique et sécurité informatique",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 31st, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6765-034-Enseignant.e-Reseautique-et-securite-informatique-1.pdf",
+                "new_since": "2025-10-31T22:52:02.321623"
+            },
+            {
+                "title": "Campus de Dieppe",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 31st, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6765-034-Enseignant.e-Reseautique-et-securite-informatique-1.pdf",
+                "new_since": "2025-10-31T22:52:02.321623"
+            },
+            {
+                "title": "Agente ou agent d’ingénierie pédagogique",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 31st, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-061-Agent.e-dingenierie-pedagogique-2e-aff.pdf",
+                "new_since": "2025-10-31T22:52:02.321623"
+            },
+            {
+                "title": "à l’un des sites du CCNB ou en télétravail",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 31st, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-061-Agent.e-dingenierie-pedagogique-2e-aff.pdf",
+                "new_since": "2025-10-31T22:52:02.321623"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "PROGRAM MANAGER (BAND LEVEL 8)",
+                "school": "Memorial University",
+                "date": "2025-10-17T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6272",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "CRAFTSPERSON II, MILLWRIGHT (BAND LEVEL 6)",
+                "school": "Memorial University",
+                "date": "2025-10-16T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6269",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "FINANCIAL ANALYST (BAND LEVEL 7)",
+                "school": "Memorial University",
+                "date": "2025-10-16T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6266",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "INSTRUCTOR (MARINE ENGINEERING)",
+                "school": "Memorial University",
+                "date": "2025-09-22T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6219",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Biological Sciences Technician PL6",
+                "school": "University of New Brunswick",
+                "date": "October 29th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/biological-sciences-technician-pl6/2185790?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2185790&utm_term=jobtitle",
+                "new_since": "2025-10-29T22:51:46.381936"
+            },
+            {
+                "title": "Technology Systems Coordinator and SIM Lab Technician",
+                "school": "University of New Brunswick",
+                "date": "October 29th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/technology-systems-coordinator-and-sim-lab-technician/2184683?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2184683&utm_term=jobtitle",
+                "new_since": "2025-10-29T22:51:46.381936"
+            },
+            {
+                "title": "Agente culturelle ou agent culturel Wolastoqey",
+                "school": "Université de Moncton",
+                "date": "2025-10-08",
+                "link": "https://www.careerbeacon.com/fr/emplois/2180089/universite-de-moncton-campus-d-edmundston-umce/agente-culturelle-ou-agent-culturel-wolastoqey/edmundston-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "SUMMER 2026 – BUSINESS STUDENT – TRANSPORTATION AND LOGISTICS DIVISIONAL SERVICES – J.D. IRVING – SAINT JOHN, NB",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-business-student-transportation-and-logistics-divisional-services-j-d-irving-saint-john-nb/",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Research Associate (Internal Posting)",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19799",
+                "date": "October 22nd, 2025",
+                "new_since": "2025-10-22T22:52:10.738630"
+            },
+            {
+                "title": "Project Manager",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19786",
+                "date": "October 22nd, 2025",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Program Review Officer",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19783",
+                "date": "October 22nd, 2025",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Program Development Officer",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19782",
+                "date": "October 22nd, 2025",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "MTS Level 8 - Laboratory Technologist - Bacteriology - Diagnostic Services - Atlantic Veterinary College *Reposted*",
+                "link": "https://www.upei.ca/hr/competition/122e25r6",
+                "date": "Closing date: 2025-10-30T00:00:00",
+                "new_since": "2025-10-24T22:52:06.731121"
+            },
+            {
+                "title": "Economic Development Officer (Mining Network Development Officer)",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-22T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17406&JobSiteId=2,4",
+                "new_since": "2025-10-22T22:52:10.757620"
+            },
+            {
+                "title": "Security Guard",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-21T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17422&JobSiteId=2,4",
+                "new_since": "2025-10-22T09:53:49.877619"
+            },
+            {
+                "title": "Instructor, Academic Math",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-15T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17403&JobSiteId=2,4",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "Instructor, Academic Biology",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-15T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17404&JobSiteId=2,4",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "Instructor, Academic Chemistry",
+                "school": "College of the North Atlantic",
+                "date": "2025-08-26T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17241&JobSiteId=2,4",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "Assistant or Associate Professor, Department of Aging and Family Science",
+                "school": "Mount St. Vincent University - Full Time",
+                "date": "2025-10-17T20:32:48.080336",
+                "link": "https://forms.msvu.ca/iframeforms/FacultyRecruitment/fulltime/positiondetail.asp?ID=502",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "Mi'kmaq Confederacy of PEI: Marine Projects Specialist",
+                "school": "Holland College",
+                "date": "October 24th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/marine-projects-specialist-mcpei-oct22-2025.html",
+                "new_since": "2025-10-24T22:52:06.736117"
+            },
+            {
+                "title": "McDonalds Restaurant: Crew Person",
+                "school": "Holland College",
+                "date": "October 17th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/crew-person-mcdonalds-restaurant-sept23-2025.html",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "FOG Organics: Production Technician",
+                "school": "Holland College",
+                "date": "October 17th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/production-technician-fog-organics-sept9-2025.html",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "CONCIERGE I",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-018-Concierge-1.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "CONCIERGE I",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-018-Concierge-1.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "CONCIERGE I",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-018-Concierge-1.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "Doyenne ou doyen - École des TIC, technologies et du transport",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-067-Doyenne-ou-doyen-Ecole-des-TIC_Technologies_Transport.pdf",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "Doyenne ou doyen - École des TIC, technologies et du transport",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-067-Doyenne-ou-doyen-Ecole-des-TIC_Technologies_Transport.pdf",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "Doyenne ou doyen - École des TIC, technologies et du transport",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-067-Doyenne-ou-doyen-Ecole-des-TIC_Technologies_Transport.pdf",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "Doyenne ou doyen - École des métiers",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-066-Doyenne-ou-doyen-Ecole-des-metiers.pdf",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "Doyenne ou doyen - École des métiers",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-066-Doyenne-ou-doyen-Ecole-des-metiers.pdf",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "Doyenne ou doyen - École des métiers",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-066-Doyenne-ou-doyen-Ecole-des-metiers.pdf",
+                "new_since": "2025-10-17T20:33:00.111323"
+            }
+        ]
     }
 ]
