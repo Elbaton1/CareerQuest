@@ -21280,5 +21280,27 @@
                 "new_since": "2025-10-17T20:33:00.111323"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-02T22:51:48.397705",
+        "new_jobs_count": 0,
+        "removed_jobs_count": 2,
+        "new_jobs": [],
+        "removed_jobs": [
+            {
+                "title": "CONSEILLÈRE ou CONSEILLER EN ACQUISITION DE TALENTS, Service des ressources humaines",
+                "school": "Université de Moncton",
+                "date": "2025-10-15",
+                "link": "https://www.careerbeacon.com/fr/emplois/2180093/universite-de-moncton/conseillere-ou-conseiller-en-acquisition-de-talents-service-des-ressources-humaines/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Food Service Worker I",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-24T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17265&JobSiteId=2,4",
+                "new_since": "2025-10-24T22:52:06.736117"
+            }
+        ]
     }
 ]
