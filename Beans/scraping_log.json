@@ -21535,5 +21535,196 @@
                 "new_since": "2025-10-22T09:53:49.878625"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-04T22:51:47.300239",
+        "new_jobs_count": 8,
+        "removed_jobs_count": 18,
+        "new_jobs": [
+            {
+                "title": "Part-Time Academic (MUSC 4367/5367.03 Topics in Musicology II) - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "November 4th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19869",
+                "new_since": "2025-11-04T22:51:47.279156"
+            },
+            {
+                "title": "Part-Time Academic (BUSI 5004: Personal and Professional Effectiveness II) Winter 2026",
+                "school": "Dalhousie University",
+                "date": "November 4th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19868",
+                "new_since": "2025-11-04T22:51:47.279156"
+            },
+            {
+                "title": "Part-Time Academic (MGMT 5250 – Strategic Financial Management) Winter 2026",
+                "school": "Dalhousie University",
+                "date": "November 4th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19867",
+                "new_since": "2025-11-04T22:51:47.279156"
+            },
+            {
+                "title": "Part-Time Academic (INFO 6100 – Information in Public Policy & Decision-Making) Winter 2026",
+                "school": "Dalhousie University",
+                "date": "November 4th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19866",
+                "new_since": "2025-11-04T22:51:47.279156"
+            },
+            {
+                "title": "Superviseure/Superviseur aquatique",
+                "school": "Université Sainte-Anne",
+                "date": "2025-11-06T00:00:00",
+                "link": "https://www.usainteanne.ca/offres-demploi/sa2025-36",
+                "new_since": "2025-11-04T22:51:47.279156"
+            },
+            {
+                "title": "Enseignante ou enseignant, Compétences essentielles au secondaire pour adultes",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "November 4th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6765-036-Enseignant.e-Competences-essentielles-secondaire-aux-adultes.pdf",
+                "new_since": "2025-11-04T22:51:47.285158"
+            },
+            {
+                "title": "Campus de Dieppe",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "November 4th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6765-036-Enseignant.e-Competences-essentielles-secondaire-aux-adultes.pdf",
+                "new_since": "2025-11-04T22:51:47.285158"
+            },
+            {
+                "title": "novembre 19, 2025",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "November 4th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6765-036-Enseignant.e-Competences-essentielles-secondaire-aux-adultes.pdf",
+                "new_since": "2025-11-04T22:51:47.285158"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "PROJECT TECHNOLOGIST (OCEAN TECHNOLOGY)",
+                "school": "Memorial University",
+                "date": "2025-10-21T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6274",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "GESTIONNAIRE DU SERVICE DE LA PAIE",
+                "school": "Université de Moncton",
+                "date": "October 22, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2185204/universite-de-moncton/gestionnaire-du-service-de-la-paie/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Direction générale de la Fondation Saint-Louis-Maillet",
+                "school": "Université de Moncton",
+                "date": "2025-10-16",
+                "link": "https://www.careerbeacon.com/fr/emplois/2183694/universite-de-moncton-campus-d-edmundston-umce/direction-generale-de-la-fondation-saint-louis-maillet/edmundston-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Part-Time Academic (Organizational Theory COMM 3320) Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19814",
+                "date": "October 24th, 2025",
+                "new_since": "2025-10-24T22:52:06.731121"
+            },
+            {
+                "title": "Part-Time Academic (Intro to Organizational Behaviour COMM 2303) Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19813",
+                "date": "October 24th, 2025",
+                "new_since": "2025-10-24T22:52:06.731121"
+            },
+            {
+                "title": "Part-Time Academic (Finance 1 - Online Asynchronous COMM 2202) Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19812",
+                "date": "October 24th, 2025",
+                "new_since": "2025-10-24T22:52:06.731121"
+            },
+            {
+                "title": "Part-Time Academic (Cost Management COMM 3116) - Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19811",
+                "date": "October 24th, 2025",
+                "new_since": "2025-10-24T22:52:06.731121"
+            },
+            {
+                "title": "Research Grants Administrator",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19810",
+                "date": "October 24th, 2025",
+                "new_since": "2025-10-24T22:52:06.731121"
+            },
+            {
+                "title": "2nd Class Refrigeration & Rink Operator",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19768",
+                "date": "October 22nd, 2025",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Research Coordinator",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19746",
+                "date": "October 20th, 2025",
+                "new_since": "2025-10-20T22:52:10.000823"
+            },
+            {
+                "title": "Facilitator, Fujian Agricultural and Forestry University International College",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19744",
+                "date": "October 20th, 2025",
+                "new_since": "2025-10-20T22:52:10.000823"
+            },
+            {
+                "title": "Project Coordinator",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19731",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Research Fellow",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19696",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Service Worker - Department of Facilities Management *Repost*",
+                "link": "https://www.upei.ca/hr/competition/77e25r",
+                "date": "Closing date: 2025-11-03T00:00:00",
+                "new_since": "2025-10-28T22:51:58.180152"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "MTS Level 6 – Registered Veterinary Technician Small Animal ICU / Float - Days, 4 On/4 Off *REPOSTED*",
+                "link": "https://www.upei.ca/hr/competition/65e25r3",
+                "date": "Closing date: 2025-11-03T00:00:00",
+                "new_since": "2025-10-20T22:52:10.001819"
+            },
+            {
+                "title": "Mi'kmaq Confederacy of PEI: Receptionist/Administrative Assistant",
+                "school": "Holland College",
+                "date": "October 28th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/receptionist-admin-mcpei-oct27-2025.html",
+                "new_since": "2025-10-28T22:51:58.187143"
+            },
+            {
+                "title": "Adjointe administrative ou adjoint administratif - Réception",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6765-031-Appel-dinteret-Adjoint.e-adminstrative.if-reception.pdf",
+                "new_since": "2025-10-17T20:33:00.111323"
+            },
+            {
+                "title": "Concierge I",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6765-028-Appel-dinteret-_-Concierge-I.pdf",
+                "new_since": "2025-10-17T20:33:00.111323"
+            }
+        ]
     }
 ]
