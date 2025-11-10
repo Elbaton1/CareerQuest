@@ -22078,5 +22078,637 @@
                 "new_since": "2025-10-28T22:51:58.187143"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-09T22:51:48.962125",
+        "new_jobs_count": 18,
+        "removed_jobs_count": 71,
+        "new_jobs": [
+            {
+                "title": "WELDER II (BAND LEVEL 6)",
+                "school": "Memorial University",
+                "date": "2025-11-06T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6319",
+                "new_since": "2025-11-09T22:51:48.940869"
+            },
+            {
+                "title": "Administrative Temp Opportunities",
+                "school": "University of New Brunswick",
+                "date": "November 9th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-temp-opportunities/1953773?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=1953773&utm_term=jobtitle",
+                "new_since": "2025-11-09T22:51:48.940869"
+            },
+            {
+                "title": "Administrative Temp Opportunities",
+                "school": "University of New Brunswick",
+                "date": "November 9th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-temp-opportunities/1902601?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=1902601&utm_term=jobtitle",
+                "new_since": "2025-11-09T22:51:48.940869"
+            },
+            {
+                "title": "WINTER 2026 – HEALTH AND SAFETY CO-OP – GFL ENVIRONMENTAL – VAUGHAN, ONTARIO",
+                "school": "Cape Breton University",
+                "date": "November 9th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/winter-2026-health-and-safety-co-op-gfl-environmental-vaughan-ontario/",
+                "new_since": "2025-11-09T22:51:48.940869"
+            },
+            {
+                "title": "RECENT OR POTENTIAL GRADS: COUNSELLOR 2 (A) ACCESS SUPPORT WORKER",
+                "school": "Cape Breton University",
+                "date": "November 9th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/recent-or-potential-grads-counsellor-2-a-access-support-worker/",
+                "new_since": "2025-11-09T22:51:48.940869"
+            },
+            {
+                "title": "Utility Service Person HVAC",
+                "school": "Dalhousie University",
+                "date": "November 9th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19884",
+                "new_since": "2025-11-09T22:51:48.940869"
+            },
+            {
+                "title": "Electrician",
+                "school": "Dalhousie University",
+                "date": "November 9th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19882",
+                "new_since": "2025-11-09T22:51:48.940869"
+            },
+            {
+                "title": "Data Acquisition Coordinator",
+                "school": "Dalhousie University",
+                "date": "November 9th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19880",
+                "new_since": "2025-11-09T22:51:48.940869"
+            },
+            {
+                "title": "Administrative Assistant",
+                "school": "Dalhousie University",
+                "date": "November 9th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19878",
+                "new_since": "2025-11-09T22:51:48.940869"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Research Assistant (Up to 2 Positions) - Faculty of Arts and School of Climate Change and Adaptation",
+                "link": "https://www.upei.ca/hr/competition/129s25",
+                "date": "Closing date: 2025-11-13T00:00:00",
+                "new_since": "2025-11-09T22:51:48.940869"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "ADS Level 6 - Data Control and Banking Clerk - Financial Services Office",
+                "link": "https://www.upei.ca/hr/competition/214e25",
+                "date": "Closing date: 2025-11-13T00:00:00",
+                "new_since": "2025-11-09T22:51:48.940869"
+            },
+            {
+                "title": "Food Service Worker I",
+                "school": "College of the North Atlantic",
+                "date": "2025-11-07T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17265&JobSiteId=2,4",
+                "new_since": "2025-11-09T22:51:48.947863"
+            },
+            {
+                "title": "Administrative Officer I",
+                "school": "College of the North Atlantic",
+                "date": "2025-11-07T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17326&JobSiteId=2,4",
+                "new_since": "2025-11-09T22:51:48.947863"
+            },
+            {
+                "title": "Clerk III",
+                "school": "College of the North Atlantic",
+                "date": "2025-11-07T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17472&JobSiteId=2,4",
+                "new_since": "2025-11-09T22:51:48.947863"
+            },
+            {
+                "title": "Mi'kmaq Confederacy of PEI: Family Group Conference Facilitator / Cultural Advisor",
+                "school": "Holland College",
+                "date": "November 9th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/fam-group-conference-facilitator-mcpei-nov5-2025.html",
+                "new_since": "2025-11-09T22:51:48.948877"
+            },
+            {
+                "title": "Interior Health: Rehabilitation Assistant",
+                "school": "Holland College",
+                "date": "November 9th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/rehabassistant-interior-health-nov5-2025.html",
+                "new_since": "2025-11-09T22:51:48.948877"
+            },
+            {
+                "title": "COORDONNATRICE OU COORDONNATEUR DE L'APPRENTISSAGE EXPÉRIENTIEL",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "November 9th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-071-Coordonnateur.trice-de-lapprentissage-experientiel-1.pdf",
+                "new_since": "2025-11-09T22:51:48.948877"
+            },
+            {
+                "title": "À l'un des campus ou sites associés du CCNB avec possibilité de télétravail",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "November 9th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-071-Coordonnateur.trice-de-lapprentissage-experientiel-1.pdf",
+                "new_since": "2025-11-09T22:51:48.948877"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "RESIDENCE COORDINATOR",
+                "school": "Memorial University",
+                "date": "2025-10-24T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6281",
+                "new_since": "2025-10-24T22:52:06.730120"
+            },
+            {
+                "title": "Administrative Assistant (Secretary PL3)",
+                "school": "University of New Brunswick",
+                "date": "November 5th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-assistant-secretary-pl3/2188304?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2188304&utm_term=jobtitle",
+                "new_since": "2025-11-05T22:51:53.867214"
+            },
+            {
+                "title": "Alumni Engagement Coordinator",
+                "school": "University of New Brunswick",
+                "date": "November 5th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/alumni-engagement-coordinator/2188312?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2188312&utm_term=jobtitle",
+                "new_since": "2025-11-05T22:51:53.867214"
+            },
+            {
+                "title": "Project Manager, Accreditations & Strategic Initiatives",
+                "school": "University of New Brunswick",
+                "date": "October 29th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/project-manager-accreditations--strategic-initiatives/2186861?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2186861&utm_term=jobtitle",
+                "new_since": "2025-10-29T22:51:46.381936"
+            },
+            {
+                "title": "Industrial Mechanic",
+                "school": "University of New Brunswick",
+                "date": "October 29th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/industrial-mechanic/2159217?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2159217&utm_term=jobtitle",
+                "new_since": "2025-10-29T22:51:46.381936"
+            },
+            {
+                "title": "Shift Operator 1 (Third Class Power Engineer)",
+                "school": "University of New Brunswick",
+                "date": "October 29th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/shift-operator-1-third-class-power-engineer/2186673?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2186673&utm_term=jobtitle",
+                "new_since": "2025-10-29T22:51:46.381936"
+            },
+            {
+                "title": "Research Engineer in Training",
+                "school": "University of New Brunswick",
+                "date": "October 29th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/research-engineer-in-training/2186446?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2186446&utm_term=jobtitle",
+                "new_since": "2025-10-29T22:51:46.381936"
+            },
+            {
+                "title": "Director of Finance & Administration",
+                "school": "University of New Brunswick",
+                "date": "October 29th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/director-of-finance--administration/2185192?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2185192&utm_term=jobtitle",
+                "new_since": "2025-10-29T22:51:46.381936"
+            },
+            {
+                "title": "Project Coordinator",
+                "school": "University of New Brunswick",
+                "date": "October 29th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/project-coordinator/2184768?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2184768&utm_term=jobtitle",
+                "new_since": "2025-10-29T22:51:46.381936"
+            },
+            {
+                "title": "Executive Director, Startup Programs & Innovation Partnerships",
+                "school": "University of New Brunswick",
+                "date": "October 29th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/executive-director-startup-programs--innovation-partnerships/2171701?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2171701&utm_term=jobtitle",
+                "new_since": "2025-10-29T22:51:46.381936"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN LINGUISTIQUE",
+                "school": "Université de Moncton",
+                "date": "2025-10-06",
+                "link": "https://www.careerbeacon.com/fr/emplois/2179898/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-linguistique/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Conseillère ou conseiller à l'admission I",
+                "school": "Université de Moncton",
+                "date": "2025-10-09",
+                "link": "https://www.careerbeacon.com/fr/emplois/2179994/universite-de-moncton/conseillere-ou-conseiller-a-l-admission-i/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-29T22:51:46.381936"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN HISTOIRE DE L’ATLANTIQUE FRANÇAIS À L’ÉPOQUE COLONIALE",
+                "school": "Université de Moncton",
+                "date": "2025-10-06",
+                "link": "https://www.careerbeacon.com/fr/emplois/2179909/universite-de-moncton-campus-de-moncton-umcm//moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-18T22:51:57.842512"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN BIOLOGIE MARINE",
+                "school": "Université de Moncton",
+                "date": "2025-10-07",
+                "link": "https://www.careerbeacon.com/fr/emplois/2179975/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-biologie-marine/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Supervision de laboratoires – chimie",
+                "school": "Université de Moncton",
+                "date": "October 22, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2185442/universite-de-moncton-campus-d-edmundston-umce//edmundston-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-22T22:52:10.738630"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN GÉOGRAPHIE DE L’ENVIRONNEMENT",
+                "school": "Université de Moncton",
+                "date": "2025-10-06",
+                "link": "https://www.careerbeacon.com/fr/emplois/2179910/universite-de-moncton-campus-de-moncton-umcm//moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-18T22:51:57.842512"
+            },
+            {
+                "title": "PROFESSEURE ou PROFESSEUR EN DIDACTIQUE DU FRANÇAIS",
+                "school": "Université de Moncton",
+                "date": "2025-10-06",
+                "link": "https://www.careerbeacon.com/fr/emplois/2179912/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-didactique-du-francais/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "JOB FAIR: BRETON CRAFTHOUSE",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/job-fair-breton-crafthouse/",
+                "date": "October 31st, 2025",
+                "new_since": "2025-10-31T22:52:02.313617"
+            },
+            {
+                "title": "RECENT OR POTENTIAL GRADS: VARIOUS OPPORTUNITIES, MOOG",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/recent-or-potential-grads-various-opportunities-moog/",
+                "date": "October 24th, 2025",
+                "new_since": "2025-10-24T22:52:06.731121"
+            },
+            {
+                "title": "CAREER RELATED PROGRAM: STUDY AND STAY™ NOVA SCOTIA CAPSTONE PROGRAM",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/career-related-program-study-and-stay-nova-scotia-capstone-program/",
+                "date": "October 28th, 2025",
+                "new_since": "2025-10-28T22:51:58.179159"
+            },
+            {
+                "title": "WINTER 2026 – CONTINUOUS IMPROVEMENT STUDENT – TRANSPORTATION AND LOGISTICS DIVISIONAL SERVICES – J.D. IRVING – SAINT JOHN, NB",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/winter-2026-continuous-improvement-student-transportation-and-logistics-divisional-services-j-d-irving-saint-john-nb/",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "WINTER 2026 – DATA ANALYST STUDENT – UNIVERSAL TRUCK AND TRAILER – SAINT JOHN, NB",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/winter-2026-data-analyst-student-universal-truck-and-trailer-saint-john-nb/",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "WINTER 2026 – OPERATIONS ASSISTANT STUDENT – NBM RAILWAYS – SAINT JOHN, NB",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/winter-2026-operations-assistant-student-nbm-railways-saint-john-nb/",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "SUMMER 2026 – TREE PLANTERS – IRVING WOODLANDS – FREDERICTON, SUSSEX AND SAINT- LEONARD NB",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-tree-planters-irving-woodlands-fredericton-sussex-and-saint-leonard-nb/",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "SUMMER 2026 – TREE PLANTING CREW LEADER – IRVING WOODLANDS – VARIOUS LOCATIONS, NB",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-tree-planting-crew-leader-irving-woodlands-various-locations-nb/",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "NEW GRAD OPPORTUNITY – CHILD PROTECTION SOCIAL WORKER – OPPORTUNITIES AND SOCIAL DEVELOPMENT – HALIFAX, DARTMOUTH, SACKVILLE, NS",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/new-grad-opportunity-child-protection-social-worker-opportunities-and-social-development-halifax-dartmouth-sackville-ns/",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "SUMMER 2026 – CIVIL ENGINEERING STUDENT – GULF OPERATORS – SAINT JOHN, NB",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-civil-engineering-student-gulf-operators-saint-john-nb/",
+                "date": "October 31st, 2025",
+                "new_since": "2025-10-31T22:52:02.314629"
+            },
+            {
+                "title": "SUMMER 2026 – ACCOUNTING STUDENT – J.D. IRVING CONSTRUCTION AND EQUIPMENT DIVISION – SAINT JOHN, NB",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-accounting-student-j-d-irving-construction-and-equipment-division-saint-john-nb/",
+                "date": "October 31st, 2025",
+                "new_since": "2025-10-31T22:52:02.314629"
+            },
+            {
+                "title": "Part-Time Academic (BUSI 7005: Corporate Residency) Winter 2026",
+                "school": "Dalhousie University",
+                "date": "November 5th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19874",
+                "new_since": "2025-11-05T22:51:53.867214"
+            },
+            {
+                "title": "Coordinator, Enrolment Service Hubs",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19850",
+                "date": "October 31st, 2025",
+                "new_since": "2025-10-31T22:52:02.314629"
+            },
+            {
+                "title": "Program Review Officer",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19849",
+                "date": "October 31st, 2025",
+                "new_since": "2025-10-31T22:52:02.314629"
+            },
+            {
+                "title": "Program Development Officer",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19848",
+                "date": "October 31st, 2025",
+                "new_since": "2025-10-31T22:52:02.314629"
+            },
+            {
+                "title": "Part-Time Academic (Management Skills Development COMM3309) Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19829",
+                "date": "October 28th, 2025",
+                "new_since": "2025-10-28T22:51:58.180152"
+            },
+            {
+                "title": "Part-Time Academic International Business Strategy COMM 4701) Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19828",
+                "date": "October 28th, 2025",
+                "new_since": "2025-10-28T22:51:58.180152"
+            },
+            {
+                "title": "Part-Time Academic (SPAN 1022.03: Beginning Spanish II) - Section 5 - Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19825",
+                "date": "October 28th, 2025",
+                "new_since": "2025-10-28T22:51:58.180152"
+            },
+            {
+                "title": "Part-Time Academic (SPAN 1022.03: Beginning Spanish II) - Section 3 - Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19824",
+                "date": "October 28th, 2025",
+                "new_since": "2025-10-28T22:51:58.180152"
+            },
+            {
+                "title": "Part-Time Academic CHIN 1032.03 (01): Introduction to Chinese (Mandarin Chinese) Part 2) - Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19823",
+                "date": "October 28th, 2025",
+                "new_since": "2025-10-28T22:51:58.180152"
+            },
+            {
+                "title": "Part-Time Academic - CHIN 3062.03: Modern Chinese Literature - Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19822",
+                "date": "October 28th, 2025",
+                "new_since": "2025-10-28T22:51:58.180152"
+            },
+            {
+                "title": "Project Manager",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19806",
+                "date": "October 24th, 2025",
+                "new_since": "2025-10-24T22:52:06.731121"
+            },
+            {
+                "title": "Business Analyst",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19805",
+                "date": "October 24th, 2025",
+                "new_since": "2025-10-24T22:52:06.731121"
+            },
+            {
+                "title": "Change Management Consultant",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19804",
+                "date": "October 24th, 2025",
+                "new_since": "2025-10-24T22:52:06.731121"
+            },
+            {
+                "title": "Education Advisor, Sexualized Violence",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19803",
+                "date": "October 24th, 2025",
+                "new_since": "2025-10-24T22:52:06.731121"
+            },
+            {
+                "title": "Director, Strategy and Operations",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19798",
+                "date": "October 22nd, 2025",
+                "new_since": "2025-10-22T22:52:10.738630"
+            },
+            {
+                "title": "Part-Time Academic NURS4472.03: Critical Care Nursing (Winter 2026)",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19791",
+                "date": "October 22nd, 2025",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic for NURS5735.03 Pharmacotherapeutics for Nurse Practitioners (Winter 2026)",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19790",
+                "date": "October 22nd, 2025",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic: NURS5200.03 - Health Care System Policy Analysis (Winter 2026)",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19789",
+                "date": "October 22nd, 2025",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Part-Time Academic NURS5893 - Health Program Planning & Evaluation (Winter 2026)",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19788",
+                "date": "October 22nd, 2025",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Clerk Typist III",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-30T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17458&JobSiteId=2,4",
+                "new_since": "2025-11-05T22:51:53.873136"
+            },
+            {
+                "title": "Instructor, Heavy Equipment Operator",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-30T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17454&JobSiteId=2,4",
+                "new_since": "2025-11-05T22:51:53.873136"
+            },
+            {
+                "title": "Employment Services Officer (Client Services Officer)",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-30T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17455&JobSiteId=2,4",
+                "new_since": "2025-11-05T22:51:53.873136"
+            },
+            {
+                "title": "Director of CNA Foundation",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-29T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17446&JobSiteId=2,4",
+                "new_since": "2025-11-05T22:51:53.873136"
+            },
+            {
+                "title": "Instructor, College Transfer Psychology",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-29T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17447&JobSiteId=2,4",
+                "new_since": "2025-11-05T22:51:53.873136"
+            },
+            {
+                "title": "Early Childhood Educator",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-29T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17450&JobSiteId=2,4",
+                "new_since": "2025-11-05T22:51:53.873136"
+            },
+            {
+                "title": "Clerk Typist III",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-29T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17384&JobSiteId=2,4",
+                "new_since": "2025-11-05T22:51:53.873136"
+            },
+            {
+                "title": "Early Childhood Educator",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-28T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17435&JobSiteId=2,4",
+                "new_since": "2025-11-05T22:51:53.873136"
+            },
+            {
+                "title": "Accountant I",
+                "school": "College of the North Atlantic",
+                "date": "2025-10-28T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17438&JobSiteId=2,4",
+                "new_since": "2025-11-05T22:51:53.873136"
+            },
+            {
+                "title": "Coordonnatrice ou coordonnateur à la formation en santé (Réadaptation pulmonaire)",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-077-Coordination-a-la-formation-en-sante-readaptation-pulmonaire.pdf",
+                "new_since": "2025-10-24T22:52:06.736117"
+            },
+            {
+                "title": "Coordonnatrice ou coordonnateur à la formation en santé (Réadaptation pulmonaire)",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-077-Coordination-a-la-formation-en-sante-readaptation-pulmonaire.pdf",
+                "new_since": "2025-10-24T22:52:06.736117"
+            },
+            {
+                "title": "Coordonnatrice ou coordonnateur à la formation en santé (Réadaptation pulmonaire)",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-077-Coordination-a-la-formation-en-sante-readaptation-pulmonaire.pdf",
+                "new_since": "2025-10-24T22:52:06.736117"
+            },
+            {
+                "title": "Coordonnatrice ou coordonnateur clinique à la formation en santé (Vieillir chez soi)",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-073-Coordination-clinique-a-la-formation-en-sante-Vieillir-chez-soi.pdf",
+                "new_since": "2025-10-24T22:52:06.736117"
+            },
+            {
+                "title": "Coordonnatrice ou coordonnateur clinique à la formation en santé (Vieillir chez soi)",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-073-Coordination-clinique-a-la-formation-en-sante-Vieillir-chez-soi.pdf",
+                "new_since": "2025-10-24T22:52:06.736117"
+            },
+            {
+                "title": "Coordonnatrice ou coordonnateur clinique à la formation en santé (Vieillir chez soi)",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-073-Coordination-clinique-a-la-formation-en-sante-Vieillir-chez-soi.pdf",
+                "new_since": "2025-10-24T22:52:06.736117"
+            },
+            {
+                "title": "Coordonnatrice ou coordonnateur à la formation en santé (Projet Vieillir chez soi)",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-072-Coordination-formation-Sante-Vieillir-chez-soi.pdf",
+                "new_since": "2025-10-24T22:52:06.736117"
+            },
+            {
+                "title": "Coordonnatrice ou coordonnateur à la formation en santé (Projet Vieillir chez soi)",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-072-Coordination-formation-Sante-Vieillir-chez-soi.pdf",
+                "new_since": "2025-10-24T22:52:06.736117"
+            },
+            {
+                "title": "Coordonnatrice ou coordonnateur à la formation en santé (Projet Vieillir chez soi)",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-072-Coordination-formation-Sante-Vieillir-chez-soi.pdf",
+                "new_since": "2025-10-24T22:52:06.736117"
+            },
+            {
+                "title": "COORDONNATRICE OU COORDONNATEUR EN GESTION DU CHANGEMENT",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-076-Coordination-en-gestion-du-changement.pdf",
+                "new_since": "2025-10-24T22:52:06.737117"
+            },
+            {
+                "title": "COORDONNATRICE OU COORDONNATEUR EN GESTION DU CHANGEMENT",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-076-Coordination-en-gestion-du-changement.pdf",
+                "new_since": "2025-10-24T22:52:06.737117"
+            },
+            {
+                "title": "COORDONNATRICE OU COORDONNATEUR EN GESTION DU CHANGEMENT",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 24th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-076-Coordination-en-gestion-du-changement.pdf",
+                "new_since": "2025-10-24T22:52:06.737117"
+            },
+            {
+                "title": "COORDONNATRICE OU COORDONNATEUR DE L'APPRENTISSAGE EXPÉRIENTIEL",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-071-Coordonnateur.trice-de-lapprentissage-experientiel.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "COORDONNATRICE OU COORDONNATEUR DE L'APPRENTISSAGE EXPÉRIENTIEL",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 22nd, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-071-Coordonnateur.trice-de-lapprentissage-experientiel.pdf",
+                "new_since": "2025-10-22T09:53:49.878625"
+            },
+            {
+                "title": "Magasinière ou magasinier I",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6715-012-Magasiniere-ou-magasinier-I.pdf",
+                "new_since": "2025-10-17T20:33:00.111323"
+            }
+        ]
     }
 ]
