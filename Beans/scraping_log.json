@@ -23262,5 +23262,175 @@
                 "new_since": "2025-11-10T22:51:57.399895"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-13T22:52:02.803595",
+        "new_jobs_count": 13,
+        "removed_jobs_count": 10,
+        "new_jobs": [
+            {
+                "title": "SYSTEMS ADMINISTRATOR III (BAND LEVEL 7)",
+                "school": "Memorial University",
+                "date": "2025-11-13T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6336",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "ADMINISTRATIVE STAFF SPECIALIST I (BAND LEVEL 4)",
+                "school": "Memorial University",
+                "date": "2025-11-13T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6330",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "INSTRUCTOR (MARINE ENGINEERING)",
+                "school": "Memorial University",
+                "date": "2025-11-13T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6338",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "Instructor",
+                "school": "Memorial University",
+                "date": "2025-11-13T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6334",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "Instructor",
+                "school": "Memorial University",
+                "date": "2025-11-13T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6332",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN GÉNIE CIVIL",
+                "school": "Université de Moncton",
+                "date": "November 13, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2167028/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-genie-civil/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "Accreditation Administrator",
+                "school": "Dalhousie University",
+                "date": "November 13th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19915",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "Senior Analyst, Financial Modelling and Analytics",
+                "school": "Dalhousie University",
+                "date": "November 13th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19914",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "Research Technician",
+                "school": "Dalhousie University",
+                "date": "November 13th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19913",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "Part-Time Academic CHEM 2402: Organic Chemistry II - 1 Lecture Assistant - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "November 13th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19912",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "Magasinière ou magasinier I",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "November 13th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-025-Magasiniere-ou-magasinier-1.pdf",
+                "new_since": "2025-11-13T22:52:02.787228"
+            },
+            {
+                "title": "Campus de Campbellton",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "November 13th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-025-Magasiniere-ou-magasinier-1.pdf",
+                "new_since": "2025-11-13T22:52:02.787228"
+            },
+            {
+                "title": "novembre 27, 2025",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "November 13th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6725-025-Magasiniere-ou-magasinier-1.pdf",
+                "new_since": "2025-11-13T22:52:02.787228"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "PROFESSEURE ou PROFESSEUR EN DIDACTIQUE DU FRANÇAIS",
+                "school": "Université de Moncton",
+                "date": "November 12, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2179912/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-didactique-du-francais/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-11-12T22:52:06.999880"
+            },
+            {
+                "title": "SECRÉTAIRE DE DIRECTION, Faculté des études supérieures et de la recherche (FESR)",
+                "school": "Université de Moncton",
+                "date": "October 22, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2185298/universite-de-moncton/secretaire-de-direction-faculte-des-etudes-superieures-et-de-la-recherche-fesr/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-10-22T22:52:10.738630"
+            },
+            {
+                "title": "Electrician",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19853",
+                "date": "October 31st, 2025",
+                "new_since": "2025-10-31T22:52:02.314629"
+            },
+            {
+                "title": "Part-Time Academic - ITAL 3600.03/FILM 3320.03: Italian National Cinema - Winter Term 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19845",
+                "date": "October 29th, 2025",
+                "new_since": "2025-10-29T22:51:46.381936"
+            },
+            {
+                "title": "Associate Director",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19834",
+                "date": "October 28th, 2025",
+                "new_since": "2025-10-28T22:51:58.180152"
+            },
+            {
+                "title": "Director, Tax Dispute Clinic",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19784",
+                "date": "October 22nd, 2025",
+                "new_since": "2025-10-22T09:53:49.866624"
+            },
+            {
+                "title": "Coordination à la formation en santé – Fonds d’accès buccodentaire",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 29th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-074-Coordination-formation-sante-Fonds-dacces_buccodentaire.pdf",
+                "new_since": "2025-10-29T22:51:46.391924"
+            },
+            {
+                "title": "Coordination à la formation en santé – Fonds d’accès buccodentaire",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 29th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-074-Coordination-formation-sante-Fonds-dacces_buccodentaire.pdf",
+                "new_since": "2025-10-29T22:51:46.391924"
+            },
+            {
+                "title": "Coordination à la formation en santé – Fonds d’accès buccodentaire",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 29th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-074-Coordination-formation-sante-Fonds-dacces_buccodentaire.pdf",
+                "new_since": "2025-10-29T22:51:46.391924"
+            },
+            {
+                "title": "Surveillante ou surveillant de test de connaissances du français (TCF)",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/APPEL-DINTERET-Surveillant.e-test-de-connaissances-du-francais-TCF-2.pdf",
+                "new_since": "2025-10-17T20:33:00.111323"
+            }
+        ]
     }
 ]
