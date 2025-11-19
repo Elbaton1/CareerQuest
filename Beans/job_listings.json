@@ -64,27 +64,6 @@
             "new_since": "2025-11-05T22:51:53.867214"
         },
         {
-            "title": "WELDING APPRENTICE (BAND LEVEL 6)",
-            "school": "Memorial University",
-            "date": "2025-11-03T09:00:00",
-            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6309",
-            "new_since": "2025-11-04T00:11:17.921679"
-        },
-        {
-            "title": "MANAGER OF OPERATIONS (BAND LEVEL 11)",
-            "school": "Memorial University",
-            "date": "2025-11-03T09:00:00",
-            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6307",
-            "new_since": "2025-11-04T00:11:17.921679"
-        },
-        {
-            "title": "INTERMEDIATE CLERK STENOGRAPHER (BAND LEVEL 2)",
-            "school": "Memorial University",
-            "date": "2025-11-03T09:00:00",
-            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6305",
-            "new_since": "2025-11-04T00:11:17.921679"
-        },
-        {
             "title": "MANAGER, FINANCIAL ACCOUNTING AND INVESTMENTS (BAND LEVEL 13)",
             "school": "Memorial University",
             "date": "2025-10-24T09:00:00",
@@ -118,6 +97,13 @@
             "date": "2025-06-16T09:00:00",
             "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6056",
             "new_since": "2025-10-17T20:33:00.108308"
+        },
+        {
+            "title": "Instructor",
+            "school": "Memorial University",
+            "date": "2025-11-18T09:00:00",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6344",
+            "new_since": "2025-11-18T22:51:50.816159"
         },
         {
             "title": "INSTRUCTOR (MARINE ENGINEERING)",
@@ -225,20 +211,6 @@
             "new_since": "2025-10-20T22:52:10.000823"
         },
         {
-            "title": "Concierge – temporaire - S25PM019",
-            "school": "Université de Moncton",
-            "date": "October 28, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2186379/universite-de-moncton-campus-de-shippagan-umcs//shippagan-nb?utm_source=careerbeacon",
-            "new_since": "2025-10-28T22:51:58.179159"
-        },
-        {
-            "title": "PROFESSEURE OU PROFESSEUR EN BIOLOGIE MARINE",
-            "school": "Université de Moncton",
-            "date": "November 12, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2179975/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-biologie-marine/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-11-12T22:52:06.999880"
-        },
-        {
             "title": "Concierge – régulier - S25PM020",
             "school": "Université de Moncton",
             "date": "November 12, 2025",
@@ -253,6 +225,27 @@
             "new_since": "2025-11-12T22:52:06.999880"
         },
         {
+            "title": "Concierge – temporaire - S25PM019",
+            "school": "Université de Moncton",
+            "date": "October 28, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2186379/universite-de-moncton-campus-de-shippagan-umcs//shippagan-nb?utm_source=careerbeacon",
+            "new_since": "2025-10-28T22:51:58.179159"
+        },
+        {
+            "title": "PROFESSEURE ou PROFESSEUR EN AUDIT avec possibilité de bourse de recrutement*",
+            "school": "Université de Moncton",
+            "date": "November 12, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2180425/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-audit-avec-possibilite-de-bourse-de-recrutement/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-11-12T22:52:06.999880"
+        },
+        {
+            "title": "PROFESSEURE OU PROFESSEUR EN BIOLOGIE MARINE",
+            "school": "Université de Moncton",
+            "date": "November 12, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2179975/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-biologie-marine/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-11-12T22:52:06.999880"
+        },
+        {
             "title": "PROFESSEURE OU PROFESSEUR EN LINGUISTIQUE",
             "school": "Université de Moncton",
             "date": "November 12, 2025",
@@ -260,10 +253,10 @@
             "new_since": "2025-11-12T22:52:06.999880"
         },
         {
-            "title": "PROFESSEURE ou PROFESSEUR EN AUDIT avec possibilité de bourse de recrutement*",
+            "title": "PROFESSEURE OU PROFESSEUR EN HISTOIRE DE L’ATLANTIQUE FRANÇAIS À L’ÉPOQUE COLONIALE",
             "school": "Université de Moncton",
             "date": "November 12, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2180425/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-audit-avec-possibilite-de-bourse-de-recrutement/moncton-nb?utm_source=careerbeacon",
+            "link": "https://www.careerbeacon.com/fr/emplois/2179909/universite-de-moncton-campus-de-moncton-umcm//moncton-nb?utm_source=careerbeacon",
             "new_since": "2025-11-12T22:52:06.999880"
         },
         {
@@ -279,13 +272,6 @@
             "date": "2025-11-14",
             "link": "https://www.careerbeacon.com/fr/emplois/2190544/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-comptabilite-financiere-avec-possibilite-de-bourse-de-recrutement/moncton-nb?utm_source=careerbeacon",
             "new_since": "2025-11-16T22:52:19.150697"
-        },
-        {
-            "title": "PROFESSEURE OU PROFESSEUR EN HISTOIRE DE L’ATLANTIQUE FRANÇAIS À L’ÉPOQUE COLONIALE",
-            "school": "Université de Moncton",
-            "date": "November 12, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2179909/universite-de-moncton-campus-de-moncton-umcm//moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-11-12T22:52:06.999880"
         },
         {
             "title": "PROFESSEURE OU PROFESSEUR EN GÉOGRAPHIE DE L’ENVIRONNEMENT",
@@ -309,38 +295,59 @@
             "new_since": "2025-11-09T22:51:48.940869"
         },
         {
+            "title": "Part-Time Academic HLTH 3010.03: Introduction to Research Methods - Co-teaching (1/3 of a 1/2 credit) - Winter 2026",
+            "school": "Dalhousie University",
+            "date": "November 18th, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/19933",
+            "new_since": "2025-11-18T22:51:50.816159"
+        },
+        {
+            "title": "Part-Time Academic (HIST 3500.03: The Rise and Fall of the British Empire - Winter 2026 - Online)",
+            "school": "Dalhousie University",
+            "date": "November 18th, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/19932",
+            "new_since": "2025-11-18T22:51:50.816159"
+        },
+        {
+            "title": "Steamfitter",
+            "school": "Dalhousie University",
+            "date": "November 18th, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/19927",
+            "new_since": "2025-11-18T22:51:50.816159"
+        },
+        {
             "title": "Part-Time Academic: NURS5560 - Transformative and Innovative Health Systems Planning (Winter 2026)",
             "school": "Dalhousie University",
-            "date": "November 17th, 2025",
             "link": "https://dal.peopleadmin.ca/postings/19924",
+            "date": "November 17th, 2025",
             "new_since": "2025-11-17T22:52:03.189074"
         },
         {
             "title": "Part-Time Academic for NURS2750 - Health and Healing II: Pathophysiology and Therapeutics - Winter 2026",
             "school": "Dalhousie University",
-            "date": "November 17th, 2025",
             "link": "https://dal.peopleadmin.ca/postings/19923",
+            "date": "November 17th, 2025",
             "new_since": "2025-11-17T22:52:03.189074"
         },
         {
             "title": "Manager, Academic",
             "school": "Dalhousie University",
-            "date": "November 17th, 2025",
             "link": "https://dal.peopleadmin.ca/postings/19922",
+            "date": "November 17th, 2025",
             "new_since": "2025-11-17T22:52:03.189074"
         },
         {
             "title": "Field Technologist",
             "school": "Dalhousie University",
-            "date": "November 17th, 2025",
             "link": "https://dal.peopleadmin.ca/postings/19921",
+            "date": "November 17th, 2025",
             "new_since": "2025-11-17T22:52:03.189074"
         },
         {
             "title": "Operations Lead, Lab2Market (Internal Posting)",
             "school": "Dalhousie University",
-            "date": "November 17th, 2025",
             "link": "https://dal.peopleadmin.ca/postings/19920",
+            "date": "November 17th, 2025",
             "new_since": "2025-11-17T22:52:03.189074"
         },
         {
@@ -828,13 +835,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Sessional Instructors- McDougall Faculty of Business - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/107si25",
-            "date": "Closing date: 2025-08-27T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructors- Faculty of Sustainable Design Engineering - Winter 2026",
             "link": "https://www.upei.ca/hr/competition/111si25",
             "date": "Closing date: 2025-09-05T00:00:00",
@@ -842,121 +842,9 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Sessional Instructors- Faculty of Sustainable Design Engineering - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/110si25",
-            "date": "Closing date: 2025-08-27T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - First Year Experience Program - Faculty of Arts - Winter 2026",
-            "link": "https://www.upei.ca/hr/competition/109si25",
-            "date": "Closing date: 2025-09-05T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - First Year Experience Program - Faculty of Arts - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/108si25",
-            "date": "Closing date: 2025-08-27T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Education - Winter 2026",
-            "link": "https://www.upei.ca/hr/competition/103si25",
-            "date": "Closing date: 2025-09-03T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Education - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/102si25",
-            "date": "Closing date: 2025-09-03T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructors - Department of Psychology - Faculty of Arts - Winter 2026",
-            "link": "https://www.upei.ca/hr/competition/106si25",
-            "date": "Closing date: 2025-09-03T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - Faculty of Graduate Studies- Cleantech Program / Faculty of Indigenous Knowledge, Education, Research, and Applied Studies - Winter 2026",
             "link": "https://www.upei.ca/hr/competition/99si25",
             "date": "Closing date: 2025-09-03T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor- Department of Psychology- Faculty of Arts- Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/105si25",
-            "date": "Closing date: 2025-08-18T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor- Department of Psychology- Faculty of Arts- Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/104si25",
-            "date": "Closing date: 2025-08-18T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Department of English - Faculty of Arts - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/100si25",
-            "date": "Closing date: 2025-08-18T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Department of University Studies - Faculty of Arts - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/101si25",
-            "date": "Closing date: 2025-08-18T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Associate Professor - Tenure Track Position - UPEI Canada Excellence Research Chair (CERC) - Office of Graduate Studies and Research - Atlantic Veterinary College *Amended Closing Date*",
-            "link": "https://www.upei.ca/hr/competition/43a25",
-            "date": "Closing date: 2025-09-26T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructors - School of Mathematical and Computational Sciences - Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/98si25",
-            "date": "Closing date: 2025-08-22T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Sustainable Design Engineering - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/97si25",
-            "date": "Closing date: 2025-08-20T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Community Practice Veterinarian - Term Position- Department of Companion Animals - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/42a25",
-            "date": "Closing date: 2025-08-20T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Department of Biomedical Sciences - Atlantic Veterinary College - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/96si25",
-            "date": "Closing date: 2025-08-07T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Assistant Professor - Tenure Track Position - Animal Welfare - Sir James Dunn Animal Welfare Centre (SJDAWC)- Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/41a25",
-            "date": "Closing date: 2025-09-01T00:00:00",
             "new_since": "2025-10-17T20:33:00.109316"
         },
         {
@@ -975,125 +863,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Sessional Instructors - Department of Psychology - Faculty of Arts - Winter 2026",
-            "link": "https://www.upei.ca/hr/competition/95si25",
-            "date": "Closing date: 2025-08-06T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructors - Department of Psychology - Faculty of Arts - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/94si25",
-            "date": "Closing date: 2025-08-06T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Department of Chemistry - Faculty of Science - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/93si25",
-            "date": "Closing date: 2025-08-06T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Assistant/Associate Professor - Small Animal Internal Medicine - Department of Companion Animals - Atlantic Veterinary College - Term Position",
-            "link": "https://www.upei.ca/hr/competition/38a25",
-            "date": "Closing date: 2025-07-31T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Education - Winter 2026 *Repost*",
-            "link": "https://www.upei.ca/hr/competition/92si25",
-            "date": "Closing date: 2025-09-30T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Education - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/91si25",
-            "date": "Closing date: 2025-07-30T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructors - School of Mathematical and Computational Sciences - Faculty of Science - Fall 2025 *Amended*",
-            "link": "https://www.upei.ca/hr/competition/90si25",
-            "date": "Closing date: 2025-07-30T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Environmental Studies Program - Faculty of Science - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/89si25",
-            "date": "Closing date: 2025-07-30T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructors - School of Climate Change and Adaptation - Faculty of Science - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/88si25",
-            "date": "Closing date: 2025-07-30T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Education (Winter 2026) *Repost*",
-            "link": "https://www.upei.ca/hr/competition/40si25",
-            "date": "Closing date: 2025-07-23T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Education (Fall 2025) *Repost*",
-            "link": "https://www.upei.ca/hr/competition/37si25",
-            "date": "Closing date: 2025-07-23T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Associate Dean - Faculty of Arts *Amended*",
-            "link": "https://www.upei.ca/hr/competition/37a25",
-            "date": "Closing date: 2025-07-16T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Coordinator of University 100 Program and Coordinator of the Bachelor of Integrated Studies - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/36a25",
-            "date": "Closing date: 2025-07-08T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor- Department of University 100 - Faculty of Arts - Winter 2026",
-            "link": "https://www.upei.ca/hr/competition/87si25",
-            "date": "Closing date: 2025-07-04T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Department of University 100 - Faculty of Arts - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/86si25",
-            "date": "Closing date: 2025-07-04T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructors- Faculty of Education- Winter 2026",
-            "link": "https://www.upei.ca/hr/competition/99si24r",
-            "date": "Closing date: 2025-07-01T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructors - McDougall Faculty of Business - Winter 2026",
-            "link": "https://www.upei.ca/hr/competition/85si25",
-            "date": "Closing date: 2025-06-27T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Assistant Professor - Tenure Track Position- Faculty of Nursing and Faculty of Medicine *Amended*",
             "link": "https://www.upei.ca/hr/competition/35a25",
             "date": "Closing date: 2025-07-11T00:00:00",
@@ -1108,93 +877,9 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Sustainable Design Engineering - Winter 2026",
-            "link": "https://www.upei.ca/hr/competition/84si25",
-            "date": "Closing date: 2025-06-24T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Sustainable Design Engineering - Winter 2026",
-            "link": "https://www.upei.ca/hr/competition/83si25",
-            "date": "Closing date: 2025-06-24T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Sustainable Design Engineering - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/82si25",
-            "date": "Closing date: 2025-06-23T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Sustainable Design Engineering - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/81si25",
-            "date": "Closing date: 2025-06-23T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Sustainable Design Engineering - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/80si25",
-            "date": "Closing date: 2025-06-23T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Sustainable Design Engineering - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/79si25",
-            "date": "Closing date: 2025-06-23T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Sustainable Design Engineering - Winter 2026",
-            "link": "https://www.upei.ca/hr/competition/78si25",
-            "date": "Closing date: 2025-06-23T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Sustainable Design Engineering - Winter 2026",
-            "link": "https://www.upei.ca/hr/competition/77si25",
-            "date": "Closing date: 2025-06-23T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Sustainable Design Engineering - Winter 2026 *Reposted*",
-            "link": "https://www.upei.ca/hr/competition/76si25",
-            "date": "Closing date: 2025-10-31T00:00:00",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Faculty of Sustainable Design Engineering - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/75si25",
-            "date": "Closing date: 2025-06-23T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "ADS Level 5 - Client Services Representative - Veterinary Teaching Hospital - Atlantic Veterinary College - To Create a Casual List",
             "link": "https://www.upei.ca/hr/competition/131e25",
             "date": "Closing date: 2026-04-30T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Clinical Nursing Instructor - Faculty of Nursing- 0.6 FTE Term position - Medical-Surgical Nursing (Kings County Memorial Hospital)",
-            "link": "https://www.upei.ca/hr/competition/34a25",
-            "date": "Closing date: 2025-06-23T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Clinical Nursing Instructor - Faculty of Nursing- 0.6 FTE Term position - Medical-Surgical Nursing (PCH)",
-            "link": "https://www.upei.ca/hr/competition/33a25",
-            "date": "Closing date: 2025-06-23T00:00:00",
             "new_since": "2025-10-17T20:33:00.109316"
         },
         {
@@ -1206,65 +891,9 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Clinical Nursing Instructor - Faculty of Nursing - 0.6 FTE Term position - Medical-Surgical, Psychiatric Mental Health Nursing (PCH) & Community Nursing (Western PEI)",
-            "link": "https://www.upei.ca/hr/competition/32a25",
-            "date": "Closing date: 2025-06-23T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Clinical Nursing Instructor - Faculty of Nursing - 0.6 FTE Term position - Perinatal and Pediatric Nursing (QEH)",
-            "link": "https://www.upei.ca/hr/competition/31a25",
-            "date": "Closing date: 2025-06-23T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructors - Department of Music - Faculty of Arts - Fall 2025 & Winter 2026 (Full year)",
-            "link": "https://www.upei.ca/hr/competition/74si25",
-            "date": "Closing date: 2025-06-20T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor - Department of Music - Faculty of Arts - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/72si25",
-            "date": "Closing date: 2025-06-20T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Assistant Professors - Ten (10) Month Term - Faculty of Sustainable Design Engineering - Fall 2025 & Winter 2026 *Amended Closing Date*",
-            "link": "https://www.upei.ca/hr/competition/30a25",
-            "date": "Closing date: 2025-06-13T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Assistant Professor - McDougall Faculty of Business - Ten (10) Month Term",
-            "link": "https://www.upei.ca/hr/competition/29a25",
-            "date": "Closing date: 2025-06-19T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor- Pathology & Microbiology - Veterinary Teaching Hospital - Fall 2025",
-            "link": "https://www.upei.ca/hr/competition/71si25",
-            "date": "Closing date: 2025-06-19T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Registrar",
             "link": "https://www.upei.ca/hr/competition/128e25",
             "date": "Closing date: October 17th, 2025",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Sessional Instructor- School of Mathematical and Computational Sciences - Faculty of Science - Summer 2025 *Amended closing date*",
-            "link": "https://www.upei.ca/hr/competition/67si25",
-            "date": "Closing date: 2025-06-06T00:00:00",
             "new_since": "2025-10-17T20:33:00.109316"
         },
         {
@@ -1290,44 +919,9 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Assistant Professor - Ten (10) Month 0.5 FTE Term - Department of Psychology - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/27a25",
-            "date": "Closing date: 2025-06-13T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "University Librarian - Robertson Library - Permanent Position",
-            "link": "https://www.upei.ca/hr/competition/26a25",
-            "date": "Closing date: 2025-06-20T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - McDougall Faculty of Business - Fall 2025",
             "link": "https://www.upei.ca/hr/competition/66si25",
             "date": "Closing date: 2025-05-28T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Primary Care Veterinarian - Emergency Service (1.0 FTE FA2 Term Position, with possibility of extension) - Veterinary Teaching Hospital - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/14a25",
-            "date": "Closing date: 2025-03-24T00:00:00",
-            "new_since": "2025-03-06T14:50:11.633160"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Primary Care Veterinarian- Emergency Service - 0.5 FTE Term Position - Veterinary Teaching Hospital - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/25a25",
-            "date": "Closing date: 2025-05-16T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Assistant/Associate Professor - Large Animal Surgery - Eighteen (18) Month Term Position - Department of Health Management - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/23a25",
-            "date": "Closing date: 2025-06-01T00:00:00",
             "new_since": "2025-10-17T20:33:00.109316"
         },
         {
@@ -1451,20 +1045,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Primary Care Veterinarian- Community Practice- Term Position- Veterinary Teaching Hospital- Atlantic Veterinary College *AMENDED CLOSING DATE*",
-            "link": "https://www.upei.ca/hr/competition/22a25",
-            "date": "Closing date: 2025-05-11T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Assistant Professor - Tenure Track Position(s)- Faculty of Sustainable Design Engineering",
-            "link": "https://www.upei.ca/hr/competition/15a25",
-            "date": "Closing date: 2025-05-15T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor- Department of Applied Communication, Leadership, and Culture- Faculty of Arts - Winter 2026",
             "link": "https://www.upei.ca/hr/competition/49si25",
             "date": "Closing date: 2025-04-25T00:00:00",
@@ -1524,27 +1104,6 @@
             "title": "*Repost- 11SI25R* - Sessional Instructor - Faculty of Education - Summer 2025",
             "link": "https://www.upei.ca/hr/competition/11si25r",
             "date": "Closing date: 2025-04-21T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Assistant/Associate Professor (Anesthesiology)- Twenty Eight (28) Week Term Position- Department of Companion Animals - Atlantic Veterinary Hospital *Amended Closing Date*",
-            "link": "https://www.upei.ca/hr/competition/20a25",
-            "date": "Closing date: 2025-04-21T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Community Practice Veterinarian- Tenure Track Position- Department of Companion Animals- Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/21a25",
-            "date": "Closing date: 2025-04-30T00:00:00",
-            "new_since": "2025-10-17T20:33:00.109316"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Postdoctoral Research Associate - School of Climate Change and Adaptation",
-            "link": "https://www.upei.ca/hr/competition/18a25",
-            "date": "Closing date: 2025-04-17T00:00:00",
             "new_since": "2025-10-17T20:33:00.109316"
         },
         {
@@ -1689,20 +1248,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Assistant Professor- Tenure Track Position- Environmental Studies / Cleantech- Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/11a25",
-            "date": "Closing date: 2025-03-30T00:00:00",
-            "new_since": "2025-02-28T21:43:44.787839"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Assistant Professor- Faculty of Nursing",
-            "link": "https://www.upei.ca/hr/competition/10a25",
-            "date": "Closing date: 2025-03-11T00:00:00",
-            "new_since": "2025-02-26T20:10:39.366276"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor- Department of Psychology- Faculty of Arts- Summer 2025",
             "link": "https://www.upei.ca/hr/competition/14si25",
             "date": "Closing date: 2025-03-11T00:00:00",
@@ -1710,38 +1255,10 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Assistant Professor- Tenure Track Position- Department of Island Studies/Cleantech- Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/12a25",
-            "date": "Closing date: 2025-03-06T00:00:00",
-            "new_since": "2025-02-20T20:10:10.315986"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Assistant Professor- Ten (10) Month Term- Department of Psychology - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/09a25",
-            "date": "Closing date: 2025-03-06T00:00:00",
-            "new_since": "2025-02-20T20:10:10.315986"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Clinical Nursing Instructor - Faculty of Nursing",
-            "link": "https://www.upei.ca/hr/competition/08a25",
-            "date": "Closing date: 2025-03-05T00:00:00",
-            "new_since": "2025-02-19T20:10:42.498615"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - Department of Bachelor of Integrated Studies - Faculty of Arts - Summer 2025",
             "link": "https://www.upei.ca/hr/competition/15si25",
             "date": "Closing date: 2025-03-05T00:00:00",
             "new_since": "2025-02-19T20:10:42.498615"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Clinical Nursing Instructor - Faculty of Nursing",
-            "link": "https://www.upei.ca/hr/competition/07a25",
-            "date": "Closing date: 2025-02-25T00:00:00",
-            "new_since": "2025-02-11T20:10:27.045988"
         },
         {
             "school": "University of Prince Edward Island",
@@ -1761,13 +1278,6 @@
             "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - Department of Physics - Faculty of Science - Summer 2025",
             "link": "https://www.upei.ca/hr/competition/03si25",
-            "date": "Closing date: 2025-02-19T00:00:00",
-            "new_since": "2025-02-05T20:10:09.540811"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position in Sociology- Department of Sociology and Anthropology - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/04a25",
             "date": "Closing date: 2025-02-19T00:00:00",
             "new_since": "2025-02-05T20:10:09.540811"
         },
@@ -1843,13 +1353,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Clinical Nursing Instructor - Faculty of Nursing",
-            "link": "https://www.upei.ca/hr/competition/03a25",
-            "date": "Closing date: 2025-02-14T00:00:00",
-            "new_since": "2025-01-31T20:09:40.091654"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - Faculty of Science - Department of Environmental Studies - Summer 2025",
             "link": "https://www.upei.ca/hr/competition/01si25",
             "date": "Closing date: 2025-02-21T00:00:00",
@@ -1860,13 +1363,6 @@
             "title": "Sessional Instructor - Faculty of Indigenous Knowledge, Education, Research, and Applied Studies - Winter 2025",
             "link": "https://www.upei.ca/hr/competition/119si24",
             "date": "Closing date: 2025-01-02T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Assistant Professor - Department of Companion Animals - Atlantic Veterinary College *Amended*",
-            "link": "https://www.upei.ca/hr/competition/44a24",
-            "date": "Closing date: 2025-02-15T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -1892,37 +1388,9 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Assistant Professor - Faculty of Sustainable Design Engineering",
-            "link": "https://www.upei.ca/hr/competition/51a24",
-            "date": "Closing date: 2025-01-02T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - McDougall Faculty of Business - Winter 2025",
             "link": "https://www.upei.ca/hr/competition/115si24",
             "date": "Closing date: 2024-12-10T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Assistant Professor - McDougall Faculty of Business (Accounting)",
-            "link": "https://www.upei.ca/hr/competition/49a24",
-            "date": "Closing date: 2025-01-10T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position(Management) - McDougall Faculty of Business",
-            "link": "https://www.upei.ca/hr/competition/47a24",
-            "date": "Closing date: 2025-01-10T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Primary Care Veterinarian - Emergency Service - Veterinary Teaching Hospital - Atlantic Veterinary College *Amended Closing Date*",
-            "link": "https://www.upei.ca/hr/competition/48a24",
-            "date": "Closing date: 2024-12-17T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -1969,13 +1437,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "One (1) Year Term Position - Assistant Professor - Faculty of Indigenous Knowledge, Education, Research, and Applied Studies",
-            "link": "https://www.upei.ca/hr/competition/50a24",
-            "date": "Closing date: 2024-11-28T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - Faculty of Sustainable Design Engineering - Winter 2025",
             "link": "https://www.upei.ca/hr/competition/107si24",
             "date": "Closing date: 2024-11-22T00:00:00",
@@ -1993,13 +1454,6 @@
             "title": "Sessional Instructors - McDougall Faculty of Business - Winter 2025",
             "link": "https://www.upei.ca/hr/competition/105si24",
             "date": "Closing date: 2024-11-21T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Four Month Term Position - Department of Asian Studies - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/46a24",
-            "date": "Closing date: 2024-11-25T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -2042,13 +1496,6 @@
             "title": "Sessional Instructors - McDougall Faculty of Business - Winter 2025",
             "link": "https://www.upei.ca/hr/competition/98si24",
             "date": "Closing date: 2024-11-08T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Permanent Track Position - Clinical Librarian - Robertson Library *Amended*",
-            "link": "https://www.upei.ca/hr/competition/36a24",
-            "date": "Closing date: 2024-11-29T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -2119,34 +1566,6 @@
             "title": "Sessional Instructor - Department of Political Science - Faculty of Arts - Winter 2025",
             "link": "https://www.upei.ca/hr/competition/85si24",
             "date": "Closing date: 2024-10-04T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Small Animal Internal Medicine - Department of Companion Animals - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/45a24",
-            "date": "Closing date: 2024-10-30T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Department of Biology - Faculty of Science *Amended Closing Date*",
-            "link": "https://www.upei.ca/hr/competition/41a24",
-            "date": "Closing date: 2024-10-20T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Clinical Nursing Instructor - Faculty of Nursing *Amended*",
-            "link": "https://www.upei.ca/hr/competition/43a24",
-            "date": "Closing date: 2024-09-17T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Clinical Nursing Instructor - Faculty of Nursing *Amended*",
-            "link": "https://www.upei.ca/hr/competition/42a24",
-            "date": "Closing date: 2024-09-17T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -2249,13 +1668,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Faculty of Sustainable Design Engineering",
-            "link": "https://www.upei.ca/hr/competition/05a24r",
-            "date": "Closing date: 2024-10-01T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - Department of Chemistry - Faculty of Science - Fall 2024",
             "link": "https://www.upei.ca/hr/competition/67si24",
             "date": "Closing date: 2024-08-12T00:00:00",
@@ -2263,37 +1675,9 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Science Education - Faculty of Education",
-            "link": "https://www.upei.ca/hr/competition/16a24",
-            "date": "Closing date: 2024-10-15T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructors - School of Mathematical and Computational Sciences - Faculty of Science - Fall 2024",
             "link": "https://www.upei.ca/hr/competition/68si24",
             "date": "Closing date: 2024-08-19T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Clinical Nursing Instructor - Faculty of Nursing *Amended*",
-            "link": "https://www.upei.ca/hr/competition/39a24",
-            "date": "Closing date: 2024-08-14T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Clinical Nursing Instructor - Faculty of Nursing *Amended*",
-            "link": "https://www.upei.ca/hr/competition/38a24",
-            "date": "Closing date: 2024-08-14T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Clinical Nursing Instructor - Faculty of Nursing *Amended*",
-            "link": "https://www.upei.ca/hr/competition/37a24",
-            "date": "Closing date: 2024-08-14T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -2322,20 +1706,6 @@
             "title": "Sessional Instructor - School of Mathematical and Computational Sciences - Faculty of Science - Fall 2024",
             "link": "https://www.upei.ca/hr/competition/65si24",
             "date": "Closing date: 2024-08-08T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Clinical Veterinarian - Ambulatory Equine Service - Veterinary Teaching Hospital - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/35a24",
-            "date": "Closing date: 2024-07-25T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Two (2)Tenure Track Positions - Faculty of Indigenous Knowledge, Education, Research and Applied Studies",
-            "link": "https://www.upei.ca/hr/competition/27a24",
-            "date": "Closing date: 2024-07-31T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -2466,13 +1836,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Primary Care Veterinarian - Emergency Service (up to 2.5 FTE, Full-Time and Part-Time Term Positions) - Veterinary Teaching Hospital - Atlantic Veterinary College *Amended**Repost*",
-            "link": "https://www.upei.ca/hr/competition/06a24r",
-            "date": "Closing date: 2024-06-30T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor- School of Climate Change and Adaptation- Faculty of Science- Winter 2025",
             "link": "https://www.upei.ca/hr/competition/44si24",
             "date": "Closing date: 2024-06-18T00:00:00",
@@ -2494,13 +1857,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Twenty (20) Month Term Position - Lecturer/Assistant Professor - Large Animal Internal Medicine - Department of Health Management - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/24a24",
-            "date": "Closing date: 2024-06-12T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructors - Department of Chemistry - Faculty of Sciences (Fall 2024 and Winter 2025)",
             "link": "https://www.upei.ca/hr/competition/40si24",
             "date": "Closing date: 2024-06-12T00:00:00",
@@ -2508,30 +1864,9 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Associate Dean (Internal Competition) - Graduate Studies and Research - Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/23a24",
-            "date": "Closing date: 2024-06-10T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Lecturer/ Assistant Professor, Comparative Theriogenology Veterinarian - Department of Health Management - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/20a24",
-            "date": "Closing date: 2024-06-11T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructors - Faculty of Education - Winter 2025 *Repost * Amended*",
             "link": "https://www.upei.ca/hr/competition/21si24r",
             "date": "Closing date: 2024-06-10T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Lecturer/ Assistant Professor, Farm Services Veterinarian - Department of Health Management - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/19a24",
-            "date": "Closing date: 2024-05-31T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -2546,27 +1881,6 @@
             "title": "Sessional Instructor - Faculty of Indigenous Knowledge, Education, Research, and Applied Studies - Fall 2024",
             "link": "https://www.upei.ca/hr/competition/34si24",
             "date": "Closing date: 2024-05-31T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Post-Doctoral Research Associate - School of Climate Change and Adaptation",
-            "link": "https://www.upei.ca/hr/competition/21a24",
-            "date": "Closing date: 2024-05-31T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Associate Dean - School of Mathematical and Computational Sciences - Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/17a24",
-            "date": "Closing date: 2024-05-24T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Associate Dean - School of Climate Change and Adaptation - Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/18a24",
-            "date": "Closing date: 2024-05-24T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -2627,27 +1941,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Department of Modern Languages - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/10a24",
-            "date": "Closing date: 2024-05-13T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Department of Music - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/09a24",
-            "date": "Closing date: 2024-05-06T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Two (2) Tenure Track Positions - Small Animal Emergency and Critical Care - Department of Companion Animals - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/08a24",
-            "date": "Closing date: 2024-05-15T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructors - Faculty of Business (Fall 2024- Winter 2025)",
             "link": "https://www.upei.ca/hr/competition/29si24",
             "date": "Closing date: 2024-04-26T00:00:00",
@@ -2658,20 +1951,6 @@
             "title": "Sessional Instructors - Department of Biology - Faculty of Science (Fall 2024- Winter 2025",
             "link": "https://www.upei.ca/hr/competition/28si24",
             "date": "Closing date: 2024-06-03T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Ten (10) Month Term Position - Department of Applied Human Sciences - Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/07a24",
-            "date": "Closing date: 2024-05-05T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Faculty of Sustainable Design Engineering",
-            "link": "https://www.upei.ca/hr/competition/05a24",
-            "date": "Closing date: 2024-05-06T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -2707,13 +1986,6 @@
             "title": "Sessional Instructor - Asian Studies Programme - Faculty of Arts (Summer 2024) *Amended*",
             "link": "https://www.upei.ca/hr/competition/22si24",
             "date": "Closing date: 2024-04-05T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Department of Biology - Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/04a24",
-            "date": "Closing date: 2024-04-22T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -2837,20 +2109,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Differentiated Instruction and Inclusion - Faculty of Education *Amended*",
-            "link": "https://www.upei.ca/hr/competition/01a24",
-            "date": "Closing date: 2024-03-04T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Ten (10) Month Term Position - BEd (Francais Langue Seconde) - Faculty of Education",
-            "link": "https://www.upei.ca/hr/competition/63a23",
-            "date": "Closing date: 2024-01-31T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructors - Faculty of Business (Winter 2024)",
             "link": "https://www.upei.ca/hr/competition/106si23",
             "date": "Closing date: 2023-12-15T00:00:00",
@@ -2868,20 +2126,6 @@
             "title": "MTS Level 7 - Medical Laboratory Technologist - Parasitology - Diagnostic Services - Atlantic Veterinary College",
             "link": "https://www.upei.ca/node/121674",
             "date": "Closing date: 2023-12-04T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Associate Dean - Graduate Programs and Research - Faculty of Business",
-            "link": "https://www.upei.ca/hr/competition/59a23",
-            "date": "Closing date: 2023-12-15T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Associate Dean - Undergraduate Programs and Student Success - Faculty of Business",
-            "link": "https://www.upei.ca/hr/competition/58a23",
-            "date": "Closing date: 2023-12-15T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -2928,37 +2172,9 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Permanent Track Position - One Health and Scholarly Communications Librarian - Robertson Library",
-            "link": "https://www.upei.ca/hr/competition/51a23",
-            "date": "Closing date: 2023-11-08T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructors - School of Mathematical and Computational Sciences - Faculty of Science (Winter 2024)",
             "link": "https://www.upei.ca/hr/competition/87si23",
             "date": "Closing date: 2023-10-18T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - One Health and Infection Preventionist - Department of Health Management - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/49a23",
-            "date": "Closing date: 2023-10-30T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Overnight Veterinary Hospitalists (2 Full-Time Term Positions or Several Part-Time Term Positions) - Veterinary Teaching Hospital - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/48a23",
-            "date": "Closing date: 2023-10-27T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Five (5) Month Term Position - Department of Psychology - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/47a23",
-            "date": "Closing date: 2023-10-20T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -2977,23 +2193,9 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Five (5) Month Term Position - Professional Program - Department of Health Management - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/45a23",
-            "date": "Closing date: 2023-09-22T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - School of Mathematical and Computational Sciences - Faculty of Science (Fall 2023)",
             "link": "https://www.upei.ca/hr/competition/76si23",
             "date": "Closing date: 2023-09-01T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Overnight Veterinary Hospitalists - Veterinary Teaching Hospital - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/40a23",
-            "date": "Closing date: 2023-08-21T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -3026,13 +2228,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Department of Sociology and Anthropology - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/38a23",
-            "date": "Closing date: 2023-08-25T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - Faculty of Indigenous Knowledge, Education, Research and Applied Studies (IKERAS) (Fall 2023)",
             "link": "https://www.upei.ca/hr/competition/56si23",
             "date": "Closing date: 2023-07-07T00:00:00",
@@ -3054,27 +2249,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "2.5 Year Term Position - School of Mathematical and Computation Sciences - Faculty of Science *Amended**Reposted*",
-            "link": "https://www.upei.ca/hr/competition/04a23r",
-            "date": "Closing date: 2023-07-18T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Six (6) Month Term Position - Diagnostic Anatomic Pathologist - Department of Pathology and Microbiology - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/36a23",
-            "date": "Closing date: 2023-09-01T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Department of History - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/35a23",
-            "date": "Closing date: 2023-07-21T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructors - School of Mathematical and Computational Sciences - Faculty of Science (Fall 2023)",
             "link": "https://www.upei.ca/hr/competition/44si23",
             "date": "Closing date: 2023-06-28T00:00:00",
@@ -3082,44 +2256,9 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Eight (8) Month Term Position - Department of Music - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/32a23",
-            "date": "Closing date: 2023-06-27T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Twelve (12) Month Term Position - Large Animal Surgery - Department of Health Management - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/26a23",
-            "date": "Closing date: 2023-06-12T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Nine (9) Month Term Position - Department of Applied Human Sciences - Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/25a23",
-            "date": "Closing date: 2023-06-18T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructors - Department of Applied Human Sciences - Faculty of Science",
             "link": "https://www.upei.ca/hr/competition/37si23",
             "date": "Closing date: 2023-05-25T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Seventeen (17) Month Term Position - School of Mathematical and Computational Sciences - Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/23a23",
-            "date": "Closing date: 2023-06-08T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "One (1) Year Term Position - Faculty of Indigenous Knowledge, Education, Research, and Applied Studies (IKERAS)",
-            "link": "https://www.upei.ca/hr/competition/22a23",
-            "date": "Closing date: 2023-05-18T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -3138,13 +2277,6 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - School of Mathematical and Computational Sciences - Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/04a23-0",
-            "date": "Closing date: 2023-05-31T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - School of Mathematical and Computational Sciences - Faculty of Science (Summer 2023)",
             "link": "https://www.upei.ca/hr/competition/17si23",
             "date": "Closing date: 2023-05-05T00:00:00",
@@ -3152,51 +2284,9 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Department of Biology - Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/18a23",
-            "date": "Closing date: 2023-06-16T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Department of Biology-School of Climate Change and Adaptation - Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/17a23",
-            "date": "Closing date: 2023-06-30T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "One (1) Year Term Position - Faculty of Indigenous Knowledge, Education, Research, and Applied Studies (IKERAS)",
-            "link": "https://www.upei.ca/hr/competition/12a23",
-            "date": "Closing date: 2023-05-15T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Primary Care Veterinarian - Emergency Service - Veterinary Teaching Hospital - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/14a23",
-            "date": "Closing date: 2023-04-21T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Primary Care Veterinarian - Emergency Service - Veterinary Teaching Hospital - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/13a23",
-            "date": "Closing date: 2023-04-07T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - Faculty of Business (Summer 2023)",
             "link": "https://www.upei.ca/hr/competition/10si23",
             "date": "Closing date: 2023-03-29T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Five (5) Month Term Position - Comparative Theriogenologist - Department of Health Management - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/09a23",
-            "date": "Closing date: 2023-04-15T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -3215,44 +2305,9 @@
         },
         {
             "school": "University of Prince Edward Island",
-            "title": "Term Position - Equine Ambulatory Service - Department of Health Management - Atlantic Veterinary College *Amended*",
-            "link": "https://www.upei.ca/hr/competition/05a23",
-            "date": "Closing date: 2023-03-27T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - School of Mathematical and Computational Sciences - Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/04a23",
-            "date": "Closing date: 2023-03-24T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
             "title": "Sessional Instructor - Department of Biology - Faculty of Science (Summer 2023)",
             "link": "https://www.upei.ca/hr/competition/01si23",
             "date": "Closing date: 2023-02-24T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Three (3) Year Term Position - Associate Dean - Graduate Studies and Research - AVC Deans Office - Atlantic Veterinary College *Reposted*",
-            "link": "https://www.upei.ca/hr/competition/01a23",
-            "date": "Closing date: 2023-02-17T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Three (3) Year Term Position - Department of Biology - Faculty of Science",
-            "link": "https://www.upei.ca/hr/competition/02a23",
-            "date": "Closing date: 2023-03-01T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Four (4) Month Term Position - Asian Studies - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/39a22",
-            "date": "Closing date: 2022-11-30T00:00:00",
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
@@ -3270,39 +2325,25 @@
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Small Animal Surgery - Department of Companion Animals - Atlantic Veterinary College *Amended Closing Date*",
-            "link": "https://www.upei.ca/hr/competition/29a22",
-            "date": "Closing date: 2022-12-01T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
+            "title": "Instructor, Practical Nursing",
+            "school": "College of the North Atlantic",
+            "date": "2025-11-18T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17492&JobSiteId=2,4",
+            "new_since": "2025-11-18T22:51:50.825159"
         },
         {
-            "school": "University of Prince Edward Island",
-            "title": "Five (5) Month Term Position - Applied Communication, Leadership and Culture - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/22a22",
-            "date": "Closing date: 2022-05-27T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
+            "title": "Instructional Coordinator, Practical Nursing",
+            "school": "College of the North Atlantic",
+            "date": "2025-11-18T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17493&JobSiteId=2,4",
+            "new_since": "2025-11-18T22:51:50.825159"
         },
         {
-            "school": "University of Prince Edward Island",
-            "title": "Two - Ten (10) Month Term Positions - Department of Physics - Faculty of Science *Amended*",
-            "link": "https://www.upei.ca/hr/competition/16a22",
-            "date": "Closing date: 2022-06-01T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Faculty of Indigenous Knowledge, Education, Research, and Applied Studies (IKERAS)",
-            "link": "https://www.upei.ca/hr/competition/13a22",
-            "date": "Closing date: 2022-04-06T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Tenure Track Position - Diagnostic Imaging - Department of Companion Animals - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/21a21",
-            "date": "Closing date: 2021-06-15T00:00:00",
-            "new_since": "2025-01-08T16:44:14.929652"
+            "title": "Instructor, Heavy Duty Equipment Technician/Truck Transport Mechanic - Advanced Block Training",
+            "school": "College of the North Atlantic",
+            "date": "2025-11-18T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17494&JobSiteId=2,4",
+            "new_since": "2025-11-18T22:51:50.825159"
         },
         {
             "title": "Library Technician I",
@@ -3361,24 +2402,10 @@
             "new_since": "2025-11-10T22:51:57.398882"
         },
         {
-            "title": "Instructor, Heavy Equipment Operator",
-            "school": "College of the North Atlantic",
-            "date": "2025-11-10T00:00:00",
-            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17454&JobSiteId=2,4",
-            "new_since": "2025-11-10T22:51:57.398882"
-        },
-        {
             "title": "Food Service Worker I",
             "school": "College of the North Atlantic",
             "date": "2025-11-07T00:00:00",
             "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17265&JobSiteId=2,4",
-            "new_since": "2025-11-09T22:51:48.947863"
-        },
-        {
-            "title": "Clerk III",
-            "school": "College of the North Atlantic",
-            "date": "2025-11-07T00:00:00",
-            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17472&JobSiteId=2,4",
             "new_since": "2025-11-09T22:51:48.947863"
         },
         {
@@ -3466,18 +2493,25 @@
             "new_since": "2025-11-17T22:52:03.193371"
         },
         {
-            "title": "Mi'kmaq Confederacy of PEI: Family Group Conference Facilitator / Cultural Advisor",
-            "school": "Holland College",
-            "date": "November 9th, 2025",
-            "link": "https://www.hollandcollege.com/jobfiles/fam-group-conference-facilitator-mcpei-nov5-2025.html",
-            "new_since": "2025-11-09T22:51:48.948877"
-        },
-        {
             "title": "Deerfield Pub/Glen Arbor Golf Course: Cook",
             "school": "Holland College",
             "date": "October 31st, 2025",
             "link": "https://www.hollandcollege.com/jobfiles/cook-deerfield-pub-glen-arbour-golf-club-oct-30-25.html",
             "new_since": "2025-10-31T22:52:02.320623"
+        },
+        {
+            "title": "Parks Canada: Utilities Trades Helper",
+            "school": "Holland College",
+            "date": "November 18th, 2025",
+            "link": "https://www.hollandcollege.com/jobfiles/utilities-trades-helper-parkscanada-nov18-2025.html",
+            "new_since": "2025-11-18T22:51:50.825159"
+        },
+        {
+            "title": "Parks Canada: Bilingual Administrative Assistant",
+            "school": "Holland College",
+            "date": "November 18th, 2025",
+            "link": "https://www.hollandcollege.com/jobfiles/bilingual-admin-asst-parkscanada-nov18-2025.html",
+            "new_since": "2025-11-18T22:51:50.825159"
         },
         {
             "title": "CHANCES: Smart Play (School Age) Inclusion Support Worker (ISW)",
@@ -3564,6 +2598,13 @@
             "new_since": "2025-11-09T22:51:48.948877"
         },
         {
+            "title": "Your Tooth Fairy: Full Time RDA - Summerside - 1805",
+            "school": "Holland College",
+            "date": "November 18th, 2025",
+            "link": "https://www.hollandcollege.com/jobfiles/ft-rda-yourtoothfairy-nov18-2025.html",
+            "new_since": "2025-11-18T22:51:50.825159"
+        },
+        {
             "title": "Concierge I",
             "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
             "date": "November 17th, 2025",
@@ -3571,14 +2612,14 @@
             "new_since": "2025-11-17T22:52:03.193371"
         },
         {
-            "title": "Campus de Bathurst",
+            "title": "Concierge I",
             "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
             "date": "November 17th, 2025",
             "link": "https://ccnb.ca/wp-content/uploads/25-6720-040-Concierge-1.pdf",
             "new_since": "2025-11-17T22:52:03.193371"
         },
         {
-            "title": "décembre 1, 2025",
+            "title": "Concierge I",
             "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
             "date": "November 17th, 2025",
             "link": "https://ccnb.ca/wp-content/uploads/25-6720-040-Concierge-1.pdf",
@@ -3793,27 +2834,6 @@
             "date": "November 9th, 2025",
             "link": "https://ccnb.ca/wp-content/uploads/25-6775-071-Coordonnateur.trice-de-lapprentissage-experientiel-1.pdf",
             "new_since": "2025-11-09T22:51:48.948877"
-        },
-        {
-            "title": "Enseignante ou enseignant - Affaires (douane et exportation)",
-            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "October 17th, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/25-6775-65-Appel-dinteret-Enseignant.e-Affaires.pdf",
-            "new_since": "2025-10-17T20:33:00.111323"
-        },
-        {
-            "title": "Enseignante ou enseignant - Affaires (douane et exportation)",
-            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "October 17th, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/25-6775-65-Appel-dinteret-Enseignant.e-Affaires.pdf",
-            "new_since": "2025-10-17T20:33:00.111323"
-        },
-        {
-            "title": "Enseignante ou enseignant en technologie génie civil - COOP",
-            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "October 17th, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/25-6710-015-Enseignant.e-Technologie-du-genie-civil.pdf",
-            "new_since": "2025-10-17T20:33:00.111323"
         },
         {
             "title": "Concièrge I",
@@ -3834,13 +2854,6 @@
             "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
             "date": "October 17th, 2025",
             "link": "https://ccnb.ca/wp-content/uploads/25-6710-012-Enseignant.e-soudage.pdf",
-            "new_since": "2025-10-17T20:33:00.111323"
-        },
-        {
-            "title": "Concierge I",
-            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "October 17th, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/25-6765-016-Concierge-I-1.pdf",
             "new_since": "2025-10-17T20:33:00.111323"
         },
         {
@@ -3872,5 +2885,5 @@
             "new_since": "2025-02-07T20:10:01.425779"
         }
     ],
-    "last_updated": "2025-11-17T22:52:03.194372"
+    "last_updated": "2025-11-18T22:51:50.826159"
 }
