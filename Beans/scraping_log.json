@@ -27315,5 +27315,98 @@
                 "new_since": "2025-11-12T22:52:07.007401"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-22T22:51:54.911101",
+        "new_jobs_count": 2,
+        "removed_jobs_count": 10,
+        "new_jobs": [
+            {
+                "title": "Administrative Temp Opportunities",
+                "school": "University of New Brunswick",
+                "date": "November 22nd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-temp-opportunities/1953773?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=1953773&utm_term=jobtitle",
+                "new_since": "2025-11-22T22:51:54.872569"
+            },
+            {
+                "title": "Administrative Temp Opportunities",
+                "school": "University of New Brunswick",
+                "date": "November 22nd, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-temp-opportunities/1902601?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=1902601&utm_term=jobtitle",
+                "new_since": "2025-11-22T22:51:54.872569"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "Coordinator, Adult Learner Services",
+                "school": "University of New Brunswick",
+                "date": "November 21st, 2025",
+                "link": "https://jobs.careerbeacon.com/details/coordinator-adult-learner-services/2178479?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2178479&utm_term=jobtitle",
+                "new_since": "2025-11-21T22:51:55.664398"
+            },
+            {
+                "title": "Electrician PL7",
+                "school": "University of New Brunswick",
+                "date": "November 21st, 2025",
+                "link": "https://jobs.careerbeacon.com/details/electrician-pl7/2192029?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2192029&utm_term=jobtitle",
+                "new_since": "2025-11-21T22:51:55.664398"
+            },
+            {
+                "title": "Carpenter",
+                "school": "University of New Brunswick",
+                "date": "November 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/carpenter/2167383?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2167383&utm_term=jobtitle",
+                "new_since": "2025-11-20T22:52:07.613868"
+            },
+            {
+                "title": "Communications Specialist",
+                "school": "University of New Brunswick",
+                "date": "November 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/communications-specialist/2191806?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2191806&utm_term=jobtitle",
+                "new_since": "2025-11-20T22:52:07.613868"
+            },
+            {
+                "title": "Executive Director, Startup Programs & Innovation Partnerships",
+                "school": "University of New Brunswick",
+                "date": "November 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/executive-director-startup-programs--innovation-partnerships/2171701?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2171701&utm_term=jobtitle",
+                "new_since": "2025-11-20T22:52:07.613868"
+            },
+            {
+                "title": "Administrative Assistant (Secretary PL3)",
+                "school": "University of New Brunswick",
+                "date": "November 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-assistant-secretary-pl3/2190274?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2190274&utm_term=jobtitle",
+                "new_since": "2025-11-20T22:52:07.613868"
+            },
+            {
+                "title": "Graduate Programs Coordinator",
+                "school": "University of New Brunswick",
+                "date": "November 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/graduate-programs-coordinator/2189791?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2189791&utm_term=jobtitle",
+                "new_since": "2025-11-20T22:52:07.613868"
+            },
+            {
+                "title": "Alumni Engagement Coordinator",
+                "school": "University of New Brunswick",
+                "date": "November 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/alumni-engagement-coordinator/2188312?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2188312&utm_term=jobtitle",
+                "new_since": "2025-11-20T22:52:07.613868"
+            },
+            {
+                "title": "Director of Finance & Administration",
+                "school": "University of New Brunswick",
+                "date": "November 20th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/director-of-finance--administration/2185192?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2185192&utm_term=jobtitle",
+                "new_since": "2025-11-20T22:52:07.613868"
+            },
+            {
+                "title": "Research Technologist",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19891",
+                "date": "November 10th, 2025",
+                "new_since": "2025-11-10T22:51:57.394885"
+            }
+        ]
     }
 ]
