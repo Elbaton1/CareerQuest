@@ -27408,5 +27408,42 @@
                 "new_since": "2025-11-10T22:51:57.394885"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-23T22:51:57.903524",
+        "new_jobs_count": 2,
+        "removed_jobs_count": 2,
+        "new_jobs": [
+            {
+                "title": "WINTER 2026 CO-OP: HUMAN RESOURCES STUDENT",
+                "school": "Cape Breton University",
+                "date": "November 23rd, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/winter-2026-co-op-human-resources-student/",
+                "new_since": "2025-11-23T22:51:57.874827"
+            },
+            {
+                "title": "SUMMER 2026 – TREE PLANTERS – IRVING WOODLANDS – FREDERICTON, SUSSEX AND SAINT- LEONARD NB",
+                "school": "Cape Breton University",
+                "date": "November 23rd, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-tree-planters-irving-woodlands-fredericton-sussex-and-saint-leonard-nb/",
+                "new_since": "2025-11-23T22:51:57.874827"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "NEW GRAD OPPORTUNITY – NOVA SCOTIA DEPARTMENT OF JUSTICE – YOUTH WORKER – WATERVILLE, NS",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/148456/",
+                "date": "November 19th, 2025",
+                "new_since": "2025-11-19T22:52:07.475137"
+            },
+            {
+                "title": "RECENT OR POTENTIAL GRADS: COUNSELLOR 2 (A) ACCESS SUPPORT WORKER",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/recent-or-potential-grads-counsellor-2-a-access-support-worker/",
+                "date": "November 9th, 2025",
+                "new_since": "2025-11-09T22:51:48.940869"
+            }
+        ]
     }
 ]
