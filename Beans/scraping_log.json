@@ -28648,5 +28648,182 @@
                 "new_since": "2025-11-13T22:52:02.787228"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-28T22:51:57.286047",
+        "new_jobs_count": 10,
+        "removed_jobs_count": 14,
+        "new_jobs": [
+            {
+                "title": "SUMMER 2026 – TREE PLANTING CREW LEADER – IRVING WOODLANDS – VARIOUS LOCATIONS, NB",
+                "school": "Cape Breton University",
+                "date": "November 28th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-tree-planting-crew-leader-irving-woodlands-various-locations-nb/",
+                "new_since": "2025-11-28T22:51:57.239664"
+            },
+            {
+                "title": "Project Manager and Business Process Analyst (Two (2) positions)",
+                "school": "Dalhousie University",
+                "date": "November 28th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/20005",
+                "new_since": "2025-11-28T22:51:57.239664"
+            },
+            {
+                "title": "Part-Time Academic (Clinical Instructors for Nursing) - Winter 2026",
+                "school": "Dalhousie University",
+                "date": "November 28th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/20004",
+                "new_since": "2025-11-28T22:51:57.239664"
+            },
+            {
+                "title": "Project Coordinator",
+                "school": "Dalhousie University",
+                "date": "November 28th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/20001",
+                "new_since": "2025-11-28T22:51:57.239664"
+            },
+            {
+                "title": "Research Facilitator",
+                "school": "Dalhousie University",
+                "date": "November 28th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/20000",
+                "new_since": "2025-11-28T22:51:57.239664"
+            },
+            {
+                "title": "Part-Time Academic (ENVI 5023: Qualitative Data Analysis - Winter 2026)",
+                "school": "Dalhousie University",
+                "date": "November 28th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19998",
+                "new_since": "2025-11-28T22:51:57.239664"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Research Assistant - Department of Political Science - Faculty of Arts",
+                "link": "https://www.upei.ca/hr/competition/136s25",
+                "date": "Closing date: 2025-12-07T00:00:00",
+                "new_since": "2025-11-28T22:51:57.240658"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "ADS Level 6 - Enrolment Liaison - Office of Recruitment and First Year Advisement",
+                "link": "https://www.upei.ca/hr/competition/224e25",
+                "date": "Closing date: 2025-12-14T00:00:00",
+                "new_since": "2025-11-28T22:51:57.240658"
+            },
+            {
+                "title": "Instructor, TV & Film Technical Production (Camera Management)",
+                "school": "College of the North Atlantic",
+                "date": "2025-11-28T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17519&JobSiteId=2,4",
+                "new_since": "2025-11-28T22:51:57.241658"
+            },
+            {
+                "title": "Instructor, TV & Film (Camera Management)",
+                "school": "College of the North Atlantic",
+                "date": "2025-11-28T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17523&JobSiteId=2,4",
+                "new_since": "2025-11-28T22:51:57.241658"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "Instructor",
+                "school": "Memorial University",
+                "date": "2025-11-13T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6334",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "Instructor",
+                "school": "Memorial University",
+                "date": "2025-11-13T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6332",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "Executive Director, Startup Programs & Innovation Partnerships",
+                "school": "University of New Brunswick",
+                "date": "November 27th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/executive-director-startup-programs--innovation-partnerships/2171701?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2171701&utm_term=jobtitle",
+                "new_since": "2025-11-27T22:51:52.216958"
+            },
+            {
+                "title": "RESEARCH: RESEARCH ASSISTANT, RELATIONAL & RESTORATIVE BOOK CLUB PROJECT",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/research-research-assistant-relational-restorative-book-club-project/",
+                "date": "November 19th, 2025",
+                "new_since": "2025-11-19T22:52:07.475137"
+            },
+            {
+                "title": "Project Manager and Business Process Analyst (Two (2) positions)",
+                "school": "Dalhousie University",
+                "date": "November 27th, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/19993",
+                "new_since": "2025-11-27T22:51:52.216958"
+            },
+            {
+                "title": "Research Assistant",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19948",
+                "date": "November 20th, 2025",
+                "new_since": "2025-11-20T22:52:07.613868"
+            },
+            {
+                "title": "Accreditation Administrator",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19915",
+                "date": "November 13th, 2025",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "Senior Analyst, Financial Modelling and Analytics",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19914",
+                "date": "November 13th, 2025",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "Part-Time Academic (Clinical Instructors for Nursing) - Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19378",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Administrative Assistant - Human Resources Department",
+                "link": "https://www.upei.ca/hr/competition/217e25",
+                "date": "Closing date: 2025-11-27T00:00:00",
+                "new_since": "2025-11-27T22:51:52.217955"
+            },
+            {
+                "title": "CHANCES: Smart Play (School Age) Inclusion Support Worker (ISW)",
+                "school": "Holland College",
+                "date": "November 12th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/smart-play-inclusion-support-worker-chances-nov12-2025.html",
+                "new_since": "2025-11-12T22:52:07.006397"
+            },
+            {
+                "title": "CHANCES: Smart Play (School Age) Youth Educator",
+                "school": "Holland College",
+                "date": "November 12th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/smart-play-youth-educator-chances-nov12-2025.html",
+                "new_since": "2025-11-12T22:52:07.006397"
+            },
+            {
+                "title": "CHANCES: Smart Play (School Age) Team Lead",
+                "school": "Holland College",
+                "date": "November 12th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/smart-play-team-lead-chances-nov12-2025.html",
+                "new_since": "2025-11-12T22:52:07.006397"
+            },
+            {
+                "title": "Enseignante ou enseignant - Électricité",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6710-006-Enseignante-ou-enseignant-electricite-2.pdf",
+                "new_since": "2025-10-17T20:33:00.111323"
+            }
+        ]
     }
 ]
