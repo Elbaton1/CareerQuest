@@ -28825,5 +28825,147 @@
                 "new_since": "2025-10-17T20:33:00.111323"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-29T22:52:08.744096",
+        "new_jobs_count": 2,
+        "removed_jobs_count": 17,
+        "new_jobs": [
+            {
+                "title": "PEI Atlantic Baptist Homes: Workforce Coordinator Assistant",
+                "school": "Holland College",
+                "date": "November 29th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/workforce-coordinator-assistant-pei-atlanticbaptisthomes-nov28-2025.html",
+                "new_since": "2025-11-29T22:52:08.700867"
+            },
+            {
+                "title": "Northview Residential REIT: Journeyman Oil Burner Mechanic/Oil Heat Systems Technician",
+                "school": "Holland College",
+                "date": "November 29th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/journeyman-oil-burner-mechanic-northview-nov28-2025.html",
+                "new_since": "2025-11-29T22:52:08.700867"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "Manager, Integrated Student Experience & Retention",
+                "school": "University of New Brunswick",
+                "date": "November 27th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/manager-integrated-student-experience--retention/2193154?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2193154&utm_term=jobtitle",
+                "new_since": "2025-11-27T22:51:52.216958"
+            },
+            {
+                "title": "Treasury Assistant (Clerk PL5)",
+                "school": "University of New Brunswick",
+                "date": "November 27th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/treasury-assistant-clerk-pl5/2192325?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2192325&utm_term=jobtitle",
+                "new_since": "2025-11-27T22:51:52.216958"
+            },
+            {
+                "title": "Labourer",
+                "school": "University of New Brunswick",
+                "date": "November 27th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/labourer/2192348?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2192348&utm_term=jobtitle",
+                "new_since": "2025-11-27T22:51:52.216958"
+            },
+            {
+                "title": "Coordinator, Adult Learner Services",
+                "school": "University of New Brunswick",
+                "date": "November 27th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/coordinator-adult-learner-services/2178479?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2178479&utm_term=jobtitle",
+                "new_since": "2025-11-27T22:51:52.216958"
+            },
+            {
+                "title": "Electrician PL7",
+                "school": "University of New Brunswick",
+                "date": "November 27th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/electrician-pl7/2192029?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2192029&utm_term=jobtitle",
+                "new_since": "2025-11-27T22:51:52.216958"
+            },
+            {
+                "title": "Carpenter",
+                "school": "University of New Brunswick",
+                "date": "November 27th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/carpenter/2167383?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2167383&utm_term=jobtitle",
+                "new_since": "2025-11-27T22:51:52.216958"
+            },
+            {
+                "title": "Communications Specialist",
+                "school": "University of New Brunswick",
+                "date": "November 27th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/communications-specialist/2191806?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2191806&utm_term=jobtitle",
+                "new_since": "2025-11-27T22:51:52.216958"
+            },
+            {
+                "title": "Director of Finance & Administration",
+                "school": "University of New Brunswick",
+                "date": "November 27th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/director-of-finance--administration/2185192?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2185192&utm_term=jobtitle",
+                "new_since": "2025-11-27T22:51:52.216958"
+            },
+            {
+                "title": "Concierge – régulier - S25PM020",
+                "school": "Université de Moncton",
+                "date": "November 12, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2189998/universite-de-moncton-campus-de-shippagan-umcs//shippagan-nb?utm_source=careerbeacon",
+                "new_since": "2025-11-12T22:52:06.999880"
+            },
+            {
+                "title": "Research Associate",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19942",
+                "date": "November 19th, 2025",
+                "new_since": "2025-11-19T22:52:07.475137"
+            },
+            {
+                "title": "Part-Time Academic HLTH 3010.03: Introduction to Research Methods - Co-teaching (1/3 of a 1/2 credit) - Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19933",
+                "date": "November 18th, 2025",
+                "new_since": "2025-11-18T22:51:50.816159"
+            },
+            {
+                "title": "Part-Time Academic (HIST 3500.03: The Rise and Fall of the British Empire - Winter 2026 - Online)",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19932",
+                "date": "November 18th, 2025",
+                "new_since": "2025-11-18T22:51:50.816159"
+            },
+            {
+                "title": "Part-Time Academic for NURS2750 - Health and Healing II: Pathophysiology and Therapeutics - Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19923",
+                "date": "November 17th, 2025",
+                "new_since": "2025-11-17T22:52:03.189074"
+            },
+            {
+                "title": "Research Technician",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19913",
+                "date": "November 13th, 2025",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "Part-Time Academic CHEM 2402: Organic Chemistry II - 1 Lecture Assistant - Winter 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19912",
+                "date": "November 13th, 2025",
+                "new_since": "2025-11-13T22:52:02.779636"
+            },
+            {
+                "title": "Instructor, Academic Math",
+                "school": "College of the North Atlantic",
+                "date": "2025-11-20T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17502&JobSiteId=2,4",
+                "new_since": "2025-11-20T22:52:07.614897"
+            },
+            {
+                "title": "Food Service Worker I",
+                "school": "College of the North Atlantic",
+                "date": "2025-11-20T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17503&JobSiteId=2,4",
+                "new_since": "2025-11-20T22:52:07.614897"
+            }
+        ]
     }
 ]
