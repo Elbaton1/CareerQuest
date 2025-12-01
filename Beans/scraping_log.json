@@ -28967,5 +28967,70 @@
                 "new_since": "2025-11-20T22:52:07.614897"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-30T22:51:54.714811",
+        "new_jobs_count": 4,
+        "removed_jobs_count": 4,
+        "new_jobs": [
+            {
+                "title": "Administrative Temp Opportunities",
+                "school": "University of New Brunswick",
+                "date": "November 30th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-temp-opportunities/1953773?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=1953773&utm_term=jobtitle",
+                "new_since": "2025-11-30T22:51:54.667927"
+            },
+            {
+                "title": "Administrative Temp Opportunities",
+                "school": "University of New Brunswick",
+                "date": "November 30th, 2025",
+                "link": "https://jobs.careerbeacon.com/details/administrative-temp-opportunities/1902601?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=1902601&utm_term=jobtitle",
+                "new_since": "2025-11-30T22:51:54.667927"
+            },
+            {
+                "title": "NEW GRAD OPPORTUNITY – CHILD PROTECTION SOCIAL WORKER – OPPORTUNITIES AND SOCIAL DEVELOPMENT – HALIFAX, DARTMOUTH, SACKVILLE, NS",
+                "school": "Cape Breton University",
+                "date": "November 30th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/new-grad-opportunity-child-protection-social-worker-opportunities-and-social-development-halifax-dartmouth-sackville-ns/",
+                "new_since": "2025-11-30T22:51:54.667927"
+            },
+            {
+                "title": "SUMMER 2026 – CIVIL ENGINEERING STUDENT – GULF OPERATORS – SAINT JOHN, NB",
+                "school": "Cape Breton University",
+                "date": "November 30th, 2025",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-civil-engineering-student-gulf-operators-saint-john-nb/",
+                "new_since": "2025-11-30T22:51:54.667927"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "NEW GRAD OPPORTUNITY – CBRM WATER UTILITY – METERING & WATER CONSERVATION INTERN – SYDNEY, NS",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/new-grad-opportunity-cbrm-water-utility-metering-water-conservation-intern-sydney-ns/",
+                "date": "November 19th, 2025",
+                "new_since": "2025-11-19T22:52:07.475137"
+            },
+            {
+                "title": "NEW GRAD OPPORTUNITY – CBU – DETECTION OF WATERBORNE CONTAMINANTS IN DRINKING WATER SENSOR DEVELOPMENT INTERN- SYDNEY, NS",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/new-grad-opportunity-cbu-detection-of-waterborne-contaminants-in-drinking-water-sensor-development-intern-sydney-ns/",
+                "date": "November 19th, 2025",
+                "new_since": "2025-11-19T22:52:07.475137"
+            },
+            {
+                "title": "Frontier Power Systems: Electrical / Electronics panel assembler",
+                "school": "Holland College",
+                "date": "November 17th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/electrical-electronics-panel-assembler-frontierpowersystems-nov17-2025.html",
+                "new_since": "2025-11-17T22:52:03.193371"
+            },
+            {
+                "title": "Island Abbey Nutritionals: Maintenance Technician Industrial Electrician",
+                "school": "Holland College",
+                "date": "November 16th, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/maintenance-tech-ie-islandabbey-nov13-2025.html",
+                "new_since": "2025-11-16T22:52:19.156694"
+            }
+        ]
     }
 ]
