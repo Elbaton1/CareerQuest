@@ -1,6 +1,13 @@
 {
     "jobs": [
         {
+            "title": "CLINICAL PROGRAM ADMINISTRATOR (BAND LEVEL 8)",
+            "school": "Memorial University",
+            "date": "2025-12-01T09:00:00",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6360",
+            "new_since": "2025-12-01T22:51:52.280460"
+        },
+        {
             "title": "SENIOR PROGRAMMER ANALYST (BAND LEVEL 8)",
             "school": "Memorial University",
             "date": "2025-11-26T09:00:00",
@@ -36,13 +43,6 @@
             "new_since": "2025-11-19T22:52:07.475137"
         },
         {
-            "title": "ADMINISTRATIVE STAFF SPECIALIST I (BAND LEVEL 5)",
-            "school": "Memorial University",
-            "date": "2025-11-17T09:00:00",
-            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6340",
-            "new_since": "2025-11-17T22:52:03.189074"
-        },
-        {
             "title": "MANAGER, FINANCIAL ACCOUNTING AND INVESTMENTS (BAND LEVEL 13)",
             "school": "Memorial University",
             "date": "2025-10-24T09:00:00",
@@ -76,6 +76,13 @@
             "date": "2025-06-16T09:00:00",
             "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6056",
             "new_since": "2025-10-17T20:33:00.108308"
+        },
+        {
+            "title": "NETWORK ADMINISTRATOR IV (BAND LEVEL 9)",
+            "school": "Memorial University",
+            "date": "2025-12-01T09:00:00",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6358",
+            "new_since": "2025-12-01T22:51:52.280460"
         },
         {
             "title": "Instructor",
@@ -162,11 +169,11 @@
             "new_since": "2025-11-19T22:52:07.475137"
         },
         {
-            "title": "CHEFFE ou CHEF D'ÉQUIPE XII À L'ARÉNA",
+            "title": "PROFESSEURE OU PROFESSEUR EN HISTOIRE DE L’ATLANTIQUE FRANÇAIS À L’ÉPOQUE COLONIALE",
             "school": "Université de Moncton",
-            "date": "November 05, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2188314/universite-de-moncton/cheffe-ou-chef-d-equipe-xii-a-l-arena/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-11-05T22:51:53.867214"
+            "date": "November 12, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2179909/universite-de-moncton-campus-de-moncton-umcm//moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-11-12T22:52:06.999880"
         },
         {
             "title": "PROFESSEURE OU PROFESSEUR EN GÉOGRAPHIE DE L’ENVIRONNEMENT",
@@ -176,11 +183,53 @@
             "new_since": "2025-11-12T22:52:06.999880"
         },
         {
-            "title": "PROFESSEURE OU PROFESSEUR EN HISTOIRE DE L’ATLANTIQUE FRANÇAIS À L’ÉPOQUE COLONIALE",
+            "title": "PROFESSEURE OU PROFESSEUR EN LINGUISTIQUE",
             "school": "Université de Moncton",
             "date": "November 12, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2179909/universite-de-moncton-campus-de-moncton-umcm//moncton-nb?utm_source=careerbeacon",
+            "link": "https://www.careerbeacon.com/fr/emplois/2179898/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-linguistique/moncton-nb?utm_source=careerbeacon",
             "new_since": "2025-11-12T22:52:06.999880"
+        },
+        {
+            "title": "ÉLECTRICIENNE ou ÉLECTRICIEN XIV (temporaire 2 ans)",
+            "school": "Université de Moncton",
+            "date": "2025-11-19",
+            "link": "https://www.careerbeacon.com/fr/emplois/2190332/universite-de-moncton/electricienne-ou-electricien-xiv-temporaire-2-ans/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-11-20T22:52:07.613868"
+        },
+        {
+            "title": "PROFESSEURE OU PROFESSEUR EN GÉNIE CIVIL",
+            "school": "Université de Moncton",
+            "date": "November 13, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2167028/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-genie-civil/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-11-13T22:52:02.779636"
+        },
+        {
+            "title": "COMPTABLE EN CHEF, par intérim",
+            "school": "Université de Moncton",
+            "date": "November 26, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2192308/universite-de-moncton/comptable-en-chef-par-interim/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-11-26T22:51:56.891008"
+        },
+        {
+            "title": "CHEFFE ou CHEF D'ÉQUIPE XII À L'ARÉNA",
+            "school": "Université de Moncton",
+            "date": "November 05, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2188314/universite-de-moncton/cheffe-ou-chef-d-equipe-xii-a-l-arena/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-11-05T22:51:53.867214"
+        },
+        {
+            "title": "PROFESSEURE ou PROFESSEUR EN AUDIT avec possibilité de bourse de recrutement*",
+            "school": "Université de Moncton",
+            "date": "November 12, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2180425/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-audit-avec-possibilite-de-bourse-de-recrutement/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-11-12T22:52:06.999880"
+        },
+        {
+            "title": "CHERCHEUR(E) POSTDOCTORAL(E) EN OPTIQUE QUANTIQUE EXPERIMENTALE",
+            "school": "Université de Moncton",
+            "date": "November 26, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2192554/universite-de-moncton/chercheur-e-postdoctoral-e-en-optique-quantique-experimentale/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-11-26T22:51:56.891008"
         },
         {
             "title": "PROFESSEURE OU PROFESSEUR EN BIOLOGIE MARINE",
@@ -204,52 +253,17 @@
             "new_since": "2025-11-12T22:52:06.999880"
         },
         {
-            "title": "PROFESSEURE ou PROFESSEUR EN AUDIT avec possibilité de bourse de recrutement*",
+            "title": "COORDONNATRICE EXÉCUTIVE ou COORDONNATEUR EXÉCUTIF À LA DOYENNE ASSOCIÉE",
             "school": "Université de Moncton",
-            "date": "November 12, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2180425/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-audit-avec-possibilite-de-bourse-de-recrutement/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-11-12T22:52:06.999880"
-        },
-        {
-            "title": "PROFESSEURE OU PROFESSEUR EN GÉNIE CIVIL",
-            "school": "Université de Moncton",
-            "date": "November 13, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2167028/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-genie-civil/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-11-13T22:52:02.779636"
-        },
-        {
-            "title": "COMPTABLE EN CHEF, par intérim",
-            "school": "Université de Moncton",
-            "date": "November 26, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2192308/universite-de-moncton/comptable-en-chef-par-interim/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-11-26T22:51:56.891008"
-        },
-        {
-            "title": "CHERCHEUR(E) POSTDOCTORAL(E) EN OPTIQUE QUANTIQUE EXPERIMENTALE",
-            "school": "Université de Moncton",
-            "date": "November 26, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2192554/universite-de-moncton/chercheur-e-postdoctoral-e-en-optique-quantique-experimentale/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-11-26T22:51:56.891008"
+            "date": "November 19, 2025",
+            "link": "https://www.careerbeacon.com/fr/emplois/2191423/universite-de-moncton/coordonnatrice-executive-ou-coordonnateur-executif-a-la-doyenne-associee/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2025-11-19T22:52:07.475137"
         },
         {
             "title": "COORDONNATRICE ou COORDONNATEUR COOP",
             "school": "Université de Moncton",
             "date": "November 19, 2025",
             "link": "https://www.careerbeacon.com/fr/emplois/2191192/universite-de-moncton/coordonnatrice-ou-coordonnateur-coop/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-11-19T22:52:07.475137"
-        },
-        {
-            "title": "PROFESSEURE OU PROFESSEUR EN LINGUISTIQUE",
-            "school": "Université de Moncton",
-            "date": "November 12, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2179898/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-linguistique/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-11-12T22:52:06.999880"
-        },
-        {
-            "title": "PROFESSEURE OU PROFESSEUR DE CHANT",
-            "school": "Université de Moncton",
-            "date": "November 19, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2191497/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-de-chant/moncton-nb?utm_source=careerbeacon",
             "new_since": "2025-11-19T22:52:07.475137"
         },
         {
@@ -260,17 +274,10 @@
             "new_since": "2025-11-26T22:51:56.891008"
         },
         {
-            "title": "ÉLECTRICIENNE ou ÉLECTRICIEN XIV (temporaire 2 ans)",
-            "school": "Université de Moncton",
-            "date": "2025-11-19",
-            "link": "https://www.careerbeacon.com/fr/emplois/2190332/universite-de-moncton/electricienne-ou-electricien-xiv-temporaire-2-ans/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2025-11-20T22:52:07.613868"
-        },
-        {
-            "title": "COORDONNATRICE EXÉCUTIVE ou COORDONNATEUR EXÉCUTIF À LA DOYENNE ASSOCIÉE",
+            "title": "PROFESSEURE OU PROFESSEUR DE CHANT",
             "school": "Université de Moncton",
             "date": "November 19, 2025",
-            "link": "https://www.careerbeacon.com/fr/emplois/2191423/universite-de-moncton/coordonnatrice-executive-ou-coordonnateur-executif-a-la-doyenne-associee/moncton-nb?utm_source=careerbeacon",
+            "link": "https://www.careerbeacon.com/fr/emplois/2191497/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-de-chant/moncton-nb?utm_source=careerbeacon",
             "new_since": "2025-11-19T22:52:07.475137"
         },
         {
@@ -346,16 +353,23 @@
         {
             "title": "NEW GRAD OPPORTUNITY – CHILD PROTECTION SOCIAL WORKER – OPPORTUNITIES AND SOCIAL DEVELOPMENT – HALIFAX, DARTMOUTH, SACKVILLE, NS",
             "school": "Cape Breton University",
-            "date": "November 30th, 2025",
             "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/new-grad-opportunity-child-protection-social-worker-opportunities-and-social-development-halifax-dartmouth-sackville-ns/",
+            "date": "November 30th, 2025",
             "new_since": "2025-11-30T22:51:54.667927"
         },
         {
             "title": "SUMMER 2026 – CIVIL ENGINEERING STUDENT – GULF OPERATORS – SAINT JOHN, NB",
             "school": "Cape Breton University",
-            "date": "November 30th, 2025",
             "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-civil-engineering-student-gulf-operators-saint-john-nb/",
+            "date": "November 30th, 2025",
             "new_since": "2025-11-30T22:51:54.667927"
+        },
+        {
+            "title": "Senior Advisor, Labour and Employee Relations",
+            "school": "Dalhousie University",
+            "date": "December 1st, 2025",
+            "link": "https://dal.peopleadmin.ca/postings/20012",
+            "new_since": "2025-12-01T22:51:52.281454"
         },
         {
             "title": "Project Manager and Business Process Analyst (Two (2) positions)",
@@ -526,13 +540,6 @@
             "new_since": "2025-11-21T22:51:55.664398"
         },
         {
-            "title": "Finance Clerk, Research and Special Purpose Funding",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/19952",
-            "date": "November 21st, 2025",
-            "new_since": "2025-11-21T22:51:55.664398"
-        },
-        {
             "title": "Landscape Architect Instructor - FAFU International College",
             "school": "Dalhousie University",
             "link": "https://dal.peopleadmin.ca/postings/19946",
@@ -568,23 +575,9 @@
             "new_since": "2025-11-05T22:51:53.867214"
         },
         {
-            "title": "Medical Geneticist, Clinical Assistant/Associate Professor",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/19837",
-            "date": "October 28th, 2025",
-            "new_since": "2025-10-28T22:51:58.180152"
-        },
-        {
             "title": "Vice-President, Research and Innovation",
             "school": "Dalhousie University",
             "link": "https://dal.peopleadmin.ca/postings/19703",
-            "date": "October 17th, 2025",
-            "new_since": "2025-10-17T20:33:00.108308"
-        },
-        {
-            "title": "Postdoctoral Fellow: Law & Policy HERO",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/19676",
             "date": "October 17th, 2025",
             "new_since": "2025-10-17T20:33:00.108308"
         },
@@ -727,6 +720,20 @@
             "date": "November 25th, 2025",
             "link": "https://ukings.ca/campus-community/employment/program-coordinator-lawyers-for-reporters/",
             "new_since": "2025-11-25T22:51:54.431483"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Sessional Instructor - Department of Applied Communication, Leadership, and Culture- Faculty of Arts - Winter 2026",
+            "link": "https://www.upei.ca/hr/competition/129si25",
+            "date": "Closing date: 2025-12-15T00:00:00",
+            "new_since": "2025-12-01T22:51:52.281454"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Sessional Instructor - McDougall Faculty of Business - Winter 2026",
+            "link": "https://www.upei.ca/hr/competition/128si25",
+            "date": "Closing date: 2025-12-15T00:00:00",
+            "new_since": "2025-12-01T22:51:52.281454"
         },
         {
             "school": "University of Prince Edward Island",
@@ -904,17 +911,59 @@
             "new_since": "2025-11-27T22:51:52.217955"
         },
         {
-            "title": "Instructor, TV & Film Technical Production (Camera Management)",
+            "title": "Instructional Assistant, Medical Laboratory Sciences",
             "school": "College of the North Atlantic",
-            "date": "2025-11-28T00:00:00",
-            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17519&JobSiteId=2,4",
-            "new_since": "2025-11-28T22:51:57.241658"
+            "date": "2025-12-01T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17521&JobSiteId=2,4",
+            "new_since": "2025-12-01T22:51:52.281454"
+        },
+        {
+            "title": "Instructor, Graphic Communications",
+            "school": "College of the North Atlantic",
+            "date": "2025-12-01T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17526&JobSiteId=2,4",
+            "new_since": "2025-12-01T22:51:52.281454"
+        },
+        {
+            "title": "Instructor, Aircraft Maintenance Engineering Technician Program (Avionics)",
+            "school": "College of the North Atlantic",
+            "date": "2025-12-01T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17527&JobSiteId=2,4",
+            "new_since": "2025-12-01T22:51:52.281454"
+        },
+        {
+            "title": "Instructor, Aircraft Structural Repair Technician Program (Avionics)",
+            "school": "College of the North Atlantic",
+            "date": "2025-12-01T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17528&JobSiteId=2,4",
+            "new_since": "2025-12-01T22:51:52.281454"
+        },
+        {
+            "title": "Early Childhood Educator",
+            "school": "College of the North Atlantic",
+            "date": "2025-12-01T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17534&JobSiteId=2,4",
+            "new_since": "2025-12-01T22:51:52.281454"
+        },
+        {
+            "title": "Business Development Officer",
+            "school": "College of the North Atlantic",
+            "date": "2025-12-01T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17535&JobSiteId=2,4",
+            "new_since": "2025-12-01T22:51:52.281454"
         },
         {
             "title": "Instructor, TV & Film (Camera Management)",
             "school": "College of the North Atlantic",
             "date": "2025-11-28T00:00:00",
             "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17523&JobSiteId=2,4",
+            "new_since": "2025-11-28T22:51:57.241658"
+        },
+        {
+            "title": "Instructor, TV & Film Technical Production (Camera Management)",
+            "school": "College of the North Atlantic",
+            "date": "2025-11-28T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17519&JobSiteId=2,4",
             "new_since": "2025-11-28T22:51:57.241658"
         },
         {
@@ -1105,6 +1154,13 @@
             "date": "November 25th, 2025",
             "link": "https://www.hollandcollege.com/jobfiles/financial-empowerment-coach-johnhowardsociety-nov24-2025.html",
             "new_since": "2025-11-25T22:51:54.432483"
+        },
+        {
+            "title": "The Mobile Shop: recruitment@glentel.com",
+            "school": "Holland College",
+            "date": "December 1st, 2025",
+            "link": "https://www.hollandcollege.com/jobfiles/wireless-sales-rep-themobileshop-dec1-2025.html",
+            "new_since": "2025-12-01T22:51:52.281454"
         },
         {
             "title": "Integrated Staffing: Heavy Duty Mechanic (Apprentice OR Red Seal)",
@@ -1310,27 +1366,6 @@
             "new_since": "2025-11-19T22:52:07.476137"
         },
         {
-            "title": "Concierge I",
-            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "November 17th, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/25-6720-040-Concierge-1.pdf",
-            "new_since": "2025-11-17T22:52:03.193371"
-        },
-        {
-            "title": "Concierge I",
-            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "November 17th, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/25-6720-040-Concierge-1.pdf",
-            "new_since": "2025-11-17T22:52:03.193371"
-        },
-        {
-            "title": "Concierge I",
-            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "November 17th, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/25-6720-040-Concierge-1.pdf",
-            "new_since": "2025-11-17T22:52:03.193371"
-        },
-        {
             "title": "Agente ou agent aux comptes payables (créditeurs)",
             "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
             "date": "November 25th, 2025",
@@ -1384,20 +1419,6 @@
             "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
             "date": "October 31st, 2025",
             "link": "https://ccnb.ca/wp-content/uploads/25-6765-034-Enseignant.e-Reseautique-et-securite-informatique-1.pdf",
-            "new_since": "2025-10-31T22:52:02.321623"
-        },
-        {
-            "title": "Agente ou agent d’ingénierie pédagogique",
-            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "October 31st, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/25-6775-061-Agent.e-dingenierie-pedagogique-2e-aff.pdf",
-            "new_since": "2025-10-31T22:52:02.321623"
-        },
-        {
-            "title": "Agente ou agent d’ingénierie pédagogique",
-            "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
-            "date": "October 31st, 2025",
-            "link": "https://ccnb.ca/wp-content/uploads/25-6775-061-Agent.e-dingenierie-pedagogique-2e-aff.pdf",
             "new_since": "2025-10-31T22:52:02.321623"
         },
         {
@@ -1492,5 +1513,5 @@
             "new_since": "2025-02-07T20:10:01.425779"
         }
     ],
-    "last_updated": "2025-11-30T22:51:54.668928"
+    "last_updated": "2025-12-01T22:51:52.281454"
 }

@@ -29032,5 +29032,161 @@
                 "new_since": "2025-11-16T22:52:19.156694"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-01T22:51:52.327456",
+        "new_jobs_count": 12,
+        "removed_jobs_count": 9,
+        "new_jobs": [
+            {
+                "title": "CLINICAL PROGRAM ADMINISTRATOR (BAND LEVEL 8)",
+                "school": "Memorial University",
+                "date": "2025-12-01T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6360",
+                "new_since": "2025-12-01T22:51:52.280460"
+            },
+            {
+                "title": "NETWORK ADMINISTRATOR IV (BAND LEVEL 9)",
+                "school": "Memorial University",
+                "date": "2025-12-01T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6358",
+                "new_since": "2025-12-01T22:51:52.280460"
+            },
+            {
+                "title": "Senior Advisor, Labour and Employee Relations",
+                "school": "Dalhousie University",
+                "date": "December 1st, 2025",
+                "link": "https://dal.peopleadmin.ca/postings/20012",
+                "new_since": "2025-12-01T22:51:52.281454"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Sessional Instructor - Department of Applied Communication, Leadership, and Culture- Faculty of Arts - Winter 2026",
+                "link": "https://www.upei.ca/hr/competition/129si25",
+                "date": "Closing date: 2025-12-15T00:00:00",
+                "new_since": "2025-12-01T22:51:52.281454"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Sessional Instructor - McDougall Faculty of Business - Winter 2026",
+                "link": "https://www.upei.ca/hr/competition/128si25",
+                "date": "Closing date: 2025-12-15T00:00:00",
+                "new_since": "2025-12-01T22:51:52.281454"
+            },
+            {
+                "title": "Instructional Assistant, Medical Laboratory Sciences",
+                "school": "College of the North Atlantic",
+                "date": "2025-12-01T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17521&JobSiteId=2,4",
+                "new_since": "2025-12-01T22:51:52.281454"
+            },
+            {
+                "title": "Instructor, Graphic Communications",
+                "school": "College of the North Atlantic",
+                "date": "2025-12-01T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17526&JobSiteId=2,4",
+                "new_since": "2025-12-01T22:51:52.281454"
+            },
+            {
+                "title": "Instructor, Aircraft Maintenance Engineering Technician Program (Avionics)",
+                "school": "College of the North Atlantic",
+                "date": "2025-12-01T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17527&JobSiteId=2,4",
+                "new_since": "2025-12-01T22:51:52.281454"
+            },
+            {
+                "title": "Instructor, Aircraft Structural Repair Technician Program (Avionics)",
+                "school": "College of the North Atlantic",
+                "date": "2025-12-01T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17528&JobSiteId=2,4",
+                "new_since": "2025-12-01T22:51:52.281454"
+            },
+            {
+                "title": "Early Childhood Educator",
+                "school": "College of the North Atlantic",
+                "date": "2025-12-01T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17534&JobSiteId=2,4",
+                "new_since": "2025-12-01T22:51:52.281454"
+            },
+            {
+                "title": "Business Development Officer",
+                "school": "College of the North Atlantic",
+                "date": "2025-12-01T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17535&JobSiteId=2,4",
+                "new_since": "2025-12-01T22:51:52.281454"
+            },
+            {
+                "title": "The Mobile Shop: recruitment@glentel.com",
+                "school": "Holland College",
+                "date": "December 1st, 2025",
+                "link": "https://www.hollandcollege.com/jobfiles/wireless-sales-rep-themobileshop-dec1-2025.html",
+                "new_since": "2025-12-01T22:51:52.281454"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "ADMINISTRATIVE STAFF SPECIALIST I (BAND LEVEL 5)",
+                "school": "Memorial University",
+                "date": "2025-11-17T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6340",
+                "new_since": "2025-11-17T22:52:03.189074"
+            },
+            {
+                "title": "Finance Clerk, Research and Special Purpose Funding",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19952",
+                "date": "November 21st, 2025",
+                "new_since": "2025-11-21T22:51:55.664398"
+            },
+            {
+                "title": "Medical Geneticist, Clinical Assistant/Associate Professor",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19837",
+                "date": "October 28th, 2025",
+                "new_since": "2025-10-28T22:51:58.180152"
+            },
+            {
+                "title": "Postdoctoral Fellow: Law & Policy HERO",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/19676",
+                "date": "October 17th, 2025",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Concierge I",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "November 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6720-040-Concierge-1.pdf",
+                "new_since": "2025-11-17T22:52:03.193371"
+            },
+            {
+                "title": "Concierge I",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "November 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6720-040-Concierge-1.pdf",
+                "new_since": "2025-11-17T22:52:03.193371"
+            },
+            {
+                "title": "Concierge I",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "November 17th, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6720-040-Concierge-1.pdf",
+                "new_since": "2025-11-17T22:52:03.193371"
+            },
+            {
+                "title": "Agente ou agent d’ingénierie pédagogique",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 31st, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-061-Agent.e-dingenierie-pedagogique-2e-aff.pdf",
+                "new_since": "2025-10-31T22:52:02.321623"
+            },
+            {
+                "title": "Agente ou agent d’ingénierie pédagogique",
+                "school": "Collège communautaire du Nouveau-Brunswick (CCNB)",
+                "date": "October 31st, 2025",
+                "link": "https://ccnb.ca/wp-content/uploads/25-6775-061-Agent.e-dingenierie-pedagogique-2e-aff.pdf",
+                "new_since": "2025-10-31T22:52:02.321623"
+            }
+        ]
     }
 ]
