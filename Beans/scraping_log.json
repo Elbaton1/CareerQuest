@@ -31788,5 +31788,27 @@
                 "new_since": "2025-12-24T22:51:41.233357"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-28T22:51:41.166109",
+        "new_jobs_count": 0,
+        "removed_jobs_count": 2,
+        "new_jobs": [],
+        "removed_jobs": [
+            {
+                "title": "CHERCHEUR(E) POSTDOCTORAL(E) EN OPTIQUE QUANTIQUE EXPERIMENTALE",
+                "school": "Université de Moncton",
+                "date": "November 26, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2192554/universite-de-moncton/chercheur-e-postdoctoral-e-en-optique-quantique-experimentale/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-11-26T22:51:56.891008"
+            },
+            {
+                "title": "PROFESSEURE OU PROFESSEUR EN SCIENCE POLITIQUE",
+                "school": "Université de Moncton",
+                "date": "November 26, 2025",
+                "link": "https://www.careerbeacon.com/fr/emplois/2185022/universite-de-moncton-campus-de-moncton-umcm/professeure-ou-professeur-en-science-politique/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2025-11-26T22:51:56.891008"
+            }
+        ]
     }
 ]
