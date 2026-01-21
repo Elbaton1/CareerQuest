@@ -34057,5 +34057,392 @@
                 "new_since": "2026-01-09T22:52:18.890229"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-20T22:52:45.038472",
+        "new_jobs_count": 23,
+        "removed_jobs_count": 31,
+        "new_jobs": [
+            {
+                "title": "ACCOUNTING CLERK (BAND LEVEL 4)",
+                "school": "Memorial University",
+                "date": "2026-01-20T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6404",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "title": "SENIOR SECRETARY (BAND LEVEL 6)",
+                "school": "Memorial University",
+                "date": "2026-01-19T09:00:00",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6402",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "title": "LTA School of Education (Field Placement Coordinator)",
+                "school": "St. Thomas University",
+                "date": "January 20th, 2026",
+                "link": "https://www.stu.ca/media/Advertisement-Field-Placement-Coordinator-Limited-Term-Appointment.docx",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "title": "NEW GRAD OPPORTUNITY – CHILD PROTECTION SOCIAL WORKER – OPPORTUNITIES AND SOCIAL DEVELOPMENT – HALIFAX, DARTMOUTH, SACKVILLE, NS",
+                "school": "Cape Breton University",
+                "date": "January 20th, 2026",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/new-grad-opportunity-child-protection-social-worker-opportunities-and-social-development-halifax-dartmouth-sackville-ns/",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "title": "SUMMER 2026: MANAGEMENT TRAINEE SUMMER INTERNSHIP",
+                "school": "Cape Breton University",
+                "date": "January 20th, 2026",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-management-trainee-summer-internship/",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "title": "Chair in Medical Education Research",
+                "school": "Dalhousie University",
+                "date": "January 20th, 2026",
+                "link": "https://dal.peopleadmin.ca/postings/20161",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "title": "Administrative Manager",
+                "school": "Dalhousie University",
+                "date": "January 20th, 2026",
+                "link": "https://dal.peopleadmin.ca/postings/20157",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "title": "Instructor (Faculty of Law)",
+                "school": "Dalhousie University",
+                "date": "January 20th, 2026",
+                "link": "https://dal.peopleadmin.ca/postings/20156",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "title": "Animatrices/Animateurs (écoles d'immersion du printemps et d'été)",
+                "school": "Université Sainte-Anne",
+                "date": "2069-01-20T00:00:00",
+                "link": "https://www.usainteanne.ca/offres-demploi/sa2026-02",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "title": "Professeures/Professeurs de français langue seconde (écoles d'immersion du printemps et d'été)",
+                "school": "Université Sainte-Anne",
+                "date": "0102-01-20T00:00:00",
+                "link": "https://www.usainteanne.ca/offres-demploi/sa2026-01",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "title": "Residence Assistant/Instructor - Florence Field Course",
+                "school": "University of King's College",
+                "date": "January 20th, 2026",
+                "link": "https://ukings.ca/campus-community/employment/residence-assistant-instructor-florence/",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "title": "Varsity Head Coach - Men's Soccer",
+                "school": "University of King's College",
+                "date": "January 20th, 2026",
+                "link": "https://ukings.ca/campus-community/employment/varsity-head-coach-mens-soccer/",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Assistant (Up to 2 Positions) - Faculty of Sustainable Design Engineering",
+                "link": "https://www.upei.ca/hr/competition/02s26",
+                "date": "Closing date: 2026-01-26T00:00:00",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Sessional Instructor- Department of Master of Cleantech Leadership & Transformation - Faculty of Graduate Studies - Summer (1st session) 2026",
+                "link": "https://www.upei.ca/hr/competition/01si26",
+                "date": "Closing date: 2026-02-28T00:00:00",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Clinical Nursing Instructor - Faculty of Nursing- 1.0 FTE Permanent Twelve Month Position - Psychiatric Mental Health Nursing (Queen Elizabeth Hospital), Community Nursing and Clinical Support",
+                "link": "https://www.upei.ca/hr/competition/05a26",
+                "date": "Closing date: 2026-02-02T00:00:00",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Clinical Nursing Instructor - Faculty of Nursing - 1.0 FTE Permanent Twelve Month Position - Faculty of Nursing Learning Resource Centre",
+                "link": "https://www.upei.ca/hr/competition/04a26",
+                "date": "Closing date: 2026-02-02T00:00:00",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Senior Residence Life Advisors (Up to 5 Positions) - Ancillary Services",
+                "link": "https://www.upei.ca/hr/competition/05s26",
+                "date": "Closing date: 2026-01-26T00:00:00",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Assistant (Up to 2 Positions) - Faculty of Arts *Amended*",
+                "link": "https://www.upei.ca/hr/competition/04s26",
+                "date": "Closing date: 2026-01-23T00:00:00",
+                "new_since": "2026-01-20T22:52:44.991634"
+            },
+            {
+                "title": "Food Service Worker I",
+                "school": "College of the North Atlantic",
+                "date": "2026-01-20T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17503&JobSiteId=2,4",
+                "new_since": "2026-01-20T22:52:44.992633"
+            },
+            {
+                "title": "Clerk Typist III",
+                "school": "College of the North Atlantic",
+                "date": "2026-01-19T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17617&JobSiteId=2,4",
+                "new_since": "2026-01-20T22:52:44.992633"
+            },
+            {
+                "title": "Student Development Officer (Workplace Education Coordinator)",
+                "school": "College of the North Atlantic",
+                "date": "2026-01-16T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17548&JobSiteId=2,4",
+                "new_since": "2026-01-20T22:52:44.992633"
+            },
+            {
+                "title": "Early Childhood Educator",
+                "school": "College of the North Atlantic",
+                "date": "2026-01-16T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17616&JobSiteId=2,4",
+                "new_since": "2026-01-20T22:52:44.992633"
+            },
+            {
+                "title": "The Gray Group: Accounting Technician",
+                "school": "Holland College",
+                "date": "January 20th, 2026",
+                "link": "https://www.hollandcollege.com/jobfiles/accounting-technician-thegraygroup-jan16-2026.html",
+                "new_since": "2026-01-20T22:52:44.992633"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "Administrative Temp Opportunities",
+                "school": "University of New Brunswick",
+                "date": "January 15th, 2026",
+                "link": "https://jobs.careerbeacon.com/details/administrative-temp-opportunities/1953773?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=1953773&utm_term=jobtitle",
+                "new_since": "2026-01-15T22:52:10.163054"
+            },
+            {
+                "title": "Administrative Temp Opportunities",
+                "school": "University of New Brunswick",
+                "date": "January 15th, 2026",
+                "link": "https://jobs.careerbeacon.com/details/administrative-temp-opportunities/1902601?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=1902601&utm_term=jobtitle",
+                "new_since": "2026-01-15T22:52:10.163054"
+            },
+            {
+                "title": "Part-Time Position - Social Work",
+                "school": "St. Thomas University",
+                "date": "October 31st, 2025",
+                "link": "https://www.stu.ca/media/SCWK-6033-Sem-2-EXTERNAL.pdf",
+                "new_since": "2025-10-31T22:52:02.313617"
+            },
+            {
+                "title": "Part-Time Position - Sustainability and Environmental Studies, Elsipogtog",
+                "school": "St. Thomas University",
+                "date": "December 19th, 2025",
+                "link": "https://www.stu.ca/media/SEST-Sem-2-EXTERNAL.pdf",
+                "new_since": "2025-12-19T22:51:40.685561"
+            },
+            {
+                "title": "Professeure adjointe ou professeur adjoint en mathématiques et statistiques",
+                "school": "Université de Moncton",
+                "date": "2025-12-17",
+                "link": "https://www.careerbeacon.com/fr/emplois/2196194/universite-de-moncton-campus-de-shippagan-umcs/professeure-adjointe-ou-professeur-adjoint-en-mathematiques-et-statistiques/shippagan-nb?utm_source=careerbeacon",
+                "new_since": "2025-12-19T22:51:40.685561"
+            },
+            {
+                "title": "SUMMER 2026 – ADMINISTRATIVE STUDENT – PCL – HALIFAX, NS",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-administrative-student-pcl-halifax-ns/",
+                "date": "January 9th, 2026",
+                "new_since": "2026-01-09T22:52:18.889235"
+            },
+            {
+                "title": "SUMMER 2026 – OCCUPATIONAL HEALTH AND SAFETY STUDENT – PCL – HALIFAX, NS",
+                "school": "Cape Breton University",
+                "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-occupational-health-and-safety-student-pcl-halifax-ns/",
+                "date": "January 9th, 2026",
+                "new_since": "2026-01-09T22:52:18.889235"
+            },
+            {
+                "title": "Electrician",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/20144",
+                "date": "January 13th, 2026",
+                "new_since": "2026-01-13T22:52:21.495116"
+            },
+            {
+                "title": "Research Assistant",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/20125",
+                "date": "January 9th, 2026",
+                "new_since": "2026-01-09T22:52:18.889235"
+            },
+            {
+                "title": "Part-Time Academic (LARC1010 - Studio I: Introduction to Design at FAFU, China) - Spring 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/20123",
+                "date": "January 9th, 2026",
+                "new_since": "2026-01-09T22:52:18.889235"
+            },
+            {
+                "title": "Part-Time Academic (HORT1005 Landscape Construction Methods at FAFU, China) - Spring 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/20121",
+                "date": "January 9th, 2026",
+                "new_since": "2026-01-09T22:52:18.889235"
+            },
+            {
+                "title": "Part-Time Academic (HORT3000 Environmental Processes at FAFU, China) - Spring 2026",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/20120",
+                "date": "January 9th, 2026",
+                "new_since": "2026-01-09T22:52:18.889235"
+            },
+            {
+                "title": "Subspecialty Residency & Fellowship Coordinator",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/20116",
+                "date": "January 5th, 2026",
+                "new_since": "2026-01-05T22:51:41.084173"
+            },
+            {
+                "title": "Program Specialist - Francophone (Designated Position)",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/20098",
+                "date": "December 19th, 2025",
+                "new_since": "2025-12-19T22:51:40.685561"
+            },
+            {
+                "title": "Chair in Medical Education Research",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/20085",
+                "date": "December 19th, 2025",
+                "new_since": "2025-12-19T22:51:40.686859"
+            },
+            {
+                "title": "Landscape Architect Instructor - FAFU International College",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/20044",
+                "date": "December 19th, 2025",
+                "new_since": "2025-12-19T22:51:40.686859"
+            },
+            {
+                "title": "Préposé à la patinoire/Préposée à la patinoire",
+                "school": "Université Sainte-Anne",
+                "link": "https://www.usainteanne.ca/offres-demploi/sa2025-42",
+                "date": "2051-01-09T00:00:00",
+                "new_since": "2026-01-09T22:52:18.889235"
+            },
+            {
+                "title": "Préposé à la patinoire/Préposée à la patinoire",
+                "school": "Université Sainte-Anne",
+                "link": "https://www.usainteanne.ca/offres-demploi/sa2025-41",
+                "date": "2026-01-07T00:00:00",
+                "new_since": "2026-01-05T22:51:41.084173"
+            },
+            {
+                "title": "Concierge",
+                "school": "Université Sainte-Anne",
+                "link": "https://www.usainteanne.ca/offres-demploi/sa2025-29",
+                "date": "1246-10-17T00:00:00",
+                "new_since": "2025-10-17T20:33:00.108308"
+            },
+            {
+                "title": "Teaching Assistant in the Contemporary Studies Program (Part-time)",
+                "school": "University of King's College",
+                "date": "January 9th, 2026",
+                "link": "https://ukings.ca/campus-community/employment/ta-ctmp-3355/",
+                "new_since": "2026-01-09T22:52:18.889235"
+            },
+            {
+                "title": "Residence Program and Community Engagement Coordinator (Part-time)",
+                "school": "University of King's College",
+                "date": "December 19th, 2025",
+                "link": "https://ukings.ca/campus-community/employment/residence-program-and-community-engagement-coordinator-part-time/",
+                "new_since": "2025-12-19T22:51:40.686859"
+            },
+            {
+                "title": "Residence Don",
+                "school": "University of King's College",
+                "date": "December 19th, 2025",
+                "link": "https://ukings.ca/campus-community/employment/residence-don/",
+                "new_since": "2025-12-19T22:51:40.686859"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Graduate Student Assistant - Graduate Studies Events and Communications - Faculty of Graduate Studies",
+                "link": "https://www.upei.ca/hr/competition/142s25",
+                "date": "Closing date: 2026-01-15T00:00:00",
+                "new_since": "2026-01-09T22:52:18.890229"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "External Engagement Officer - AVC Deans Office - Atlantic Veterinary College",
+                "link": "https://www.upei.ca/hr/competition/03e26",
+                "date": "Closing date: 2026-01-18T00:00:00",
+                "new_since": "2025-12-19T22:51:40.686859"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Student Engagement Officer - Student Culture and Community Standards - Student Experience Hub",
+                "link": "https://www.upei.ca/hr/competition/02e26",
+                "date": "Closing date: 2026-01-16T00:00:00",
+                "new_since": "2025-12-19T22:51:40.686859"
+            },
+            {
+                "school": "University of Prince Edward Island",
+                "title": "Diagnostic Anatomic Pathologist - Term Position- Department of Pathology & Microbiology - Atlantic Veterinary College",
+                "link": "https://www.upei.ca/hr/competition/49a25",
+                "date": "Closing date: 2025-11-28T00:00:00",
+                "new_since": "2025-11-27T22:51:52.217955"
+            },
+            {
+                "title": "Economic Development Officer (Mining Network Development Officer)",
+                "school": "College of the North Atlantic",
+                "date": "2026-01-07T00:00:00",
+                "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17591&JobSiteId=2,4",
+                "new_since": "2026-01-09T22:52:18.890229"
+            },
+            {
+                "title": "Assistant Professor, Department of Business Administration and Tourism and Hospitality Management",
+                "school": "Mount St. Vincent University - Full Time",
+                "date": "2025-11-26T22:51:49.169468",
+                "link": "https://forms.msvu.ca/iframeforms/FacultyRecruitment/fulltime/positiondetail.asp?ID=504",
+                "new_since": "2025-11-26T22:51:56.891998"
+            },
+            {
+                "title": "Agriculture and Agri-Food Canada - Science and Technology Branch: Summer Research Assistant - Research Affiliate Program",
+                "school": "Holland College",
+                "date": "January 9th, 2026",
+                "link": "https://www.hollandcollege.com/jobfiles/summer-research-assistant-aafc-jan8-2026.html",
+                "new_since": "2026-01-09T22:52:18.890229"
+            },
+            {
+                "title": "Canada's Island Garden Inc. / FIGR: Human Resources Coordinator",
+                "school": "Holland College",
+                "date": "January 9th, 2026",
+                "link": "https://www.hollandcollege.com/jobfiles/hr-coordinator-figr-jan8-2025.html",
+                "new_since": "2026-01-09T22:52:18.890229"
+            },
+            {
+                "title": "CHANCES Smart Start Ferry Road: ECE",
+                "school": "Holland College",
+                "date": "January 5th, 2026",
+                "link": "https://www.hollandcollege.com/jobfiles/ece-chances-jan5-2026.html",
+                "new_since": "2026-01-05T22:51:41.085179"
+            }
+        ]
     }
 ]
