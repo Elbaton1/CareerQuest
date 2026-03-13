@@ -1,0 +1,5 @@
+feedparser
+selenium
+pandas
+python-dateutil
+webdriver-manager
