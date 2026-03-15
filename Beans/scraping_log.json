@@ -38324,5 +38324,42 @@
                 "new_since": "2026-03-12T22:52:13.177308"
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-14T22:03:20.558536",
+        "new_jobs_count": 1,
+        "removed_jobs_count": 3,
+        "new_jobs": [
+            {
+                "title": "Canada's Island Garden Inc. / FIGR: Marketing Coordinator",
+                "school": "Holland College",
+                "date": "March 14th, 2026",
+                "link": "https://www.hollandcollege.com/jobfiles/marketing-coordinator-figr-mar13-2026.html",
+                "new_since": "2026-03-14T22:03:20.545308"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "INGÉNIEUR(E) SPÉCIALISÉ(E) EN FORCE MOTRICE XV (Power Engineer)",
+                "school": "Université de Moncton",
+                "date": "January 14, 2026",
+                "link": "https://www.careerbeacon.com/fr/emplois/2199872/universite-de-moncton/ingenieur-e-specialise-e-en-force-motrice-xv-power-engineer/moncton-nb?utm_source=careerbeacon",
+                "new_since": "2026-01-14T22:52:11.398995"
+            },
+            {
+                "title": "Administrative Coordinator, Career Development Office",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/20455",
+                "date": "March 11th, 2026",
+                "new_since": "2026-03-11T22:52:12.950451"
+            },
+            {
+                "title": "Part-Time Academic (BIOL 2020 Cell Biology - Summer 2026)",
+                "school": "Dalhousie University",
+                "link": "https://dal.peopleadmin.ca/postings/20412",
+                "date": "March 11th, 2026",
+                "new_since": "2026-03-11T22:52:12.950451"
+            }
+        ]
     }
 ]
