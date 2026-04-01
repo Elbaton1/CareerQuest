@@ -1,6 +1,20 @@
 {
     "jobs": [
         {
+            "title": "DEVELOPMENT OFFICER (BAND LEVEL 8)",
+            "school": "Memorial University",
+            "date": "2026-03-27T09:00:00",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6501",
+            "new_since": "2026-04-01T08:02:09.842409"
+        },
+        {
+            "title": "BUDGET ANALYST (BAND LEVEL 9)",
+            "school": "Memorial University",
+            "date": "2026-03-26T09:00:00",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6499",
+            "new_since": "2026-04-01T08:02:09.842418"
+        },
+        {
             "title": "MANAGER. PENSION ACCOUNTING (BAND 12)",
             "school": "Memorial University",
             "date": "2026-03-10T09:00:00",
@@ -8,11 +22,11 @@
             "new_since": "2026-03-11T22:52:12.950451"
         },
         {
-            "title": "FACILITY SUPERVISOR – FLUME TANK (RTP V)",
+            "title": "FISHERIES TECHNOLOGIST (RTP IV)",
             "school": "Memorial University",
-            "date": "2026-03-11T09:00:00",
-            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6485",
-            "new_since": "2026-03-11T22:52:12.950451"
+            "date": "2026-03-23T09:00:00",
+            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6497",
+            "new_since": "2026-04-01T08:02:09.842425"
         },
         {
             "title": "INSTRUCTOR SCHOOL OF FISHERIES – ELIGIBILITY LIST",
@@ -29,25 +43,109 @@
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
-            "title": "CONFERENCE SERVICES OPERATIONS SUPERVISOR (BAND LEVEL 3)",
-            "school": "Memorial University",
-            "date": "2026-03-11T09:00:00",
-            "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=6487",
-            "new_since": "2026-03-11T22:52:12.950451"
+            "title": "Administrative Assistant PL4",
+            "school": "University of New Brunswick",
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/administrative-assistant-pl4/2218637?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2218637&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842431"
         },
         {
-            "title": "Administrative Temp Opportunities",
+            "title": "Administrative Assistant PL4",
             "school": "University of New Brunswick",
-            "date": "March 13th, 2026",
-            "link": "https://jobs.careerbeacon.com/details/administrative-temp-opportunities/1953773?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=1953773&utm_term=jobtitle",
-            "new_since": "2026-03-13T16:45:05.821137"
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/administrative-assistant-pl4/2218638?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2218638&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842432"
         },
         {
-            "title": "Administrative Temp Opportunities",
+            "title": "Project Coordinator, Student Success",
             "school": "University of New Brunswick",
-            "date": "March 13th, 2026",
-            "link": "https://jobs.careerbeacon.com/details/administrative-temp-opportunities/1902601?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=1902601&utm_term=jobtitle",
-            "new_since": "2026-03-13T16:45:05.821139"
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/project-coordinator-student-success/2218041?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2218041&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842433"
+        },
+        {
+            "title": "Indigenous Experiential Education Coordinator",
+            "school": "University of New Brunswick",
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/indigenous-experiential-education-coordinator/2218044?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2218044&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842434"
+        },
+        {
+            "title": "Shift Operator 1 (Third Class Power Engineer)",
+            "school": "University of New Brunswick",
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/shift-operator-1-third-class-power-engineer/2211967?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2211967&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842434"
+        },
+        {
+            "title": "Client Service Representative",
+            "school": "University of New Brunswick",
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/client-service-representative/2217616?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2217616&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842435"
+        },
+        {
+            "title": "Research Scientist (Cyber Attribution)",
+            "school": "University of New Brunswick",
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/research-scientist-cyber-attribution/2216272?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2216272&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842436"
+        },
+        {
+            "title": "Research Scientist",
+            "school": "University of New Brunswick",
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/research-scientist/2216277?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2216277&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842437"
+        },
+        {
+            "title": "Digital Campaign Specialist",
+            "school": "University of New Brunswick",
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/digital-campaign-specialist/2216286?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2216286&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842438"
+        },
+        {
+            "title": "Recruitment & Sales Officer",
+            "school": "University of New Brunswick",
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/recruitment--sales-officer/2216299?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2216299&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842440"
+        },
+        {
+            "title": "Administrative Assistant PL5",
+            "school": "University of New Brunswick",
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/administrative-assistant-pl5/2216316?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2216316&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842441"
+        },
+        {
+            "title": "SINLAB Science Manager",
+            "school": "University of New Brunswick",
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/sinlab-science-manager/2216262?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2216262&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842442"
+        },
+        {
+            "title": "SINLAB Lab Manager",
+            "school": "University of New Brunswick",
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/sinlab-lab-manager/2216267?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2216267&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842443"
+        },
+        {
+            "title": "Yukon Coordinator",
+            "school": "University of New Brunswick",
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/yukon-coordinator/2215972?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2215972&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842444"
+        },
+        {
+            "title": "Executive Director, Startup Programs & Innovation Partnerships",
+            "school": "University of New Brunswick",
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/executive-director-startup-programs--innovation-partnerships/2204986?utm_source=University+of+New+Brunswick&utm_medium=widget&utm_campaign=refer&utm_content=2204986&utm_term=jobtitle",
+            "new_since": "2026-04-01T08:02:09.842444"
         },
         {
             "title": "Canada Impact+ Research Chair, Associate Professor or Full Professor",
@@ -71,11 +169,11 @@
             "new_since": "2026-03-13T16:35:12.220424"
         },
         {
-            "title": "Technicien ou technicienne en informatique (niveau 2)",
+            "title": "COMPTABLE ANALYSTE, Service des finances",
             "school": "Université de Moncton",
-            "date": "2026-03-19",
-            "link": "https://www.careerbeacon.com/fr/emplois/2216082/universite-de-moncton-campus-de-shippagan-umcs/technicien-ou-technicienne-en-informatique-niveau-2/shippagan-nb?utm_source=careerbeacon",
-            "new_since": "2026-03-22T08:02:04.488967"
+            "date": "2026-03-25",
+            "link": "https://www.careerbeacon.com/fr/emplois/2217615/universite-de-moncton/comptable-analyste-service-des-finances/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2026-04-01T08:02:09.842449"
         },
         {
             "title": "ÉLECTRICIENNE ou ÉLECTRICIEN XIV (Electrician) (temporaire 2 ans)",
@@ -85,13 +183,6 @@
             "new_since": "2026-03-22T08:02:04.488969"
         },
         {
-            "title": "CONSEILLÈRE ou CONSEILLER EN COMMUNICATION",
-            "school": "Université de Moncton",
-            "date": "March 11, 2026",
-            "link": "https://www.careerbeacon.com/fr/emplois/2212576/universite-de-moncton/conseillere-ou-conseiller-en-communication/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
             "title": "CHAIRE DE RECHERCHE DU CANADA (NIVEAU 2) : SCIENCES QUANTIQUES APPLIQUÉES",
             "school": "Université de Moncton",
             "date": "2026-02-13",
@@ -99,11 +190,11 @@
             "new_since": "2026-03-11T22:52:12.950451"
         },
         {
-            "title": "ASSISTANT(E) ADMINISTRATIF(-TIVE) XI, Faculté de droit",
+            "title": "Technicien ou technicienne en informatique (niveau 2)",
             "school": "Université de Moncton",
-            "date": "2026-03-18",
-            "link": "https://www.careerbeacon.com/fr/emplois/2215676/universite-de-moncton/assistant-e-administratif-tive-xi-faculte-de-droit/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2026-03-22T08:02:04.488974"
+            "date": "2026-03-19",
+            "link": "https://www.careerbeacon.com/fr/emplois/2216082/universite-de-moncton-campus-de-shippagan-umcs/technicien-ou-technicienne-en-informatique-niveau-2/shippagan-nb?utm_source=careerbeacon",
+            "new_since": "2026-03-22T08:02:04.488967"
         },
         {
             "title": "CHAIRE DE RECHERCHE DU CANADA (NIVEAU 2) : ROBOTIQUE COLLABORATIVE ET FABRICATION INTELLIGENTE",
@@ -113,95 +204,11 @@
             "new_since": "2026-03-11T22:52:12.950451"
         },
         {
-            "title": "COORDONNATRICE EXÉCUTIVE ou COORDONNATEUR EXÉCUTIF À LA DOYENNE ASSOCIÉE",
+            "title": "AGENT(E) DE SÉCURITÉ (4 mois), Service de sécurité",
             "school": "Université de Moncton",
-            "date": "March 11, 2026",
-            "link": "https://www.careerbeacon.com/fr/emplois/2213682/universite-de-moncton/coordonnatrice-executive-ou-coordonnateur-executif-a-la-doyenne-associee/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Examinateur ou examinatrice - Test d'évaluation du français (TEF) Formation continue",
-            "school": "Université de Moncton",
-            "date": "2026-03-02",
-            "link": "https://www.careerbeacon.com/fr/emplois/2211323/universite-de-moncton-campus-de-shippagan-umcs/examinateur-ou-examinatrice-test-d-evaluation-du-francais-tef-formation-continue/edmundston-nb?utm_source=careerbeacon",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "ASSISTANT(E) VII, Faculté d'administration",
-            "school": "Université de Moncton",
-            "date": "2026-03-04",
-            "link": "https://www.careerbeacon.com/fr/emplois/2212560/universite-de-moncton/assistant-e-vii-faculte-d-administration/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "RÉVISEUR(E) DE TRADUCTION JURIDIQUE",
-            "school": "Université de Moncton",
-            "date": "2026-03-18",
-            "link": "https://www.careerbeacon.com/fr/emplois/2215694/universite-de-moncton/reviseur-e-de-traduction-juridique/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2026-03-22T08:02:04.488982"
-        },
-        {
-            "title": "SECRÉTAIRE DE DIRECTION, Service des ressources humaines",
-            "school": "Université de Moncton",
-            "date": "2026-03-18",
-            "link": "https://www.careerbeacon.com/fr/emplois/2215697/universite-de-moncton/secretaire-de-direction-service-des-ressources-humaines/moncton-nb?utm_source=careerbeacon",
-            "new_since": "2026-03-22T08:02:04.488983"
-        },
-        {
-            "title": "SUMMER 2026 – HEALTH, SAFETY & ENVIRONMENT SUMMER STUDENT – EVERWIND FUELS – POINT TUPPER, NS",
-            "school": "Cape Breton University",
-            "date": "March 22nd, 2026",
-            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-health-safety-environment-summer-student-everwind-fuels-point-tupper-ns/",
-            "new_since": "2026-03-22T08:02:04.488985"
-        },
-        {
-            "title": "SUMMER 2026 – MARINE ENVIRONMENTAL RESPONSE PLANNING SUMMER STUDENT – EVERWIND FUELS/POINT TUPPER MARINE SERVICES – POINT TUPPER, NS",
-            "school": "Cape Breton University",
-            "date": "March 22nd, 2026",
-            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-marine-environmental-response-planning-summer-student-everwind-fuels-point-tupper-marine-services-point-tupper-ns/",
-            "new_since": "2026-03-22T08:02:04.488986"
-        },
-        {
-            "title": "SUMMER 2026 – INSTRUMENTATION SUMMER STUDENT – EVERWIND FUELS – PONT TUPPER, NS",
-            "school": "Cape Breton University",
-            "date": "March 22nd, 2026",
-            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-instrumentation-summer-student-everwind-fuels-pont-tupper-ns/",
-            "new_since": "2026-03-22T08:02:04.488987"
-        },
-        {
-            "title": "SUMMER 2026 – HUMAN RESOURCES SUMMER INTERN – EVERWIND FUELS – POINT TUPPER, NS",
-            "school": "Cape Breton University",
-            "date": "March 22nd, 2026",
-            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-human-resources-summer-intern-everwind-fuels-point-tupper-ns/",
-            "new_since": "2026-03-22T08:02:04.488988"
-        },
-        {
-            "title": "SUMMER 2026 – CO-OP ENGINEERING – NOVA SCOTIA POWER – DARTMOUTH, NS",
-            "school": "Cape Breton University",
-            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-co-op-engineering-nova-scotia-power-dartmouth-ns/",
-            "date": "March 13th, 2026",
-            "new_since": "2026-03-13T16:35:12.220466"
-        },
-        {
-            "title": "NEW GRAD OPPORTUNITY – SALES COORDINATOR – TONY’S MEATS LTD. – NOVA SCOTIA /NEW BRUNSWICK/P.E.I (REMOTE WORK FROM HOME)",
-            "school": "Cape Breton University",
-            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/new-grad-opportunity-sales-coordinator-tonys-meats-ltd-nova-scotia-new-brunswick-p-e-i-remote-work-from-home/",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "SUMMER EMPLOYMENT 2026: STUDENT FUTURE OPPORTUNITY STREAM, GOVERNMENT OF NOVA SCOTIA",
-            "school": "Cape Breton University",
-            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-employment-2026-student-future-opportunity-stream-government-of-nova-scotia/",
-            "date": "March 16th, 2026",
-            "new_since": "2026-03-16T12:12:17.250973"
-        },
-        {
-            "title": "SUMMER 2026 – PRODUCTION ASSISTANT – STUDENT POSITION – POLYSTEEL ATLANTIC LTD. – EDWARDSVILLE, NS",
-            "school": "Cape Breton University",
-            "date": "March 22nd, 2026",
-            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-production-assistant-student-position-polysteel-atlantic-ltd-edwardsville-ns/",
-            "new_since": "2026-03-22T08:02:04.488996"
+            "date": "2026-03-25",
+            "link": "https://www.careerbeacon.com/fr/emplois/2217157/universite-de-moncton/agent-e-de-securite-4-mois-service-de-securite/moncton-nb?utm_source=careerbeacon",
+            "new_since": "2026-04-01T08:02:09.842456"
         },
         {
             "title": "SUMMER 2026 – CIVIL ENGINEERING STUDENT – GULF OPERATORS – SAINT JOHN, NB",
@@ -213,163 +220,282 @@
         {
             "title": "SUMMER 2026 – ACCOUNTING STUDENT – J.D. IRVING CONSTRUCTION AND EQUIPMENT DIVISION – SAINT JOHN, NB",
             "school": "Cape Breton University",
-            "date": "March 22nd, 2026",
             "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-accounting-student-j-d-irving-construction-and-equipment-division-saint-john-nb/",
+            "date": "March 22nd, 2026",
             "new_since": "2026-03-22T08:02:04.488999"
+        },
+        {
+            "title": "SUMMER 2026 – PROCUREMENT STUDENT – J.D. IRVING –",
+            "school": "Cape Breton University",
+            "date": "April 1st, 2026",
+            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-procurement-student-j-d-irving/",
+            "new_since": "2026-04-01T08:02:09.842461"
         },
         {
             "title": "SUMMER 2026 – HUMAN RESOURCES STUDENT – IRVING WOODLANDS – SAINT JOHN, NB",
             "school": "Cape Breton University",
-            "date": "March 22nd, 2026",
             "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-human-resources-student-irving-woodlands-saint-john-nb/",
+            "date": "March 22nd, 2026",
             "new_since": "2026-03-22T08:02:04.489000"
+        },
+        {
+            "title": "NEW GRAD OPPORTUNITY – MARGAREE SALMON ASSOCIATION – VARIOUS SUMMER POSITIONS – MARGAREE, NS",
+            "school": "Cape Breton University",
+            "date": "April 1st, 2026",
+            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-margaree-salmon-association-various-summer-positions-margareens/",
+            "new_since": "2026-04-01T08:02:09.842464"
         },
         {
             "title": "SUMMER 2026 – BUSINESS STUDENT – TRANSPORTATION AND LOGISTICS DIVISIONAL SERVICES – J.D. IRVING – SAINT JOHN, NB",
             "school": "Cape Breton University",
-            "date": "March 22nd, 2026",
             "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-business-student-transportation-and-logistics-divisional-services-j-d-irving-saint-john-nb/",
+            "date": "March 22nd, 2026",
             "new_since": "2026-03-22T08:02:04.489001"
         },
         {
-            "title": "Part-Time Academic SEASIDE 2026 MARI 3650.03: Ocean Technology for the Observation and Conversation of Marine Species – Summer 2026",
+            "title": "SUMMER 2026: FEDERAL STUDENT WORK EXPERIENCE PROGRAM (FSWEP)",
+            "school": "Cape Breton University",
+            "date": "April 1st, 2026",
+            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/summer-2026-federal-student-work-experience-program-fswep/",
+            "new_since": "2026-04-01T08:02:09.842466"
+        },
+        {
+            "title": "FALL 2026 – CIVIL ENGINEERING STUDENT – GULF OPERATORS – SAINT JOHN, NB",
+            "school": "Cape Breton University",
+            "date": "April 1st, 2026",
+            "link": "https://www.cbu.ca/current-students/student-services/career-services/student-job-opportunities/fall-2026-civil-engineering-student-gulf-operators-saint-john-nb/",
+            "new_since": "2026-04-01T08:02:09.842467"
+        },
+        {
+            "title": "Orthodontic Specialist",
             "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
-            "link": "https://dal.peopleadmin.ca/postings/20567",
-            "new_since": "2026-03-22T08:02:04.489002"
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20673",
+            "new_since": "2026-04-01T08:02:09.842468"
+        },
+        {
+            "title": "Part-Time Academic (STAT/MATH 2060.03 Introduction to Probability and Statistics) - Summer 2026",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20672",
+            "new_since": "2026-04-01T08:02:09.842469"
+        },
+        {
+            "title": "Part-Time Academic (MATH 1215.03 - Life Sciences Calculus) - Summer 2026",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20670",
+            "new_since": "2026-04-01T08:02:09.842470"
+        },
+        {
+            "title": "Part-Time Academic (SPAN 1022.03: Beginning Spanish II) - Spring/Summer Term 2026",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20669",
+            "new_since": "2026-04-01T08:02:09.842471"
+        },
+        {
+            "title": "Steamfitter",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20667",
+            "new_since": "2026-04-01T08:02:09.842472"
+        },
+        {
+            "title": "Instrumentation Mechanic",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20665",
+            "new_since": "2026-04-01T08:02:09.842472"
+        },
+        {
+            "title": "Electrician",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20663",
+            "new_since": "2026-04-01T08:02:09.842473"
+        },
+        {
+            "title": "Groundskeeper",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20661",
+            "new_since": "2026-04-01T08:02:09.842474"
+        },
+        {
+            "title": "Lead Engineer",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20658",
+            "new_since": "2026-04-01T08:02:09.842475"
+        },
+        {
+            "title": "Technician",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20657",
+            "new_since": "2026-04-01T08:02:09.842475"
+        },
+        {
+            "title": "Periodontist",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20656",
+            "new_since": "2026-04-01T08:02:09.842476"
+        },
+        {
+            "title": "DFA Instructor for Two Languages (Spanish, German, Chinese, Italian, or Arabic)",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20654",
+            "new_since": "2026-04-01T08:02:09.842477"
+        },
+        {
+            "title": "Administrative Assistant",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20642",
+            "new_since": "2026-04-01T08:02:09.842478"
+        },
+        {
+            "title": "Research Administrator",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20619",
+            "new_since": "2026-04-01T08:02:09.842479"
+        },
+        {
+            "title": "Senior Compensation Advisor",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20617",
+            "new_since": "2026-04-01T08:02:09.842479"
+        },
+        {
+            "title": "Research Technician (Medicinal Chemist)",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20616",
+            "new_since": "2026-04-01T08:02:09.842480"
+        },
+        {
+            "title": "Part-Time Academic (MATH 1030.03 - Matrix Theory & Linear Algebra I) - Summer 2026",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20605",
+            "new_since": "2026-04-01T08:02:09.842481"
+        },
+        {
+            "title": "Part-Time Academic (BUSI 5508: Microeconomics ONLINE) - Summer 2026",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20604",
+            "new_since": "2026-04-01T08:02:09.842481"
+        },
+        {
+            "title": "Part-Time Academic (BUSI 5508: Microeconomics in-person) - Summer 2026",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20603",
+            "new_since": "2026-04-01T08:02:09.842482"
+        },
+        {
+            "title": "Instructor, Biochemistry & Molecular Biology (Limited Term)",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20591",
+            "new_since": "2026-04-01T08:02:09.842483"
+        },
+        {
+            "title": "Part-Time Academic (BUSI 5602: Environment, Society, and Governance) Summer 2026",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20588",
+            "new_since": "2026-04-01T08:02:09.842484"
+        },
+        {
+            "title": "Part-Time Academic (Part-Time Academic – PUAD 6855 - Internship) Spring/Summer 2026",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20587",
+            "new_since": "2026-04-01T08:02:09.842484"
+        },
+        {
+            "title": "QEII Health Sciences Center Foundation Endowed Chair in Transplantation Research",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20585",
+            "new_since": "2026-04-01T08:02:09.842485"
+        },
+        {
+            "title": "3rd Class Power Engineer (Term)",
+            "school": "Dalhousie University",
+            "date": "April 1st, 2026",
+            "link": "https://dal.peopleadmin.ca/postings/20576",
+            "new_since": "2026-04-01T08:02:09.842486"
         },
         {
             "title": "Manager, Operations, Events & Conference Services",
             "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
             "link": "https://dal.peopleadmin.ca/postings/20566",
-            "new_since": "2026-03-22T08:02:04.489003"
-        },
-        {
-            "title": "Research Assistant",
-            "school": "Dalhousie University",
             "date": "March 22nd, 2026",
-            "link": "https://dal.peopleadmin.ca/postings/20565",
-            "new_since": "2026-03-22T08:02:04.489004"
+            "new_since": "2026-03-22T08:02:04.489003"
         },
         {
             "title": "Instructor, Dental Clinical Sciences",
             "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
             "link": "https://dal.peopleadmin.ca/postings/20564",
-            "new_since": "2026-03-22T08:02:04.489005"
-        },
-        {
-            "title": "Part-Time Academic (SEASIDE 2026 BIOL 3633.03: Spatial Information and GIS in Ecology – Summer 2026)",
-            "school": "Dalhousie University",
             "date": "March 22nd, 2026",
-            "link": "https://dal.peopleadmin.ca/postings/20563",
-            "new_since": "2026-03-22T08:02:04.489006"
+            "new_since": "2026-03-22T08:02:04.489005"
         },
         {
             "title": "Clinician Educator & Academic Family Physician",
             "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
             "link": "https://dal.peopleadmin.ca/postings/20562",
+            "date": "March 22nd, 2026",
             "new_since": "2026-03-22T08:02:04.489007"
         },
         {
             "title": "Clinician Researcher & Academic Family Physician",
             "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
             "link": "https://dal.peopleadmin.ca/postings/20561",
+            "date": "March 22nd, 2026",
             "new_since": "2026-03-22T08:02:04.489008"
         },
         {
             "title": "Clinician Educator, Academic Family Physician & Associate Department Head",
             "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
             "link": "https://dal.peopleadmin.ca/postings/20560",
+            "date": "March 22nd, 2026",
             "new_since": "2026-03-22T08:02:04.489008"
-        },
-        {
-            "title": "Digital Print Technician",
-            "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
-            "link": "https://dal.peopleadmin.ca/postings/20555",
-            "new_since": "2026-03-22T08:02:04.489009"
-        },
-        {
-            "title": "Reception & Administrative Clerk",
-            "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
-            "link": "https://dal.peopleadmin.ca/postings/20554",
-            "new_since": "2026-03-22T08:02:04.489010"
         },
         {
             "title": "Canada Impact+ Research Chair",
             "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
             "link": "https://dal.peopleadmin.ca/postings/20553",
+            "date": "March 22nd, 2026",
             "new_since": "2026-03-22T08:02:04.489010"
         },
         {
             "title": "Canada Research Chair",
             "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
             "link": "https://dal.peopleadmin.ca/postings/20550",
+            "date": "March 22nd, 2026",
             "new_since": "2026-03-22T08:02:04.489011"
         },
         {
             "title": "Postdoctoral Fellow",
             "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
             "link": "https://dal.peopleadmin.ca/postings/20547",
-            "new_since": "2026-03-22T08:02:04.489012"
-        },
-        {
-            "title": "Medical Device Reprocessing Technician",
-            "school": "Dalhousie University",
             "date": "March 22nd, 2026",
-            "link": "https://dal.peopleadmin.ca/postings/20543",
-            "new_since": "2026-03-22T08:02:04.489013"
+            "new_since": "2026-03-22T08:02:04.489012"
         },
         {
             "title": "University Registrar and Assistant Vice-President, Enrolment Management",
             "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
             "link": "https://dal.peopleadmin.ca/postings/20535",
+            "date": "March 22nd, 2026",
             "new_since": "2026-03-22T08:02:04.489014"
-        },
-        {
-            "title": "Visual Media Manager",
-            "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
-            "link": "https://dal.peopleadmin.ca/postings/20530",
-            "new_since": "2026-03-22T08:02:04.489014"
-        },
-        {
-            "title": "Director, Student and Academic Affairs",
-            "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
-            "link": "https://dal.peopleadmin.ca/postings/20529",
-            "new_since": "2026-03-22T08:02:04.489015"
-        },
-        {
-            "title": "Research Coordinator",
-            "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
-            "link": "https://dal.peopleadmin.ca/postings/20528",
-            "new_since": "2026-03-22T08:02:04.489016"
-        },
-        {
-            "title": "Part-Time Academic (BUSI 5551 - Operations Management) - Summer 2026",
-            "school": "Dalhousie University",
-            "date": "March 22nd, 2026",
-            "link": "https://dal.peopleadmin.ca/postings/20526",
-            "new_since": "2026-03-22T08:02:04.489017"
-        },
-        {
-            "title": "Part-Time Academic (MUSC 2024.03. Guitar History & Techniques 1) - Summer 2026",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20525",
-            "date": "March 16th, 2026",
-            "new_since": "2026-03-16T12:12:17.250979"
         },
         {
             "title": "Landscape Architect Instructor - FAFU International College",
@@ -377,55 +503,6 @@
             "link": "https://dal.peopleadmin.ca/postings/20523",
             "date": "March 13th, 2026",
             "new_since": "2026-03-13T16:35:12.220469"
-        },
-        {
-            "title": "Senior Compensation Advisor",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20522",
-            "date": "March 13th, 2026",
-            "new_since": "2026-03-13T16:35:12.220470"
-        },
-        {
-            "title": "Part-Time Academic: (GWST 2110.03, Special Topics in Gender & Women’s Studies: Topic: Gender, Sexuality and Pop Culture) - Summer 2026",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20520",
-            "date": "March 13th, 2026",
-            "new_since": "2026-03-13T16:35:12.220472"
-        },
-        {
-            "title": "Part-Time Academic (COMM/MGMT 3511 Management Information Systems) - Summer 2026",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20516",
-            "date": "March 13th, 2026",
-            "new_since": "2026-03-13T16:35:12.220473"
-        },
-        {
-            "title": "Part-Time Academic (INFO 6610 Information Policy) - Summer 2026",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20514",
-            "date": "March 13th, 2026",
-            "new_since": "2026-03-13T16:35:12.220475"
-        },
-        {
-            "title": "Part-Time Academic (BUSI 5000 - Introduction to Personal & Professional Effectiveness) - Summer 2026",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20513",
-            "date": "March 13th, 2026",
-            "new_since": "2026-03-13T16:35:12.220476"
-        },
-        {
-            "title": "Part-Time Academic BUSI 5113: Managerial Accounting - Summer 2026",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20512",
-            "date": "March 13th, 2026",
-            "new_since": "2026-03-13T16:35:12.220477"
-        },
-        {
-            "title": "Graduate Programs Recruiter",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20504",
-            "date": "March 12th, 2026",
-            "new_since": "2026-03-12T22:52:13.177308"
         },
         {
             "title": "Glaucoma Subspecialist",
@@ -442,34 +519,6 @@
             "new_since": "2026-03-11T22:52:12.950451"
         },
         {
-            "title": "Part-Time Academic (ASPC2008 Digital Electronics and Computer Interfacing) - Summer 2026",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20493",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Part-Time Academic (MGMT 6525 – Program Evaluation) Summer 2026",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20492",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Part-Time Academic (MGMT 5135 – Managerial Economics) Summer 2026",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20491",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Part-Time Academic (COMM/MGMT 1101 & 1102 Introductory Accounting I & II) - Summer 2026",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20490",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
             "title": "Instructor, Health Administration (.5FTE)",
             "school": "Dalhousie University",
             "link": "https://dal.peopleadmin.ca/postings/20479",
@@ -477,79 +526,9 @@
             "new_since": "2026-03-11T22:52:12.950451"
         },
         {
-            "title": "Part-Time Academic (ENVS 2000.03, Urban Field School - Spring 2026)",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20476",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Part-Time Academic SEASIDE 2026 BIOL 2601/3219: Flora of Nova Scotia – Summer 2026",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20474",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Postdoctoral Fellow - HUMAN-ANIMAL INTERACTIONS IN DISASTER SETTINGS",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20472",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Part-Time Academic (SEASIDE 2026 MARI 3604: Field Aquaculture - Summer 2026)",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20468",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Part-Time Academic (MARI 4215: Marine Plants in the 21st Century - Winter 2027)",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20467",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Part-Time Academic (DEHY 2831 Fundamentals of Clinical Dental Hygiene and DEHY 3001 Dental Hygiene Clinic) - Fall/Winter 2026-27",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20430",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Part-Time Academic - PHYT 6218 Integrated Practice II - Summer 2026",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20365",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Assistant or Associate Professor in Physiotherapy",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20356",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Limited Term Instructor, School of Health Administration",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20346",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
             "title": "Assistant, Associate, or Full Professor, Developmental Pediatrics",
             "school": "Dalhousie University",
             "link": "https://dal.peopleadmin.ca/postings/20316",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Community Chair, Health Justice Partnerships",
-            "school": "Dalhousie University",
-            "link": "https://dal.peopleadmin.ca/postings/20296",
             "date": "March 11th, 2026",
             "new_since": "2026-03-11T22:52:12.950451"
         },
@@ -603,11 +582,25 @@
             "new_since": "2025-01-08T16:44:14.929652"
         },
         {
-            "title": "Director, Marketing and Communications",
+            "title": "Maintenance Technician",
             "school": "NSCAD University",
-            "link": "https://jobs.careerbeacon.com/details/director-marketing-and-communications/2214036",
-            "date": "March 11th, 2026",
-            "new_since": "2026-03-11T22:52:12.950451"
+            "date": "April 1st, 2026",
+            "link": "https://jobs.careerbeacon.com/details/maintenance-technician/2217401",
+            "new_since": "2026-04-01T08:02:09.842542"
+        },
+        {
+            "title": "Conseillère ou conseiller aux études",
+            "school": "Université Sainte-Anne",
+            "date": "2026-04-17T00:00:00",
+            "link": "https://www.usainteanne.ca/offres-demploi/sa2026-06",
+            "new_since": "2026-04-01T08:02:09.842543"
+        },
+        {
+            "title": "Adjointe/Adjoint à la coordonnatrice des résidences",
+            "school": "Université Sainte-Anne",
+            "date": "0186-04-01T00:00:00",
+            "link": "https://www.usainteanne.ca/offres-demploi/sa2026-10",
+            "new_since": "2026-04-01T08:02:09.842544"
         },
         {
             "title": "Agente ou Agent de liaison",
@@ -695,24 +688,213 @@
         },
         {
             "school": "University of Prince Edward Island",
+            "title": "Sessional Instructors- Faculty of Education- Winter 2027",
+            "link": "https://www.upei.ca/hr/competition/37si26",
+            "date": "Closing date: 2026-04-14T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842585"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Sessional Instructors - Faculty of Education - Fall 2026",
+            "link": "https://www.upei.ca/hr/competition/36si26",
+            "date": "Closing date: 2026-04-14T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842586"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Sessional Instructors - Department of History - Faculty of Arts - Winter 2027",
+            "link": "https://www.upei.ca/hr/competition/32si26",
+            "date": "Closing date: 2026-04-14T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842587"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Sessional Instructor- Department of Chemistry- Faculty of Science - Winter 2027",
+            "link": "https://www.upei.ca/hr/competition/30si26",
+            "date": "Closing date: 2026-04-14T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842587"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Sessional Instructors - School of Climate Change and Adaptation - Faculty of Science - Fall 2026",
+            "link": "https://www.upei.ca/hr/competition/31si26",
+            "date": "Closing date: 2026-04-14T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842588"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Sessional Instructors- School of Mathematical and Computational Sciences - Faculty of Science- Winter 2027",
+            "link": "https://www.upei.ca/hr/competition/26si26",
+            "date": "Closing date: 2026-04-14T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842589"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Sessional Instructors - Department of Applied Human Sciences - Faculty of Science - Fall 2026",
+            "link": "https://www.upei.ca/hr/competition/29si26",
+            "date": "Closing date: 2026-04-14T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842590"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Sessional Instructors - Department of Applied Human Sciences - Faculty of Science - Winter 2027",
+            "link": "https://www.upei.ca/hr/competition/28si26",
+            "date": "Closing date: 2026-04-14T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842591"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Sessional Instructor- Department of Applied Human Sciences- Winter 2027",
+            "link": "https://www.upei.ca/hr/competition/27si26",
+            "date": "Closing date: 2026-04-14T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842592"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Sessional Instructors - Department of Applied Human Sciences - Faculty of Science - Fall 2026",
+            "link": "https://www.upei.ca/hr/competition/25si26",
+            "date": "Closing date: 2026-04-14T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842592"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Finance Officer - Atlantic Veterinary College *Reposted*",
+            "link": "https://www.upei.ca/hr/competition/18e26r",
+            "date": "Closing date: 2026-04-14T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842593"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "ADS Level 5 - Administrative Assistant - AVC Deans Office - Atlantic Veterinary College",
+            "link": "https://www.upei.ca/hr/competition/57e26",
+            "date": "Closing date: 2026-04-13T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842594"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Preschool Head Counselor - Panther Academy - Department of Athletics and Recreation",
+            "link": "https://www.upei.ca/hr/competition/36s26",
+            "date": "Closing date: 2026-04-17T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842595"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Camp Counselor (Up to 10 Positions) - Panther Academy - Department of Athletics and Recreation",
+            "link": "https://www.upei.ca/hr/competition/34s26",
+            "date": "Closing date: 2026-04-17T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842596"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Fun N Fitness Head Counselor - Panther Academy - Department of Athletics and Recreation",
+            "link": "https://www.upei.ca/hr/competition/33s26",
+            "date": "Closing date: 2026-04-17T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842597"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "PA Level 9 - Solutions Analyst - Information Technology Systems and Services",
+            "link": "https://www.upei.ca/hr/competition/59e26",
+            "date": "Closing date: 2026-04-13T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842598"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Project Manager, AVC - Department of Facilities Management *Amended Closing Date*",
+            "link": "https://www.upei.ca/hr/competition/55e26",
+            "date": "Closing date: 2026-04-19T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842599"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Service Worker - Department of Facilities Management",
+            "link": "https://www.upei.ca/hr/competition/54e26",
+            "date": "Closing date: 2026-04-06T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842600"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "ADS Level 5 - Client Services Emergency Services Representative - Veterinary Teaching Hospital - Atlantic Veterinary College *Repost*",
+            "link": "https://www.upei.ca/hr/competition/51s26r",
+            "date": "Closing date: 2026-04-06T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842601"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Interim Vice President, Academic and Research - Office of the Vice President, Academic and Research - One-Year Term Position",
+            "link": "https://www.upei.ca/hr/competition/16a26",
+            "date": "Closing date: 2026-04-07T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842601"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Senior External Engagement Officer - AVC Deans Office - Atlantic Veterinary College *Reposted*",
+            "link": "https://www.upei.ca/hr/competition/03e26r",
+            "date": "Closing date: 2026-04-10T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842602"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Graduate Student Assistant - Environmental Studies Program - Faculty of Science",
+            "link": "https://www.upei.ca/hr/competition/32s26",
+            "date": "Closing date: 2026-03-31T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842603"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Physician Lead - Clinical Experience - Faculty of Medicine",
+            "link": "https://www.upei.ca/hr/competition/50e26",
+            "date": "Closing date: 2026-03-31T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842604"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Physician Lead - Classroom Experience - Faculty of Medicine",
+            "link": "https://www.upei.ca/hr/competition/49e26",
+            "date": "Closing date: 2026-03-31T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842604"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Physician Lead - Learner Wellbeing and Success - Faculty of Medicine",
+            "link": "https://www.upei.ca/hr/competition/48e26",
+            "date": "Closing date: 2026-03-31T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842605"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Physician Lead - Social Accountability - Faculty of Medicine",
+            "link": "https://www.upei.ca/hr/competition/47e26",
+            "date": "Closing date: 2026-03-31T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842606"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Sessional Instructors- McDougall Faculty of Business - Fall 2026",
+            "link": "https://www.upei.ca/hr/competition/24si26",
+            "date": "Closing date: 2026-04-06T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842607"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Sessional Instructors- McDougall Faculty of Business - Winter 2027",
+            "link": "https://www.upei.ca/hr/competition/23si26",
+            "date": "Closing date: 2026-04-06T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842607"
+        },
+        {
+            "school": "University of Prince Edward Island",
+            "title": "Student Research Assistant (Up to 2 Positions) - Applied Communications, Leadership and Culture - Faculty of Arts",
+            "link": "https://www.upei.ca/hr/competition/31s26",
+            "date": "Closing date: 2026-04-06T00:00:00",
+            "new_since": "2026-04-01T08:02:09.842608"
+        },
+        {
+            "school": "University of Prince Edward Island",
             "title": "Director of Integrated Data Analysis - Department of Integrated Data Analysis",
             "link": "https://www.upei.ca/hr/competition/60e26",
             "date": "Closing date: 2026-04-03T00:00:00",
             "new_since": "2026-03-22T08:02:04.489179"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "MTS Level 6 - Medical Laboratory Assistant - Clinical Pathology Laboratory - Diagnostic Services - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/56e26",
-            "date": "Closing date: 2026-03-29T00:00:00",
-            "new_since": "2026-03-22T08:02:04.489180"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Student Research Assistant - Applied Communication, Leadership and Culture - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/29s26",
-            "date": "Closing date: 2026-03-29T00:00:00",
-            "new_since": "2026-03-22T08:02:04.489182"
         },
         {
             "school": "University of Prince Edward Island",
@@ -727,13 +909,6 @@
             "link": "https://www.upei.ca/hr/competition/21si26",
             "date": "Closing date: 2026-03-18T00:00:00",
             "new_since": "2026-03-22T08:02:04.489184"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "MTS Level 6 With A Market Adjustment To MTS Level 8 -Medical Laboratory Technologist- Diagnostic Services - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/58e26",
-            "date": "Closing date: 2026-03-25T00:00:00",
-            "new_since": "2026-03-22T08:02:04.489186"
         },
         {
             "school": "University of Prince Edward Island",
@@ -755,48 +930,6 @@
             "link": "https://www.upei.ca/hr/competition/15a26",
             "date": "Closing date: 2026-04-17T00:00:00",
             "new_since": "2026-03-22T08:02:04.489189"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Welcome Week Student Coordinator (Up to 2 Positions) - Office of Student Culture and Community Standards - Student Experience Hub",
-            "link": "https://www.upei.ca/hr/competition/28s26",
-            "date": "Closing date: 2026-03-23T00:00:00",
-            "new_since": "2026-03-22T08:02:04.489190"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Campus Life Lead Advisor (Up to 2 Positions) - Office of Student Culture and Community Standards - Student Experience Hub",
-            "link": "https://www.upei.ca/hr/competition/27s26",
-            "date": "Closing date: 2026-03-23T00:00:00",
-            "new_since": "2026-03-22T08:02:04.489191"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Campus Life Student Advisor (Up to 8 Positions) - Office of Student Culture and Community Standards - Student Experience Hub",
-            "link": "https://www.upei.ca/hr/competition/26s26",
-            "date": "Closing date: 2026-03-23T00:00:00",
-            "new_since": "2026-03-22T08:02:04.489193"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Student Assistant - Panther Central Crew (Up to 10 Positions) - Athletics and Recreation",
-            "link": "https://www.upei.ca/hr/competition/25s26",
-            "date": "Closing date: 2026-03-29T00:00:00",
-            "new_since": "2026-03-22T08:02:04.489193"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Student Assistant - Panther Central Crew (Up to 3 Positions) - Department of Athletics and Recreation",
-            "link": "https://www.upei.ca/hr/competition/24s26",
-            "date": "Closing date: 2026-03-29T00:00:00",
-            "new_since": "2026-03-22T08:02:04.489194"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Student Marker - Department of Philosophy - Faculty of Arts",
-            "link": "https://www.upei.ca/hr/competition/19s26",
-            "date": "Closing date: 2026-03-23T00:00:00",
-            "new_since": "2026-03-16T12:12:17.251406"
         },
         {
             "school": "University of Prince Edward Island",
@@ -832,69 +965,6 @@
             "link": "https://www.upei.ca/hr/competition/13a26",
             "date": "Closing date: 2026-05-01T00:00:00",
             "new_since": "2026-03-13T16:35:12.220692"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Simulation Program Assistant Manager - Clinical Learning and Simulation Centre - Faculty of Medicine",
-            "link": "https://www.upei.ca/hr/competition/53e26",
-            "date": "Closing date: 2026-03-27T00:00:00",
-            "new_since": "2026-03-13T16:35:12.220693"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Student Mentors (Up to 5 positions) - Student Experience Hub - Office of Academic Support Services",
-            "link": "https://www.upei.ca/hr/competition/22s26",
-            "date": "Closing date: 2026-03-26T00:00:00",
-            "new_since": "2026-03-12T22:52:13.178307"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Student Fitness Centre Supervisors (Up to 10 positions) - Department of Athletics and Recreation",
-            "link": "https://www.upei.ca/hr/competition/21s26",
-            "date": "Closing date: 2026-03-27T00:00:00",
-            "new_since": "2026-03-12T22:52:13.178307"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Student Fitness Centre Supervisors (Up to 4 positions) - Department of Athletics and Recreation",
-            "link": "https://www.upei.ca/hr/competition/20s26",
-            "date": "Closing date: 2026-03-27T00:00:00",
-            "new_since": "2026-03-12T22:52:13.178307"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "ADS Level 6 - Administrative Assistant - AVC Deans Office - Atlantic Veterinary College",
-            "link": "https://www.upei.ca/hr/competition/52e26",
-            "date": "Closing date: 2026-03-30T00:00:00",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "MTS Level 6 - Exam Coordinator - Accessibility Services - Student Experience Hub **AMENDED**",
-            "link": "https://www.upei.ca/hr/competition/46e26",
-            "date": "Closing date: 2026-03-17T00:00:00",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Co-op Student Coordinator - Department of Experiential Education - Student Experience Hub",
-            "link": "https://www.upei.ca/hr/competition/42e26",
-            "date": "Closing date: 2026-03-24T00:00:00",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Student Guest Services Attendants (Up to 4 Positions) - Ancillary Services",
-            "link": "https://www.upei.ca/hr/competition/23s26",
-            "date": "Closing date: 2026-03-30T00:00:00",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "school": "University of Prince Edward Island",
-            "title": "Administrative Assistant - Employee Experience, Training, and Development - Department of Human Resources",
-            "link": "https://www.upei.ca/hr/competition/45e26",
-            "date": "Closing date: 2026-03-22T00:00:00",
-            "new_since": "2026-03-11T22:52:12.950451"
         },
         {
             "school": "University of Prince Edward Island",
@@ -1023,25 +1093,39 @@
             "new_since": "2025-11-27T22:51:52.217955"
         },
         {
-            "title": "Instructor- Chemical Processing Engineering",
+            "title": "Instructor - Primary Care Paramedicine",
             "school": "College of the North Atlantic",
-            "date": "2026-03-19T00:00:00",
-            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17736&JobSiteId=2,4",
-            "new_since": "2026-03-22T08:02:04.489336"
+            "date": "2026-03-31T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17653&JobSiteId=2,4",
+            "new_since": "2026-04-01T08:02:09.842739"
         },
         {
-            "title": "Instructor, Welding",
+            "title": "Instructor, Primary Care Paramedicine",
             "school": "College of the North Atlantic",
-            "date": "2026-03-18T00:00:00",
-            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17728&JobSiteId=2,4",
-            "new_since": "2026-03-22T08:02:04.489337"
+            "date": "2026-03-31T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17659&JobSiteId=2,4",
+            "new_since": "2026-04-01T08:02:09.842739"
+        },
+        {
+            "title": "Employment Services Officer (Client Services Officer)",
+            "school": "College of the North Atlantic",
+            "date": "2026-03-31T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17764&JobSiteId=2,4",
+            "new_since": "2026-04-01T08:02:09.842740"
+        },
+        {
+            "title": "Director, College Development",
+            "school": "College of the North Atlantic",
+            "date": "2026-03-30T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17345&JobSiteId=2,4",
+            "new_since": "2026-04-01T08:02:09.842741"
         },
         {
             "title": "Instructor, Powerline Technician",
             "school": "College of the North Atlantic",
-            "date": "2026-03-18T00:00:00",
-            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17729&JobSiteId=2,4",
-            "new_since": "2026-03-22T08:02:04.489338"
+            "date": "2026-03-24T00:00:00",
+            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17745&JobSiteId=2,4",
+            "new_since": "2026-04-01T08:02:09.842742"
         },
         {
             "title": "Truck Transport Mechanic-Apprentice(Heavy Equipment Technician)",
@@ -1049,13 +1133,6 @@
             "date": "2026-02-03T00:00:00",
             "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17639&JobSiteId=2,4",
             "new_since": "2026-02-03T22:52:27.315445"
-        },
-        {
-            "title": "Instructional Assistant - Veterinary Technician",
-            "school": "College of the North Atlantic",
-            "date": "2026-03-13T00:00:00",
-            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17718&JobSiteId=2,4",
-            "new_since": "2026-03-13T16:35:12.220854"
         },
         {
             "title": "Instructor, Millwright",
@@ -1077,13 +1154,6 @@
             "date": "2026-01-20T00:00:00",
             "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17503&JobSiteId=2,4",
             "new_since": "2026-01-20T22:52:44.992633"
-        },
-        {
-            "title": "EXPRESSION OF INTEREST - Instructor, French Conversation Beginner, Level 1, 2, and 3",
-            "school": "College of the North Atlantic",
-            "date": "2026-01-07T00:00:00",
-            "link": "https://www.cna.nl.ca/Careers/opportunities/JobDetails?JobId=17584&JobSiteId=2,4",
-            "new_since": "2026-01-09T22:52:18.890229"
         },
         {
             "title": "Instructor, Heavy Duty Equipment Technician/Truck Transport Mechanic - Advanced Block Training",
@@ -1135,130 +1205,11 @@
             "new_since": "2025-11-05T22:51:53.873136"
         },
         {
-            "title": "Librarian I or Librarian II , Library & Archives",
-            "school": "Mount St. Vincent University - Full Time",
-            "date": "2026-03-11T22:51:45.188133",
-            "link": "https://forms.msvu.ca/iframeforms/FacultyRecruitment/fulltime/positiondetail.asp?ID=505",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
             "title": "Assistant Professor , Department of Psychology",
             "school": "Mount St. Vincent University - Full Time",
             "date": "2026-03-11T22:51:45.199133",
             "link": "https://forms.msvu.ca/iframeforms/FacultyRecruitment/fulltime/positiondetail.asp?ID=506",
             "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Master Packaging Inc. Borden: Summer Production Student",
-            "school": "Holland College",
-            "date": "March 11th, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/summer-production-student-masterpackaging-mar9-2026.html",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Master Packaging Inc. Borden: Master Packaging Inc. Borden - Summer Production Student",
-            "school": "Holland College",
-            "date": "January 30th, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/summer-production-student-masterpackaging-jan29-2026.html",
-            "new_since": "2026-01-30T22:52:28.067652"
-        },
-        {
-            "title": "PEI Atlantic Baptist Homes: Human Resources",
-            "school": "Holland College",
-            "date": "March 11th, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/hr-pei-atlantic-baptist-homes-mar10-2026.html",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Statistics Canada : Census Jobs",
-            "school": "Holland College",
-            "date": "March 12th, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/cencus-jobs-statscan-mar11-2026.html",
-            "new_since": "2026-03-12T22:52:13.178307"
-        },
-        {
-            "title": "Biovectra/Agilent: Coop Student Intern, Process Development Complex Chemistry",
-            "school": "Holland College",
-            "date": "February 3rd, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/coop-student-intern-process-development-complex-chem-agilent-jan30-2026.html",
-            "new_since": "2026-02-03T22:52:27.316448"
-        },
-        {
-            "title": "CHANCES Smart Play Kensington: Smart Play (School Age) Supervisor",
-            "school": "Holland College",
-            "date": "March 22nd, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/smartplaysupervisor-chances-kensington-mar17-2026.html",
-            "new_since": "2026-03-22T08:02:04.489554"
-        },
-        {
-            "title": "Anthony Delodder Real Estate: AI Creative Technician",
-            "school": "Holland College",
-            "date": "March 11th, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/ai-creative-technician-anthonydelodderrealestate-feb4-2026.html",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "IMCO Custom Design Building Solutions: Drafting Tech",
-            "school": "Holland College",
-            "date": "March 11th, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/drafting-tech-imco-customdesign-feb26-2026.html",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Ambassatours Gray Line Harbour Hopper Tours: Sales & Customer Service Representative",
-            "school": "Holland College",
-            "date": "March 11th, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/tative-ambassatours-gray-line-harbour-hopper-tours-feb-17-26.html",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Trotter & Morton: Apprentice Plumbers (3rd & 4th Year)",
-            "school": "Holland College",
-            "date": "March 11th, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/apprentice-plumbers-trotter-morton-feb4-2026.html",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Inn at Bay Fortune: Pastry Chef",
-            "school": "Holland College",
-            "date": "March 11th, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/pastry-chef-inn-at-bay-fortune-mar-10-26.html",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Amsted Canada Inc.: Accounts Payable Specialist",
-            "school": "Holland College",
-            "date": "March 11th, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/accounts-payable-specialist-amsted-canada-feb25-2026.html",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Hampton: Recreation Coordinator",
-            "school": "Holland College",
-            "date": "March 11th, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/recreation-coordinator-hampton-feb23-2026.html",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Steam PEI: Summer Camp Leaders and Facilitators",
-            "school": "Holland College",
-            "date": "March 11th, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/summer-camp-leaders-facilitators-steampei-feb20-2025.html",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "Moneyback Bookkeeping Inc.: Bookkeeper",
-            "school": "Holland College",
-            "date": "March 11th, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/bookkeeper-moneyback-bookkeeping-feb9-2026.html",
-            "new_since": "2026-03-11T22:52:12.950451"
-        },
-        {
-            "title": "The Wickaninnnish Inn: Cook",
-            "school": "Holland College",
-            "date": "January 9th, 2026",
-            "link": "https://www.hollandcollege.com/jobfiles/cook-the-wickaninnish-inn-jan-8-26.html",
-            "new_since": "2026-01-09T22:52:18.890229"
         },
         {
             "title": "Flowers River: Head Cook or Chef",
@@ -1275,11 +1226,39 @@
             "new_since": "2026-03-22T08:02:04.489656"
         },
         {
+            "title": "Amalgamated Dairies Limited (ADL): Student Finance Assistant",
+            "school": "Holland College",
+            "date": "April 1st, 2026",
+            "link": "https://www.hollandcollege.com/jobfiles/student-finance-assistant-adl-mar23-2026.html",
+            "new_since": "2026-04-01T08:02:09.842817"
+        },
+        {
+            "title": "Amalgamated Dairies Limited (ADL): Student Brand Ambassador",
+            "school": "Holland College",
+            "date": "April 1st, 2026",
+            "link": "https://www.hollandcollege.com/jobfiles/student-brand-ambassador-adl-mar23-2026.html",
+            "new_since": "2026-04-01T08:02:09.842833"
+        },
+        {
             "title": "City of Summerside: Culture Summerside Student Summer Staff",
             "school": "Holland College",
             "date": "March 11th, 2026",
             "link": "https://www.hollandcollege.com/jobfiles/culture-summerside-student-summer-staff-cityofsside-mar9-2026.html",
             "new_since": "2026-03-11T22:52:12.950451"
+        },
+        {
+            "title": "Island Montessori Academy Cornwall Montessori EYC: ECE",
+            "school": "Holland College",
+            "date": "April 1st, 2026",
+            "link": "https://www.hollandcollege.com/jobfiles/ece-islandmontessori-cornwall-mar30-2026.html",
+            "new_since": "2026-04-01T08:02:09.842843"
+        },
+        {
+            "title": "Key Murray Law: Office Support",
+            "school": "Holland College",
+            "date": "April 1st, 2026",
+            "link": "https://www.hollandcollege.com/jobfiles/office-support-keymurraylaw-mar26-2026.html",
+            "new_since": "2026-04-01T08:02:09.842846"
         },
         {
             "title": "Rank Group: Power Engineer",
@@ -1296,11 +1275,32 @@
             "new_since": "2026-03-11T22:52:12.950451"
         },
         {
+            "title": "City of Summerside: Junior Sailing Instructor",
+            "school": "Holland College",
+            "date": "April 1st, 2026",
+            "link": "https://www.hollandcollege.com/jobfiles/junior-sailing-instructor-cityofsside-mar31-2026.html",
+            "new_since": "2026-04-01T08:02:09.842861"
+        },
+        {
             "title": "Angelscasa Inc: Chef",
             "school": "Holland College",
             "date": "March 11th, 2026",
             "link": "https://www.hollandcollege.com/jobfiles/chef-angelscasa-inc-feb-9-26.html",
             "new_since": "2026-03-11T22:52:12.950451"
+        },
+        {
+            "title": "Countryview Golf Club: Kitchen help / line cook / prep cook",
+            "school": "Holland College",
+            "date": "April 1st, 2026",
+            "link": "https://www.hollandcollege.com/jobfiles/kitchen-help-line-cook-prep-cook-countryview-golf-club-mar-24-26.html",
+            "new_since": "2026-04-01T08:02:09.842870"
+        },
+        {
+            "title": "Brackley Bay Oyster Company: Shop Associate",
+            "school": "Holland College",
+            "date": "April 1st, 2026",
+            "link": "https://www.hollandcollege.com/jobfiles/shop-associate-brackleybayoysters-mar23-2026.html",
+            "new_since": "2026-04-01T08:02:09.842873"
         },
         {
             "title": "North Atlantic Ventilation: Sheet Metal Worker ( HVAC )",
@@ -1366,5 +1366,5 @@
             "new_since": "2026-03-11T22:52:12.950451"
         }
     ],
-    "last_updated": "2026-03-22T08:02:04.489795"
+    "last_updated": "2026-04-01T08:02:09.842929"
 }
